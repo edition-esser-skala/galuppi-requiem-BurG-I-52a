@@ -57,12 +57,42 @@ TeDecetSopranoNotes = {
 		\clef treble
 		\key f \major \time 3/2 \autoBeamOff \tempoTeDecet
 			\set Score.currentBarNumber = #14
-		
+		r2 r \mvTr c'\fE^\tuttiE
+		c c c %15
+		c b1
+		a2. h4 c2
+		c c h
+		c1 c2
+		c2.( h4) h2 %20
+		d d4 d d d
+		d2 cis r
+		f f4 f f f
+		f2 e r
+		r c c %25
+		c b1
+		b a2~
+		a g2. g4
+		f1.\fermata \markRequiemDaCapo \bar "||" %29 FINIS
 	}
 }
 
 TeDecetSopranoLyrics = \lyricmode {
-	
+	[Et %14
+	ti -- bi red -- %15
+	de -- tur
+	vo -- tum in
+	Je -- ru -- sa --
+	lem: Ex --
+	au -- di %20
+	o -- ra -- ti -- o -- nem
+	me -- am,
+	o -- ra -- ti -- o -- nem
+	me -- am,
+	ad te %25
+	o -- mnis
+	ca -- ro
+	ve -- ni --
+	et.] %29 FINIS
 }
 
 % SopranoNotes = {
