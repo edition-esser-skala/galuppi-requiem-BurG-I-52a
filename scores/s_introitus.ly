@@ -9,6 +9,8 @@
 \paper {
 	first-page-number = #1
 	systems-per-page = #1
+	indent = 5\cm
+	page-count = #2
 }
 
 #(set-global-staff-size 15.87)
@@ -27,16 +29,16 @@
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
-							\set Staff.instrumentName = "Violino I"
+							\set Staff.instrumentName = \markup { \with-dimensions #'(-10 . 10) #'(-1 . 2) { \center-align { "Violino I" } } }
 							\IntroitusViolinoI
 						}
 						\new Staff {
-							\set Staff.instrumentName = "Violino II"
+							\set Staff.instrumentName = \markup { \with-dimensions #'(-10 . 10) #'(-1 . 2) { \center-align { "Violino II" } } }
 							\IntroitusViolinoII
 						}
 					>>
 					\new Staff <<
-						\set Staff.instrumentName = "Viola"
+						\set Staff.instrumentName = \markup { \with-dimensions #'(-10 . 10) #'(-1 . 2) { \center-align { "Viola" } } }
 						\IntroitusViola
 					>>
 				>>
@@ -66,14 +68,14 @@
 					\new Lyrics \lyricsto Tenore \IntroitusTenoreLyrics
 					
 					\new Staff {
-						\set Staff.instrumentName = "Basso"
+						\set Staff.instrumentName = \markup { \with-dimensions #'(-10 . 10) #'(-1 . 2) { \center-align { "Basso" } } }
 						\new Voice = "Basso" { \dynamicUp \IntroitusBassoNotes }
 					}
 					\new Lyrics \lyricsto Basso \IntroitusBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Organo"
+						\set Staff.instrumentName = \markup { \with-dimensions #'(-10 . 10) #'(-1 . 2) { \center-align { "Organo" } } }
 						\IntroitusOrgano
 					}
 				>>
@@ -81,7 +83,12 @@
 					\IntroitusBassFigures
 				}
 			>>
-			\layout { }
+			\layout {
+				\context {
+					\Staff
+					\override InstrumentName.self-alignment-X = #RIGHT
+				}
+			}
 			\midi { \tempo 4 = 120 }
 		}
 	}

@@ -10,16 +10,44 @@ IntroitusOrgano = {
 		\key f \major \time 2/1 \tempoIntroitus
 		<< {
 			r1 c''2. c4
-			b4 g
+			b2 g
 		} \\ {
 			\mvDll f2.\fE-\tuttiE f4 e2 c
 			d e
 		} >> \clef bass f,2. f4
+		e2 c d e
+		f2. e4 d1
+		c2 c'1 b2 %5
+		a2. g8 f g1
+		f2 f e c
+		d1 c2 \clef treble << {
+			c''
+			d2. d4 c2
+		} \\ {
+			c
+			b g a
+		} >> \clef bass f,~
+		f e d1 %10
+		c\breve~
+		c
+		f,\fermata \bar "||" %13 finis
 	}
 }
 
 IntroitusBassFigures = \figuremode {
-	
+	r\breve
+	r
+	<6>1 q2 <5->
+	r2. <[6]>4 <7>2 <6>
+	<6 4> <5 3> <4 2> <5>4 <6> %5
+	<6>1 <7>2 <6>
+	<4> <3> <[6]>1
+	<7>2 <6!> r1
+	r\breve
+	<4! 2>2 <6> <7> <6!> %10
+	<[4]> <[3]> <[8] [2]> <[7] [\t]>
+	<[\t] [3]> <[6] [4]> <[5] [\t]> <[\t] [3]>
+	r\breve %13 finis
 }
 
 % Organo = {
