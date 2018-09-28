@@ -83,6 +83,18 @@ TeDecetBassoLyrics = \lyricmode {
 	et. %29 FINIS
 }
 
+KyrieBassoNotes = {
+	\relative c {
+		\clef bass
+		\key f \major \time 4/4 \autoBeamOff \tempoKyrie
+		
+	}
+}
+
+KyrieBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

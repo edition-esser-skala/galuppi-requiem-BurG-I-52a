@@ -47,3 +47,11 @@ TeDecetViola = {
 		c1.\fermata \markRequiemDaCapo \bar "||" %29 FINIS
 	}
 }
+
+KyrieViola = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \tempoKyrie
+		
+	}
+}

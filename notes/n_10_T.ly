@@ -92,6 +92,18 @@ TeDecetTenoreLyrics = \lyricmode {
 	et.] %29 FINIS
 }
 
+KyrieTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key f \major \time 4/4 \autoBeamOff \tempoKyrie
+		
+	}
+}
+
+KyrieTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

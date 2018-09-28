@@ -48,3 +48,11 @@ TeDecetViolinoII = {
 		f1.\fermata \markRequiemDaCapo \bar "||" %29 FINIS
 	}
 }
+
+KyrieViolinoII = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \tempoKyrie
+		
+	}
+}

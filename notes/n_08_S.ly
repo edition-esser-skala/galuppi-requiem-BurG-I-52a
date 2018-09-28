@@ -95,6 +95,18 @@ TeDecetSopranoLyrics = \lyricmode {
 	et.] %29 FINIS
 }
 
+KyrieSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \autoBeamOff \tempoKyrie
+		
+	}
+}
+
+KyrieSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

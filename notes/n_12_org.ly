@@ -94,6 +94,18 @@ TeDecetBassFigures = \figuremode {
 	r1. %29 FINIS
 }
 
+KyrieOrgano = {
+	\relative c {
+		\clef bass
+		\key f \major \time 4/4 \tempoKyrie
+		\mvTr f4\p-\vlc d b c
+	}
+}
+
+KyrieBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

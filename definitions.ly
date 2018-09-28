@@ -121,8 +121,8 @@ tasto = \markup { \remark "tasto solo" }
 tastoE = \markup { \remarkE "tasto solo" }
 org = \markup { \remark Org. }
 orgE = \markup { \remarkE Org. }
-vlc = \markup { \remark "Vlc. soli" }
-vlcE = \markup { \remarkE "Vlc. soli" }
+vlc = \markup { \remark "Vlc." }
+vlcE = \markup { \remarkE "Vlc." }
 bassi = \markup { \remark Bassi }
 bassiE = \markup { \remarkE Bassi }
 tenuto = \markup { \remark ten. }
@@ -196,6 +196,8 @@ tempoMarkup =
 
 tempoIntroitus = \tempoMarkup "[Tempo deest]"
 tempoTeDecet = \tempoMarkup "[Tempo deest]"
+
+tempoKyrie = \tempoMarkup "Adagio"
 
 
 
