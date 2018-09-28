@@ -54,12 +54,42 @@ TeDecetTenoreNotes = {
 		\clef "treble_8"
 		\key f \major \time 3/2 \autoBeamOff \tempoTeDecet
 			\set Score.currentBarNumber = #14
-		
+		r2 r \mvTr f\fE^\tuttiE
+		c c e %15
+		d1 c2
+		c2. d4 e2
+		c d2. d4
+		g,1 e'2
+		e2.( d4) d2 %20
+		f f4 f f f
+		f2 e r
+		f c4 c c c
+		c2 c r
+		r f f %25
+		d1 d2
+		c1 c2~
+		c c2. c4
+		c1.\fermata \markRequiemDaCapo \bar "||" %29 FINIS
 	}
 }
 
 TeDecetTenoreLyrics = \lyricmode {
-	
+	[Et %14
+	ti -- bi red -- %15
+	de -- tur
+	vo -- tum in
+	Je -- ru -- sa --
+	lem: Ex --
+	au -- di %20
+	o -- ra -- ti -- o -- nem
+	me -- am,
+	o -- ra -- ti -- o -- nem
+	me -- am,
+	ad te %25
+	o -- mnis
+	ca -- ro __
+	ve -- ni --
+	et.] %29 FINIS
 }
 
 % TenoreNotes = {
