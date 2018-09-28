@@ -45,12 +45,42 @@ TeDecetBassoNotes = {
 		\clef bass
 		\key f \major \time 3/2 \autoBeamOff \tempoTeDecet
 			\set Score.currentBarNumber = #14
-		
+		r2 r \mvTr f\fE^\tuttiE
+		e e c %15
+		d1 e2
+		f2. f4 e2
+		f d2. d4
+		c1 c2
+		\once \tieDashed g'2.~ g4 g2 %20
+		d d4 e f g
+		a2 a r
+		f f4 g a b
+		c2 c r
+		r f, a %25
+		b1 b,2
+		c1 f2
+		c1 c2
+		f1.\fermata \markRequiemDaCapo \bar "||" %29 FINIS
 	}
 }
 
 TeDecetBassoLyrics = \lyricmode {
-	
+	Et %14
+	ti -- bi red -- %15
+	de -- tur
+	vo -- tum in
+	Je -- ru -- sa --
+	lem: Ex --
+	au -- di %20
+	o -- ra -- ti -- o -- nem
+	me -- am,
+	o -- ra -- ti -- o -- nem
+	me -- am,
+	ad te %25
+	o -- mnis
+	ca -- ro
+	ve -- ni --
+	et. %29 FINIS
 }
 
 % BassoNotes = {
