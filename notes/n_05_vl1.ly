@@ -30,7 +30,22 @@ TeDecetViolinoI = {
 		\clef treble
 		\key f \major \time 3/2 \tempoTeDecet
 			\set Score.currentBarNumber = #14
-		
+		f'4\fE c f a c a
+		g2 c, c'~ %15
+		c b1
+		a4 g a h c2~
+		c c h
+		c r e,
+		e2. d4 d2 %20
+		f f4 f f f
+		f2 e r
+		a a4 a a a
+		a2 g r
+		r4 f, a c f es %25
+		d1 b'2~
+		b a4 g a2~
+		a g1
+		f1.\fermata \markRequiemDaCapo \bar "||" %29 finis
 	}
 }
 
