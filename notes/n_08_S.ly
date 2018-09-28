@@ -19,6 +19,7 @@ IntroitusSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key f \major \time 2/1 \autoBeamOff \tempoIntroitus
+			\set Staff.timeSignatureFraction = 2/2
 		r1 \mvTr c'2.\fE^\tuttiE c4
 		b2 g a1
 		g r

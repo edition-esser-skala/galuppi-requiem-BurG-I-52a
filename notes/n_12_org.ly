@@ -8,6 +8,7 @@ IntroitusOrgano = {
 	\relative c {
 		\clef treble
 		\key f \major \time 2/1 \tempoIntroitus
+			\set Staff.timeSignatureFraction = 2/2
 		<< {
 			r1 c''2. c4
 			b2 g

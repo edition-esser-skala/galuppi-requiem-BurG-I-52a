@@ -19,6 +19,7 @@ IntroitusTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key f \major \time 2/1 \autoBeamOff \tempoIntroitus
+			\set Staff.timeSignatureFraction = 2/2
 		R\breve*2
 		\mvTr c2.\fE^\tuttiE c4 b2 g
 		a4 b a g f1

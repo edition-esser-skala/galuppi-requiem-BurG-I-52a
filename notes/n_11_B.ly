@@ -8,6 +8,7 @@ IntroitusBassoNotes = {
 	\relative c {
 		\clef bass
 		\key f \major \time 2/1 \autoBeamOff \tempoIntroitus
+			\set Staff.timeSignatureFraction = 2/2
 		R\breve
 		r1 \mvTr f2.\fE^\tuttiE f4
 		e2 c d e

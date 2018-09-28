@@ -6,8 +6,9 @@
 
 IntroitusViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key f \major \time 2/1 \tempoIntroitus
+			\set Staff.timeSignatureFraction = 2/2
 		R\breve*2
 		c2.\fE c4 b2 g
 		a4 b a g f1
