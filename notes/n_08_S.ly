@@ -99,12 +99,85 @@ KyrieSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key f \major \time 4/4 \autoBeamOff \tempoKyrie
-		
+		R1*19
+		r2 \mvTr g'8.\fE^\tuttiE g16 g8 g %20
+		g8. f16 f4 b8. b16 b8 b
+		b8. a16 a4 r8 g c c
+		c4 b a d~
+		d8[ c16 h] c4~ c8[ b16 a] b4~
+		b8 a4 b16[ c] d8[ c] b([ a]) %25
+		g \mvTr c\pE^\solo d e f \mvTr f,\fE^\tutti b a
+		g \mvTr c\pE^\solo d e f \mvTr f,\fE^\tutti b a
+		g4 r r2
+		\appoggiatura d'16 \mvTr c8\pE^\solo b16([ a)] b8 b b8. a16 a4
+		\appoggiatura e'16 d8 c16([ h)] c8 c c8. h16 h4 %30
+		\mvTr c\fE^\tutti d c c
+		c c h8. h16 c4~
+		c h c r8 c
+		c4 h c r
+		R1*4 %38
+		c8. c16 c8 c c8. h16 h4
+		e8. e16 e8 e e8. d16 d4 %40
+		r8 g, c c c4 b!
+		a d~ d8[ c16 h] c4~
+		c8[ b16 a] b4~ b8 a4 b16[ c]
+		d8[ c] b([ a)] g \mvTr c\pE^\solo d e
+		f \mvTr f,\fE^\tutti b a g \mvTr c\pE^\solo d e %45
+		f \mvTr f,\fE^\tutti b a g4 r
+		R1*2
+		r2 \appoggiatura d'16 c8 b16([ a)] b8 b
+		a( f'4 es8 d c4) h8 %50
+		b4 a8([ g)] a4 g
+		f r r2
+		R1
+		r2 \appoggiatura d'16 c8 b16([ a)] b8 b
+		a( f'4 es8 d c4) h8 %55
+		b4 a8([ g)] a4 g
+		a r c4. c8
+		b4 r b4. b8
+		a4 b g4. g8
+		a2 r\fermata \bar "||" %60 finis
 	}
 }
 
 KyrieSopranoLyrics = \lyricmode {
+	Ky -- ri -- e e -- %20
+	le -- i -- son, Ky -- ri -- e e --
+	le -- i -- son, e -- le -- i --
+	son, e -- le -- _
+	_ _
+	_ _ _ i -- %25
+	son, e -- le -- i -- son, e -- le -- i --
+	son, e -- le -- i -- son, e -- le -- i --
+	son.
+	Ky -- ri -- e e -- le -- i -- son,
+	Ky -- ri -- e e -- le -- i -- son. %30
+	Ky -- ri -- e e --
+	le -- i -- son, e -- le --
+	i -- son, e --
+	le -- i -- son.
 	
+	Ky -- ri -- e e -- le -- i -- son, %39
+	Ky -- ri -- e e -- le -- i -- son, %40
+	e -- le -- i -- son, e --
+	le -- _ _
+	_ _ _
+	_ i -- son, e -- le -- i --
+	son, e -- le -- i -- son, e -- le -- i -- %45
+	son, e -- le -- i -- son.
+	
+	Ky -- ri -- e e -- %49
+	le -- i -- %50
+	son, e -- le -- i --
+	son.
+	
+	Ky -- ri -- e e --
+	le -- i --
+	son, e -- le -- i --
+	son. Ky -- ri --
+	e, Ky -- ri -- 
+	e e -- le -- i --
+	son.
 }
 
 % SopranoNotes = {
