@@ -40,6 +40,19 @@ IntroitusBassoLyrics = \lyricmode {
 	is. %13 finis
 }
 
+TeDecetBassoNotes = {
+	\relative c {
+		\clef bass
+		\key f \major \time 3/2 \autoBeamOff \tempoTeDecet
+			\set Score.currentBarNumber = #14
+		
+	}
+}
+
+TeDecetBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

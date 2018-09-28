@@ -190,6 +190,7 @@ tempoMarkup =
 %
 
 tempoIntroitus = \tempoMarkup "[Tempo deest]"
+tempoTeDecet = \tempoMarkup "[Tempo deest]"
 
 
 

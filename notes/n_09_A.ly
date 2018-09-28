@@ -4,25 +4,14 @@
 
 \version "2.18.0"
 
-% AltoIncipit = \markup {
-% 	"Alto" \hspace #-15 \score {
-% 		\new Staff \with {
-% 			\remove Time_signature_engraver
-% 		} {
-% 			\clef alto s4 \bar empty
-% 		}
-% 		\layout { }
-% 	} \hspace #-1.8
-% }
-
 AltoIncipit = \markup {
 	"Alto" \hspace #-34 \score {
 		<<
 			\new Voice = "Alto" {
 				\relative c' {
-					\clef alto
+					\clef alto \key f \major
 					\[ f\maxima g \]
-					f1 f\maxima
+					f1 f\breve
 				}
 			}
 			\new Lyrics \lyricsto Alto \lyricmode { Re -- _ qui -- em. }
@@ -35,7 +24,7 @@ AltoIncipit = \markup {
 			\context {
 				\Staff
 				\remove Time_signature_engraver
-				\override NoteHead.style = #'petrucci
+				\override NoteHead.style = #'neomensural
 			}
 			\context {
 				\Voice
@@ -81,6 +70,50 @@ IntroitusAltoLyrics = \lyricmode {
 	lu -- ce -- at
 	e -- _ _
 	is. %13 finis
+}
+
+TeDecetAltoIncipit = \markup {
+	"Alto" \hspace #-90 \score {
+		<<
+			\new Voice = "Alto" {
+				\relative c' {
+					\clef alto \key f \major
+					\[ f\maxima g \] \[ g f \] \[ g a \]
+					a\breve a a a a g a
+				}
+			}
+			\new Lyrics \lyricsto Alto \lyricmode { Te _ de -- _ cet _ hy -- mnus, De -- us in Si -- on. }
+		>>
+		\layout {
+			\context {
+				\Score
+				timing = ##f
+			}
+			\context {
+				\Staff
+				\remove Time_signature_engraver
+				\override NoteHead.style = #'neomensural
+			}
+			\context {
+				\Voice
+				\remove "Ligature_bracket_engraver"
+				\consists "Mensural_ligature_engraver"
+			}
+		}
+	} \hspace #-1.8
+}
+
+TeDecetAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 3/2 \autoBeamOff \tempoTeDecet
+			\set Score.currentBarNumber = #14
+		
+	}
+}
+
+TeDecetAltoLyrics = \lyricmode {
+	
 }
 
 % AltoNotes = {

@@ -24,3 +24,12 @@ IntroitusViolinoII = {
 		f\breve\fermata \bar "||" %13 finis
 	}
 }
+
+TeDecetViolinoII = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 3/2 \tempoTeDecet
+			\set Score.currentBarNumber = #14
+		
+	}
+}

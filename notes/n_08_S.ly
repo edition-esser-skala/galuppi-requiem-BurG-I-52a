@@ -52,6 +52,19 @@ IntroitusSopranoLyrics = \lyricmode {
 	is. %13 finis
 }
 
+TeDecetSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 3/2 \autoBeamOff \tempoTeDecet
+			\set Score.currentBarNumber = #14
+		
+	}
+}
+
+TeDecetSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

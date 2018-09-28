@@ -51,6 +51,19 @@ IntroitusBassFigures = \figuremode {
 	r\breve %13 finis
 }
 
+TeDecetOrgano = {
+	\relative c {
+		\clef bass
+		\key f \major \time 3/2 \tempoTeDecet
+			\set Score.currentBarNumber = #14
+		\mvTr f2\fE-\tuttiE a f
+	}
+}
+
+TeDecetBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

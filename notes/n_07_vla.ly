@@ -23,3 +23,12 @@ IntroitusViola = {
 		c\fermata \bar "||" %13 finis
 	}
 }
+
+TeDecetViola = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 3/2 \tempoTeDecet
+			\set Score.currentBarNumber = #14
+		
+	}
+}
