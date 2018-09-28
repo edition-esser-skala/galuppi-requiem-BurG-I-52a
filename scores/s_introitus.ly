@@ -157,7 +157,7 @@
 					\override InstrumentName.self-alignment-X = #RIGHT
 				}
 			}
-			\midi { \tempo 1 = 60 }
+			\midi { \tempo 2 = 120 }
 		}
 	}
 }

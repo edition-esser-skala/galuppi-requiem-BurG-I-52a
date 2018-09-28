@@ -26,7 +26,7 @@ IntroitusViola = {
 
 TeDecetViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key f \major \time 3/2 \tempoTeDecet
 			\set Score.currentBarNumber = #14
 		f2\fE a f

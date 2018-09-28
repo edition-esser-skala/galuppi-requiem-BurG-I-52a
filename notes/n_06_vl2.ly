@@ -32,8 +32,8 @@ TeDecetViolinoII = {
 			\set Score.currentBarNumber = #14
 		a'2\fE c c
 		c4 d e f g e %15
-		f1 f2
-		c2. d4 e c
+		f1 g2
+		c,2. d4 e c
 		a' g \appoggiatura g2 f1\trill
 		e2 r c
 		c2. h4 h2 %20
