@@ -180,6 +180,11 @@ pao = \partcombineApartOnce
 pa = \partcombineApart
 pd = \partcombineAutomatic
 
+markRequiemDaCapo = {
+	\once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \mark "Requiem da capo"
+}
+
 tempoMarkup =
 	#(define-music-function
 		(parser location arg)

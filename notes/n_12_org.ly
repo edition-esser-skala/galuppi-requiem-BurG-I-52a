@@ -57,11 +57,41 @@ TeDecetOrgano = {
 		\key f \major \time 3/2 \tempoTeDecet
 			\set Score.currentBarNumber = #14
 		\mvTr f2\fE-\tuttiE a f
+		e e c %15
+		d1 e2
+		f2. f4 e2
+		f d2. d4
+		c1 c2
+		g'1 g2 %20
+		d d4 e f g
+		a2 a, r
+		f' f4 g a b
+		c2 c, b'
+		a f a %25
+		b1 b,2
+		c1 f2
+		c1.
+		f\fermata \markRequiemDaCapo \bar "||" %29 FINIS
 	}
 }
 
 TeDecetBassFigures = \figuremode {
-	
+	r2 <[6]>2 %14
+	<6>1. %15
+	<7>2 <6> <6 5>
+	r1 <6>2
+	<5> <7> <6!>
+	r1.
+	<6 4>1 <5 _!>1 %20
+	<5 3>1.
+	<6 4>2 <5 _+>1
+	r1 <[6]>2
+	<6 4> <5 3> <4 3>
+	<[6]>1 q2 %25
+	r1.
+	r
+	<[6] [4]>2 <[5] [\t]> <[\t] [3]>
+	r1. %29 FINIS
 }
 
 % Organo = {
