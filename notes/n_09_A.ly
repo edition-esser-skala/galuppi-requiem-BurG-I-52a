@@ -150,12 +150,85 @@ KyrieAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key f \major \time 4/4 \autoBeamOff \tempoKyrie
-		
+		R1*19
+		\mvTr f8.\fE^\tuttiE f16 f8 f f8. e16 e4 %20
+		a8. a16 a8 a a8. g16 g4
+		r8 c, f f f4 e
+		d g2 f4
+		e a2 g4
+		f4. g16[ a] b8[ a] g([ f)] %25
+		e8 \mvTr a\pE^\solo b g a \mvTr c,\fE^\tutti e^\critnote f
+		e \mvTr a\pE^\solo b g a \mvTr c,\fE^\tutti e f
+		e4 r r2
+		R1*2 %30
+		\appoggiatura a16 g8 f16([ e)] f8 f e( g4 b8
+		a g4) fis8 f4 e8([ d)]
+		e4 d e r8 g
+		d4 d e r
+		R1*4 %38
+		r2 d8. d16 d8 d
+		d8. c16 c4 f8. f16 f8 f %40
+		f8. e16 e4 r8 d g g
+		g4 f e a~
+		a g f4. g16[ a]
+		b8[ a] g([ f)] e \mvTr a\pE^\solo b g
+		a \mvTr c,\fE^\tutti e f e \mvTr a\pE^\solo b g %45
+		a \mvTr c,\fE^\tutti e f e4 r
+		r2 \appoggiatura g16 \mvTr f8\pE^\solo es16([ d)] es8 es
+		es?8. d16 d4 \appoggiatura a'16 g8 f16([ e)] f8 f
+		f8. e16 e4 \mvTr f\fE^\tutti g
+		f f f f %50
+		e8. e16 f2 e4
+		f r \appoggiatura g16 \mvTr f8\pE^\solo es16([ d)] es8 es
+		es?8. d16 d4 \appoggiatura a'16 g8 f16([ e)] f8 f
+		f8. e16 e4 \mvTr f\fE^\tutti g
+		f f f f %55
+		e8. e16 f2 e4
+		f r es4. es8
+		d4 r g4. g8
+		f4 f f e
+		f2 r\fermata \bar "||" %60 finis
 	}
 }
 
 KyrieAltoLyrics = \lyricmode {
+	Ky -- ri -- e e -- le -- i -- son, %20
+	Ky -- ri -- e e -- le -- i -- son,
+	e -- le -- i -- son, e --
+	le -- _ _
+	_ _ _
+	_ _ _ i -- %25
+	son, e -- le -- i -- son, e -- le -- i --
+	son, e -- le -- i -- son, e -- le -- i --
+	son.
 	
+	Ky -- ri -- e e -- le -- %31
+	i -- son, e --
+	le -- i -- son, e --
+	le -- i -- son.
+	
+	Ky -- ri -- e e -- %39
+	le -- i -- son, Ky -- ri -- e e -- %40
+	le -- i -- son, e -- le -- i --
+	son, e -- le -- _
+	_ _ _
+	_ i -- son, e -- le -- i --
+	son, e -- le -- i -- son, e -- le -- i -- %45
+	son, e -- le -- i -- son.
+	Ky -- ri -- e e --
+	le -- i -- son, Ky -- ri -- e e --
+	le -- i -- son. Ky -- ri --
+	e e -- le -- i -- %50
+	son, e -- le -- i --
+	son. Ky -- ri -- e e --
+	le -- i -- son, Ky -- ri -- e e --
+	le -- i -- son. Ky -- ri --
+	e e -- le -- i -- %55
+	son, e -- le -- i --
+	son. Ky -- ri --
+	e, Ky -- ri -- 
+	e e -- le -- i --
+	son. %60 finis
 }
 
 % AltoNotes = {

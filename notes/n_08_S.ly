@@ -172,12 +172,12 @@ KyrieSopranoLyrics = \lyricmode {
 	son.
 	
 	Ky -- ri -- e e --
-	le -- i --
+	le -- i -- %55
 	son, e -- le -- i --
 	son. Ky -- ri --
 	e, Ky -- ri -- 
 	e e -- le -- i --
-	son.
+	son. %60 finis
 }
 
 % SopranoNotes = {
