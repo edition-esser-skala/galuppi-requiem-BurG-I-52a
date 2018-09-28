@@ -108,12 +108,42 @@ TeDecetAltoNotes = {
 		\clef treble
 		\key f \major \time 3/2 \autoBeamOff \tempoTeDecet
 			\set Score.currentBarNumber = #14
-		
+		r2 r \mvTr a'\fE^\tuttiE %14
+		g g g %15
+		f1 g2
+		f2. f4 g2
+		a f2. f4
+		e1 g2
+		\once \tieDashed g2.~ g4 g2 %20
+		a a4 a a a
+		a2 a r
+		a a4 a a a
+		a2 g r
+		r a a %25
+		a( g) f
+		e1 f2~
+		f f e
+		f1.\fermata \markRequiemDaCapo \bar "||" %29 FINIS
 	}
 }
 
 TeDecetAltoLyrics = \lyricmode {
-	
+	[Et %14
+	ti -- bi red -- %15
+	de -- tur
+	vo -- tum in
+	Je -- ru -- sa --
+	lem: Ex --
+	au -- di %20
+	o -- ra -- ti -- o -- nem
+	me -- am,
+	o -- ra -- ti -- o -- nem
+	me -- am,
+	ad te %25
+	o -- mnis
+	ca -- ro __
+	ve -- ni --
+	et.] %29 FINIS
 }
 
 % AltoNotes = {

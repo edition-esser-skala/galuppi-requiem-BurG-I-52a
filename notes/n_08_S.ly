@@ -90,7 +90,7 @@ TeDecetSopranoLyrics = \lyricmode {
 	me -- am,
 	ad te %25
 	o -- mnis
-	ca -- ro
+	ca -- ro __
 	ve -- ni --
 	et.] %29 FINIS
 }
