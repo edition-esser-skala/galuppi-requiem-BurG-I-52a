@@ -164,7 +164,7 @@ KyrieTenoreLyrics = \lyricmode {
 	Ky -- ri -- %49
 	e e -- le -- i -- %50
 	son, e -- le -- i --
-	son. 
+	son.
 	
 	Ky -- ri --
 	e e -- le -- i -- %55

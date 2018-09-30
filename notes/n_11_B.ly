@@ -87,12 +87,83 @@ KyrieBassoNotes = {
 	\relative c {
 		\clef bass
 		\key f \major \time 4/4 \autoBeamOff \tempoKyrie
-		
+		R1*19
+		\mvTr f8.\fE^\tuttiE f16 d8 d b4 c %20
+		f r8 f d4( e
+		f4.) f8 c4 r
+		r8 g' g g d4 r
+		a' fis g e
+		f8([ e d c] b4.) h8 %25
+		c4 r r8 a' g f
+		c4 r r8 a' g f
+		c4 r r2
+		R1*2 %30
+		e4 h c e
+		f8([ g)] a4 g a8([ f)]
+		g4 g, c r8 e
+		f4 g c, r
+		R1*4 %38
+		c'8. c16 a8 a f4 g
+		c, r8 c a4 h %40
+		c8 c e c g'4 r
+		r8 d f d a'4 fis
+		g e f8[ e d c]
+		b4. h8 c4 r
+		r8 a' g f c4 r %45
+		r8 a' g f c4 r
+		R1*2
+		r2 a'4 e
+		f a, b8([ c)] d4 %50
+		c d8([ b)] c4 c
+		f r r2
+		R1
+		r2 a4 e
+		f a, b8([ c)] d4 %55
+		c d8([ b)] c4 c
+		f r a,4. a8
+		b4 r e!4. e8
+		f4 b, c4. c8
+		f2 r\fermata \bar "||" %60 finis
 	}
 }
 
 KyrieBassoLyrics = \lyricmode {
+	Ky -- ri -- e e -- le -- i -- %20
+	son, e -- le --
+	i -- son,
+	e -- le -- i -- son.
+	Ky -- ri -- e e --
+	le -- i -- %25
+	son, e -- le -- i --
+	son, e -- le -- i --
+	son.
 	
+	Ky -- ri -- e e -- %31
+	le -- i -- son, e --
+	le -- i -- son, e --
+	le -- i -- son.
+	
+	Ky -- ri -- e e -- le -- i -- %39
+	son, e -- le -- i -- %40
+	son, e -- le -- i -- son,
+	e -- le -- i -- son, e --
+	le -- _ _
+	_ i -- son,
+	e -- le -- i -- son, %45
+	e -- le -- i -- son.
+	
+	Ky -- ri -- %49
+	e e -- le -- i -- %50
+	son, e -- le -- i --
+	son.
+	
+	Ky -- ri --
+	e e -- le -- i -- %55
+	son, e -- le -- i --
+	son. Ky -- ri --
+	e, Ky -- ri -- 
+	e e -- le -- i --
+	son. %60 finis
 }
 
 % BassoNotes = {
