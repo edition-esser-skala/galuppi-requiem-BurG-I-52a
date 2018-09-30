@@ -157,6 +157,8 @@ fp = #(make-dynamic-script (markup #:line (#:normal-text #:large #:bold "fp")))
 fpE = #(make-dynamic-script (markup #:line (#:normal-text #:italic #:large #:bold "fp")))
 piuF = #(make-dynamic-script (markup #:line (#:normal-text #:small "più" #:normal-text #:large #:bold "f")))
 piuFE = #(make-dynamic-script (markup #:line (#:normal-text #:small #:italic "più" #:normal-text #:large #:bold #:italic "f")))
+rfz = #(make-dynamic-script (markup #:line (#:normal-text #:large #:bold "rfz")))
+rfzE = #(make-dynamic-script (markup #:line (#:normal-text #:italic #:large #:bold "rfz")))
 
 smallerGroupDistance = {
 	\override StaffGrouper.staffgroup-staff-spacing =
