@@ -52,6 +52,65 @@ KyrieViola = {
 	\relative c' {
 		\clef treble
 		\key f \major \time 4/4 \tempoKyrie
-		
+		a4\pE a d c
+		c c f e8 g
+		f f,\f f' f f e16 d e8 c
+		g' g, g' g g f16 e f8 d
+		a' a fis d g g e c %5
+		f e d c b4. h8
+		c4 r r8 c b c
+		c4 r r8 c b c
+		c c c c c4 r
+		a'\p c f, r %10
+		h d g, g
+		f\f g c, c
+		b8 f4 f'8 g8. g16 f8. d16
+		c4. b8 a g a b
+		c4\p a' f r %15
+		h d g, g
+		f\fE g c, c
+		b8 f4 f'8 g8. g16 f8. d16
+		c4 c c8 f f, f
+		f4 a d c %20
+		c c f e8 g
+		f4 c2 g4~
+		g-\critnote d'2 a4~
+		a8 a' d,4~ d8 g c,4~
+		c d2~ d8 d %25
+		c4 r r8 c b c
+		c4 r r8 c b c
+		c c c c c4 r
+		c\p e f es
+		d fis g d %30
+		e\fE r8 g g4 g
+		f8 c4 c8 d8. d16 c8 a'
+		g4 g g r8 g,
+		a4 g g r8 c\p
+		g'4 e f r8 d %35
+		a'4 fis g r8 c,\fE
+		a4 a' h8. d16 c8. a16
+		g4. f8 e c c c
+		c4 e a g
+		g r8 g c,4 h %40
+		g g2 d'4~
+		d a4~ a8 e' d4~
+		d8 g c,2 d4
+		d r8 d g,4 r
+		r8 c b c c4 r %45
+		r8 c b c c c c c
+		c4 r f,\p a
+		b as g h
+		c c c\f c
+		c r8 c b f4 f'8 %50
+		g8. g16 f8. d16 c4. b8
+		a g a b c4\p c
+		b as g h
+		c c c\fE c
+		c r8 c b f f f' %55
+		g8. g16 f8. d16 c4 c
+		a r f'4. f8
+		f4 r c4. c8
+		c4 d c2
+		c r\fermata \bar "||" %60 finis
 	}
 }
