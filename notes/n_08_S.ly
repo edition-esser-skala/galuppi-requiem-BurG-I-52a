@@ -180,6 +180,19 @@ KyrieSopranoLyrics = \lyricmode {
 	son. %60 finis
 }
 
+ChristeSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/8 \autoBeamOff \tempoChriste
+			\set Score.currentBarNumber = #61
+		
+	}
+}
+
+ChristeSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

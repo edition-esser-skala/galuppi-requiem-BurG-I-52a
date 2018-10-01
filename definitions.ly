@@ -200,6 +200,7 @@ tempoIntroitus = \tempoMarkup "[Tempo deest]"
 tempoTeDecet = \tempoMarkup "[Tempo deest]"
 
 tempoKyrie = \tempoMarkup "Adagio"
+tempoChriste = \tempoMarkup "Allegretto"
 
 
 

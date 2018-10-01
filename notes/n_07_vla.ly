@@ -114,3 +114,12 @@ KyrieViola = {
 		c r\fermata \bar "||" %60 finis
 	}
 }
+
+ChristeViola = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/8 \tempoChriste
+			\set Score.currentBarNumber = #61
+		
+	}
+}
