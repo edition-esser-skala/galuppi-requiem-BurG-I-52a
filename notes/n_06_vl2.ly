@@ -93,7 +93,7 @@ KyrieViolinoII = {
 		c4 h\trill c8 e,4 \appoggiatura g32 f16 e
 		e8 c' c c c h16 a h8 g
 		e'2~ e8 d16 c d8 h %40
-		g c, c'[ c] c h16 a h8 g
+		g c, c'[ c] c b16 a b8 g
 		a d, d'[ d] d c16 h c4~
 		c8 b16 a b4~ b8 a f' g16 a
 		b8 a g f e a,[\p b g]

@@ -83,7 +83,7 @@ KyrieViolinoI = {
 		g g4 \appoggiatura b32 a16 g g4 r
 		\appoggiatura d'16 c8\p b16 a b8 b b a4(\rfz cis8)
 		\appoggiatura e16 d8\p c16 h c8 c c h4(\rfz d8) %30
-		\appoggiatura a' g8\f f16 e f8 f e c'4 b!8
+		\appoggiatura a'16 g8\f f16 e f8 f e c'4 b!8
 		a g4 fis8 f8. h16 c8. f,16
 		e4 d\trill e16 g c h c g f e
 		d a' g f \appoggiatura e8 d4\trill c8 g\p c c

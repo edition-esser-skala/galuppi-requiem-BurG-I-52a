@@ -50,7 +50,7 @@ TeDecetViola = {
 
 KyrieViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key f \major \time 4/4 \tempoKyrie
 		a4\pE a d c
 		c c f e8 g
