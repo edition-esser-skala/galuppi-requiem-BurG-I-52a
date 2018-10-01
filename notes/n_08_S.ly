@@ -185,12 +185,169 @@ ChristeSopranoNotes = {
 		\clef treble
 		\key c \major \time 3/8 \autoBeamOff \tempoChriste
 			\set Score.currentBarNumber = #61
-		
+		R4.*26 %86
+		\mvTr d'8.([\pE^\soloE c16)] h8
+		\appoggiatura d16 c8 h a
+		\appoggiatura a h4 r8
+		\appoggiatura d16 c8 h a %90
+		g b cis
+		d a d~
+		d16([ e)] d8 cis
+		d a h!
+		c g c~ %95
+		c16([ e)] d8 c
+		h d d
+		\appoggiatura f32 e16.([ d32)] e8 e~
+		e16[( fis32 e]) d8 cis
+		\appoggiatura cis?8 d4 r8 %100
+		g16([ d)] d([ c)] c([ h)]
+		\appoggiatura h8 c4 c8~
+		c([ h a)]
+		h[ c d]
+		e16[ d] c8[ h] %105
+		h16 a a8 r
+		r d16([ h)] a([ g)]
+		fis16.([ g32)] a8 r
+		r16 d c([ h)] a([ g)]
+		fis8 r r %110
+		r g' f!
+		e d cis
+		c8. a16 h8
+		R4.
+		r8 r r16 e %115
+		\appoggiatura e32 d16.([ c32] h8) a
+		\appoggiatura a h4 r8
+		R4.
+		r8 r r16 e
+		\appoggiatura e32 d16.([ c32] h8) a %120
+		h c d
+		e([ fis)] g
+		\appoggiatura fis?32 e16([ d32 c)] h8 a
+		g r r
+		R4.*7 %131
+		d'8.([ c16)] h8
+		\appoggiatura d16 c8 h a
+		\appoggiatura a h4 r8
+		\appoggiatura d16 c8 h a %135
+		g b cis
+		d a d~
+		d16([ e)] d8 cis
+		d r r
+		R4. %140
+		r8 a'16([ f)] d([ c)]
+		h16.([ c32)] d8 r
+		r r e
+		e16([ f32 e] d8) cis
+		\appoggiatura cis d4 r8 %145
+		r g16([ d)] c([ h)]
+		\appoggiatura d32 c16.([ h32)] c8 r
+		f16([ c)] c([ h)] h([ a)]
+		\appoggiatura a8 h4 h8
+		c4.~ %150
+		c8[ d e]
+		\appoggiatura g32 f16[ e32 d] c8 h\trill
+		c g'16([ e)] d([ c)]
+		h([ c)] d8 r
+		r16 g f([ e)] d([ c)] %155
+		h8 r r
+		R4.
+		c8 c c
+		d8. h16 c8
+		R4. %160
+		r8 r r16 f
+		\appoggiatura f32 e16.([ d32] c8) h
+		\appoggiatura h c4 r8
+		R4.
+		r8 r r16 f %165
+		\appoggiatura f32 e16.([ d32] c8) h
+		c c c
+		\appoggiatura d32 c16.([ h32)]c8 c
+		c\fermata h4\trill
+		c8 r r %170
+		R4.*5 %175
+		R4.\fermataMarkup \bar "||" %176 finis
 	}
 }
 
 ChristeSopranoLyrics = \lyricmode {
+	Chri -- ste %87
+	e -- le -- i --
+	son,
+	e -- le -- i -- %90
+	son. Chri -- ste,
+	Chri -- ste e --
+	le -- i --
+	son. Chri -- ste,
+	Chri -- ste e -- %95
+	le -- i --
+	son. Chri -- ste,
+	Chri -- ste e --
+	le -- i --
+	son, %100
+	e -- le -- i --
+	son, e --
 	
+	le --
+	_ _ %105
+	_ i -- son.
+	Chri -- ste,
+	Chri -- ste
+	e -- le -- i --
+	son. %110
+	Chri -- ste,
+	Chri -- ste e --
+	le -- i -- son,
+	
+	e -- %115
+	le -- i --
+	son,
+	
+	e --
+	le -- i -- %120
+	son. Chri -- ste,
+	Chri -- ste
+	e -- le -- i --
+	son.
+	
+	Chri -- ste %132
+	e -- le -- i --
+	son,
+	e -- le -- i -- %135
+	son. Chri -- ste,
+	Chri -- ste e --
+	le -- i --
+	son.
+	%140
+	Chri -- ste,
+	Chri -- ste
+	e --
+	le -- i --
+	son. %145
+	Chri -- ste,
+	Chri -- ste
+	e -- le -- i --
+	son, e --
+	le -- %150
+	
+	_ _ i --
+	son. Chri -- ste,
+	Chri -- ste
+	e -- le -- i -- %155
+	son.
+	
+	Chri -- ste e --
+	le -- i -- son,
+	%160
+	e --
+	le -- i --
+	son,
+	
+	e -- %165
+	le -- i --
+	son. Chri -- ste,
+	Chri -- ste e --
+	le -- i --
+	son. %170 finis
 }
 
 % SopranoNotes = {
