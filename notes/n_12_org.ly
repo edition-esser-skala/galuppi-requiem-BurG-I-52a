@@ -230,11 +230,241 @@ ChristeOrgano = {
 		\key c \major \time 3/8 \tempoChriste
 			\set Score.currentBarNumber = #61
 		r8 \mvTr c\fE-\soloE a'
+		f g g,
+		r c\p a'
+		f g g,
+		c e[\f f] %65
+		g h, g
+		c e[\p f]
+		g h, g
+		c\f e c
+		f fis d %70
+		g g, r
+		r a' g
+		r f! e
+		f r r
+		g16. f32 g8[ g,] %75
+		c c' h
+		r a\p g
+		r f e
+		f\fE r r
+		g g g, %80
+		c4 r8
+		r8 c\p a'
+		f g g,
+		r c a'
+		f g g, %85
+		c r r
+		h4 e8
+		c d d,
+		g g' e
+		c d d, %90
+		g r r
+		r f'! d
+		e a a,
+		d r r
+		r e c %95
+		f4 fis8
+		g h g
+		c e, c
+		fis4.
+		h, %100
+		e
+		a,
+		d
+		g8 e h
+		c c cis %105
+		d d'16[ c h a]
+		g8 h c
+		d d, fis
+		g h c
+		d d, fis %110
+		g r h,
+		c d e
+		fis\f d g
+		r e\p e
+		r c c %115
+		r d d
+		g g, r
+		r e' e
+		r c c
+		r d d %120
+		g\pocoF e h
+		c a g\f
+		c d d,
+		g' h g
+		c, cis a %125
+		d d, r
+		r e'\p d
+		r c h
+		c\f r r
+		d16. c32 d8[ d,] %130
+		g4 r8
+		r g\p e'
+		c d d,
+		r g e'
+		c d d, %135
+		g r r
+		r f'! d
+		e a a,
+		r d b'
+		g a a, %140
+		d f( fis)
+		g g, h!
+		c e c
+		f4.
+		h, %145
+		e
+		a,
+		d
+		g,
+		c8 a' e %150
+		f d c
+		f g g,
+		c e f
+		g g, h
+		c e f %155
+		g g, h
+		c r e
+		f g a
+		h\fE g c
+		r a\p a %160
+		r f f
+		r g g
+		c c, r
+		r a' a
+		r f f %165
+		r g g
+		c, c' h
+		a g fis
+		g4.\fermata
+		c,8 e c %170
+		f fis d
+		g r h,
+		c r e
+		f r r
+		g g g, %175
+		c4 r8\fermata \bar "||" %176 finis
 	}
 }
 
 ChristeBassFigures = \figuremode {
-	
+	r4. %61
+	r
+	r
+	r
+	r %65
+	r
+	r
+	r
+	r
+	r %70
+	r
+	r
+	r
+	r
+	r %75
+	r
+	r
+	r
+	r
+	r %80
+	r
+	r
+	r
+	r
+	r %85
+	r
+	r
+	r
+	r
+	r %90
+	r
+	r
+	<7>8 <6 4> <5 _+>
+	r4.
+	r %95
+	<9>8 <8> <7 5>
+	r4.
+	r
+	<7>8 <6> <5+>
+	<7> <6!> <5+> %100
+	<7> <6!> <5>
+	<7> <6+> <5>
+	<7 5 _+> <6 4> <7 5 _+>
+	r4.
+	<5>8 <6> <7 5> %105
+	r4.
+	r
+	r
+	r
+	r %110
+	r
+	<3>8 <4> <6+ 3>
+	<5>4.
+	r8 <6>4
+	r4. %115
+	r
+	r
+	r
+	r
+	r %120
+	r
+	r
+	r
+	r
+	r %125
+	r
+	r
+	r
+	r
+	r %130
+	r
+	r
+	r
+	r
+	r %135
+	r
+	r
+	r
+	r
+	r %140
+	r
+	r
+	r
+	<7>8 <6> <5+>
+	<7> <6> <5+> %145
+	<7> <6!> <5>
+	<7> <6!> <5>
+	<7> <6> <5>
+	<7> <6> <5>
+	r <6> q %150
+	r4.
+	r
+	r
+	r
+	r %155
+	r
+	r4 <5->8
+	r <4> <6+ 3>
+	<5 3>4.
+	r8 <6>4 %160
+	r8 <6>4
+	r4.
+	r
+	r
+	r %165
+	r
+	r
+	r
+	r
+	r %170
+	r
+	r
+	r
+	r
+	r %175
+	r %176 finis
 }
 
 % Organo = {
