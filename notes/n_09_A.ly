@@ -236,12 +236,167 @@ ChristeAltoNotes = {
 		\clef treble
 		\key c \major \time 3/8 \autoBeamOff \tempoChriste
 			\set Score.currentBarNumber = #61
-		
+		R4.*21 %81
+		\mvTr g'8.([\pE^\soloE f16)] e8
+		\appoggiatura g16 f8 e d
+		\appoggiatura d8 e4 r8
+		\appoggiatura g16 f8 e d %85
+		c e fis
+		g d g~
+		g16([ a16)] g8 fis
+		g r r
+		R4.*2 %91
+		a8.([ g16)] f!8
+		g f e
+		\appoggiatura e f4 r8
+		r r e~ %95
+		e16([ g)] f8 e
+		d r r
+		r g g
+		\appoggiatura h32 a16.([ gis32)] a8 a~
+		a16([ h32 a)] g8 fis %100
+		\appoggiatura fis? g4 r8
+		c16([ g)] g([ fis)] fis([ e)]
+		fis8([ g)] fis
+		g4.~
+		g8[ a g] %105
+		g16 fis fis8 r
+		R4.
+		r8 a16([ fis)] d([ c)]
+		h16.([ c32)] d8 r
+		r16 a' fis([ e)] d([ c)] %110
+		h8 r r
+		g' g g
+		a8. fis16 g8
+		R4.
+		r8 r r16 c %115
+		\appoggiatura c32 h16.([ a32] g8) fis
+		\appoggiatura fis? g4 r8
+		R4.
+		r8 r r16 c
+		\appoggiatura c32 h16.([ a32] g8) fis %120
+		g g g
+		g([ c)] h
+		\appoggiatura d32 c16([ h32 a)] g8 fis
+		g r r
+		R4.*12 %136
+		a8.([ g16)] f!8
+		g f e
+		\appoggiatura e f4 r8
+		\appoggiatura a16 g8 f e %140
+		d r r
+		r d'16([ h)] g([ f)]
+		e16.([ f32)] g8 r
+		r r a
+		a16([ h32 a] g8) fis %145
+		\appoggiatura fis? g4 r8
+		r c16([ g)] f([ e)]
+		\appoggiatura g32 f16.([ e32)] f8 r
+		d'16([ f,)] f([ e)] e([ d)]
+		e8([ f)] g %150
+		a8[ h c]
+		\appoggiatura h32 a16[ g32 f] e8 d
+		c r r
+		r d'16([ h)] g([ f)]
+		e16.([ f32)] g8 r %155
+		r16 d' h([ a)] g([ f)]
+		e8 c' b
+		a g fis
+		f8. d16 e8
+		R4. %160
+		r8 r r16 a
+		\appoggiatura a32 g16.([ f32] e8) d
+		\appoggiatura d e4 r8
+		R4.
+		r8 r r16 a %165
+		\appoggiatura a32 g16.([ f32] e8) d
+		e e e
+		\appoggiatura f32 e16.([ d32)] e8 e
+		e\fermata d4
+		c8 r r %170
+		R4.*5 %175
+		R4.\fermataMarkup \bar "||" %176 finis
 	}
 }
 
 ChristeAltoLyrics = \lyricmode {
+	Chri -- ste %82
+	e -- le -- i --
+	son,
+	e -- le -- i -- %85
+	son. Chri -- ste,
+	Chri -- ste e --
+	le -- i --
+	son.
 	
+	Chri -- ste %92
+	e -- le -- i --
+	son,
+	e -- %95
+	le -- i --
+	son.
+	Chri -- ste,
+	Chri -- ste e --
+	le -- i -- %100
+	son,
+	e -- le -- i --
+	son, e --
+	le --
+	%105
+	_ i -- son.
+	
+	Chri -- ste,
+	Chri -- ste
+	e -- le -- i -- %110
+	son.
+	Chri -- ste e --
+	le -- i -- son,
+	
+	e -- %115
+	le -- i --
+	son,
+	
+	e --
+	le -- i -- %120
+	son. Chri -- ste,
+	Chri -- ste
+	e -- le -- i --
+	son.
+	
+	Chri -- ste %137
+	e -- le -- i --
+	son,
+	e -- le -- i -- %140
+	son.
+	Chri -- ste,
+	Chri -- ste
+	e --
+	le -- i -- %145
+	son.
+	Chri -- ste,
+	Chri -- ste
+	e -- le -- i --
+	son, e -- %150
+	le --
+	_ _ i --
+	son.
+	Chri -- ste,
+	Chri -- ste %155
+	e -- le -- i --
+	son. Chri -- ste,
+	Chri -- ste e --
+	le -- i -- son,
+	%160
+	e --
+	le -- i --
+	son,
+	
+	e -- %165
+	le -- i --
+	son. Chri -- ste,
+	Chri -- ste e --
+	le -- i --
+	son. %170 finis
 }
 
 % AltoNotes = {

@@ -234,7 +234,7 @@ ChristeSopranoNotes = {
 		d16([ e)] d8 cis
 		d r r
 		R4. %140
-		r8 a'16([ f)] d([ c)]
+		r8 a'16([ f)] d([ c!)]
 		h16.([ c32)] d8 r
 		r r e
 		e16([ f32 e] d8) cis
@@ -261,7 +261,7 @@ ChristeSopranoNotes = {
 		r8 r r16 f %165
 		\appoggiatura f32 e16.([ d32] c8) h
 		c c c
-		\appoggiatura d32 c16.([ h32)]c8 c
+		\appoggiatura d32 c16.([ h32)] c8 c
 		c\fermata h4\trill
 		c8 r r %170
 		R4.*5 %175
