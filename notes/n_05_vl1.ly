@@ -121,7 +121,122 @@ ChristeViolinoI = {
 		\clef treble
 		\key c \major \time 3/8 \tempoChriste
 			\set Score.currentBarNumber = #61
-		
+		g''8.\fE f16 e8
+		\appoggiatura g16 f8 e d
+		\appoggiatura d e4 r8
+		\appoggiatura g16 f8\p e d
+		c g'32([\f e16.)] d32([ c16.)] %65
+		h32([ g16.)] d'16.([ f,32)] e16.([ d32)]
+		e8 g'32([\p e16.)] d32([ c16.)]
+		h32([ g16.)] d'16.([ f,32)] e16.([ d32)]
+		e16.\f g'32 c,8[ b]\trill
+		a16. a'32 d,8[ c\trill] %70
+		\appoggiatura c32 h16[ a32 g] g8 r16 g'
+		c16([ f,)] f8. e16
+		a([ d,)] d8. c16
+		a-! a'( e f cis d)
+		e16. f32 e8[ d\trill] %75
+		\appoggiatura d e4 r16 g\p
+		c16([ f,)] f8. e16
+		a([ d,)] d8. c16
+		a-! a'(\f e f cis d)
+		e f32 g c,8[ h]\trill %80
+		c c, r
+		g''8.\p f16 e8
+		\appoggiatura g16 f8 e d
+		\appoggiatura d e4 r8
+		\appoggiatura g16 f8 e d %85
+		c e fis
+		g d g
+		g16 a g8[ fis]
+		\appoggiatura fis? g4 r16 h,
+		\appoggiatura d c8 h a %90
+		g r r
+		a'8. g16 f!8
+		g f e
+		\appoggiatura e f4 r8
+		r r g~ %95
+		g f e
+		d g, f'
+		e r g
+		a4.~
+		a8 g fis %100
+		g4.~
+		g8 fis e
+		fis? g c,
+		h c d
+		\appoggiatura f32 e16 d c8[ h] %105
+		h a r
+		r d'16 h a[ g]
+		fis16.[ g32] a8 r
+		r16 d c h a g
+		fis8 a r %110
+		r g f
+		e d cis
+		c8.\f a16 h8
+		g'16([\pocoF c,)] c8. e16
+		\once \slurDashed e16[( a,]) a8. e'16 %115
+		\appoggiatura e32 d16.\p c32 h8[ a]
+		\appoggiatura a h4 r16 g'\pocoF
+		g([ c,)] c8. e16
+		e16[( a,]) a8. e'16
+		\appoggiatura e32 d16.\p c32 h8[ a] %120
+		h\pocoF c d
+		e fis g
+		\appoggiatura fis?32 e16\f d32 c h8[ a]\trill
+		g16. d'32 g,8[ f!]\trill
+		e16. e'32 a,8[ g\trill] %125
+		\appoggiatura g32 fis16[ e32 d] d8 r16 d'\p
+		g([ c,)] c8. h16
+		e([ a,)] a8. g16
+		e\f e' h c gis a
+		h16. c32 h8[ a]\trill %130
+		g g, r
+		d''8.\p c16 h8
+		\appoggiatura d16 c8 h a
+		\appoggiatura a h4 r16 h
+		\appoggiatura d16 c8 h a %135
+		g r r
+		a'8. g16 f!8
+		g f e
+		\appoggiatura e f4 r16 f
+		\appoggiatura a g8 f e %140
+		d a'16([ f)] d([ c!])
+		h8 d r
+		r c' g
+		a4.~
+		a8 g fis %145
+		g4.~
+		g8 f! e
+		f4.~
+		f8 e d
+		e f g %150
+		a h c
+		\appoggiatura h32 a16 g32 f e8[ d]\trill
+		c g'16([ e)] d([ c)]
+		h8 d r
+		r16 g f e d c %155
+		h8 d r
+		r c' b
+		a g fis
+		f8.\f d16 e8
+		c'16([\pocoF f,)] f8. a16 %160
+		\once \slurDashed a([ d,)] d8. a'16
+		\appoggiatura a32 g16.\p f32 e8[ d]\trill
+		\appoggiatura d e4 r16 g\pocoF
+		c16([ f,)] f8. a16
+		\once \slurDashed a([ d,)] d8. a'16 %165
+		\appoggiatura a32 g16. f32 e8[ d]
+		e r r
+		c'\f e, e
+		e r r\fermata
+		c,16. g''32 c,8[ b]\trill %170
+		a16. a'32 d,8[ c]\trill
+		h! d32([ h16.)] g32([ f16.)]
+		e8-! g'32([ e16.)] c32([ b16.)]
+		a16 a'( e f cis d)
+		e f32 g c,8[ h]\trill %175
+		c c, r\fermata \bar "||" %176 finis
 	}
 }
 

@@ -244,7 +244,7 @@ ChristeAltoNotes = {
 		c e fis
 		g d g~
 		g16([ a16)] g8 fis
-		g r r
+		\appoggiatura fis g4^\critnote r8
 		R4.*2 %91
 		a8.([ g16)] f!8
 		g f e
