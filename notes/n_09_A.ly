@@ -399,6 +399,19 @@ ChristeAltoLyrics = \lyricmode {
 	son. %170 finis
 }
 
+KyrieIIAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \autoBeamOff \tempoKyrieII
+			\set Score.currentBarNumber = #177
+		
+	}
+}
+
+KyrieIIAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

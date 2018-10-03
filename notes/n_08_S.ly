@@ -350,6 +350,19 @@ ChristeSopranoLyrics = \lyricmode {
 	son. %170 finis
 }
 
+KyrieIISopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \autoBeamOff \tempoKyrieII
+			\set Score.currentBarNumber = #177
+		
+	}
+}
+
+KyrieIISopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble
