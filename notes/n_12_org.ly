@@ -473,11 +473,110 @@ KyrieIIOrgano = {
 		\key f \major \time 4/4 \tempoKyrieII
 			\set Score.currentBarNumber = #177
 		\mvTr es4.\fE-\tuttiE es8 d d d d
+		g4 e f f8 e
+		d2 c4 r\fermata
+		\tempoKyrieIIFuga \clef treble f'4. f8 e4 r8 e %180
+		fis d e fis g f e d
+		<< {
+			s1
+			c'4. c8 h4 r8 h
+			cis a h cis d c h a
+			h g a h c b a g %185
+		} \\ {
+			\oneVoice e c d e f c f4~
+			\voiceTwo f e8 fis g4 r
+			a g f fis
+			g f e8 c d e %185
+		} >> \clef bass
+		f,4. f8 e4 r8 e
+		fis d e fis g f e d
+		e c d e f c f4~
+		f e8 fis g4 g,
+		a' g f fis %190
+		g f e8 c d e
+		f e d c h g c4~
+		c h c r
+		\clef "treble_8" d'-\vlc c b! h
+		c b a4. a8 %195
+		g4 c f, \clef bass f-\tutti
+		g8 f e! d e c d e
+		f es d c d b c d
+		c4 f b h
+		c b as a %200
+		b as g8 f es4~
+		es d c \clef "treble_8" c'~-\vlc
+		c8 b16 a! b8 g \clef bass d4.-\tutti d8
+		b4 r8 b h g a h
+		c b a g f4 f'~ %205
+		f es d g
+		c, \clef "treble_8" c-\vlc c'8 b as g
+		f4. f8 b as g f
+		es4 g \clef bass f4.-\tutti f8
+		d4 r8 d fis d e fis %210
+		g f e d e c d e
+		f e d c h4 c~
+		c h c r
+		f4. f8 e c d e
+		f4 f, g' f %215
+		es e f es
+		d8 c b4 c8 c' a f
+		b a g f g e! f g
+		a g f e f d e f
+		g f e d e c d e %220
+		f2 f,
+		c'1
+		f\fermata \bar "|." %223 FINIS
 	}
 }
 
 KyrieIIBassFigures = \figuremode {
-	
+	<6>2 <[7] [_+]> %177
+	r4 <[6] [5]> r4. <[6]>8
+	<[7]>4 <[6!]> r2
+	r1 %180
+	r
+	r
+	r
+	r
+	r %185
+	<5>2 <6>
+	r1
+	r
+	<5 2>4 <6>8 <5!> <_!>2
+	<_+>4 <4+ 2> <6> q %190
+	<8 5 _!> <4! 3> <6>2
+	r <5!>
+	<4 2>4 <5!> r2
+	<_+>4 <4+ 2> <6> q
+	<5> <4 2> <6>2 %195
+	<7>4 <7 5 _!> r <6>
+	<_!>2 <6>
+	<5> <6->
+	<7 _->4 <7-> <5> <6>
+	<_!> <4!> <6> q %200
+	<5> <4 2> <6>8 <_!> <6> <5>
+	<4 2>4 <6> <7> <6>8 <5>
+	<4+ 2>4 <[6]> <4> <_+>
+	<6>2 <6>
+	<_->8 <4!> r4 <_-> <6>8 <5> %205
+	<4! 2>4 <6> <7> <7 5 _!>
+	r2 <_->
+	<_->4 <_!> <5>2
+	r4 <5> <4> <_!>
+	<6>2 <6> %210
+	<_->4. <6!>8 <6>4 <6->
+	r <6!> <5!> <_!>
+	<4 2> <5!> r2
+	<5> <6>
+	r <6!>4 <4! 2> %215
+	<6> <6 5> r <4 2>
+	r <6>8 <5> <_!>4 <6>
+	<9> <3> r2
+	<9>4 <3> r2
+	<9>4 <5! 3> <6> <6-> %220
+	<9>2 <8>
+	<4> <3>
+	r1 %223 FINIS
 }
 
 % Organo = {
