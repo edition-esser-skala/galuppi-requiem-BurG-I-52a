@@ -335,7 +335,7 @@ ChristeOrgano = {
 		r a' a
 		r f f %165
 		r g g
-		c,\fE c' h
+		c, c'\fE h
 		a g fis
 		g4.\fermata
 		c,8 e c %170
