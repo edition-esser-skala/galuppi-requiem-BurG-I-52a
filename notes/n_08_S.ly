@@ -232,7 +232,7 @@ ChristeSopranoNotes = {
 		g b cis
 		d a d~
 		d16([ e)] d8 cis
-		d r r
+		\appoggiatura cis8 d4^\critnote r8
 		R4. %140
 		r8 a'16([ f)] d([ c!)]
 		h16.([ c32)] d8 r
