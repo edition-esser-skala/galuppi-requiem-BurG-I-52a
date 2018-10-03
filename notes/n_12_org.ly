@@ -350,26 +350,26 @@ ChristeOrgano = {
 
 ChristeBassFigures = \figuremode {
 	r4. %61
-	r
-	r
-	r
-	r %65
-	r
-	r
-	r
-	r
-	r %70
-	r
-	r
-	r
-	r
-	r %75
-	r
-	r
-	r
-	r
-	r %80
-	r
+	r8 <6 4> <5 3>
+	r4.
+	r8 <6 4> <5 3>
+	r <6>4 %65
+	r8 q4
+	r8 q4
+	r8 q4
+	r8 q <7->
+	r <6> <7 _+> %70
+	r4.
+	r8 <6> q
+	r q q
+	r4.
+	<6 4>4 <5 3>8 %75
+	r4 <6>8
+	r q q
+	r q q
+	r4.
+	<6 4>4 <5 3>8 %80
+	r4.
 	r
 	r8 <6 4> <5 3>
 	r4.
@@ -412,14 +412,14 @@ ChristeBassFigures = \figuremode {
 	r <6> q
 	r <6\\>4
 	r8 <6 4> <5 _+>
+	r <6> <7!>
+	r <6> <7 _+> %125
+	<_+>4.
+	r8 <6> <6 _+>
+	r <6> q
 	r4.
-	r %125
-	r
-	r
-	r
-	r
-	r %130
-	r
+	<6 4>4 <5 _+>8 %130
+	r4.
 	r
 	r8 <6 4> <5 _+>
 	r4.
@@ -458,13 +458,13 @@ ChristeBassFigures = \figuremode {
 	<8 3>4. \bassFigureExtendersOn
 	q
 	q8 \bassFigureExtendersOff <5 3>4
-	r4. %170
-	r
-	r
-	r
-	r
-	r %175
-	r %176 finis
+	r8 <6> <7-> %170
+	r <6> <7 _+>
+	r4 <6 5>8
+	r4 <6 5->8
+	r4.
+	<6 4>4 <5 3>8 %175
+	r4. %176 finis
 }
 
 % Organo = {
