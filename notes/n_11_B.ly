@@ -171,12 +171,92 @@ KyrieIIBassoNotes = {
 		\clef bass
 		\key f \major \time 4/4 \autoBeamOff \tempoKyrieII
 			\set Score.currentBarNumber = #177
-		
+		\mvTr es8.\fE^\tuttiE es16 es4 r8 d d d
+		g4 e f4. e8
+		d4. d8 c4 r\fermata
+		\tempoKyrieIIFuga R1*6
+		f4. f8 e4 r8 e
+		fis d e fis g[ f e d]
+		e[ c d e] f[ c] f4~
+		f e8([ fis)] g4 r
+		a g f fis %190
+		g f e8[ c d e]
+		f[ e d c] h[ g] c4~
+		c h c r
+		R1*2 %195
+		r2 r4 f
+		g8[ f e! d] e[ c d e]
+		f[ es d c] d[ b c d]
+		c4 f b,^\critnote r
+		c' b as a %200
+		b as g8[ f] es4~
+		es d c r
+		r2 d4. d8
+		b4 r8 b h g a h
+		c[ b a g] f4 f'~ %205
+		f es d g
+		c,2 r
+		R1
+		r2 f4.\tutti f8
+		d4 r8 d fis d e fis %210
+		g[ f e d] e[ c d e]
+		f[ e d c] h4 c~
+		c h c r
+		f4. f8 e c d e
+		f4 r g f %215
+		es e f es
+		d2 r4 a'
+		b8[ a g f] g[ e! f g]
+		a[ g f e] f[ d e f]
+		g[ f e d] e[ c d e] %220
+		f2 f,
+		c'2. c4
+		f1\fermata \bar "|." %223 FINIS
 	}
 }
 
 KyrieIIBassoLyrics = \lyricmode {
+	Ky -- ri -- e e -- le -- i -- %177
+	son, e -- le -- _
+	_ i -- son.
 	
+	Ky -- ri -- e e -- %186
+	le -- i -- son, e -- le --
+	_ _ _
+	i -- son.
+	Ky -- ri -- e e -- %190
+	le -- _ _
+	_ _ _
+	i -- son,
+	
+	e -- %196
+	le -- _
+	_ _
+	_ i -- son.
+	Ky -- ri -- e e -- %200
+	le -- _ _ _
+	i -- son.
+	Ky -- ri --
+	e e -- le -- i -- son, e --
+	le -- _ _ %205
+	_ _ i --
+	son.
+	
+	Ky -- ri --
+	e e -- le -- i -- son, e -- %210
+	le -- _
+	_ _ _
+	i -- son.
+	Ky -- ri -- e e -- le -- i --
+	son. Ky -- ri -- %215
+	e e -- le -- i --
+	son, e --
+	le -- _
+	_ _
+	_ _
+	_ _
+	_ i --
+	son.
 }
 
 % BassoNotes = {

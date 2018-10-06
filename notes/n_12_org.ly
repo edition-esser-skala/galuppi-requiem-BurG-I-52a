@@ -501,7 +501,7 @@ KyrieIIOrgano = {
 		g4 c f, \clef bass f-\tutti
 		g8 f e! d e c d e
 		f es d c d b c d
-		c4 f b h
+		c4 f b,-\critnote h'
 		c b as a %200
 		b as g8 f es4~
 		es d c \clef "treble_8" c'~-\vlc
