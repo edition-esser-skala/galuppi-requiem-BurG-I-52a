@@ -404,12 +404,104 @@ KyrieIIAltoNotes = {
 		\clef treble
 		\key f \major \time 4/4 \autoBeamOff \tempoKyrieII
 			\set Score.currentBarNumber = #177
-		
+		\mvTr g'8.\fE^\tuttiE g16 g4 r8 fis fis fis
+		g4 g f a8[ g]
+		f4. f8 e4 r\fermata
+		\tempoKyrieIIFuga f4. f8 e4 r8 e %180
+		fis d e fis g[ f e d]
+		e[ c d e] f[ c] f4~
+		f e8[( fis]) g4 r
+		a g f fis
+		g f e8[ c d e] %185
+		f8. c16 c4 r r8 g'
+		a[ fis g a] d,4 g~
+		g8[ e f g] c,[ c' b! a]
+		g4. a8 d,4 r
+		r a'~ a8[ f g a] %190
+		d,4 g~ g8[ e f g]
+		c,4 f2 e4
+		d g g r
+		r8 fis[( g a]) d,4 g~
+		g8[ e] f([ g)] c,4 r %195
+		b'4. b8 a4 r8 a
+		h g a h c[ b a g]
+		a[ f g a] b[ f] b4~
+		b a b8[ a] g([ f)]
+		e!4 c'~ c8[ as b c] %200
+		f,4 b~ b8[ a] g4
+		f4. g16[ f] es4 es
+		d2 r
+		r r4 r8 d
+		es[ c d e] f[ es d c] %205
+		h4 c2 h4
+		c r8 c e![ c d e]
+		f[ es d c] d[ b c d]
+		es4 d8[ b] c4 f
+		f r8 f a[ fis g a] %210
+		d,4 g~ g8[ e!] f([ g)]
+		c,4 r r2
+		f4. f8 e4 r8 e
+		f[( g a f] g4.) g8
+		c,4 r r g'~ %215
+		g8[ es f g] c,4 f~
+		f8[ a] g([ f)] e c c'4~
+		c b8[ a] b2~
+		b4 a8[ g] a2~
+		a4 g8[ f] g2~ %220
+		g4 f8[ e] f2~
+		f e
+		f1\fermata \bar "|." %223 FINIS
 	}
 }
 
 KyrieIIAltoLyrics = \lyricmode {
-	
+	[Ky -- ri -- e e -- le -- i -- %177
+	son, e -- le -- _
+	_ i -- son.]
+	Ky -- ri -- e e -- %180
+	le -- i -- son, e -- le --
+	_ _ _
+	i -- son.
+	Ky -- ri -- e e --
+	le -- _ _ %185
+	_ i -- son, e --
+	le -- _ _
+	_
+	_ i -- son,
+	e -- %190
+	le -- _
+	_ _ _
+	_ i -- son,
+	e -- le -- _
+	i -- son. %195
+	Ky -- ri -- e e --
+	le -- i -- son, e -- le --
+	_ _ _
+	_ _ i --
+	son, e -- %200
+	le -- _ _
+	_ _ _ i --
+	son,
+	e --
+	le -- _ %205
+	_ _ i --
+	son, e -- le --
+	_ _
+	_ _ _ i --
+	son, e -- le -- %210
+	_ _ i --
+	son.
+	Ky -- ri -- e e --
+	le -- i --
+	son, e -- %215
+	le -- _
+	i -- son, e -- le --
+	_ _
+	_ _
+	_ _ %220
+	_ _
+	i --
+	son. %223 FINIS
 }
 
 % AltoNotes = {
