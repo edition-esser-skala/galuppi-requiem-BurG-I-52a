@@ -691,11 +691,149 @@ QuantusTremorOrgano = {
 		\key es \major \time 3/4 \tempoQuantusTremor
 			\set Score.currentBarNumber = #49
 		\mvTr es4\fE-\tuttiE es8 g es g
+		es4 r r %50
+		es es8 as es as
+		es4 r r
+		es es8 g es g
+		es4 r r
+		r8 b d b d b %55
+		r es g es g es
+		b2 r4
+		b'8 c b as g f
+		es4 es8 g es g
+		es es es es es es %60
+		es4 es8 as es as
+		es es es es es es
+		es4 es8 g es g
+		es es es es es es
+		r b d b d b %65
+		r es g es g es
+		b d f b f d
+		b2 r4
+		r \mvTr g'\p-\soloE g
+		r f f %70
+		e2 r4
+		c2 c4
+		f f f
+		r d d
+		h2 r4 %75
+		g'2 g4
+		c g r
+		\mvTr c,\f-\tuttiE c8 es c es
+		c c c c c c
+		c4 c8 f c f %80
+		c c c c c c
+		c4 c8 es c es
+		c c c c c c
+		f f f f fis fis
+		g4 g, r %85
+		r \mvTr c'\p-\soloE c
+		r b b
+		a2 r4
+		f2 f4
+		b b b %90
+		r g g
+		e2 r4
+		c2 c4
+		f c r
+		\mvTr f8\f-\tuttiE f f f f f %95
+		es! es es es es es
+		d!4 es r
+		as8 as as as as as
+		f f f f f f
+		b,4 es r %100
+		as b b,
+		es es8 g es g
+		es es es es es es
+		es4 es8 as es as
+		es es es es es es %105
+		es4 es8 g es g
+		es es es es es es
+		es4 r r
+		f8 f f f f f
+		es es es es es es %110
+		d4 es r
+		as8 as as as as as
+		f f f f f f
+		b,4 es r
+		as b b, %115
+		es8 g b es b g
+		es4 es es
+		es2 r4\fermata \bar "||" %118 finis
 	}
 }
 
 QuantusTremorBassFigures = \figuremode {
-	
+	r2. %49
+	r %50
+	<6 4>
+	q
+	<5 3>
+	r
+	r %55
+	r
+	r
+	r
+	r
+	r %60
+	<6 4>
+	q
+	<5 3>
+	r
+	r %65
+	r
+	r
+	r
+	r
+	r %70
+	r
+	<7 5>4 <6 4> <5 _!>
+	r2.
+	r4 <5->2
+	r2. %75
+	<7 5 _!>4 <6 4> <5 _!>
+	r <[_!]>2
+	r2.
+	r
+	<6 4> %80
+	<[6] [4]>
+	<5 3>
+	r
+	<7>4 <8 [6]> <7 5>
+	<6 4> <5 _!>2 %85
+	r2.
+	r
+	r
+	<7 _!>4 <6- 4> <5 _!>
+	r2. %90
+	r4 <5->2
+	r2.
+	<7 5 _!>4 <6- 4> <5 _!>
+	r2.
+	<_-> %95
+	<6 4 2>
+	<[6] [5]>
+	<5>
+	q
+	r %100
+	r
+	r
+	r
+	<6 4>
+	<[6] [4]> %105
+	<5 3>
+	r
+	r
+	r
+	<[2]> %110
+	<[6] [5]>
+	r
+	r
+	r
+	r %115
+	r
+	r
+	r %118 finis
 }
 
 % Organo = {
