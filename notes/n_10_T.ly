@@ -348,12 +348,95 @@ QuantusTremorTenoreNotes = {
 		\clef "treble_8"
 		\key es \major \time 3/4 \autoBeamOff \tempoQuantusTremor
 			\set Score.currentBarNumber = #49
-		
+		R2.*10 %58
+		\mvTr es2\fE^\tuttiE es4
+		es b r %60
+		es2 es4
+		es c r
+		es2 es4
+		es( b) g
+		b2. %65
+		b
+		b4 b r
+		R2.*10 %77
+		\mvTr c2\fE^\tuttiE c4
+		c g r
+		c2 c4 %80
+		c as r
+		c2 c4
+		c2 c4
+		c( f) es
+		es d r %85
+		R2.*9 %94
+		\mvTr c2.\fE^\tuttiE %95
+		c
+		b4 b r
+		es2.
+		f
+		f4 es r %100
+		es8. c16 b2
+		b4 es es
+		es b r
+		r es es
+		es c r %105
+		r es es
+		es b r
+		R2.
+		c
+		c %110
+		b4 b r
+		es2.
+		f
+		f4 es r
+		es8. c16 b2 %115
+		b r4
+		R2.
+		R\fermataMarkup \bar "||" %118 finis
 	}
 }
 
 QuantusTremorTenoreLyrics = \lyricmode {
+	[Quan -- tus %59
+	tre -- mor, %60
+	quan -- tus
+	tre -- mor,
+	quan -- tus
+	tre -- mor
+	est %65
+	fu --
+	tu -- rus,]
 	
+	[quan -- tus %78
+	tre -- mor,
+	quan -- tus %80
+	tre -- mor,
+	quan -- tus
+	tre -- mor
+	est __ fu --
+	tu -- rus,] %85
+	
+	[cun -- %95
+	cta
+	stri -- cte,
+	cun --
+	cta
+	stri -- cte %100
+	dis -- cus -- su --
+	rus, quan -- tus
+	tre -- mor,
+	quan -- tus
+	tre -- mor, %105
+	quan -- tus
+	tre -- mor,]
+	
+	[cun --
+	cta %110
+	stri -- cte,
+	cun --
+	cta
+	stri -- cte
+	dis -- cus -- su -- %115
+	rus!] %116 finis
 }
 
 % TenoreNotes = {
