@@ -8,6 +8,27 @@ DiesIraeCornoII = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \tempoDiesIrae
-		
+		R1*2
+		r2 g'~\pocoF
+		g1~
+		g %5
+		c,4 r r2
+		c1~
+		c~
+		c4 r r2
+		R1*3 %12
+		r2 g'~\pocoF
+		g1~
+		g~ %15
+		g4 r r2
+		R1*23 %39
+		c,1~\p %40
+		c~
+		c4 r r2
+		R1*2
+		r2 g'\pocoF %45
+		c,4 r r2
+		R1
+		R\fermataMarkup \bar "||" %48 finis
 	}
 }
