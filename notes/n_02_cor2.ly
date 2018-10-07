@@ -38,6 +38,52 @@ QuantusTremorCornoII = {
 		\clef treble
 		\key c \major \time 3/4 \tempoQuantusTremor
 			\set Score.currentBarNumber = #49
-		
+		c4\f c8 c c c
+		c2. %50
+		c4 c8 c c c
+		c2.
+		c4 c8 c c c
+		c2.
+		r8 g' g g g g %55
+		r c c c c c,
+		g'2 r4
+		R2.
+		c,4 c8 c c c
+		c c c c c c %60
+		c4 c8 c c c
+		c c c c c c
+		c4 c8 c c c
+		c c c c c c
+		r g' g g g g %65
+		r c c c c c,
+		g'4 g g
+		g2 r4
+		R2.*9 %77
+		c2 c4
+		c8 c c c c c
+		d2 d4 %80
+		d8 d d d d d
+		c2 c4
+		c r r
+		R2.*13 %96
+		g4-! c-! r
+		R2.*2
+		g4-! c,-! r %100
+		R2.
+		c4 c8 c c c
+		c c c c c c
+		c4 c8 c c c
+		c c c c c c %105
+		c4 c8 c c c
+		c c c c c c
+		c4 r r
+		R2.*2 %110
+		g'4-! c-! r
+		R2.*2
+		g4-! c,-\parenthesize-! r
+		r c' g %115
+		c, r r
+		R2.
+		R\fermataMarkup \bar "||" %118 finis
 	}
 }

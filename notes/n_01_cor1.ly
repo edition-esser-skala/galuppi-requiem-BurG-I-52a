@@ -77,13 +77,13 @@ QuantusTremorCornoI = {
 		c4 c8 c c c
 		c c c c c c
 		c4 r r
-		R2.*2
+		R2.*2 %110
 		d4-! e-! r
 		R2.*2
 		d4-! c-! r
-		r e d
+		r e d %115
 		c r r
 		R2.
-		R\fermataMarkup \bar "||"
+		R\fermataMarkup \bar "||" %118 finis
 	}
 }
