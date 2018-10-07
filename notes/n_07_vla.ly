@@ -290,6 +290,53 @@ DiesIraeViola= {
 	\relative c' {
 		\clef treble
 		\key g \minor \time 4/4 \tempoDiesIrae
-		
+		r8 b'\f g d es es d g
+		g,4 r8 cis d4 r
+		b'8 c16. b32 a8 g d' d, r4
+		r r8 d g d a' d,
+		b' d, fis d g d a' d, %5
+		b4 c d8 c d d,
+		g4 r r r8 g
+		c g d' g, es' g, h g
+		g es' d fis d4 es
+		d8 c d d g d16.-\critnote b32 g4 %10
+		r8 g'( d b) c c d g
+		g,4 r8 g' a4 a
+		b8 c16. b32 a8 g d4 d
+		r r8 d g d a' d,
+		b' d, fis d g d a' d, %15
+		d4-! d-! r2
+		f!1~
+		f2. f4
+		r8 f\p f f r es es es
+		r c' c c r f,4 a,8 %20
+		b4.\f d8 es4. c8
+		f4. d8 g4. es8
+		f8 f f g f4 f
+		f as8 f g es d b
+		b g' c, a' f4 g %25
+		f8 es f f, b' f16.-\critnote d32 b4
+		f'4 g g c,
+		des4 r8 f g4 g
+		as8 b16. as32 g8 f c'4 c,
+		r2 es~ %30
+		es1
+		es4-! es-! r2
+		c'1~
+		\once \tieDashed c2~ c4 c
+		r8 g,\pE g g r a! a a %35
+		r d d d g4 d
+		c8\f c' a f b, b' g es
+		a, a' fis d g, g' d c
+		d4 es d8 c d d,
+		g4 r r r8 g %40
+		c g d' g, es' g, h g
+		g4-! g-! r2
+		c8 c' a f b, b' g es
+		a, a' fis d g, g' d c
+		d4 es d8 c d d %45
+		d4 r r es8 es
+		a,4 b8 es d2
+		d2 r\fermata \bar "||" %48 finis
 	}
 }
