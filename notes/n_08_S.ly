@@ -388,7 +388,7 @@ KyrieIISopranoNotes = {
 		g[ a] b2 a4
 		b2 r4 a %210
 		b h c b
-		a8[ g] f2 e4
+		a8[ g] f2 e!4
 		d r c'4. c8
 		a4 c c8([ b!)] a([ g)]
 		f4 r8 a h[ g a h] %215

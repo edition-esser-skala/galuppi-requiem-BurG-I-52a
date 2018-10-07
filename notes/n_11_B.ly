@@ -197,7 +197,7 @@ KyrieIIBassoNotes = {
 		f es d g
 		c,2 r
 		R1
-		r2 f4.\tutti f8
+		r2 f4. f8
 		d4 r8 d fis d e fis %210
 		g[ f e d] e[ c d e]
 		f[ e d c] h4 c~

@@ -245,6 +245,50 @@ KyrieIIViolinoII = {
 		\clef treble
 		\key f \major \time 4/4 \tempoKyrieII
 			\set Score.currentBarNumber = #177
-		
+		r8 g'\fE c c c4 r8 c
+		b g r g' c,4 c~
+		c h c r\fermata
+		\tempoKyrieIIFuga R1*3 %182
+		c4. c8 h4 r8 h
+		cis a h cis d c h a
+		h g a h c b a g %185
+		a f a h c4 c,
+		d' c b h
+		c b a r
+		R1
+		r8 cis d e a,4 d~ %190
+		d8 h c d g,4 c
+		a2 r
+		f'4. f8 e4 r8 e
+		fis d e fis g f e d
+		e c d e f c f4~ %195
+		f e f d~
+		d8 h c d g,4 c
+		f,2 r
+		es'4. es8 d4 r8 d
+		e c d e f es d c %200
+		d b c d es d c b
+		a f b2 a8 g
+		fis d g2 fis4
+		g8 d g4~ g8 f es d
+		c4 c'8 b a!4 as %205
+		g r f'4. f8
+		es2 r4 g,
+		as a b4. as8
+		g a b2 a4
+		b2 r4 a %210
+		b h c b
+		a8 g f2 e!4
+		d r c'4. c8
+		a4 c~ c8 b! a g
+		f4 r8 a h g a h %215
+		c b a g a f g a
+		b c d4 g, r
+		d'2. d4
+		c2 r4 a
+		b h c8 b a g %220
+		a1
+		g
+		f\fermata \bar "|." %223 FINIS
 	}
 }

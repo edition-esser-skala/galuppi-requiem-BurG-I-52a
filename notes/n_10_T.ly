@@ -218,7 +218,7 @@ KyrieIITenoreNotes = {
 		b,4 d g, c %220
 		c1~
 		c2. c4
-		c1\fermata \bar "|." %2s3 FINIS
+		c1\fermata \bar "|." %223 FINIS
 	}
 }
 
