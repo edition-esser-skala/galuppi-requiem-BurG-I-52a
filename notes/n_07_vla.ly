@@ -346,6 +346,75 @@ QuantusTremorViola = {
 		\clef treble
 		\key es \major \time 3/4 \tempoQuantusTremor
 			\set Score.currentBarNumber = #49
-		
+		b16\f b b b b b b b b b b b
+		b b b b b b b b es es es es %50
+		c as as as as as as as as as as as
+		as as as as es' es es es es es es es
+		b b b b b b b b b b b b
+		b b b b b b b b es es es es
+		f8 d f d f d %55
+		r g b g b g
+		f2 r4
+		b,8 c b as g f
+		b16 b b b b b b b b b b b
+		b-\critnote b b b b b b b es es es es %60
+		c as as as as as as as as as as as
+		as-\critnote as as as es' es es es es es es es
+		b b b b b b b b b b b b
+		b-\critnote b b b b b b b es es es es
+		f8 d f d f d %65
+		r g b g b g
+		f d f b f d
+		b2 r4
+		r b\p b
+		r as as %70
+		g2 r4
+		c2 c4
+		r as' as
+		r f f
+		d2 r4 %75
+		g2 g4
+		g g r
+		g16\f g g g g g g g g g g g
+		g-\critnote g g g g g g g c, c c c
+		c c c c c c c c c c c c %80
+		c c c c c c c c c c c c
+		c c c c c c c c c c c c
+		c8 c g' g es es
+		c c as' as a a
+		g4 g, r %85
+		r g'\p g
+		r es d
+		c2 r4
+		f2 f4
+		f des des %90
+		r b b
+		g2 r4
+		c2 c4
+		c c r
+		c8\f c c c c c %95
+		c c c c c c
+		b4-! b-! r
+		r8 es es es es es
+		f f f f f f
+		f4-! es-! r %100
+		r8 c b4 b
+		b16 b b b b b b b b b b b
+		b-\critnote b b b b b b b es es es es
+		c as as as as as as as as as as as
+		as-\critnote as as as es' es es es es es es es
+		b16 b b b b b b b b b b b
+		b-\critnote b b b b b b b es es es es
+		b4 r r
+		c8 c c c c c
+		c c c c c c
+		b4-! b-! r
+		r8 es es es es es
+		f f f f f f
+		f4-! es-! r
+		r8 c b4 b
+		es,8 g b es b g
+		g4 b b
+		b2 r4\fermata \bar "||"
 	}
 }
