@@ -297,6 +297,53 @@ DiesIraeViolinoII = {
 	\relative c' {
 		\clef treble
 		\key g \minor \time 4/4 \tempoDiesIrae
-		
+		g''4.\fE b8 as( fis) g([ d)]
+		cis4. g'8 fis( a) d,4
+		b8 c16. b32 a8 g d' d, r r32 d'( e fis)
+		g8 d16. b'32 a8 d,16. c'32 b4 fis8.( g32 a)
+		g8 d16. b'32 a8 d,16. c'32 b4 fis8.( g32 a) %5
+		g16 d b g g' es c a g4 fis\trill
+		g r8 r32 g( a h) c8 g16. es'32 d8 g,16. f'32
+		es4 h8.( c32 d) c8 g16. es'32 d8 g,16. f'32
+		es8 c16. g'32 fis8 d16. a'32 g16 d b g g' es c a
+		g4 fis\trill g8 d16. b32 g4 %10
+		r8 b'4 d8 es es d d
+		cis2 d4 d,
+		b'8 c16. b32 a8 g d' d, r r32 d'( e fis)
+		g8 d16. b'32 a8 d,16. c'32 b4 fis8.( g32 a)
+		g8 d16. b'32 a8 d,16. c'32 b4 fis8.( g32 a) %15
+		g4-! fis-! b,8 f!16. d'32 c8 f,16. es'32
+		d4 a8.( b32 c) b8 f16. d'32 c8 f,16. es'32
+		d4 a8.( b32 c) b4-! a-!
+		r4 b2\p a8 g
+		f4 f f8 b d,[ es] %20
+		f4\f b4. g8 c4~
+		c8 a d4. b8 es4~
+		es d16 es d c b4 a\trill
+		b8 b, d'8.( es32 f) es8 b16. g'32 f8 b,16. as'32
+		g8 es16. b'32 a8 f16. c'32 b16 f d b b' g es c %25
+		b4 a\trill b8 f16. d32 b4
+		des'4 des c f~
+		f8 g16 as g8 f f4 e
+		as,8 b16. as32 g8 f c'4 c,
+		as'8 es16. c'32 b8 es,16. des'32 c4 g8.( as32 b) %30
+		as8 es16. c'32 b8 es,16. des'32 c4 g8.( as32 b)
+		as4-! g-! f'8 c16. as'32 g8 c,16. b'32
+		as4 e8.( f32 g) f8 c16. as'32 g8 c,16. b'32
+		as4 e8.( f32 g) f4-! e-!
+		r8 g,\p g g r fis fis fis %35
+		r a! a a d,4 g~\f
+		g16 g a g f4~ f16 f g f es4~
+		es16 es f es d8 d d4 r16 d' e fis
+		g d b g g' es c a g4 fis\trill
+		g4 r8 r32 g( a h) c8 g16. es'32 d8 g,16. f'!32 %40
+		es4 h8.( c32 d) c8 g16. es'32 d8 g,16. d'32
+		c4-! h-! r2
+		r16 g a g f4~ f16 f g f es4~
+		es16 es f es d8 d d4 r16 d' e fis
+		g d b g g' es c a g4 fis\trill %45
+		g4 r8 g c b a g
+		fis4 g~ g16 a b c \appoggiatura b8 a4\trill
+		g2 r\fermata \bar "||" %48 finis
 	}
 }

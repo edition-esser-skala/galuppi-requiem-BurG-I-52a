@@ -343,10 +343,10 @@ DiesIraeViolinoI = {
 		es4-! d-! r2
 		es4~ es16 es f es d4~ d16 d es d
 		c4~ c16 c d c b4 r16 d e fis
-		g d b g g' es c a b4 a\trill
+		g d b g g' es c a b4 a\trill %45
 		g'8 g, g' f! es d c4
 		r8 c b g' d, g' d, fis'
-		g2 r\fermata \bar "||"
+		g2 r\fermata \bar "||" %48 finis
 	}
 }
 
