@@ -34,9 +34,9 @@ DiesIraeCornoII = {
 }
 
 QuantusTremorCornoII = {
-	\relative c {
-		\clef bass
-		\key es \major \time 3/4 \tempoQuantusTremor
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoQuantusTremor
 			\set Score.currentBarNumber = #49
 		
 	}

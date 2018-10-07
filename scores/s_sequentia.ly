@@ -93,7 +93,7 @@
 			<<
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "da caccia" "[ex C]" } }
+						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "da caccia" "[ex Es]" } }
 						\partcombine \QuantusTremorCornoI \QuantusTremorCornoII
 					}
 				>>

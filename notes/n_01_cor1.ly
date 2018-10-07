@@ -34,10 +34,56 @@ DiesIraeCornoI = {
 }
 
 QuantusTremorCornoI = {
-	\relative c {
-		\clef bass
-		\key es \major \time 3/4 \tempoQuantusTremor
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoQuantusTremor
 			\set Score.currentBarNumber = #49
-		
+		c'4\f c8 c c c
+		c2. %50
+		c4 c8 c c c
+		c2.
+		c4 c8 c c c
+		c2.
+		r8 d d d d d %55
+		r e e e e e
+		d2 r4
+		R2.
+		c4 c8 c c c
+		c c c c c c %60
+		c4 c8 c c c
+		c c c c c c
+		c4 c8 c c c
+		c c c c c c
+		r d d d d d %65
+		r e e e e e
+		d4 d d
+		d2 r4
+		R2.*9 %77
+		e2 e4
+		e8 e e e e e
+		f2 f4 %80
+		f8 f f f f f
+		e2 e4
+		e r r
+		R2.*13 %96
+		d4-! e-! r
+		R2.*2
+		d4-! c-! r %100
+		R2.
+		c4 c8 c c c
+		c c c c c c
+		c4 c8 c c c
+		c c c c c c %105
+		c4 c8 c c c
+		c c c c c c
+		c4 r r
+		R2.*2
+		d4-! e-! r
+		R2.*2
+		d4-! c-! r
+		r e d
+		c r r
+		R2.
+		R\fermataMarkup \bar "||"
 	}
 }

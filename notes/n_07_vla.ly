@@ -402,19 +402,19 @@ QuantusTremorViola = {
 		b16 b b b b b b b b b b b
 		b-\critnote b b b b b b b es es es es
 		c as as as as as as as as as as as
-		as-\critnote as as as es' es es es es es es es
+		as-\critnote as as as es' es es es es es es es %105
 		b16 b b b b b b b b b b b
 		b-\critnote b b b b b b b es es es es
 		b4 r r
 		c8 c c c c c
-		c c c c c c
+		c c c c c c %110
 		b4-! b-! r
 		r8 es es es es es
 		f f f f f f
 		f4-! es-! r
-		r8 c b4 b
+		r8 c b4 b %115
 		es,8 g b es b g
 		g4 b b
-		b2 r4\fermata \bar "||"
+		b2 r4\fermata \bar "||" %118 finis
 	}
 }
