@@ -355,7 +355,76 @@ QuantusTremorViolinoI = {
 		\clef treble
 		\key es \major \time 3/4 \tempoQuantusTremor
 			\set Score.currentBarNumber = #49
-		
+		es'16\f es, es es es es es es es es es es
+		es es es es g g g g b b b b %50
+		c es, es es es es es es es es es es
+		es es es es as as as as c c c c
+		b es, es es es es es es es es es es
+		es es es es g g g g b b b b
+		as8 b, b b b b %55
+		g' b, b b b b
+		f' b f es d c
+		b4 r r16 b' c d
+		es es, es es es es es es es es es es
+		es es es es g g g g b b b b %60
+		c es, es es es es es es es es es es
+		es es es es as as as as c c c c
+		b es, es es es es es es es es es es
+		es es es es g g g g b b b b
+		as8 b, b b b b %65
+		g' b, b b b b
+		b d f b f d
+		b2 r4
+		b'2.\p^\tenuto
+		des, %70
+		c4( e) g-\parenthesize-!
+		b( as) g-!
+		f'2.^\tenuto
+		as,
+		g4( h) d-! %75
+		f( es) d-\parenthesize-!
+		es-! d-! r
+		c'16\f c, c c c c c c c c c c
+		c c c c es es es es g g g g
+		as as, as as as as as as as as as as %80
+		as as as as f' f f f as as as as
+		g g, g g g g g g g g g g
+		g8 g c c es es
+		es f16 es d4 c
+		c-! h-! r %85
+		es2.\p^\tenuto
+		g,
+		f4( a) c-!
+		es( des) c-!
+		b2.-\tenutoE %90
+		des,
+		c4( e) g-!
+		b( as!) g-!
+		as-! g-! r
+		as16\f b c b as8 as as as %95
+		as16 b c b as8 as as as
+		as'4-! g-! r
+		c,16 d es d c8 c c c
+		c( as') c,[ c c c]
+		d4-! es-! r %100
+		c8. as16 g4 f\trill
+		es'16 es, es es es es es es es es es es
+		es es es es g g g g b b b b
+		c es, es es es es es es es es es es
+		es es es es as as as as c c c c %105
+		b es, es es es es es es es es es es
+		es es es es g g g g b b b b
+		es4 r r
+		as,16 b c b as8 as as as
+		as16 b c b as8 as as as
+		as'4-! g-! r
+		c,16 d es d c8 c c c
+		c( as') c,[ c c c]
+		d4-! es-! r
+		c8. as16 g4 f\trill
+		es8 g b es b g
+		es4 es es
+		es2 r4\fermata \bar "||"
 	}
 }
 

@@ -770,8 +770,8 @@ QuantusTremorBassFigures = \figuremode {
 	q
 	<5 3>
 	r
-	r %55
-	r
+	r8 <[7]> r2 %55
+	r2.
 	r
 	r
 	r
