@@ -592,12 +592,117 @@ QuantusTremorAltoNotes = {
 		\clef treble
 		\key es \major \time 3/4 \autoBeamOff \tempoQuantusTremor
 			\set Score.currentBarNumber = #49
-		
+		R2.*10 %58
+		\mvTr g'2\fE^\tuttiE g4
+		g es r %60
+		as2 as4
+		as es r
+		g2 g4
+		g( es) g
+		f2. %65
+		es
+		d4 d r
+		R2.
+		\mvTr b'\pE^\solo
+		des, %70
+		c4( e) g
+		b( as) g
+		as8.([ g16)] f4 r
+		R2.*4 %77
+		\mvTr es2\fE^\tuttiE es4
+		es c r
+		f2 f4 %80
+		f c r
+		es2 es4
+		es2 g4
+		as2 a4
+		g g r %85
+		R2.*4
+		\mvTr b2.\pE^\solo %90
+		des,
+		c4( e) g
+		b( as!) g
+		as g r
+		\mvTr f2.\fE^\tutti %95
+		f
+		f4 es r
+		as2.
+		as
+		as4 g r %100
+		as8. f16 es4( d)
+		es g g
+		g es r
+		r as as
+		as es r %105
+		r g g 
+		g es r
+		R2.
+		f
+		f %110
+		f4 es r
+		as2.
+		as
+		as4 g r
+		as8. f16 es4( d) %115
+		es2 r4
+		R2.
+		R\fermataMarkup \bar "||" %118 finis
 	}
 }
 
 QuantusTremorAltoLyrics = \lyricmode {
+	[Quan -- tus %59
+	tre -- mor, %60
+	quan -- tus
+	tre -- mor,
+	quan -- tus
+	tre -- mor
+	est %65
+	fu --
+	tu -- rus,]
 	
+	quan --
+	do %70
+	Ju -- dex
+	est __ ven --
+	tur -- us,
+	
+	[quan -- tus %78
+	tre -- mor,
+	quan -- tus %80
+	tre -- mor,
+	quan -- tus
+	tre -- mor
+	est fu --
+	tu -- rus,] %85
+	
+	quan -- %90
+	do
+	Ju -- dex
+	est __ ven --
+	tur -- us,
+	[cun -- %95
+	cta
+	stri -- cte,
+	cun --
+	cta
+	stri -- cte %100
+	dis -- cus -- su --
+	rus, quan -- tus
+	tre -- mor,
+	quan -- tus
+	tre -- mor, %105
+	quan -- tus
+	tre -- mor,]
+	
+	[cun --
+	cta %110
+	stri -- cte,
+	cun --
+	cta
+	stri -- cte
+	dis -- cus -- su -- %115
+	rus!] %116 finis
 }
 
 % AltoNotes = {
