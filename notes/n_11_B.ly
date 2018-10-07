@@ -343,12 +343,95 @@ QuantusTremorBassoNotes = {
 		\clef bass
 		\key es \major \time 3/4 \autoBeamOff \tempoQuantusTremor
 			\set Score.currentBarNumber = #49
-		
+		R2.*10 %58
+		\mvTr es2\fE^\tuttiE es4
+		es8.([ d16)] es4 r %60
+		es2 es4
+		es8.([ d16)] es4 r
+		es2 es4
+		es( g) es
+		b2. %65
+		es
+		b4 b r
+		R2.*10 %77
+		\mvTr c2\fE^\tuttiE c4
+		c8.([ h16)] c4 r
+		c2 c4 %80
+		c8.([ h16)] c4 r
+		c2 c4
+		c( es) c
+		f2 fis4
+		g g, r %85
+		R2.*9 %94
+		\mvTr f'2.\fE^\tuttiE %95
+		es
+		d!4 es r
+		as2.
+		f
+		b,4 es r %100
+		as8. as16 b2
+		es,4 es es
+		es8.([ d16)] es4 r
+		r es es
+		es8.([ d16)] es4 r %105
+		r es es
+		es8.([ d16)] es4 r
+		R2.
+		f
+		es %110
+		d4 es r
+		as2.
+		f
+		b,4 es r
+		as8. as16 b2 %115
+		es,2 r4
+		R2.
+		R\fermataMarkup \bar "||" %118 finis
 	}
 }
 
 QuantusTremorBassoLyrics = \lyricmode {
+	Quan -- tus %59
+	tre -- mor, %60
+	quan -- tus
+	tre -- mor,
+	quan -- tus
+	tre -- mor
+	est %65
+	fu --
+	tu -- rus,
 	
+	quan -- tus %78
+	tre -- mor,
+	quan -- tus %80
+	tre -- mor,
+	quan -- tus
+	tre -- mor
+	est fu --
+	tu -- rus, %85
+	
+	cun -- %95
+	cta
+	stri -- cte,
+	cun --
+	cta
+	stri -- cte %100
+	dis -- cus -- su --
+	rus, quan -- tus
+	tre -- mor,
+	quan -- tus
+	tre -- mor, %105
+	quan -- tus
+	tre -- mor,
+	
+	cun --
+	cta %110
+	stri -- cte,
+	cun --
+	cta
+	stri -- cte
+	dis -- cus -- su -- %115
+	rus! %116 finis
 }
 
 % BassoNotes = {
