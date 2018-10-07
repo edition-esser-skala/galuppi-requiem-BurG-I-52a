@@ -584,11 +584,105 @@ DiesIraeOrgano = {
 		\clef bass
 		\key g \minor \time 4/4 \tempoDiesIrae
 		r8 \mvTr g'\fE-\tuttiE g g c c b b
+		es, es es es d4 r
+		b'8 c16. b32 a8 g d' d, r4
+		r r8 d g d a' d,
+		b' d, fis d g d a' d, %5
+		b'4 c d8 c d d,
+		g4 r r r8 g,
+		c g d' g, es' g, h g
+		c4 c' b! c
+		d8 c d d, g d16 b g4 %10
+		g'8 g g g c c b b
+		es, es es es d4 d'
+		b8 c16. b32 a8 g d'4 d,
+		r r8 d g d a' d,
+		b' d, fis d g d a' d, %15
+		g4 d r r8 f
+		b f c' f, d' f, a f
+		b f c' f, b4 f
+		r8 \mvTr d'\p-\solo d d c c c c
+		a a a a b b, b c %20
+		\mvTr d\fE-\tuttiE c d b es4. c8
+		f4. d8 g4. es8
+		a a b es, f4 f,
+		b as'8 f g es d b
+		es4 es d es %25
+		f8 es f f, b' f16 d b4
+		b' g e f
+		des8 des des des c4 c'
+		as8 b16. as32 g8 f c'4 c,
+		r r8 es! as es b' es, %30
+		c' es, g es as es b' es,
+		as4 es r r8 c
+		f c g' c, as' c, e c
+		f c g' c, f4 c
+		r8 \mvTr es!\p-\solo es es d d d d %35
+		fis fis fis fis g4 g,
+		\mvTr c8\f-\tuttiE c' a f b, b' g es
+		a, a' fis d g, g' d c
+		b4 c d8 c d d,
+		g4 r r r8 g %40
+		c g d' g, es' g, h g
+		c4 g r2
+		c8 c' a f b, b' g es
+		a, a' fis d g, g' d c
+		b4 c d8 c d d, %45
+		g4 r r c8 c
+		d d g c, d4 d,
+		g2 r\fermata \bar "||" %48 finis
 	}
 }
 
 DiesIraeBassFigures = \figuremode {
-	
+	r2 <[6-]>8 <[4\+]> <[6]>4
+	<6+>2 <[_+]>
+	<[1]>8 q16. q32 q8 q q q r4
+	r4. <[_+]>8 r4 <[6\\]>
+	<[6]> <[6] [5]> r <[6\\]> %5
+	<[6]>2 <6 4>4 <5 _+>
+	r2.. <_!>8
+	r4 <[6!]> <[6]> <[6] [5]>
+	r <6 4+ 3> <6>2
+	<6 4>4 <5 _+> r2 %10
+	r2 <6- _->8 <4+> <6>4
+	<6+>2 <4>4 <_+>
+	<[1]>8 q16. q32 q8 q q4 q
+	r4. <[_+]>8 r4 <[6\\]>
+	<[6]> <[6] [5]> r <[6\\]> %15
+	r1
+	r4 <[6]> q <[6] [5]>
+	r <[6]> r2
+	r8 <[6]>4. <7>4 <6>
+	<6 5>2.. <[6]>8 %20
+	q2 <5>4 <6>
+	<5> <6> <5> <6>
+	<6 5>4. <6 5>8 <6 4>4 <5 3>
+	r4 <4 2> <6> <[6]>
+	r <4! 2> <[6]>2 %25
+	<[6] [4]>4 <[5] [3]> r2
+	<_->4 <5-> <6 5> <5 _->
+	<6! [5-]>2 <4>4 <_!>
+	<[1]>8 q16. q32 q8 q q4 q
+	r2. <[6] [_-]>4 %30
+	<[6-]> <[6] [5-]> r <[6] [_-]>
+	r2.. <_!>8
+	<[_-]>4 <[6!]> <[6]> <[6] [5]>
+	<[_-]> <[6!]> <_-> <_!>
+	r8 <6>4. <7 5 _+>2 %35
+	<[6] [5]> <4>4 <3>
+	r <[5]> r <[5]>
+	r <[5]> r2
+	<[6]> <[6] [4]>4 <[5] [_+]>
+	r2.. <[_!]>8 %40
+	r4 <[6!]> <[6]> <[6] [5]>
+	r <[_!]>2.
+	r4 <[5]> r <[5]>
+	r <[5]> r2
+	<[6]> <[6] [4]>4 <[5] [_+]> %45
+	r1
+	<[_+]>2 <[6] [4]>4 <[5] [_+]>
+	r1 %48 finis
 }
 
 % Organo = {
