@@ -94,7 +94,7 @@
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "da caccia" "[ex Es]" } }
-						\partcombine \QuantusTremorCornoI \QuantusTremorCornoII
+						\transpose c es { \partcombine \QuantusTremorCornoI \QuantusTremorCornoII }
 					}
 				>>
 				\new StaffGroup <<
@@ -149,7 +149,7 @@
 				}
 			>>
 			\layout { }
-			\midi { \tempo 2. = 60 }
+			\midi { \tempo 2. = 50 }
 		}
 	}
 }
