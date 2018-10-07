@@ -347,3 +347,12 @@ DiesIraeViolinoII = {
 		g2 r\fermata \bar "||" %48 finis
 	}
 }
+
+QuantusTremorViolinoII = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 3/4 \tempoQuantusTremor
+			\set Score.currentBarNumber = #49
+		
+	}
+}

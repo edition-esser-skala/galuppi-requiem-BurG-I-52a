@@ -32,3 +32,12 @@ DiesIraeCornoII = {
 		R\fermataMarkup \bar "||" %48 finis
 	}
 }
+
+QuantusTremorCornoII = {
+	\relative c {
+		\clef bass
+		\key es \major \time 3/4 \tempoQuantusTremor
+			\set Score.currentBarNumber = #49
+		
+	}
+}

@@ -343,6 +343,19 @@ DiesIraeTenoreLyrics = \lyricmode {
 	la.] %48 finis
 }
 
+QuantusTremorTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key es \major \time 3/4 \autoBeamOff \tempoQuantusTremor
+			\set Score.currentBarNumber = #49
+		
+	}
+}
+
+QuantusTremorTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

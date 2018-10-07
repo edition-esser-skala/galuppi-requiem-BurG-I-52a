@@ -587,6 +587,19 @@ DiesIraeAltoLyrics = \lyricmode {
 	la. %48 finis
 }
 
+QuantusTremorAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 3/4 \autoBeamOff \tempoQuantusTremor
+			\set Score.currentBarNumber = #49
+		
+	}
+}
+
+QuantusTremorAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -534,6 +534,19 @@ DiesIraeSopranoLyrics = \lyricmode {
 	la. %48 finis
 }
 
+QuantusTremorSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 3/4 \autoBeamOff \tempoQuantusTremor
+			\set Score.currentBarNumber = #49
+		
+	}
+}
+
+QuantusTremorSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

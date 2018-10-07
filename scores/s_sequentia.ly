@@ -18,67 +18,134 @@
 % 		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
 % 		\partTitle "3" "S E Q U E N T I A"
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "3.1 DIES IRAE"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "da caccia" "[ex G]" } }
+% 						\partcombine \DiesIraeCornoI \DiesIraeCornoII
+% 					}
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\DiesIraeViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\DiesIraeViolinoII
+% 						}
+% 					>>
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Viola"
+% 						\DiesIraeViola
+% 					>>
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \DiesIraeSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \DiesIraeSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \DiesIraeAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \DiesIraeAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \DiesIraeTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \DiesIraeTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \DiesIraeBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \DiesIraeBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\DiesIraeOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\DiesIraeBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 90 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "3.1 DIES IRAE"
+			movement = "3.2 QUANTUS TREMOR"
 		}
 		\score {
 			<<
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "da caccia" "[ex G]" } }
-						\partcombine \DiesIraeCornoI \DiesIraeCornoII
+						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "da caccia" "[ex C]" } }
+						\partcombine \QuantusTremorCornoI \QuantusTremorCornoII
 					}
 				>>
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\DiesIraeViolinoI
+							\QuantusTremorViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\DiesIraeViolinoII
+							\QuantusTremorViolinoII
 						}
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = "Viola"
-						\DiesIraeViola
+						\QuantusTremorViola
 					>>
 				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \DiesIraeSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \QuantusTremorSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \DiesIraeSopranoLyrics
+					\new Lyrics \lyricsto Soprano \QuantusTremorSopranoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \DiesIraeAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \QuantusTremorAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \DiesIraeAltoLyrics
+					\new Lyrics \lyricsto Alto \QuantusTremorAltoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \DiesIraeTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \QuantusTremorTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \DiesIraeTenoreLyrics
+					\new Lyrics \lyricsto Tenore \QuantusTremorTenoreLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \DiesIraeBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \QuantusTremorBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \DiesIraeBassoLyrics
+					\new Lyrics \lyricsto Basso \QuantusTremorBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\DiesIraeOrgano
+						\QuantusTremorOrgano
 					}
 				>>
 				\new FiguredBass {
-					\DiesIraeBassFigures
+					\QuantusTremorBassFigures
 				}
 			>>
 			\layout { }

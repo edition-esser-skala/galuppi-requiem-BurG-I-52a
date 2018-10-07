@@ -207,6 +207,7 @@ tempoKyrieII = \tempoMarkup "Adagio"
 	tempoKyrieIIFuga = \tempoMarkup "Allegro"
 
 tempoDiesIrae = \tempoMarkup "Maestoso"
+tempoQuantusTremor = \tempoMarkup "Presto"
 
 
 

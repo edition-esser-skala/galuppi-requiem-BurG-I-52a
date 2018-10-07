@@ -350,6 +350,15 @@ DiesIraeViolinoI = {
 	}
 }
 
+QuantusTremorViolinoI = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 3/4 \tempoQuantusTremor
+			\set Score.currentBarNumber = #49
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

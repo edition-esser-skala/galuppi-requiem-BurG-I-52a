@@ -338,6 +338,19 @@ DiesIraeBassoLyrics = \lyricmode {
 	la. %48 finis
 }
 
+QuantusTremorBassoNotes = {
+	\relative c {
+		\clef bass
+		\key es \major \time 3/4 \autoBeamOff \tempoQuantusTremor
+			\set Score.currentBarNumber = #49
+		
+	}
+}
+
+QuantusTremorBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass
