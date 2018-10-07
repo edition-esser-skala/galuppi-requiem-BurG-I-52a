@@ -288,9 +288,9 @@ KyrieIIViola = {
 
 DiesIraeViola= {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key g \minor \time 4/4 \tempoDiesIrae
-		r8 b'\f g d es es d g
+		r8 b'\fE g d es es d g
 		g,4 r8 cis d4 r
 		b'8 c16. b32 a8 g d' d, r4
 		r r8 d g d a' d,
