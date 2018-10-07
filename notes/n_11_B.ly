@@ -253,10 +253,10 @@ KyrieIIBassoLyrics = \lyricmode {
 	son, e --
 	le -- _
 	_ _
-	_ _
+	_ _ %220
 	_ _
 	_ i --
-	son.
+	son. %223 FINIS
 }
 
 % BassoNotes = {
