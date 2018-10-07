@@ -568,8 +568,8 @@ DiesIraeAltoLyrics = \lyricmode {
 	di -- es il -- la,
 	di -- es il -- la]
 	%30
-	in fa --
-	vil -- la,
+	[in fa --
+	vil -- la,]
 	sol -- vet sae -- clum
 	in fa -- vil -- la:
 	
