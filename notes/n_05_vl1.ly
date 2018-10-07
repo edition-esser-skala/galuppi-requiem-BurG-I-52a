@@ -396,7 +396,7 @@ QuantusTremorViolinoI = {
 		g,
 		f4( a) c-!
 		es( des) c-!
-		b2.-\tenutoE %90
+		b2.^\tenutoE %90
 		des,
 		c4( e) g-!
 		b( as!) g-!
@@ -416,15 +416,15 @@ QuantusTremorViolinoI = {
 		es es es es g g g g b b b b
 		es4 r r
 		as,16 b c b as8 as as as
-		as16 b c b as8 as as as
+		as16 b c b as8 as as as %110
 		as'4-! g-! r
 		c,16 d es d c8 c c c
 		c( as') c,[ c c c]
 		d4-! es-! r
-		c8. as16 g4 f\trill
+		c8. as16 g4 f\trill %115
 		es8 g b es b g
 		es4 es es
-		es2 r4\fermata \bar "||"
+		es2 r4\fermata \bar "||" %118 finis
 	}
 }
 
