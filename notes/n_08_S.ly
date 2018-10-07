@@ -539,12 +539,115 @@ QuantusTremorSopranoNotes = {
 		\clef treble
 		\key es \major \time 3/4 \autoBeamOff \tempoQuantusTremor
 			\set Score.currentBarNumber = #49
-		
+		R2.*10 %58
+		\mvTr b'2\fE^\tuttiE b4
+		b g r %60
+		c2 c4
+		c as r
+		b2 b4
+		b( g) b
+		as2. %65
+		g
+		f4 f r
+		R2.*5 %72
+		\mvTr f'2.\pE^\solo
+		as,
+		g4( h) d %75
+		f( es) d
+		es d r
+		\mvTr g,2\fE^\tutti g4
+		g es r
+		as2 as4 %80
+		as f r
+		g2 g4
+		g( c) es
+		es( d) c
+		c h r %85
+		\mvTr es2.\pE^\solo
+		g,
+		f4( a) c
+		es( des) c
+		des8.([ c16)] b4 r %90
+		R2.*4
+		\mvTr as2.\fE^\tutti %95
+		as
+		as4 g r
+		c2.
+		c
+		d4 es r %100
+		c8. as16 g4( f)
+		g b b
+		b g r
+		r c c
+		c as r %105
+		r b b
+		b g r
+		R2.
+		as2.
+		as %110
+		as4 g r
+		c2.
+		c
+		d4 es r
+		c8. as16 g4( f) %115
+		g2 r4
+		R2.
+		R\fermataMarkup \bar "||" %118 finis
 	}
 }
 
 QuantusTremorSopranoLyrics = \lyricmode {
+	[Quan -- tus %59
+	tre -- mor, %60
+	quan -- tus
+	tre -- mor,
+	quan -- tus
+	tre -- mor
+	est %65
+	fu --
+	tu -- rus,]
 	
+	quan -- %73
+	do
+	Ju -- dex %75
+	est __ ven --
+	tur -- us,
+	[quan -- tus
+	tre -- mor,
+	quan -- tus %80
+	tre -- mor,
+	quan -- tus
+	tre -- mor
+	est __ fu --
+	tu -- rus,] %85
+	quan --
+	do
+	Ju -- dex
+	est __ ven --
+	tur -- us, %90
+	
+	[cun -- %95
+	cta
+	stri -- cte,
+	cun --
+	cta
+	stri -- cte %100
+	dis -- cus -- su --
+	rus, quan -- tus
+	tre -- mor,
+	quan -- tus
+	tre -- mor, %105
+	quan -- tus
+	tre -- mor,]
+	
+	[cun --
+	cta %110
+	stri -- cte,
+	cun --
+	cta
+	stri -- cte
+	dis -- cus -- su -- %115
+	rus!] %116 finis
 }
 
 % SopranoNotes = {

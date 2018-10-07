@@ -780,8 +780,8 @@ QuantusTremorBassFigures = \figuremode {
 	q
 	<5 3>
 	r
-	r %65
-	r
+	r8 <7> r2 %65
+	r2.
 	r
 	r
 	r
@@ -790,7 +790,7 @@ QuantusTremorBassFigures = \figuremode {
 	<7 5>4 <6 4> <5 _!>
 	r2.
 	r4 <5->2
-	r2. %75
+	<[6]>2. %75
 	<7 5 _!>4 <6 4> <5 _!>
 	r <[_!]>2
 	r2.
@@ -799,13 +799,13 @@ QuantusTremorBassFigures = \figuremode {
 	<[6] [4]>
 	<5 3>
 	r
-	<7>4 <8 [6]> <7 5>
+	<7>4 <8 [6]> <7 5 [_!]>
 	<6 4> <5 _!>2 %85
 	r2.
-	r
-	r
+	r4 <[6] [4]> <[\t] [3]>
+	<[6]>2.
 	<7 _!>4 <6- 4> <5 _!>
-	r2. %90
+	<[_-]>2. %90
 	r4 <5->2
 	r2.
 	<7 5 _!>4 <6- 4> <5 _!>
@@ -815,9 +815,9 @@ QuantusTremorBassFigures = \figuremode {
 	<[6] [5]>
 	<5>
 	q
-	r %100
-	r
-	r
+	<[7]> %100
+	<[5]>8. <[6]>16 <[6] [4]>4 <[5] [3]>
+	r2.
 	r
 	<6 4>
 	<[6] [4]> %105
@@ -829,9 +829,9 @@ QuantusTremorBassFigures = \figuremode {
 	<[6] [5]>
 	r
 	r
-	r
-	r %115
-	r
+	<[7]>
+	<[5]>8. <[6]>16 <[6] [4]>4 <[5] [3]> %115
+	r4.
 	r
 	r %118 finis
 }
