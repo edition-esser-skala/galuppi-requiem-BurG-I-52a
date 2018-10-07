@@ -508,12 +508,83 @@ DiesIraeAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key g \minor \time 4/4 \autoBeamOff \tempoDiesIrae
-		
+		R1*10 %10
+		\mvTr d4.\fE^\tuttiE g8 es4 d
+		cis cis d d
+		b' a8([ g)] d'4 d,
+		r2 b'4 a
+		g fis b a %15
+		g fis r2
+		d'4 c b a
+		d c b a
+		\mvTr b4.\pE^\solo a16([ g)] \appoggiatura f es8.([ d16)] es4
+		c'8([ a)] f([ es)] es4 d %20
+		\mvTr f4.\fE^\tutti f8 g4 g
+		a4. a8 b4. b8
+		c f, b2( a4)
+		b r r2
+		R1*2 %26
+		b4 b b as
+		f8([ as)] g([ f)] f4 e
+		as g8([ f)] c'4 c,
+		R1 %30
+		r2 r4 es8 es
+		es4 es r2
+		c'4 e, f c
+		c' e, f e
+		R1*2 %36
+		g8 g f4. f8 es4~
+		es8 es d2 d4
+		g g g( fis)
+		g r es d %40
+		c h es d
+		c h r2
+		g'8 g f4. f8 es4~
+		es8 es d2 d4
+		g g g( fis) %45
+		g r c8 b a g
+		fis4 g g( fis)
+		g2 r\fermata \bar "||" %48 finis
 	}
 }
 
 DiesIraeAltoLyrics = \lyricmode {
+	[Di -- es i -- rae, %11
+	di -- es il -- la,
+	di -- es il -- la]
+	sol -- vet
+	sae -- clum in fa -- %15
+	vil -- la,
+	sol -- vet sae -- clum
+	in fa -- vil -- la:
+	Te -- ste Da -- vid
+	cum Si -- byl -- la, %20
+	te -- ste Da -- vid,
+	te -- ste Da -- vid
+	cum Si -- byl --
+	la.
 	
+	[Di -- es i -- rae, %27
+	di -- es il -- la,
+	di -- es il -- la]
+	%30
+	in fa --
+	vil -- la,
+	sol -- vet sae -- clum
+	in fa -- vil -- la:
+	
+	Te -- ste Da -- vid cum __ %37
+	Si -- byl -- la,
+	[cum Si -- byl --
+	la,] sol -- vet %40
+	sae -- clum in fa --
+	vil -- la,
+	te -- ste Da -- vid cum __
+	Si -- byl -- la,
+	cum Si -- byl -- %45
+	la, te -- ste Da -- vid
+	cum Si -- byl --
+	la. %48 finis
 }
 
 % AltoNotes = {
