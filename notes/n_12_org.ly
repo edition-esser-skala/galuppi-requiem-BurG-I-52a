@@ -592,7 +592,7 @@ DiesIraeOrgano = {
 		g4 r r r8 g,
 		c g d' g, es' g, h g
 		c4 c' b! c
-		d8 c d d, g d16 b g4 %10
+		d8 c d d, g d16.-\critnote b32 g4 %10
 		g'8 g g g c c b b
 		es, es es es d4 d'
 		b8 c16. b32 a8 g d'4 d,
@@ -608,7 +608,7 @@ DiesIraeOrgano = {
 		a a b es, f4 f,
 		b as'8 f g es d b
 		es4 es d es %25
-		f8 es f f, b' f16 d b4
+		f8 es f f, b' f16.-\critnote d32 b4
 		b' g e f
 		des8 des des des c4 c'
 		as8 b16. as32 g8 f c'4 c,
@@ -643,7 +643,7 @@ DiesIraeBassFigures = \figuremode {
 	<[6]>2 <6 4>4 <5 _+>
 	r2.. <_!>8
 	r4 <[6!]> <[6]> <[6] [5]>
-	r <6 4+ 3> <6>2
+	r <6 4+ 2> <6>2
 	<6 4>4 <5 _+> r2 %10
 	r2 <6- _->8 <4+> <6>4
 	<6+>2 <4>4 <_+>
