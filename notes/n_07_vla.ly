@@ -285,3 +285,11 @@ KyrieIIViola = {
 		c\fermata \bar "|." %223 FINIS
 	}
 }
+
+DiesIraeViola= {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 4/4 \tempoDiesIrae
+		
+	}
+}

@@ -4,3 +4,10 @@
 
 \version "2.18.0"
 
+DiesIraeCornoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoDiesIrae
+		
+	}
+}

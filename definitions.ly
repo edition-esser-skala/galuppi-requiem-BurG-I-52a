@@ -204,7 +204,9 @@ tempoTeDecet = \tempoMarkup "[Tempo deest]"
 tempoKyrie = \tempoMarkup "Adagio"
 tempoChriste = \tempoMarkup "Allegretto"
 tempoKyrieII = \tempoMarkup "Adagio"
-tempoKyrieIIFuga = \tempoMarkup "Allegro"
+	tempoKyrieIIFuga = \tempoMarkup "Allegro"
+
+tempoDiesIrae = \tempoMarkup "Maestoso"
 
 
 

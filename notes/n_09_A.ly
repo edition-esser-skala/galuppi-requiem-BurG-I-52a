@@ -504,6 +504,18 @@ KyrieIIAltoLyrics = \lyricmode {
 	son. %223 FINIS
 }
 
+DiesIraeAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 4/4 \autoBeamOff \tempoDiesIrae
+		
+	}
+}
+
+DiesIraeAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

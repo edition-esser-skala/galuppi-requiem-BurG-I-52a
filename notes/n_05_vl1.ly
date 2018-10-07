@@ -295,6 +295,14 @@ KyrieIIViolinoI = {
 	}
 }
 
+DiesIraeViolinoI = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 4/4 \tempoDiesIrae
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

@@ -292,3 +292,11 @@ KyrieIIViolinoII = {
 		f\fermata \bar "|." %223 FINIS
 	}
 }
+
+DiesIraeViolinoII = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 4/4 \tempoDiesIrae
+		
+	}
+}
