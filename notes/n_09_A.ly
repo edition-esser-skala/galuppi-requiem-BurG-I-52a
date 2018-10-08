@@ -710,12 +710,125 @@ TubaMirumAltoNotes = {
 		\clef treble
 		\key b \major \time 4/4 \autoBeamOff \tempoTubaMirum
 			\set Score.currentBarNumber = #119
-		
+		R1*11 %129
+		\mvTr d4.\fE^\tutti d8 d4 b %130
+		R1
+		f'4. f8 f4 d
+		R1
+		f8([ d)] es([ c)] d4 d
+		f8([ d)] es([ c)] d4 d %135
+		r2 b'4 a
+		b1~
+		b
+		b4 r r2
+		b ges %140
+		e4 f r2
+		f f
+		f4 e r2
+		\tempoTubaMirumB r4 f4. e8 d4
+		d g4. f8 e4 %145
+		e a4. g8 f a
+		b a g f e4 f~
+		f e f f~
+		f8 e d4 d g~
+		g8 f e4 e a~ %150
+		a8 g f a b a g f
+		e4 f2 e4
+		f r r2
+		R1*3 %156
+		\tempoTubaMirumC d4. d8 d4 b
+		R1
+		f'4. f8 f4 d
+		R1 %160
+		f8([ d)] es([ c)] d4 d
+		f8([ d)] es([ c)] d4 d
+		r2 b'4 a
+		b1~
+		b %165
+		b4 r r2
+		b ges
+		e4 f r2
+		c' b
+		b4 a! r2 %170
+		\tempoTubaMirumD r g4. f8
+		es!4 es a4. g8
+		f4 f b4. a8
+		g f es2 d4
+		c2 d4 r %175
+		\mvTr as'4\pE^\solo r8 as g4 g
+		b r8 b a4 f
+		\mvTr b\fE^\tutti r8 e, f4 f
+		r r8 e f4 f
+		des r8 e f4 f %180
+		R1
+		r2 g4. f8
+		es!4 es a4. g8
+		f4 f b4. a8
+		g f es2 d4 %185
+		c2 d4 b'~
+		b b b( a)
+		b2 r\fermata \bar "||" %188 finis
 	}
 }
 
 TubaMirumAltoLyrics = \lyricmode {
+	Tu -- ba mi -- rum, %130
 	
+	tu -- ba mi -- rum
+	
+	tu -- ba mi -- rum
+	spar -- gens so -- num, %135
+	[spar -- gens
+	so --
+	
+	num,
+	per se -- %140
+	pul -- chra
+	re -- gi --
+	o -- num,]
+	co -- get o --
+	mnes, co -- get o -- %145
+	mnes, co -- get o -- mnes,
+	o -- mnes an -- te thro -- _
+	_ num, co --
+	get o -- mnes, co --
+	get o -- mnes, co -- %150
+	get o -- mnes, o -- mnes an -- te
+	thro -- _ _
+	num.
+	
+	Tu -- ba mi -- rum, %157
+	
+	tu -- ba mi -- rum
+	%160
+	tu -- ba mi -- rum
+	spar -- gens so -- num,
+	spar -- gens
+	so --
+	%165
+	[num,
+	per se --
+	pul -- chra
+	re -- gi --
+	o -- num,] %170
+	co -- get
+	o -- mnes, co -- get
+	o -- mnes, co -- get
+	o -- mnes an -- te
+	thro -- num. %175
+	Mors stu -- pe -- bit,
+	et na -- tu -- ra,
+	[mors stu -- pe -- bit,
+	stu -- pe -- bit
+	et na -- tu -- ra,] %180
+	
+	cum re --
+	sur -- get cre -- a --
+	tu -- ra, ju -- di --
+	can -- ti re -- spon -- %185
+	su -- ra, re --
+	spon -- su --
+	ra. %188 finis
 }
 
 % AltoNotes = {
