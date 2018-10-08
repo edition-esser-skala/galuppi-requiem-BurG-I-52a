@@ -160,7 +160,7 @@
 			<<
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Tromba I, II" "[ex Bes]" } }
+						\set Staff.instrumentName = \markup { \center-column { "Tromba I, II" "con sordino" "[ex Bes]" } }
 						\partcombine \TubaMirumTrombaI \TubaMirumTrombaII
 					}
 				>>
