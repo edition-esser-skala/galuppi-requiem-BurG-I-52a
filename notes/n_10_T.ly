@@ -444,12 +444,108 @@ TubaMirumTenoreNotes = {
 		\clef "treble_8"
 		\key b \major \time 4/4 \autoBeamOff \tempoTubaMirum
 			\set Score.currentBarNumber = #119
-		
+		R1*15 %133
+		\mvTr f,4\fE^\tuttiE f f f
+		f f f f %135
+		r2 f'4 f,
+		b1~
+		b
+		b4 r r2
+		b ges %140
+		e4 f r2
+		b d!
+		c4 c r2
+		\tempoTubaMirumB r d4. c8
+		b4 b4 e4. d8 %145
+		c4 c f4. c8
+		d4 d g, a8([ b)]
+		c2 c4 r
+		d4. c8 b4 b4
+		e4. d8 c4 c %150
+		f4. c8 d4 d
+		g, a8([ b)] c2
+		c4 r r2
+		R1*3 %156
+		\tempoTubaMirumC R1*4 %160
+		f,4 f f f
+		f f f f
+		r2 f'4 f,
+		b1~
+		b %165
+		b4 r r2
+		b ges
+		e4 f r2
+		f' f
+		f4 f r2 %170
+		\tempoTubaMirumD r r4 es!~
+		es8 d c4 c f~
+		f8 es d4 d r
+		es g c,( d8[ es]
+		f2) f4 r %175
+		R1*2
+		f4 r8 g c,4 c
+		r r8 g' c,4 c
+		f r8 g c,4 c %180
+		R1
+		r2 r4 es!~
+		es8 d c4 c f~
+		f8 es d4 d r
+		es g c,( d8[ es] %185
+		f2) f4 r
+		g g f2
+		f r\fermata \bar "||" %188 finis
 	}
 }
 
 TubaMirumTenoreLyrics = \lyricmode {
+	[Tu -- ba mi -- rum %134
+	spar -- gens so -- num, %135
+	spar -- gens
+	so --
 	
+	num,
+	per se -- %140
+	pul -- chra
+	re -- gi --
+	o -- num,]
+	co -- get
+	o -- mnes, co -- get %145
+	o -- mnes, co -- get
+	o -- mnes an -- te
+	thro -- num,
+	co -- get o -- mnes,
+	co -- get o -- mnes, %150
+	co -- get o -- mnes
+	an -- te thro --
+	num.
+	
+	[Tu -- ba mi -- rum %161
+	spar -- gens so -- num,
+	spar -- gens
+	so --
+	%165
+	num,
+	per se --
+	pul -- chra
+	re -- gi --
+	o -- num,] %170
+	co --
+	get o -- mnes, co --
+	get o -- mnes
+	an -- te thro --
+	num. %175
+	
+	[Mors stu -- pe -- bit, %178
+	stu -- pe -- bit
+	et na -- tu -- ra,] %180
+	
+	cum __
+	re -- sur -- get cre --
+	a -- tu -- ra,
+	re -- spon -- su -- %185
+	ra,
+	re -- spon -- su --
+	ra. %188 finis
 }
 
 % TenoreNotes = {
