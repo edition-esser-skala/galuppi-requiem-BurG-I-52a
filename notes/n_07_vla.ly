@@ -421,7 +421,7 @@ QuantusTremorViola = {
 
 TubaMirumViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key b \major \time 4/4 \tempoTubaMirum
 			\set Score.currentBarNumber = #119
 		R1

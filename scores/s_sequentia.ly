@@ -161,7 +161,7 @@
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "Tromba I, II" "con sordino" "[ex Bes]" } }
-						\partcombine \TubaMirumTrombaI \TubaMirumTrombaII
+						\transpose c' b { \partcombine \TubaMirumTrombaI \TubaMirumTrombaII }
 					}
 				>>
 				\new StaffGroup <<
@@ -216,7 +216,7 @@
 				}
 			>>
 			\layout { }
-			\midi { }
+			\midi { } % maestoso: 4 = 80; presto: 4 = 120
 		}
 	}
 }
