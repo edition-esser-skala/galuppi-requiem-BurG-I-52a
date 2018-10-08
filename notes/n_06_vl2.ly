@@ -431,6 +431,75 @@ TubaMirumViolinoII = {
 		\clef treble
 		\key b \major \time 4/4 \tempoTubaMirum
 			\set Score.currentBarNumber = #119
-		
+		R1
+		\tuplet 3/2 4 { \mvTr b8-!\p-\markup { \remark "assai" } b( d) b-! b( d) } b4 r %120
+		R1
+		\tuplet 3/2 4 { b8-! b( d) b-! b( d) } b4 r
+		R1
+		r2 \tuplet 3/2 4 { d8-! d( f) d-! d( f) }
+		d4 r \tuplet 3/2 4 { es8-! es( g) es-! es( g) } %125
+		es4 r \tuplet 3/2 4 { d8-! d( f) d-! d( f) }
+		d4 d'8 c b4-! b8 f
+		d8. d16 d8. d16 d2~
+		d4 r r2
+		R1 %130
+		\tuplet 3/2 4 { b8-!\pE b( d) b-! b( d) } b4 r
+		R1
+		\tuplet 3/2 4 { b8-! b( d) b-! b( d) } b4 r
+		d'8([\f b)] c([ a)] b([ f)] d([ b)]
+		d'([ b)] c([ a)] b([ f)] d([ b)] %135
+		b4 r r2
+		r \tuplet 3/2 4 { d8-!\pocoF d( f) d-! d( f) }
+		es4 r \tuplet 3/2 4 { es8-! es( g) es-! es( g) }
+		d8. d16 d8. d16 d4 r
+		b'2\f^\tenuto ges %140
+		e4-! f-! r2
+		f2 f
+		f4 e r2
+		\tempoTubaMirumB r2 r4 b'~
+		b8 a g4 g c~ %145
+		c8 b a4 a d~
+		d8 c b2 a4
+		g8 f' c,[ e'] f f, r4
+		r b4. a8 g4
+		g c4. b8 a4 %150
+		a d4. c8 b4~
+		b4 a g8 f' c,[ e']
+		f f, f'4. e8 d4~
+		d8 c b4. a8 g f
+		e e' f f, f4 e %155
+		f2 r
+		\tempoTubaMirumC R1
+		\tuplet 3/2 4 { b,8-!\p b( d) b-! b( d) } b4 r
+		R1
+		\tuplet 3/2 4 { b8-! b( d) b-! b( d) } b4 r %160
+		d'8([\f b)] c([ a)] b([ f)] d([ b)]
+		d'([ b)] c([ a)] b([ f)] d([ b)]
+		b4 r r2
+		r \tuplet 3/2 4 { d8-!\pocoF d( f) d-! d( f) }
+		es4 r \tuplet 3/2 4 { es8-! es( g) es-! es( g) } %165
+		d8. d16 d8. d16 d4 r
+		b'2\f^\tenutoE ges
+		e4-! f-! r2
+		c' b
+		b4 a! r2 %170
+		\tempoTubaMirumD r4 b4. a8 g4
+		g c4. b8 a4
+		a d4. c8 b d
+		es d c b a4 b8 d
+		c8 b' f,[ a'] b4 r %175
+		as,-\parenthesize-! r g-\parenthesize-! r
+		b-! r a-\parenthesize-! r
+		b16\p b b b g g g g a\f a a a a a a a
+		b\p b b b g g g g a\f a a a a a a a
+		b\p b b b g g g g a8.\f a16 a8. b16 %180
+		b8. g16 g8. a16 a4 r
+		r b4. a8 g4
+		g c4. b8 a4
+		a d4. c8 b d
+		es d c b a4 b8 d %185
+		c8 b' a,[ a'] b4 b,8 d
+		b d b d b4 a
+		b2 r\fermata \bar "||" %188 finis
 	}
 }

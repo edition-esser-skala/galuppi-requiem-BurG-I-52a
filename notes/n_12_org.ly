@@ -859,7 +859,7 @@ TubaMirumOrgano = {
 		b\f f' b, b
 		b f' b, b %135
 		r2 b4 f'
-		b, r b b
+		b, r b\pocoFE b
 		b r b b
 		b8. b16 b8. b16 b4 r
 		\mvTr b'2\f-\tasto ges %140
@@ -886,7 +886,7 @@ TubaMirumOrgano = {
 		b\f f' b, b
 		b f' b, b
 		r2 b4 f'
-		b, r b b
+		b, r b\pocoFE b
 		b r b b %165
 		b8. b16 b8. b16 b4 r
 		\mvTr b'2\f-\tasto ges

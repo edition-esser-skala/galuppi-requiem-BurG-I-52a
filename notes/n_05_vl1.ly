@@ -445,7 +445,7 @@ TubaMirumViolinoI = {
 		b8. b16 b8. b16 b2~
 		b4 r r2
 		R1 %130
-		\tuplet 3/2 4 { b,8-! b( d) b-! b( d) } b4 r
+		\tuplet 3/2 4 { b,8-!\pE b( d) b-! b( d) } b4 r
 		R1
 		\tuplet 3/2 4 { d8-! d( f) d-! d( f) } d4 r
 		f'8([\f d)] es([ c)] d([ b)] f([ d)]
