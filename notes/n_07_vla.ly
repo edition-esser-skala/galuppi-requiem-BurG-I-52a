@@ -424,6 +424,75 @@ TubaMirumViola = {
 		\clef treble
 		\key b \major \time 4/4 \tempoTubaMirum
 			\set Score.currentBarNumber = #119
-		
+		R1
+		b4\p b b r %120
+		R1
+		b4 b b r
+		R1
+		r2 b4 b
+		b r b b %125
+		b r b b
+		b r f' r
+		f8. f16 f8. f16 f2~
+		f4 r r2
+		R1 %130
+		b,4\pE b b r
+		R1
+		b4 b b r
+		f'\f f f b
+		f f f b %135
+		r2 b,4 f'
+		b, r b\pocoFE b
+		b r b b
+		b8. b16 b8. b16 b4 r
+		b'2\f ges %140
+		e4-! f-! r2
+		des2 d
+		c4 c r2
+		\tempoTubaMirumB r2 d4. c8
+		b4 b4 e4. d8 %145
+		c4 c f4. e8
+		d f g4~ g8 g, a b
+		c2 c4 r
+		d4. c8 b4 b
+		e4. d8 c4 c %150
+		f4. e8 d f g4~
+		g8 g, a b c2
+		a4 r d4. c8
+		b4. a8 g4. h8
+		c g' c, d c4. b8 %155
+		a2 r
+		\tempoTubaMirumC R1
+		b4\p b b r
+		R1
+		b4 b b r %160
+		f'\f f f b
+		f f f b
+		r2 b,4 f'
+		b, r b\pocoFE b
+		b r b b %165
+		b8. b16 b8. b16 b4 r
+		b'2\f ges
+		e4-! f-! r2
+		f2 f
+		f4 f, r2 %170
+		\tempoTubaMirumD r2 r4 es'~
+		es8 d c4 c f~
+		f8 es d4 d g
+		b, c2 d8 f
+		f4. es8 d4 r %175
+		b\pE-\parenthesize-! r es r
+		c-! r f-! r
+		f8\f f f f f f f f
+		f f f f f f f f
+		f f f f f f f f %180
+		f f f f f4 r
+		r2 r4 es~
+		es8 d c4 c f~
+		f8 es d4 d g
+		b, c2 d8 f %185
+		f4. es8 d4 f
+		g g f4. es8
+		d2 r\fermata \bar "||" %188 finis
 	}
 }
