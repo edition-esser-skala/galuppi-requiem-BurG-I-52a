@@ -433,7 +433,76 @@ TubaMirumViolinoI = {
 		\clef treble
 		\key b \major \time 4/4 \tempoTubaMirum
 			\set Score.currentBarNumber = #119
-		
+		R1
+		\tuplet 3/2 4 { \mvTr b8-!\p-\markup { \remark "assai" } b( d) b-! b( d) } b4 r %120
+		R1
+		\tuplet 3/2 4 { d8-! d( f) d-! d( f) } d4 r
+		R1
+		r2 \tuplet 3/2 4 { f8-! f( b) f-! f( b) }
+		f4 r \tuplet 3/2 4 { g8-! g( b) g-! g( b) } %125
+		g4 r \tuplet 3/2 4 { f8-! f( b) f-! f( b) }
+		f4 f'8 es d4-! d8 c
+		b8. b16 b8. b16 b2~
+		b4 r r2
+		R1 %130
+		\tuplet 3/2 4 { b,8-! b( d) b-! b( d) } b4 r
+		R1
+		\tuplet 3/2 4 { d8-! d( f) d-! d( f) } d4 r
+		f'8([\f d)] es([ c)] d([ b)] f([ d)]
+		f'8([ d)] es([ c)] d([ b)] f([ d)] %135
+		d4 r r2
+		r \tuplet 3/2 4 { f8-!\pocoF f( b) f-! f( b) }
+		g4 r \tuplet 3/2 4 { g8-! g( b) g-! g( b) }
+		f8. f16 f8. f16 f4 r
+		b2\f^\tenuto ges %140
+		e4-! f-! r2
+		b2 as
+		as?4 g r2
+		\tempoTubaMirumB r4 f'4. e8 d4
+		d g4. f8 e4 %145
+		e a4. g8 f a
+		b a g f e4 f
+		g,8 f' c,[ e'] f f, f'4~
+		f8 e d4 d g~
+		g8 f e4 e a~ %150
+		a8 g f a b a g f
+		e4 f g,8 f' c,[ e']
+		f f, f'4. e8 d4~
+		d8 c b4. a8 g f
+		e e' f b, a4 g\trill %155
+		f2 r
+		\tempoTubaMirumC R1
+		\tuplet 3/2 4 { b,8-!\p b( d) b-! b( d) } b4 r
+		R1
+		\tuplet 3/2 4 { d8-! d( f) d-! d( f) } d4 r %160
+		f'8([\f d)] es([ c)] d([ b)] f([ d)]
+		f'8([ d)] es([ c)] d([ b)] f([ d)]
+		d4 r r2
+		r \tuplet 3/2 4 { f8-!\pocoF f( b) f-! f( b) }
+		g4 r \tuplet 3/2 4 { g8-! g( b) g-! g( b) } %165
+		f8. f16 f8. f16 f4 r
+		b2\f^\tenutoE ges
+		e4-! f-! r2
+		es' des
+		des?4 c r2 %170
+		\tempoTubaMirumD r g'4. f8
+		es4 es a4. g8
+		f4 f b4. a8
+		g f es2 d4
+		c8 b' f,[ a'] b4 r %175
+		f-! r b,-! r
+		g'-! r c,-\parenthesize-! r
+		des16\p des des des e e e e f\f f f f c c c c
+		des\p des des des e e e e f\f f f f c c c c
+		des\p des des des e e e e f8.\f c16 c8. des16 %180
+		des?8. e16 e8. f16 f4 r
+		r2 g4. f8
+		es!4 es a4. g8
+		f4 f b4. a8
+		g f es2 d4 %185
+		c8 b' a,[ a'] b4 d,8 b'
+		d, b' d, b' d,4 c
+		b2 r\fermata \bar "||" %188 finis
 	}
 }
 

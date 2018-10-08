@@ -212,6 +212,10 @@ tempoTubaMirum = \tempoMarkup "Maestoso"
 	tempoTubaMirumB = \tempoMarkup "Presto"
 	tempoTubaMirumC = \tempoMarkup "Maestoso"
 	tempoTubaMirumD = \tempoMarkup "Presto"
+% tempoTubaMirum = \tempo 4 = 90
+% 	tempoTubaMirumB = \tempo 4 = 120
+% 	tempoTubaMirumC = \tempo 4 = 90
+% 	tempoTubaMirumD = \tempo 4 = 120
 
 
 
