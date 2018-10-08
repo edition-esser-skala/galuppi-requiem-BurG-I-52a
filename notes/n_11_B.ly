@@ -439,12 +439,108 @@ TubaMirumBassoNotes = {
 		\clef bass
 		\key b \major \time 4/4 \autoBeamOff \tempoTubaMirum
 			\set Score.currentBarNumber = #119
-		
+		R1*15 %133
+		\mvTr b4\fE^\tuttiE f' b, b
+		b f' b, b %135
+		r2 b4 f'
+		b,1~
+		b
+		b4 r r2
+		b' ges %140
+		e4 f r2
+		des h
+		c4 c r2
+		\tempoTubaMirumB r b'4. a8
+		g4 g c4. b8 %145
+		a4 a d4. c8
+		b4 b, c f
+		c2 f4 r
+		b4. a8 g4 g
+		c4. b8 a4 a %150
+		d4. c8 b4 b,
+		c f c2
+		f4 r r2
+		R1*3 %156
+		\tempoTubaMirumC R1*4 %160
+		b,4 f' b, b
+		b f' b, b
+		r2 b4 f'
+		b,1~
+		b %165
+		b4 r r2
+		b'2 ges
+		e4 f r2
+		a!2 b
+		f4 f r2 %170
+		\tempoTubaMirumD r es4. d8
+		c4 c f4. es8
+		d4 d g4. f8
+		es4 es f b,
+		f'2 b,4 r %175
+		R1*2
+		f'4 r8 f f4 f
+		r r8 f f4 f
+		f r8 f f4 f %180
+		R1
+		r2 es4. d8
+		c4 c f4. es8
+		d4 d g4. f8
+		es4 es f b, %185
+		f'2 b,4 r
+		g' e f2
+		b, r\fermata \bar "||" %188 finis
 	}
 }
 
 TubaMirumBassoLyrics = \lyricmode {
+	Tu -- ba mi -- rum %134
+	spar -- gens so -- num, %135
+	spar -- gens
+	so --
 	
+	num,
+	per se -- %140
+	pul -- chra
+	re -- gi --
+	o -- num,
+	co -- get
+	o -- mnes, co -- get %145
+	o -- mnes, co -- get
+	o -- mnes an -- te
+	thro -- num,
+	co -- get o -- mnes,
+	co -- get o -- mnes, %150
+	co -- get o -- mnes
+	an -- te thro --
+	num.
+	
+	Tu -- ba mi -- rum %161
+	spar -- gens so -- num,
+	spar -- gens
+	so --
+	%165
+	num,
+	per se --
+	pul -- chra
+	re -- gi --
+	o -- num, %170
+	co -- get
+	o -- mnes, co -- get
+	o -- mnes, co -- get
+	o -- mnes an -- te
+	thro -- num. %175
+	
+	Mors stu -- pe -- bit, %178
+	stu -- pe -- bit
+	et na -- tu -- ra, %180
+	
+	cum re -- 
+	sur -- get cre -- a --
+	tu -- ra, ju -- di --
+	can -- ti re -- spon -- %185
+	su -- ra,
+	re -- spon -- su --
+	ra. %188 finis
 }
 
 % BassoNotes = {

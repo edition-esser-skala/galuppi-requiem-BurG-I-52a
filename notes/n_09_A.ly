@@ -774,7 +774,7 @@ TubaMirumAltoNotes = {
 TubaMirumAltoLyrics = \lyricmode {
 	Tu -- ba mi -- rum, %130
 	
-	tu -- ba mi -- rum
+	tu -- ba mi -- rum,
 	
 	tu -- ba mi -- rum
 	spar -- gens so -- num, %135
@@ -799,7 +799,7 @@ TubaMirumAltoLyrics = \lyricmode {
 	
 	Tu -- ba mi -- rum, %157
 	
-	tu -- ba mi -- rum
+	tu -- ba mi -- rum,
 	%160
 	tu -- ba mi -- rum
 	spar -- gens so -- num,

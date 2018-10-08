@@ -487,7 +487,7 @@ TubaMirumTenoreNotes = {
 		r r8 g' c,4 c
 		f r8 g c,4 c %180
 		R1
-		r2 r4 es!~
+		r2 r4 es~
 		es8 d c4 c f~
 		f8 es d4 d r
 		es g c,( d8[ es] %185
