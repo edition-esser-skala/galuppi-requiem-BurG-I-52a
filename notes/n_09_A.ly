@@ -705,6 +705,19 @@ QuantusTremorAltoLyrics = \lyricmode {
 	rus!] %116 finis
 }
 
+RexTremendaeAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \autoBeamOff \tempoRexTremendae
+			\set Score.currentBarNumber = #119
+		
+	}
+}
+
+RexTremendaeAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

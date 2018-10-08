@@ -434,6 +434,19 @@ QuantusTremorBassoLyrics = \lyricmode {
 	rus! %116 finis
 }
 
+RexTremendaeBassoNotes = {
+	\relative c {
+		\clef bass
+		\key b \major \time 4/4 \autoBeamOff \tempoRexTremendae
+			\set Score.currentBarNumber = #119
+		
+	}
+}
+
+RexTremendaeBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

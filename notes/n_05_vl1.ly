@@ -428,6 +428,15 @@ QuantusTremorViolinoI = {
 	}
 }
 
+RexTremendaeViolinoI = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \tempoRexTremendae
+			\set Score.currentBarNumber = #119
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

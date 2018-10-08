@@ -836,6 +836,20 @@ QuantusTremorBassFigures = \figuremode {
 	r %118 finis
 }
 
+RexTremendaeOrgano = {
+	\relative c {
+		\clef bass
+		\key b \major \time 4/4 \tempoRexTremendae
+			\set Score.currentBarNumber = #119
+		R1
+		\mvTr b4\p-\tuttiE b b r
+	}
+}
+
+RexTremendaeBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

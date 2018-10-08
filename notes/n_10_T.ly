@@ -439,6 +439,19 @@ QuantusTremorTenoreLyrics = \lyricmode {
 	rus!] %116 finis
 }
 
+RexTremendaeTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key b \major \time 4/4 \autoBeamOff \tempoRexTremendae
+			\set Score.currentBarNumber = #119
+		
+	}
+}
+
+RexTremendaeTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

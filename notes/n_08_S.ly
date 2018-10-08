@@ -650,6 +650,19 @@ QuantusTremorSopranoLyrics = \lyricmode {
 	rus!] %116 finis
 }
 
+RexTremendaeSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \autoBeamOff \tempoRexTremendae
+			\set Score.currentBarNumber = #119
+		
+	}
+}
+
+RexTremendaeSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

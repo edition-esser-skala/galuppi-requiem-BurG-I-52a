@@ -85,71 +85,138 @@
 % 			\midi { \tempo 4 = 90 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "3.2 QUANTUS TREMOR"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "da caccia" "[ex Es]" } }
+% 						\partcombine \QuantusTremorCornoI \QuantusTremorCornoII
+% 					}
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\QuantusTremorViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\QuantusTremorViolinoII
+% 						}
+% 					>>
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Viola"
+% 						\QuantusTremorViola
+% 					>>
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \QuantusTremorSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \QuantusTremorSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \QuantusTremorAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \QuantusTremorAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \QuantusTremorTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \QuantusTremorTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \QuantusTremorBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \QuantusTremorBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\QuantusTremorOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\QuantusTremorBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 2. = 50 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "3.2 QUANTUS TREMOR"
+			movement = "3.3 REX TREMENDAE"
 		}
 		\score {
 			<<
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "da caccia" "[ex Es]" } }
-						\transpose c es { \partcombine \QuantusTremorCornoI \QuantusTremorCornoII }
+						\set Staff.instrumentName = \markup { \center-column { "Tromba I, II" "[ex Bes]" } }
+						\partcombine \RexTremendaeTrombaI \RexTremendaeTrombaII
 					}
 				>>
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\QuantusTremorViolinoI
+							\RexTremendaeViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\QuantusTremorViolinoII
+							\RexTremendaeViolinoII
 						}
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = "Viola"
-						\QuantusTremorViola
+						\RexTremendaeViola
 					>>
 				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \QuantusTremorSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \RexTremendaeSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \QuantusTremorSopranoLyrics
+					\new Lyrics \lyricsto Soprano \RexTremendaeSopranoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \QuantusTremorAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \RexTremendaeAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \QuantusTremorAltoLyrics
+					\new Lyrics \lyricsto Alto \RexTremendaeAltoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \QuantusTremorTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \RexTremendaeTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \QuantusTremorTenoreLyrics
+					\new Lyrics \lyricsto Tenore \RexTremendaeTenoreLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \QuantusTremorBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \RexTremendaeBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \QuantusTremorBassoLyrics
+					\new Lyrics \lyricsto Basso \RexTremendaeBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\QuantusTremorOrgano
+						\RexTremendaeOrgano
 					}
 				>>
 				\new FiguredBass {
-					\QuantusTremorBassFigures
+					\RexTremendaeBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 2. = 50 }
+			\midi { \tempo 4 = 80 }
 		}
 	}
 }

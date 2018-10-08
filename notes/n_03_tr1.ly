@@ -4,3 +4,11 @@
 
 \version "2.18.0"
 
+RexTremendaeTrombaI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoRexTremendae
+			\set Score.currentBarNumber = #119
+		
+	}
+}
