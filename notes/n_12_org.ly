@@ -836,18 +836,155 @@ QuantusTremorBassFigures = \figuremode {
 	r %118 finis
 }
 
-RexTremendaeOrgano = {
+TubaMirumOrgano = {
 	\relative c {
 		\clef bass
-		\key b \major \time 4/4 \tempoRexTremendae
+		\key b \major \time 4/4 \tempoTubaMirum
 			\set Score.currentBarNumber = #119
 		R1
-		\mvTr b4\p-\tuttiE b b r
+		\mvTr b4\p-\tuttiE b b r %120
+		R1
+		b4 b b r
+		R1
+		r2 b4 b
+		b r b b %125
+		b r b b
+		b r b r
+		b8. b16 b8. b16 b2~
+		b4 r r2
+		R1 %130
+		b4\p b b r
+		R1
+		b4 b b r
+		b\f f' b, b
+		b f' b, b %135
+		r2 b4 f'
+		b, r b b
+		b r b b
+		b8. b16 b8. b16 b4 r
+		\mvTr b'2\f-\tasto ges %140
+		e4-! f-! r2
+		des2 h
+		c4 c, r2
+		\tempoTubaMirumB r b''4. a8
+		g a b g c4. b8 %145
+		a b c a d4. c8
+		b4 b, c f
+		c2 f4 r
+		b4. a8 g a b g
+		c4. b8 a b c a %150
+		d4. c8 b4 b,
+		c f c2
+		f4 r b4. a8
+		g4. f8 e4. d8
+		c b a b c4 c, %155
+		f2 r
+		\tempoTubaMirumC R1
+		b4\pE^\critnote b b r
+		R1
+		b4 b b r %160
+		b\f f' b, b
+		b f' b, b
+		r2 b4 f'
+		b, r b b
+		b r b b %165
+		b8. b16 b8. b16 b4 r
+		\mvTr b'2\f-\tasto ges
+		e4-! f-! r2
+		a,!2 b
+		f'4 f, r2 %170
+		\tempoTubaMirumD r es'4. d8
+		c d es c f4. es8
+		d es f d g4. f8
+		es4 es f b,
+		f' f, b r %175
+		\mvTr d\p-\solo r es r
+		e r f r
+		\mvTr f8\f-\tuttiE f f f f f f f
+		f f f f f f f f
+		f f f f f f f f %180
+		f f f f f4 r
+		r2 es4. d8
+		c d es c f4. es8
+		d es f d g4. f8
+		es4 es f b, %185
+		f' f, b b'
+		g e f f,
+		b2 r\fermata \bar "||" %188 finis
 	}
 }
 
-RexTremendaeBassFigures = \figuremode {
-	
+TubaMirumBassFigures = \figuremode {
+	r1 %119
+	r %120
+	r
+	r
+	r
+	r
+	r2 <6 4> %125
+	r <5 3>
+	r1
+	r
+	r
+	r %130
+	r
+	r
+	r
+	r
+	r %135
+	r
+	r
+	<6 4>
+	<[5] [3]>
+	r %140
+	r
+	<6>2 <7- 5>
+	<6- 4>4 <5 _!> r2
+	r <5>
+	q <5 _!> %145
+	r1
+	r2 <[7]>
+	<[4]>4 <[_!]> r2
+	r1
+	r %150
+	r
+	<[7]>4 r <[4]> <[_!]>
+	r1
+	r
+	r8 <[4!]> <[6]>4 <[6] [4]> <[5] [_!]> %155
+	r1
+	r
+	r
+	r
+	r %160
+	r
+	r
+	r
+	r
+	<6 4> %165
+	<[5] [3]>
+	r
+	r
+	<6 5>2 <_->
+	<6- 4>4 <5 _!> r2 %170
+	r1
+	<5>
+	<5>
+	r4 <6>8 <5> <[7]>2
+	<4>4 <3> r2 %175
+	<5- 3> <5>
+	<5-> <_!>
+	<6- 4>4. <7! 4 2>8 <8 _!>2
+	<6- 4>4. <7! 4 2>8 <5 3>2
+	<6- 4>4. <7! 4 2>8 <5 3>2 %180
+	<6- 4>4 <7! 4 2> <5 3>2
+	r <5>
+	<5> <5>
+	<5> <5>
+	r4 <6>8 <5> <7>2 %185
+	<4>4 <3> r2
+	<5>4 <6 4> <6 4> <5 3>
+	r1 %188 finis
 }
 
 % Organo = {

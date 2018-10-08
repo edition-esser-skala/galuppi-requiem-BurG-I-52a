@@ -4,10 +4,10 @@
 
 \version "2.18.0"
 
-RexTremendaeTrombaII = {
+TubaMirumTrombaII = {
 	\relative c' {
 		\clef treble
-		\key c \major \time 4/4 \tempoRexTremendae
+		\key c \major \time 4/4 \tempoTubaMirum
 			\set Score.currentBarNumber = #119
 		
 	}

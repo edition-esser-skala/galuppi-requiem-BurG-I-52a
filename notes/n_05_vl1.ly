@@ -428,10 +428,10 @@ QuantusTremorViolinoI = {
 	}
 }
 
-RexTremendaeViolinoI = {
+TubaMirumViolinoI = {
 	\relative c' {
 		\clef treble
-		\key b \major \time 4/4 \tempoRexTremendae
+		\key b \major \time 4/4 \tempoTubaMirum
 			\set Score.currentBarNumber = #119
 		
 	}

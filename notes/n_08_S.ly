@@ -650,17 +650,113 @@ QuantusTremorSopranoLyrics = \lyricmode {
 	rus!] %116 finis
 }
 
-RexTremendaeSopranoNotes = {
+TubaMirumSopranoNotes = {
 	\relative c' {
 		\clef treble
-		\key b \major \time 4/4 \autoBeamOff \tempoRexTremendae
+		\key b \major \time 4/4 \autoBeamOff \tempoTubaMirum
 			\set Score.currentBarNumber = #119
-		
+		R1*15 %133
+		\mvTr d'8([\fE^\tuttiE b)] c([ a)] b4 f
+		d'8([ b)] c([ a)] b4 f %135
+		r2 d'4 c
+		b1~
+		b
+		b4 r r2
+		b2 ges %140
+		e4 f r2
+		b as
+		as?4 g r2
+		\tempoTubaMirumB r r4 b~
+		b8 a! g4 g c~ %145
+		c8 b a4 a f'8 e
+		d c b2 a4
+		g2 a4 r
+		r b4. a8 g4
+		g c4. b8 a4 %150
+		a f'8 e d c b4~
+		b a g2\trill
+		a4 r r2
+		R1*3 %156
+		\tempoTubaMirumC R1*4 %160
+		d8([ b)] c([ a)] b4 f
+		d'8([ b)] c([ a)] b4 f
+		r2 d'4 c
+		b1~
+		b %165
+		b4 r r2
+		b2 ges
+		e4 f r2
+		es'2 des
+		des?4 c r2 %170
+		\tempoTubaMirumD r4 b4. a8 g4
+		g c4. b8 a4
+		a d4. c8 b d
+		es d c b a4 b~
+		b a b r %175
+		R1*2
+		des4 r8 b a!4 a
+		r4 r8 b a4 a
+		b r8 b a4 a %180
+		R1
+		r4 b4. a8 g4
+		g c4. b8 a4
+		a d4. c8 b d
+		es([ d)] c([ b)] a4 b~ %185
+		b a b d~
+		d d d( c)
+		b2 r\fermata \bar "||" %188 finis
 	}
 }
 
-RexTremendaeSopranoLyrics = \lyricmode {
+TubaMirumSopranoLyrics = \lyricmode {
+	[Tu -- ba mi -- rum %134
+	spar -- gens so -- num, %135
+	spar -- gens
+	so --
 	
+	num,
+	per se -- %140
+	pul -- chra
+	re -- gi --
+	o -- num,]
+	co --
+	get o -- mnes, co -- %145
+	get o -- mnes, co -- get
+	o -- mnes an -- te
+	thro -- num,
+	co -- get o --
+	mnes, co -- get o -- %150
+	mnes, co -- get o -- mnes an --
+	te thro --
+	num.
+	
+	[Tu -- ba mi -- rum %161
+	spar -- gens so -- num,
+	spar -- gens
+	so --
+	%165
+	num,
+	per se --
+	pul -- chra
+	re -- gi --
+	o -- num,] %170
+	co -- get o --
+	mnes, co -- get o --
+	mnes, co -- get o -- mnes,
+	o -- mnes an -- te thro -- _
+	_ num. %175
+	
+	[Mors stu -- pe -- bit, %178
+	stu -- pe -- bit
+	et na -- tu -- ra,] %180
+	
+	cum re -- sur --
+	get cre -- a -- tu --
+	ra, ju -- di -- can -- ti
+	re -- spon -- su -- _ %185
+	_ ra, re --
+	spon -- su --
+	ra. %188 finis
 }
 
 % SopranoNotes = {

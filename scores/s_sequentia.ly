@@ -154,65 +154,65 @@
 % 	}
 	\bookpart {
 		\header {
-			movement = "3.3 REX TREMENDAE"
+			movement = "3.3 TUBA MIRUM – MORS STUPEBIT"
 		}
 		\score {
 			<<
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "Tromba I, II" "[ex Bes]" } }
-						\partcombine \RexTremendaeTrombaI \RexTremendaeTrombaII
+						\partcombine \TubaMirumTrombaI \TubaMirumTrombaII
 					}
 				>>
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\RexTremendaeViolinoI
+							\TubaMirumViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\RexTremendaeViolinoII
+							\TubaMirumViolinoII
 						}
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = "Viola"
-						\RexTremendaeViola
+						\TubaMirumViola
 					>>
 				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \RexTremendaeSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \TubaMirumSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \RexTremendaeSopranoLyrics
+					\new Lyrics \lyricsto Soprano \TubaMirumSopranoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \RexTremendaeAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \TubaMirumAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \RexTremendaeAltoLyrics
+					\new Lyrics \lyricsto Alto \TubaMirumAltoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \RexTremendaeTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \TubaMirumTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \RexTremendaeTenoreLyrics
+					\new Lyrics \lyricsto Tenore \TubaMirumTenoreLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \RexTremendaeBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \TubaMirumBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \RexTremendaeBassoLyrics
+					\new Lyrics \lyricsto Basso \TubaMirumBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\RexTremendaeOrgano
+						\TubaMirumOrgano
 					}
 				>>
 				\new FiguredBass {
-					\RexTremendaeBassFigures
+					\TubaMirumBassFigures
 				}
 			>>
 			\layout { }

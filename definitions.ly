@@ -208,7 +208,10 @@ tempoKyrieII = \tempoMarkup "Adagio"
 
 tempoDiesIrae = \tempoMarkup "Maestoso"
 tempoQuantusTremor = \tempoMarkup "Presto"
-tempoRexTremendae = \tempoMarkup "Maestoso"
+tempoTubaMirum = \tempoMarkup "Maestoso"
+	tempoTubaMirumB = \tempoMarkup "Presto"
+	tempoTubaMirumC = \tempoMarkup "Maestoso"
+	tempoTubaMirumD = \tempoMarkup "Presto"
 
 
 
