@@ -511,7 +511,92 @@ LiberScriptusViolinoI = {
 		\clef treble
 		\key es \major \time 3/4 \tempoLiberScriptus
 			\set Score.currentBarNumber = #189
-		
+		es4\f es4. g16 es
+		b'4 b4. d16 b %190
+		es4 es4. g16 es
+		\appoggiatura es d8 c16 b b4 r
+		R2.*8 %200
+		b8-!\fE es-! d[-! as'-!] g-! b-!
+		b,4 as'8. f16 g4
+		b,8-!\p es-! d[-! as'-!] g-! b-!
+		b,4 as'8. f16 g4
+		b8(\f des,) des2 %205
+		\once \slurDashed c8( as') as2
+		\appoggiatura as16 g8 f16 es \appoggiatura es d8 c16 b \appoggiatura b as8 g16 f
+		es8. f16 f2\trill
+		es8 b g'[ b] \appoggiatura b16 as8 g16 f
+		es8 b g'[ b] \appoggiatura b16 as8 g16 f %210
+		es8 b es4 r
+		r g\p g
+		r b b
+		r es es
+		\appoggiatura es16 d8 c16 b b4 r %215
+		R2.*3
+		r4 r es~
+		es8 c as4 g %220
+		g f8 b, d f
+		b(\f as) as2\p
+		g4( g') \appoggiatura f8 es4
+		d8( c) c4. b8
+		b4 a r %225
+		f8-! b-! a[-! es']-! d-! f-!
+		f,4 es'8. c16 d4
+		f,8-! b-! a[-! es']-! d-! f-!
+		f,4 es'8. c16 d4
+		r c b %230
+		a c c
+		r d d
+		r es es
+		d16 b c d es f g a b a g fis
+		g8 g a a b b %235
+		b\f b b b b b
+		a a a a a a
+		d, f es[ g] f as
+		g8. b16 a8. c16 b4
+		g16 es d c b8. c16 c4\trill %240
+		b8 f d'[ f] \appoggiatura f16 es8 d16 c
+		b8 f d'[ f] \appoggiatura f16 es8 d16 c
+		b8 f b4 r
+		r d\p d
+		r c c %245
+		r d e
+		f8\pocoF c a[ f] c' a
+		b4\p r f'
+		f8( e) e4 e
+		r g g %250
+		c,4. f,8 as! c
+		f(\f as,) as2\p
+		g8. es'16 d8. f16 es4
+		es as g
+		g f r %255
+		es,8-! as-! g[-! des'-!] c-! es-!
+		es,4 des'8. b16 c4
+		f,8-! b-! a[-! es'-!] d-! f-!
+		f,4 es'8. c16 d4
+		f8( as,!) as2 %260
+		g4 g g
+		es'\f g,\p g
+		as as as
+		f'\f as,\p as
+		g as b %265
+		c c c
+		\appoggiatura as16 g8 f16 es f2\trill
+		es r4
+		R2.*4 %272
+		es'8(\f des) des2\p
+		c8(\f as') as2\p
+		\appoggiatura as16 g8\pocoF f16 es \appoggiatura es d8 c16 b \appoggiatura b'16 as8 g16 f %275
+		g8. as16 \appoggiatura g4 f2\trill
+		es4 es,\f d
+		c8 es b es a,4
+		b r r\fermata
+		\once \slurDashed es'8( des) des2 %280
+		c8( as') as2
+		\appoggiatura as16 g8 f16 es \appoggiatura es d8 c16 b \appoggiatura b as8 g16 f
+		es8. f16 f2\trill
+		es8 b g'[ b] \appoggiatura b16 as8 g16 f
+		es8 b g'[ b] \appoggiatura b16 as8 g16 f %285
+		es8 b es4 r\fermata \bar "||" %286 finis
 	}
 }
 

@@ -1095,28 +1095,28 @@ LiberScriptusOrgano = {
 
 LiberScriptusBassFigures = \figuremode {
 	r2. %189
-	r %190
+	<6> %190
 	r
 	r
 	r
+	<6 4>4 <5 3> r
+	r2 <7>4 %195
+	<4> <3> r
+	r2.
 	r
-	r %195
-	r
-	r
-	r
-	r
-	r %200
-	r
-	r
-	r
-	r
-	r %205
-	r
-	r
-	r
-	r
-	r %210
-	r
+	r4 <8 6> <7 5>
+	<6 4> <5 3> r %200
+	<6> q r
+	q <7> r
+	<6> q r
+	q <7> r
+	r <6-> <\t> %205
+	r2 <5>4
+	r2.
+	<6 4>4 <5 3>2
+	r2 <7>4
+	r2 <7>4 %210
+	r2.
 	r
 	<6>
 	r
@@ -1143,15 +1143,15 @@ LiberScriptusBassFigures = \figuremode {
 	r <6!> r %235
 	<6 4>2.
 	<5 _!>
-	r
-	r
-	r %240
-	r
-	r
-	r
+	r4 <6> q
+	r <6!> r
+	r <6 4> <5 _!> %240
+	r2 <7 _!>4
+	r2 <7 _!>4
+	r2.
 	r
 	<6> %245
-	r
+	r2 <6!>4
 	<_!>2 <\t>4
 	<6>2 <\t>4
 	<4>8 <_!> r2
@@ -1181,17 +1181,17 @@ LiberScriptusBassFigures = \figuremode {
 	r <6-> <\t>
 	r2 <5>4
 	r2. %275
-	r4 <6 4> <5 3>
+	<6 4>8. <6>16 <6 4>4 <5 3>
 	r4 <1> q
 	q8 q q q q4
 	<6 4>4 <5 3>2
-	r2. %280
-	r
-	r
-	r
-	r
-	r %285
-	r %286 finis
+	r4 <6-> <\t> %280
+	r2 <5>4
+	r2.
+	<6 4>8. <6>16 <6 4>4 <5 3>
+	r2 <7>4
+	r2 <7>4 %285
+	r2. %286 finis
 }
 
 % Organo = {
