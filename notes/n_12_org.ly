@@ -992,7 +992,104 @@ LiberScriptusOrgano = {
 		\clef bass
 		\key es \major \time 3/4 \tempoLiberScriptus
 			\set Score.currentBarNumber = #189
-		\mvTr es4\fE-\soloE es es
+		\mvTr es4\fE-\soloE^\tweak TextScript.X-offset #0 ^\critnote es es
+		d d d %190
+		c c c
+		b8[ b' f d] b r
+		r4 r es\pE
+		b' b, r
+		r r b %195
+		es es, r
+		es'\f r r
+		es r r
+		es\p as a
+		b b, r %200
+		g'\f f es
+		d b es
+		g\p f es
+		d b es
+		es\f f g %205
+		as f d
+		es r as
+		b8. as16 b4 b,
+		es r b
+		es r b %210
+		es2 r4
+		es\p es es
+		d d d
+		c c c
+		b8[\f b' f d] b r %215
+		r4 r es\p
+		b' b, r
+		r r b
+		es es, r
+		as' as a %220
+		b b, r
+		b c d
+		es es, r
+		es' e c
+		f f, es' %225
+		d c b
+		a f b
+		d c b
+		a f b
+		es es e %230
+		f f f
+		d d d
+		a a a
+		b g' d
+		es c b %235
+		f'8\f f f f f f
+		f, f f f f f
+		b4 g' d
+		es c d
+		es f f, %240
+		b r f
+		b r f
+		b2 r4
+		b'\pE b b
+		a a a %245
+		g g g
+		f f, es'
+		d d des
+		c c c
+		e e e %250
+		f f es
+		d c d
+		es f g
+		as! as a
+		b b, r %255
+		c' b as!
+		g es as
+		d c b
+		a f b
+		b, b b %260
+		b b b
+		b b b
+		b b b
+		b\f b\p b
+		es c g' %265
+		as as as
+		b b b,
+		es es, r
+		r r es'
+		b' b, r %270
+		r r b
+		es es, r
+		es' f g
+		as f d
+		es r as %275
+		b8. as16 b4 b,
+		es es\f d
+		c8 es b es a,4
+		b2.\fermata
+		es4 f g %280
+		as f d
+		es r as
+		b8. as16 b4 b,
+		es r b
+		es r b %285
+		es2 r4\fermata \bar "||" %286 finis
 	}
 }
 
