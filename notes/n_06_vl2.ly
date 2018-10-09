@@ -503,3 +503,12 @@ TubaMirumViolinoII = {
 		b2 r\fermata \bar "||" %188 finis
 	}
 }
+
+LiberScriptusViolinoII = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 3/4 \tempoLiberScriptus
+			\set Score.currentBarNumber = #189
+		
+	}
+}

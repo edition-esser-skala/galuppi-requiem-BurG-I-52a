@@ -506,6 +506,15 @@ TubaMirumViolinoI = {
 	}
 }
 
+LiberScriptusViolinoI = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 3/4 \tempoLiberScriptus
+			\set Score.currentBarNumber = #189
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

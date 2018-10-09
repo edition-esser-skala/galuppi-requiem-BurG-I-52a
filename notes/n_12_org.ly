@@ -987,6 +987,19 @@ TubaMirumBassFigures = \figuremode {
 	r1 %188 finis
 }
 
+LiberScriptusOrgano = {
+	\relative c {
+		\clef bass
+		\key es \major \time 3/4 \tempoLiberScriptus
+			\set Score.currentBarNumber = #189
+		\mvTr es4\fE-\soloE es es
+	}
+}
+
+LiberScriptusBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

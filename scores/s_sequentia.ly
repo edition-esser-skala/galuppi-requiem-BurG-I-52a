@@ -152,71 +152,114 @@
 % 			\midi { \tempo 2. = 50 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "3.3 TUBA MIRUM – MORS STUPEBIT"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Tromba I, II" "con sordino" "[ex Bes]" } }
+% 						\transpose c' b { \partcombine \TubaMirumTrombaI \TubaMirumTrombaII }
+% 					}
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\TubaMirumViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\TubaMirumViolinoII
+% 						}
+% 					>>
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Viola"
+% 						\TubaMirumViola
+% 					>>
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \TubaMirumSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \TubaMirumSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \TubaMirumAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \TubaMirumAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \TubaMirumTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \TubaMirumTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \TubaMirumBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \TubaMirumBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\TubaMirumOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\TubaMirumBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { } % maestoso: 4 = 80; presto: 4 = 120
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "3.3 TUBA MIRUM – MORS STUPEBIT"
+			movement = "3.4 LIBER SCRIPTUS"
 		}
 		\score {
 			<<
 				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Tromba I, II" "con sordino" "[ex Bes]" } }
-						\transpose c' b { \partcombine \TubaMirumTrombaI \TubaMirumTrombaII }
-					}
-				>>
-				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\TubaMirumViolinoI
+							\LiberScriptusViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\TubaMirumViolinoII
+							\LiberScriptusViolinoII
 						}
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = "Viola"
-						\TubaMirumViola
+						\LiberScriptusViola
 					>>
 				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \TubaMirumSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \LiberScriptusSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \TubaMirumSopranoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \TubaMirumAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \TubaMirumAltoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \TubaMirumTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \TubaMirumTenoreLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \TubaMirumBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \TubaMirumBassoLyrics
+					\new Lyrics \lyricsto Soprano \LiberScriptusSopranoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\TubaMirumOrgano
+						\LiberScriptusOrgano
 					}
 				>>
 				\new FiguredBass {
-					\TubaMirumBassFigures
+					\LiberScriptusBassFigures
 				}
 			>>
 			\layout { }
-			\midi { } % maestoso: 4 = 80; presto: 4 = 120
+			\midi { \tempo 4 = 90 }
 		}
 	}
 }

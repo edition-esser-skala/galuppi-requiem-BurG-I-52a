@@ -759,6 +759,19 @@ TubaMirumSopranoLyrics = \lyricmode {
 	ra. %188 finis
 }
 
+LiberScriptusSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 3/4 \autoBeamOff \tempoLiberScriptus
+			\set Score.currentBarNumber = #189
+		
+	}
+}
+
+LiberScriptusSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble
