@@ -764,12 +764,143 @@ LiberScriptusSopranoNotes = {
 		\clef treble
 		\key es \major \time 3/4 \autoBeamOff \tempoLiberScriptus
 			\set Score.currentBarNumber = #189
-		
+		R2.*23 %211
+		\mvTr es4\pE^\soloE es2
+		b'4 b2
+		es4~ es8[( d16 es] f8) es
+		\appoggiatura es16 d8([ c16 b)] b4 r %215
+		r es4. b8
+		b([ g)] as4 r
+		r f'4. as,8
+		as([ f)] g4 es'~
+		es8([ c] as4) g %220
+		g f r
+		b8([ as)] as2
+		g4( g') \appoggiatura f8 es4
+		d8([ c] c4.) b8
+		b4 a r %225
+		f' f,2
+		f4( es') d
+		f f,2
+		f4( es') d
+		g8([ es] c4) b %230
+		a8[ c16 b] a4 r8 c
+		b[ d16 c] b4 r8 d
+		c[ es16 d] c4 r8 es
+		d16[ b c d] es[ f g a] b[ a g fis]
+		g4 a b %235
+		f,2.
+		c'\trill
+		b2 r4
+		R2.*5 %243
+		b4 b2
+		f'4 f, r %245
+		b~ b8([ a16 b] c8) b
+		\appoggiatura b16 a8([ g16 f)] f4 r
+		b b4.( f'8)
+		f([ e)] e4 r
+		g8([ e] c4) b %250
+		b as! r
+		f' as,2\trill
+		g8.([ es'16 d8. f16)] es4
+		es8([ c] as4) g
+		g f r %255
+		es' es,2
+		es4( des') c
+		f f,2
+		f4( es') d!
+		f as,2 %260
+		g8[ b16 as] g4 r
+		es'~ es8[ d16 c] \appoggiatura c b8[ as16 g]
+		as8[ c16 b] as4 r
+		f'~ f8[ es16 d] \appoggiatura d16 c8[ b16 as]
+		g4 as b %265
+		c~ c16[ d es d] es[ c b as]
+		\appoggiatura as g8[ f16 es] f2\trill
+		es r4
+		r es'4. b8
+		b([ g)] as4 r %270
+		r f'4. as,8
+		as([ f)] g4 r
+		es'8([ des)] des2
+		c4 as'2
+		\appoggiatura as16 g8[ f16 es] \appoggiatura es d8[ c16 b] \appoggiatura b as8[ g16 f] %275
+		es8.[ f16] f2\trill
+		es r4
+		r es' es,
+		es\fermata f2\trill
+		es r4 %280
+		R2.*5 %285
+		R2.\fermataMarkup \bar "||" %286 finis
 	}
 }
 
 LiberScriptusSopranoLyrics = \lyricmode {
+	Li -- ber %212
+	scri -- ptus
+	pro -- fe --
+	re -- tur, %215
+	in quo
+	to -- tum
+	con -- ti --
+	ne -- tur, con --
+	ti -- %220
+	ne -- tur,
+	un -- de
+	mun -- dus
+	ju -- di --
+	ce -- tur, %225
+	un -- de
+	mun -- dus
+	ju -- di --
+	ce -- tur,
+	ju -- di -- %230
+	ce -- _ _
+	_ _ _
+	_ _ _
+	_ _ _
+	_ _ _ %235
+	_
+	_
+	tur.
 	
+	Li -- ber %244
+	scri -- ptus %245
+	pro -- fe --
+	re -- tur,
+	in quo __
+	to -- tum
+	con -- ti -- %250
+	ne -- tur,
+	in quo
+	to -- tum
+	con -- ti --
+	ne -- tur, %255
+	un -- de
+	mun -- dus
+	ju -- di --
+	ce -- tur,
+	ju -- di -- %260
+	ce -- _
+	_ _
+	_ _
+	_ _
+	_ _ _ %265
+	_ _
+	_ _
+	tur,
+	un -- de
+	mun -- dus %270
+	ju -- di --
+	ce -- tur,
+	ju -- di --
+	ce -- _
+	_ _ _ %275
+	_ _
+	tur,
+	ju -- di --
+	ce -- _
+	tur. %280 finis
 }
 
 % SopranoNotes = {
