@@ -499,7 +499,7 @@ TubaMirumViola = {
 
 LiberScriptusViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key es \major \time 3/4 \tempoLiberScriptus
 			\set Score.currentBarNumber = #189
 		es4\fE es es

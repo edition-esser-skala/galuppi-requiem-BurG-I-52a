@@ -1143,7 +1143,7 @@ LiberScriptusBassFigures = \figuremode {
 	r <6!> r %235
 	<6 4>2.
 	<5 _!>
-	r4 <6> q
+	r4 <6> <6 5->
 	r <6!> r
 	r <6 4> <5 _!> %240
 	r2 <7 _!>4

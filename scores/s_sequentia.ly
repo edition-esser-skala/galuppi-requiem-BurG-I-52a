@@ -223,6 +223,7 @@
 		\header {
 			movement = "3.4 LIBER SCRIPTUS"
 		}
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<
@@ -259,7 +260,7 @@
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 90 }
+			\midi { \tempo 4 = 105 }
 		}
 	}
 }
