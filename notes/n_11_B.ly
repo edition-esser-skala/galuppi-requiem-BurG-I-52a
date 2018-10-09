@@ -543,6 +543,19 @@ TubaMirumBassoLyrics = \lyricmode {
 	ra. %188 finis
 }
 
+JudexErgoBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \minor \time 4/4 \autoBeamOff \tempoJudexErgo
+			\set Score.currentBarNumber = #287
+		
+	}
+}
+
+JudexErgoBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

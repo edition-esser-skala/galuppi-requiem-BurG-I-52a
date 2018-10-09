@@ -213,6 +213,7 @@ tempoTubaMirum = \tempoMarkup "Maestoso"
 	tempoTubaMirumC = \tempoMarkup "Maestoso"
 	tempoTubaMirumD = \tempoMarkup "Presto"
 tempoLiberScriptus = \tempoMarkup "Andantino"
+tempoJudexErgo = \tempoMarkup "Andante"
 
 
 

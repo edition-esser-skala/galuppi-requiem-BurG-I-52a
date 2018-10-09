@@ -602,3 +602,12 @@ LiberScriptusViola = {
 		b2 r4\fermata \bar "||" %286 finis
 	}
 }
+
+JudexErgoViola = {
+	\relative c' {
+		\clef treble
+		\key c \minor \time 4/4 \tempoJudexErgo
+			\set Score.currentBarNumber = #287
+		
+	}
+}

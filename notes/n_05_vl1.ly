@@ -600,6 +600,15 @@ LiberScriptusViolinoI = {
 	}
 }
 
+JudexErgoViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \minor \time 4/4 \tempoJudexErgo
+			\set Score.currentBarNumber = #287
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

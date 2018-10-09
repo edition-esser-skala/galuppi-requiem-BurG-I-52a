@@ -609,3 +609,12 @@ LiberScriptusViolinoII = {
 		es8 b g4 r\fermata \bar "||" %286 finis
 	}
 }
+
+JudexErgoViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \minor \time 4/4 \tempoJudexErgo
+			\set Score.currentBarNumber = #287
+		
+	}
+}

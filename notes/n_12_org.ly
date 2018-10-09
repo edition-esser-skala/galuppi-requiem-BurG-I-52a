@@ -1194,6 +1194,19 @@ LiberScriptusBassFigures = \figuremode {
 	r2. %286 finis
 }
 
+JudexErgoOrgano = {
+	\relative c {
+		\clef bass
+		\key c \minor \time 4/4 \tempoJudexErgo
+			\set Score.currentBarNumber = #287
+		\mvTr c'4\fE-\tuttiE c, r c'
+	}
+}
+
+JudexErgoBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

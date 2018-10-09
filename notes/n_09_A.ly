@@ -831,6 +831,19 @@ TubaMirumAltoLyrics = \lyricmode {
 	ra. %188 finis
 }
 
+JudexErgoAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \minor \time 4/4 \autoBeamOff \tempoJudexErgo
+			\set Score.currentBarNumber = #287
+		
+	}
+}
+
+JudexErgoAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

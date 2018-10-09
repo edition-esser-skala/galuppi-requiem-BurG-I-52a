@@ -548,6 +548,19 @@ TubaMirumTenoreLyrics = \lyricmode {
 	ra. %188 finis
 }
 
+JudexErgoTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \minor \time 4/4 \autoBeamOff \tempoJudexErgo
+			\set Score.currentBarNumber = #287
+		
+	}
+}
+
+JudexErgoTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

@@ -903,6 +903,19 @@ LiberScriptusSopranoLyrics = \lyricmode {
 	tur. %280 finis
 }
 
+JudexErgoSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \minor \time 4/4 \autoBeamOff \tempoJudexErgo
+			\set Score.currentBarNumber = #287
+		
+	}
+}
+
+JudexErgoSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble
