@@ -908,12 +908,69 @@ JudexErgoSopranoNotes = {
 		\clef treble
 		\key c \minor \time 4/4 \autoBeamOff \tempoJudexErgo
 			\set Score.currentBarNumber = #287
-		
+		R1*4 %290
+		\mvTr g'2\fE^\tuttiE as
+		g4 g r2
+		c2. c4
+		h h r2
+		g2. g4 %295
+		as as r2
+		a2. a4
+		b b r2
+		b2. b4
+		b b c as! %300
+		g2( f)
+		g r
+		R1*3 %305
+		b2. b4
+		b b r2
+		c2. h4
+		c c r2
+		c2. c4 %310
+		h h r2
+		c2. c4
+		c c r2
+		b!2. b4
+		b b r2 %315
+		d2. d4
+		es d c b!
+		as2. c4
+		h c8.[ h16] c2~
+		c h %320
+		c r\fermata \bar "||" %321 finis
 	}
 }
 
 JudexErgoSopranoLyrics = \lyricmode {
+	[Ju -- dex %291
+	er -- go
+	cum se --
+	de -- bit,
+	quid -- quid %295
+	la -- tet
+	ap -- pa --
+	re -- bit:
+	Nil in --
+	ul -- tum re -- ma -- %300
+	ne --
+	bit.]
 	
+	[Ju -- dex %306
+	er -- go
+	cum se --
+	de -- bit,
+	cum se -- %310
+	de -- bit,
+	quid -- quid
+	la -- tet
+	ap -- pa --
+	re -- bit: %315
+	Nil in --
+	ul -- tum re -- ma --
+	ne -- _
+	_ _ _
+	_ %320
+	bit.] %321 finis
 }
 
 % SopranoNotes = {
