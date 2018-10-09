@@ -1099,7 +1099,7 @@ LiberScriptusBassFigures = \figuremode {
 	r2 <6!>4
 	r2.
 	r
-	<\l 6 4>4 <7 5 3> r
+	<8 6>4 <7 5> r
 	r2 <7>4 %195
 	<9 4> <8 3> r
 	r2.
@@ -1122,7 +1122,7 @@ LiberScriptusBassFigures = \figuremode {
 	r2 <6!>4
 	r2. %215
 	r
-	<\l 6 4>4 <7 5 3>2
+	<8 6>4 <7 5>2
 	r <7>4
 	<9 4> <8 3> r
 	r <8 6> <7 5> %220
@@ -1175,7 +1175,7 @@ LiberScriptusBassFigures = \figuremode {
 	<6 4>4 <5 \t> <\t 3>
 	r2.
 	r
-	<\l 6 4>4 <7 5 3> r %270
+	<8 6>4 <7 5> r %270
 	r2 <7>4
 	<9 4> <8 3> r
 	r <6-> <\t>

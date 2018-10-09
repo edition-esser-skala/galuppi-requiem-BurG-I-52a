@@ -593,7 +593,7 @@ LiberScriptusViolinoII = {
 		b( g) g([ as)] as r %270
 		as( f) f4. as8
 		as( f) f([ g)] g r
-		g4\f as\p b
+		\mvTr g4\f-\tuttiE as\p b
 		c8(\f as') as2\p
 		\appoggiatura as16 g8\pocoF f16 es \appoggiatura es d8 c16 b \appoggiatura b'16 as8 g16 f %275
 		es8. f16 \appoggiatura es4 d2

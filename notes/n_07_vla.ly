@@ -502,6 +502,103 @@ LiberScriptusViola = {
 		\clef treble
 		\key es \major \time 3/4 \tempoLiberScriptus
 			\set Score.currentBarNumber = #189
-		
+		es4\fE es es
+		f f f %190
+		g g a
+		b,8[ b' f d] b r
+		\mvTr g'8(\pE-\solo es) es4. g8
+		g( e) e([ f)] f r
+		f( d) d4. f8 %195
+		f( d) d([ es!)] es r
+		g(\f es) es([\p f)] f( d)
+		g(\f es) es([\p f)] f( d)
+		es f16 g f4 es
+		es d r %200
+		\mvTr g\f-\tuttiE as b
+		f d b
+		g'\p as b
+		f d b
+		g'\f as b %205
+		es, f2
+		b,4 r c
+		b2 d4
+		es r b
+		g r b %210
+		g2 r4
+		r b\p b
+		r d d
+		c c c
+		b8[\f b' f d] b r %215
+		g'(\pocoFE es) es4.-\solo g8
+		g( e) e([ f)] f r
+		f( d) d4. f8
+		f( d) d([ es!)] es r
+		\mvTr as,4\pE-\tuttiE as a %220
+		b b r
+		b c d
+		es es, r
+		es' e c
+		f r8 a, b c %225
+		d4 es f
+		c a f
+		d' es f
+		c a f
+		es' es e %230
+		r f f
+		r f f
+		r f f
+		f b, b
+		b8 b c c d f %235
+		f\f f f f f f
+		f, f f f f f
+		f'4 b, b
+		b es f
+		b,8. g'16 d4 a %240
+		b r f'
+		f r f
+		f2 r4
+		b,\pE b b
+		a a a %245
+		g g g
+		c f f
+		f f des
+		g, g' g
+		r c, c %250
+		f c c
+		b c d
+		b as b
+		r c c
+		b2 r4 %255
+		c b as
+		g es as
+		d c b
+		a f b
+		d d d %260
+		b b b
+		b b b
+		b b b
+		b\f b\p b
+		b c b %265
+		as as as
+		b b b
+		b2 r8 g'-\solo
+		g( es) es4. g8
+		g( e) e([ f)] f r %270
+		f( d) d4. f8
+		f( d) d([ es!)] es r
+		b4-\tuttiE as g
+		r c f
+		b, r c %275
+		b8. as16 b4 b
+		es es\f d
+		c8 es b es a,4
+		b2.\fermata
+		g'4 as b %280
+		es, f f
+		b, r c
+		b2 d4
+		es r b
+		b r b %285
+		b2 r4\fermata \bar "||" %286 finis
 	}
 }
