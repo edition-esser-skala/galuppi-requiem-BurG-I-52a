@@ -1200,11 +1200,79 @@ JudexErgoOrgano = {
 		\key c \minor \time 4/4 \tempoJudexErgo
 			\set Score.currentBarNumber = #287
 		\mvTr c'4\fE-\tuttiE c, r c'
+		h h, r b'
+		a a, r as'
+		g g, r8. f'16[ es8. d16] %290
+		c4 c' r c
+		h h, r b'
+		a a, r as'
+		g g, r8. as'16[ g8. f16]
+		es4 es, r es' %295
+		c c, r c'
+		c c, r c'
+		b b' r b
+		as! as,! r as'
+		g g as as %300
+		b b b, b
+		es es, r es'
+		d d, r des'
+		c c, r c'
+		b b' r8. as16[ g8. f16] %305
+		es4 es, r es'
+		d d, r d'
+		f f, r f'
+		es es, r es'
+		as as, r as' %310
+		g g, r g'
+		e e, r e'
+		f f, r f'
+		d d, r d'
+		es! es,! r es' %315
+		h h' r h,
+		c d es e
+		f f, f' f
+		f es!8. d16 es4 d8. c16
+		g'4 g g, g %320
+		c8. c16 c8. c16 c4 r\fermata \bar "||" %321 finis
 	}
 }
 
 JudexErgoBassFigures = \figuremode {
-	
+	r1 %287
+	r
+	r
+	r %290
+	r2. <6 4+ 3>4
+	<6>2. <4! _->4
+	<[6]>2. <6+>4
+	<_!>1
+	r %295
+	<6->
+	<6!>2. q4
+	<_!>1
+	<6 4 2>
+	<[6]> %300
+	<6 4>2 <5 3>
+	r2. <6>4
+	q2. q4
+	<[6]>2. <6!>4
+	r1 %305
+	r
+	<6>
+	<_->2. <4! _->4
+	<6>1
+	<7>2. <6+>4 %310
+	<_!>1
+	<6>
+	<_->
+	<6>
+	<5> %315
+	<6>
+	r4 <6! 4 3> <5> <6 5->
+	<5 _->1
+	<4! 3>2 <6>
+	<[6] [4]> <[5] [_!]> %320
+	r1 %321 finis
 }
 
 % Organo = {
