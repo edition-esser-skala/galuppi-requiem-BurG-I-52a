@@ -1383,7 +1383,94 @@ RexTremendaeOrgano = {
 		\clef bass
 		\key es \major \time 3/4 \tempoRexTremendae
 			\set Score.currentBarNumber = #368
-		\mvTr es8\fE-\tuttiE f g as b c
+		\mvTr es8\fE-\soloE f g as b c
+		d,([ f b a)] b-! r
+		c, d es f g as %370
+		b,([ d g fis)] g-! r
+		as, b c d es f
+		g4 es g
+		as as a
+		b8[ b f d] b r %375
+		\clef "treble_8" r \mvTr b'(\pE-\vlc c b c d)
+		es4 es, r
+		r8 as( c as c d)
+		es4 es, r
+		\clef bass r8 \mvTr b(\f-\tutti c b c d) %380
+		es4 as f
+		b b b,
+		es\p as f
+		b\fE b b,
+		es2 r4 %385
+		es8\pE f g as b c
+		d,([ f b a)] b r
+		c, d es f g as
+		b,([ d g fis)] g r
+		as, b c d es f %390
+		g4 g es
+		as as a
+		b b, r
+		r8 b( c b c d)
+		es4 es, r %395
+		r8 c'( d c d e)
+		f4 f, r
+		ges'2.
+		f4 r r\fermata
+		f g a %400
+		b b, r
+		es g es
+		b' b, b
+		f' f, f
+		b d b %405
+		es es es
+		f f f,
+		b8 b' a g f es
+		d4 es c
+		f f f, %410
+		b r \clef "treble_8" b'-\vlc
+		a8([ c f e]) f r
+		as,4 r as
+		g8([ b es d)] es8 r
+		\clef bass \mvTr c\fE-\tutti b as g f es %415
+		b'4 b, r
+		es8\pE f g as b c
+		d,([ f b a)] b r
+		c, d es f g as
+		b,([ d g fis)] g r %420
+		as, b c d es f
+		g4 g es
+		as as a
+		b b, as'
+		g g g %425
+		as as as
+		b b b
+		c, c' b
+		as as a
+		b b b %430
+		b b b
+		b b b
+		b b b
+		b b b
+		b r b, %435
+		es f g
+		as as as
+		b b b,
+		es r a,
+		b b' as! %440
+		ges as a
+		b b, r
+		\clef "treble_8" r8 b'(-\vlcE  c b c d)
+		es4 es, r
+		r8 as( c as c d)
+		es4 es, r
+		\clef bass r8 b(-\tuttiE c b c d)
+		es4 as f\f
+		b b b,
+		es\p es des
+		ces\f b a
+		b2.\fermata
+		es4 as f
+		b b b,
+		es2 r4\fermata \bar "||"
 	}
 }
 
