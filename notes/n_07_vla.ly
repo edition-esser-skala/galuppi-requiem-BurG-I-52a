@@ -651,6 +651,51 @@ QuidSumViola = {
 		\clef treble
 		\key g \minor \time 4/4 \tempoQuidSum
 			\set Score.currentBarNumber = #322
-		
+		b'4\fE a d, r8 g
+		g g4 fis8 g4 r8 g\pE
+		g g4 fis8 g\fE c, d g
+		g es r e fis d d4 %325
+		r r8 d\pE d[ d,] d r
+		r4 r8 d' d fis g\fE a
+		g4 r8 es d4 g8 c,
+		b g'4 fis8 g4 d
+		es8 es d c b4 d %330
+		es8 es d d g,2
+		g'4\p fis g es
+		es8 es d d d4 b
+		es2 a,4 r\fermata
+		b' a b g %335
+		g8 g f f f4 d
+		g2 c,4-\critnote r\fermata
+		r8 f f f d es4 d8
+		c4 es c8 d4 d8
+		c4 b b8 es es es %340
+		es es es es f f f f
+		f f f f f f f f
+		f4 g8 f es es g g
+		f[ f,] f r d'4\f f
+		g\p f d\fE f %345
+		g\pE f r8 d d d
+		r es\pocoF es es f\f f f, f
+		d'4 f b, c8 c'
+		f, es d c d4 r
+		b\p a b f' %350
+		g8 g f f f4 d
+		g2 c,4 r\fermata
+		r8 f f f g c, r h
+		c d es es c d f d
+		c c f f b, b es es %355
+		a, a d d d d d d
+		es4 r8 es a,4 r
+		r r8 d d[ d] d r
+		r4 r8 d d d, r4
+		d'4 d es8 es d c %360
+		b b c c b b c c
+		d d d, d b'4\fE d
+		g,8-! c([ d es)] b4 r\fermata
+		g4 r8 es' d4 g8 c,
+		b g'4 fis8 g4 d %365
+		es8 es d d b4 d
+		es8 es d d g,2\fermata \bar "||" %367 finis
 	}
 }

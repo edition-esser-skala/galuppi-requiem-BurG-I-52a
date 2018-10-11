@@ -364,8 +364,8 @@
 					\QuidSumBassFigures
 				}
 			>>
-			\layout { }
-			\midi { \tempo 4 = 105 }
+% 			\layout { }
+			\midi { \tempo 4 = 80 }
 		}
 	}
 }

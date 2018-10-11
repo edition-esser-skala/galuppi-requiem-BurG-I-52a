@@ -694,7 +694,7 @@ QuidSumViolinoII = {
 		b b a a a a g g %355
 		g g fis fis g g g g
 		g4 r8 g fis4 r
-		r r8 d'16(\p g,) g4( fis16) a g b
+		r r8 d'16( g,) g4( fis16) a g b
 		b4( a8) \once \slurDashed d16([ g,)] g8 fis r4
 		g8 g'4( f8) g,16. c32 b16. a32 g8 fis %360
 		g g g g g g g g
