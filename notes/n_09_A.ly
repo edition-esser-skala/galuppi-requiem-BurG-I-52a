@@ -836,12 +836,69 @@ JudexErgoAltoNotes = {
 		\clef treble
 		\key c \minor \time 4/4 \autoBeamOff \tempoJudexErgo
 			\set Score.currentBarNumber = #287
-		
+		R1*4 %290
+		\mvTr es2\fE^\tuttiE es
+		d4 d r2
+		f2. fis4
+		g g r2
+		es2. es4 %295
+		es es r2
+		es2. es4
+		d4 d r2
+		d2. d4
+		es es es es %300
+		es2( d)
+		es r
+		R1*3 %305
+		g2. g4
+		f f r2
+		as!2. as4
+		g g g2~
+		g fis %310
+		g4 g r2
+		g2. g4
+		as as r2
+		f2. f4
+		g g r2 %315
+		g2. g4
+		g g g g
+		f2. as4
+		g2. f8.[ es16]
+		es2 d %320
+		es r\fermata \bar "||" %321 finis
 	}
 }
 
 JudexErgoAltoLyrics = \lyricmode {
+	[Ju -- dex %291
+	er -- go
+	cum se --
+	de -- bit,
+	quid -- quid %295
+	la -- tet
+	ap -- pa --
+	re -- bit:
+	Nil in --
+	ul -- tum re -- ma -- %300
+	ne --
+	bit.]
 	
+	[Ju -- dex %306
+	er -- go
+	cum se --
+	de -- bit, cum __
+	se -- %310
+	de -- bit,
+	quid -- quid
+	la -- tet
+	ap -- pa --
+	re -- bit: %315
+	Nil in --
+	ul -- tum re -- ma --
+	ne -- _
+	_ _
+	_ _ %320
+	bit.] %321 finis
 }
 
 % AltoNotes = {
