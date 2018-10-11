@@ -623,7 +623,7 @@ JudexErgoViolinoI = {
 		es8. es,16 g8. es16 c'8. g16 g'8. a,16
 		b8. d,16 f8. d16 b'8. f16 f'8. g,16
 		as8. c,16 es8. c16 as'8. es16 es'8. a,16
-		b8. f16 f8. d16 b4 r %305
+		b8. f16 f8. d16 d4 r %305
 		r8. es16 g8. es16 b'8. g16 g'8. a,16
 		b4 b, r f''
 		c8. f,16 as!8. f16 c'8. as16 as'8. h,16
@@ -638,8 +638,8 @@ JudexErgoViolinoI = {
 		es8. g16 d8. g16 c,4 b!
 		r8. as16 c8. as16 f'8. c16 as'8. c,16
 		h4 c8. h16 c8. g16 f8. es16
-		es8. g16 c,8. es16 g,4 h'
-		c8. g16 g8. es16 es4 r\fermata \bar "||"
+		es8. g16 c,8. es16 g,4 h' %320
+		c8. g16 g8. es16 es4 r\fermata \bar "||" %321 finis
 	}
 }
 

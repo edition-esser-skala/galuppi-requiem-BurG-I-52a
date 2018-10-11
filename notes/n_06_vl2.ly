@@ -615,6 +615,40 @@ JudexErgoViolinoII = {
 		\clef treble
 		\key c \minor \time 4/4 \tempoJudexErgo
 			\set Score.currentBarNumber = #287
-		
+		r8. c16\fE es8. c16 as'8. es16 es'8. fis,16
+		g8. h,16 d8. h16 g'8. d16 des'8. e,16
+		f8. a,16 c8. a16 f'8. c16 c'8. fis,16
+		g8. h,16 h8. g16 g4 r %290
+		r8. c16 es8. c16 as'8. es16 es'8. fis,16
+		g8. h,16 d8. h16 g'8. d16 des'8. e,16
+		f8. a,16 c8. a16 f'8. c16 c'8. fis,16
+		g8. h,16 h8. g16 g4 r
+		r8. es'16 g8. es16 b'8. g16 es'8. g,16 %295
+		as4 as, r as'
+		a8. c,16 es8. c16 a'8. es16 es'8. a,16
+		b4 b, r f''
+		d8. d,16 f8. d16 b'8. f16 d'8. b16
+		es8. g16 es8. g16 c,8. es16 as,8. c16 %300
+		g8. b16 es,8. g16 b,4 d'
+		es8. es,16 g8. es16 c'8. g16 g'8. a,16
+		b8. d,16 f8. d16 b'8. f16 f'8. g,16
+		as8. c,16 es8. c16 as'8. es16 es'8. a,16
+		b8. d,16 d8. b16 b4 r %305
+		R1
+		r8. b16 d8. b16 f'8. d16 b'8. b,16
+		as'!4 c, r as'
+		g8. c,16 es8. c16 g'8. es16 c'8. g16
+		c8. es16 es8. es16 es4 c %310
+		h4 g, r g'
+		g8. c,16 e8. c16 g'8. e16 c'8. g16
+		as4 c, r as'
+		f8. b,16 d8. b16 f'8. d16 b'8. f16
+		g4 b, r g' %315
+		g8. d16 h'8. g16 d'8. h16 g'8. g,16
+		g4 g g g
+		r8. f16 as8. f16 c'8. as16 f'8. as,16
+		g4 g' r8. g,16 f8. es16
+		es8. g16 c,8. es16 g,4 d' %320
+		es8. es16 es8. c16 c4 r\fermata \bar "||" %321 finis
 	}
 }
