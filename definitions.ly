@@ -131,6 +131,8 @@ adlibitum = \markup { \remark "ad libitum" }
 adlibitumE = \markup { \remarkE "ad libitum" }
 rip = \markup { \remark "rip." }
 ripE = \markup { \remarkE "rip." }
+unisono = \markup { \remark "unisono" }
+unisonoE = \markup { \remarkE "unisono" }
 
 t = \markup { \combine \fontsize #-2 \transparent \number 5 \raise #.6 \draw-line #'(1 . 0) }
 l = \markup { \fontsize #-2 \transparent \number 5 }

@@ -906,12 +906,139 @@ RexTremendaeAltoNotes = {
 		\clef treble
 		\key es \major \time 3/4 \autoBeamOff \tempoRexTremendae
 			\set Score.currentBarNumber = #368
-		
+		R2.*18 %385
+		\mvTr es2\pE^\soloE c'4
+		c( b8[ a)] b r
+		c,2 as'4
+		as( g8[ fis)] g r
+		c4 c,2 %390
+		b4( es) g
+		g8([ f)] f4.( g16[ es)]
+		es4 d r
+		as' as2
+		\appoggiatura as4 g2 r4 %395
+		b b2
+		\appoggiatura b4 a2 r4
+		b8([ ges)] ges([ f)] f([ e)]
+		f8.([ e16)] f4 r\fermata
+		es4 es4.( g!16[ es)] %400
+		\appoggiatura es4 d2 r4
+		g g4. b16([ g)]
+		\appoggiatura g f8[ es16 d] d4. f8
+		\appoggiatura f16 es8[ d16 c] c4. es8
+		d b'4 as!8[ g fis] %405
+		g4~ g16[ fis g fis] g[ es d c]
+		b4 c2\trill
+		\appoggiatura c4 d2 r4
+		b' g es
+		\appoggiatura es16 d8[ c16 b] c2\trill %410
+		b r4
+		R2.*5 %416
+		es2 c'4
+		c( b8[ a)] b r
+		c,2 as'4
+		as( g8[ fis)] g r %420
+		c4 c,2
+		b4( es) g
+		g8([ f)] f4.( g16[ es)]
+		es4 d r
+		es2 b'8([ g)] %425
+		\appoggiatura g4 f2 r4
+		g g4. b16[( g)]
+		\appoggiatura g4 as2 g4
+		f16[ as g f] c'8[ as f es]
+		d8.([ es32 f)] b,2 %430
+		as'8 f4 f \appoggiatura f32 es16[ d]
+		es8.([ f32 g)] b,2
+		b'8 g4 g \appoggiatura g32 f16[ e]
+		f8.([ g32 as)] b,2
+		d16[ es d es] f[ g f g] \appoggiatura b as8[ g16 f] %435
+		g8([ es)] d([ f)] es[ des]
+		c4 c'4. b32[ as g f]
+		es8.[ f16] f2\trill
+		es4 ges4. f16([ es)]
+		d4 f r %440
+		b( as8[ ges)] f([ es)]
+		d8.([ c16)] b4 r
+		R2.*2
+		c2 es8([ c)] %445
+		\appoggiatura c4 b2 r4
+		as'4 as2
+		g16[( es d es)] es([ c h c]) c'([ as g f)]
+		es4 f2\trill
+		es2 r4 %450
+		es es es
+		es\fermata f2\trill
+		es r4
+		R2.
+		R\fermataMarkup \bar "||" %445 finis
 	}
 }
 
 RexTremendaeAltoLyrics = \lyricmode {
+	Rex tre -- %386
+	men -- dae
+	ma -- ie --
+	sta -- tis,
+	qui sal -- %390
+	van -- dos
+	sal -- vas __
+	gra -- tis,
+	sal -- va
+	me, %395
+	sal -- va
+	me,
+	fons pi -- e --
+	ta -- tis,
+	sal -- va __ %400
+	me,
+	fons pi -- e --
+	ta -- _ _
+	_ _ _
+	_ _ _ %405
+	_ _
+	_ _
+	tis,
+	fons pi -- e --
+	ta -- _ %410
+	tis.
 	
+	Rex tre -- %417
+	men -- dae
+	ma -- ie --
+	sta -- tis, %420
+	qui sal --
+	van -- dos
+	sal -- vas __
+	gra -- tis,
+	sal -- va %425
+	me,
+	fons pi -- e --
+	ta -- _
+	_ _
+	_ _ %430
+	_ _ _ _
+	_ _
+	_ _ _ _
+	_ _
+	_ _ _ %435
+	_ _ _
+	_ _ _
+	_ _
+	tis. Rex tre --
+	men -- dae %440
+	ma -- ie --
+	sta -- tis,
+	
+	sal -- va %445
+	me,
+	fons pie --
+	ta -- _ _
+	_ _
+	tis, %450
+	fons pi -- e --
+	ta -- _
+	tis. %453 finis
 }
 
 % AltoNotes = {

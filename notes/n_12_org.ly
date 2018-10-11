@@ -1383,7 +1383,7 @@ RexTremendaeOrgano = {
 		\clef bass
 		\key es \major \time 3/4 \tempoRexTremendae
 			\set Score.currentBarNumber = #368
-		\mvTr es8\fE-\soloE f g as b c
+		\mvTr es8\fE-\soloE^\tweak TextScript.X-offset #0 ^\unisonoE f g as b c
 		d,([ f b a)] b-! r
 		c, d es f g as %370
 		b,([ d g fis)] g-! r
@@ -1401,7 +1401,7 @@ RexTremendaeOrgano = {
 		es\p as f
 		b\fE b b,
 		es2 r4 %385
-		es8\pE f g as b c
+		\mvTr es8\pE-\unisonoE f g as b c
 		d,([ f b a)] b r
 		c, d es f g as
 		b,([ d g fis)] g r
@@ -1432,7 +1432,7 @@ RexTremendaeOrgano = {
 		g8([ b es d)] es8 r
 		\clef bass \mvTr c\fE-\tutti b as g f es %415
 		b'4 b, r
-		es8\pE f g as b c
+		\mvTr es8\pE-\unisonoE f g as b c
 		d,([ f b a)] b r
 		c, d es f g as
 		b,([ d g fis)] g r %420
@@ -1460,22 +1460,109 @@ RexTremendaeOrgano = {
 		b b, r
 		\clef "treble_8" r8 b'(-\vlcE  c b c d)
 		es4 es, r
-		r8 as( c as c d)
+		r8 as( c as c d) %445
 		es4 es, r
 		\clef bass r8 b(-\tuttiE c b c d)
 		es4 as f\f
 		b b b,
-		es\p es des
+		es\p es des %450
 		ces\f b a
 		b2.\fermata
 		es4 as f
 		b b b,
-		es2 r4\fermata \bar "||"
+		es2 r4\fermata \bar "||" %455 finis
 	}
 }
 
 RexTremendaeBassFigures = \figuremode {
-	
+	r2. %368
+	r
+	r %370
+	r
+	r
+	r4 <5 3> <6>
+	r2.
+	r %375
+	r
+	r
+	r
+	r
+	r %380
+	r
+	r
+	r
+	r
+	r %385
+	r
+	r
+	r
+	r
+	r %390
+	r4 <6> r
+	<7> <6> <7 5>
+	<6 4> <5 3> r
+	r8 <7-> r2
+	r2. %395
+	r8 <7 _!> r2
+	<_!>2.
+	<8 5->4 \bassFigureExtendersOn <7 5-> <6! 5-> \bassFigureExtendersOff
+	<_!>2.
+	<7- _!>4 <6> <\t> %400
+	r2.
+	r4 <6> r
+	r2.
+	<7 _!>
+	r4 <6 5-> <7-> %405
+	<5>2 <6>4
+	<6 4> <5 _!>2
+	r2.
+	<6>
+	<6 4>4 <5 \t> <\t _!> %410
+	r2.
+	r
+	r
+	r
+	r %415
+	r
+	r
+	r
+	r
+	r %420
+	r
+	r4 <6>2
+	<7>4 <6> <7 5>
+	<6 4> <5 3>2
+	<6>2. %425
+	<7>4 <6>2
+	<6 4>2.
+	<6>2 <6 4>4
+	<6>2 <6 5>4
+	r2. %430
+	<7>
+	<6 4>
+	<\t \t>
+	<7>
+	<\t> %435
+	r4 <6> <6>8 <5->
+	<5>2 <6>4
+	<6 4>2 <5 3>4
+	r2 <7->4
+	r2 <2>4 %440
+	<6> <_-> <6 5 _!>
+	r2.
+	r8 <7> r2
+	<_!>2.
+	r8 <_!> r2 %445
+	r2.
+	r8 <7> r2
+	r2.
+	<6 4>4 <5 \t> <\t 3>
+	<8 _->2. \bassFigureExtendersOn %450
+	q
+	q4 \bassFigureExtendersOff <5 3>2
+	<_!>2.
+	<6 4>2 <5 3>4
+	r2. %455 finis
 }
 
 % Organo = {
