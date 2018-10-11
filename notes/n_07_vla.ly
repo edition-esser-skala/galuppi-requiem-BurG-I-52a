@@ -605,7 +605,7 @@ LiberScriptusViola = {
 
 JudexErgoViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key c \minor \time 4/4 \tempoJudexErgo
 			\set Score.currentBarNumber = #287
 		es2\fE r4 es
@@ -625,7 +625,7 @@ JudexErgoViola = {
 		b b b, b
 		g' g, r g'
 		f f, r f'
-		es es, r es'
+		es  es, r es'
 		d2 r8. as'!16[ g8. f16] %305
 		g4 g, r g'
 		f2 r4 d
