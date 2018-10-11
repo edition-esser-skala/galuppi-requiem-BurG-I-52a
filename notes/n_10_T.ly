@@ -553,12 +553,69 @@ JudexErgoTenoreNotes = {
 		\clef "treble_8"
 		\key c \minor \time 4/4 \autoBeamOff \tempoJudexErgo
 			\set Score.currentBarNumber = #287
-		
+		R1*4 %290
+		\mvTr c2\fE^\tuttiE c
+		g4 g r2
+		c c
+		d4 d r2
+		b!2. b4 %295
+		c c r2
+		c2. c4
+		f f r2
+		f2. f4
+		b, g c c %300
+		b1
+		b2 r
+		R1*3 %305
+		es2. es4
+		b b r2
+		f'2. d4
+		es es r2
+		es c %310
+		d4 d r2
+		c2. c4
+		f f r2
+		b,2. b4
+		es es r2 %315
+		d2. d4
+		c h c c
+		c2 f
+		d c4 es
+		g1 %320
+		g2 r\fermata \bar "||" %321 finis
 	}
 }
 
 JudexErgoTenoreLyrics = \lyricmode {
+	[Ju -- dex %291
+	er -- go
+	cum se --
+	de -- bit,
+	quid -- quid %295
+	la -- tet
+	ap -- pa --
+	re -- bit:
+	Nil in --
+	ul -- tum re -- ma -- %300
+	ne --
+	bit.]
 	
+	[Ju -- dex %306
+	er -- go
+	cum se --
+	de -- bit,
+	cum se -- %310
+	de -- bit,
+	quid -- quid
+	la -- tet
+	ap -- pa --
+	re -- bit: %315
+	Nil in --
+	ul -- tum re -- ma --
+	ne -- _
+	_ _ _
+	_ %320
+	bit.] %321 finis
 }
 
 % TenoreNotes = {
