@@ -328,7 +328,7 @@
 		\header {
 			movement = "3.6 QUID SUM MISER"
 		}
-% 		\paper { systems-per-page = #2 }
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<
@@ -364,7 +364,7 @@
 					\QuidSumBassFigures
 				}
 			>>
-% 			\layout { }
+			\layout { }
 			\midi { \tempo 4 = 80 }
 		}
 	}

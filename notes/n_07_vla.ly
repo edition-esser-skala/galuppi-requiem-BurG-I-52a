@@ -648,7 +648,7 @@ JudexErgoViola = {
 
 QuidSumViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key g \minor \time 4/4 \tempoQuidSum
 			\set Score.currentBarNumber = #322
 		b'4\fE a d, r8 g
