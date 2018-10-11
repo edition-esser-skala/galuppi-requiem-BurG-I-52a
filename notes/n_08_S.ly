@@ -973,6 +973,19 @@ JudexErgoSopranoLyrics = \lyricmode {
 	bit.] %321 finis
 }
 
+QuidSumSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 4/4 \tempoQuidSum
+			\set Score.currentBarNumber = #322
+		
+	}
+}
+
+QuidSumSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -1275,6 +1275,19 @@ JudexErgoBassFigures = \figuremode {
 	r1 %321 finis
 }
 
+QuidSumOrgano = {
+	\relative c {
+		\clef bass
+		\key g \minor \time 4/4 \tempoQuidSum
+			\set Score.currentBarNumber = #322
+		\mvTr g'4\fE-\soloE fis g es
+	}
+}
+
+QuidSumBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

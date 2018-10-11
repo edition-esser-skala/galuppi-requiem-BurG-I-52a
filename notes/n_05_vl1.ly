@@ -643,6 +643,15 @@ JudexErgoViolinoI = {
 	}
 }
 
+QuidSumViolinoI = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 4/4 \tempoQuidSum
+			\set Score.currentBarNumber = #322
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

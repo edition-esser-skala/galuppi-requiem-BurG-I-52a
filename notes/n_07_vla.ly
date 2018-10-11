@@ -645,3 +645,12 @@ JudexErgoViola = {
 		g8. g16 g8. g16 g4 r\fermata \bar "||" %321 finis
 	}
 }
+
+QuidSumViola = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 4/4 \tempoQuidSum
+			\set Score.currentBarNumber = #322
+		
+	}
+}

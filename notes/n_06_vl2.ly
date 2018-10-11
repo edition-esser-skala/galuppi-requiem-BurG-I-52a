@@ -652,3 +652,12 @@ JudexErgoViolinoII = {
 		es8. es16 es8. c16 c4 r\fermata \bar "||" %321 finis
 	}
 }
+
+QuidSumViolinoII = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 4/4 \tempoQuidSum
+			\set Score.currentBarNumber = #322
+		
+	}
+}

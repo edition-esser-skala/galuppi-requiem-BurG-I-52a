@@ -263,65 +263,109 @@
 % 			\midi { \tempo 4 = 105 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "3.5 JUDEX EGO"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\JudexErgoViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\JudexErgoViolinoII
+% 						}
+% 					>>
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Viola"
+% 						\JudexErgoViola
+% 					>>
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \JudexErgoSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \JudexErgoSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \JudexErgoAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \JudexErgoAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \JudexErgoTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \JudexErgoTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \JudexErgoBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \JudexErgoBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\JudexErgoOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\JudexErgoBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 120 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "3.5 JUDEX EGO"
+			movement = "3.6 QUID SUM MISER"
 		}
+% 		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\JudexErgoViolinoI
+							\QuidSumViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\JudexErgoViolinoII
+							\QuidSumViolinoII
 						}
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = "Viola"
-						\JudexErgoViola
+						\QuidSumViola
 					>>
 				>>
-				\new ChoirStaff <<
+				\new ChoirStaff \with { \smallerGroupDistance } <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \JudexErgoSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \QuidSumSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \JudexErgoSopranoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \JudexErgoAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \JudexErgoAltoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \JudexErgoTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \JudexErgoTenoreLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \JudexErgoBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \JudexErgoBassoLyrics
+					\new Lyrics \lyricsto Soprano \QuidSumSopranoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\JudexErgoOrgano
+						\QuidSumOrgano
 					}
 				>>
 				\new FiguredBass {
-					\JudexErgoBassFigures
+					\QuidSumBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 120 }
+			\midi { \tempo 4 = 105 }
 		}
 	}
 }
