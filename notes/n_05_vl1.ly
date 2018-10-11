@@ -648,7 +648,52 @@ QuidSumViolinoI = {
 		\clef treble
 		\key g \minor \time 4/4 \tempoQuidSum
 			\set Score.currentBarNumber = #322
-		
+		g'8\fE d'4 c8 b g'4( b8)
+		r16. a,32 b16. c32 b8 a b g'4(\p b8)
+		r16. a,32 b16. c32 b8 a b16\f g' fis a g f es d
+		es16. d32 c16. b32 a8 g d' d, r d''16(\p g,) %325
+		g4( fis16) a g b b4( a8) d16([ g,)]
+		g4( fis16) a g b b8 a c4\f
+		\tuplet 3/2 8 { b16 d c b[ a g] } g8 g g8.([\trill f32 es)] d8 es
+		g,8. a16 a4\trill g8 g'4 f8
+		r16. es32 d16. c32 b8 a\trill g g'4( f8) %330
+		r16. es32 d16. c32 b8 a\trill g[ d] g, r
+		g'8\p d'4 c8 b g'4( b8)
+		r16. a,32 b16. c32 b8 a b \once \slurDashed g'4( b8)
+		c,4 cis d r\fermata
+		b8 f'4 es8 d \once \slurDashed b'4( d8) %335
+		r16. c,32 d16. es32 d8 c d \once\slurDashed b'4( d8)
+		es,4 e f r\fermata
+		r8 c d c h c4 d8
+		es c4 b8 a b~ b16 d f b
+		as4. c16 as g8 b, b h %340
+		c c c c r c c c
+		r d d d r es es es
+		d es4 f8 g16. f32 es16. d32 c8 b
+		a4 r8 f' b, b'4(\pocoF as8)
+		r8 \tuplet 3/2 8 { g16\p f es } d8 c b b'4(\pocoF as8) %345
+		r8 \tuplet 3/2 8 { g16\p f es } d8 c f f4(\rfz fis8)
+		g4\pocoF f16. es32 d16. c32 d8\f d c c
+		b b'4( as8) g, g'4 f16 es
+		d16. f32 g,16. c32 b8 a b b, r4
+		b'8\p f'4 es8 d b'4( d8) %350
+		r16. c,32 d16. es32 d8 c d b'4( d8)
+		es,4 e f r\fermata
+		r8 c d c h c4 d8
+		es f g b, a b r16 b' f d
+		es8 es es es d d d d %355
+		c c c c b b h h
+		c4 r8 cis d4 r8 d'16(\pocoF g,)
+		g4( fis16) a\p g b b4( a8) d16([\pocoF g,)]
+		g4( fis16) a\p g b b8 a r4
+		g,8 g'4( f8) r16. es32 d16. c32 b8 a %360
+		g'4. f16 es d8.([ c32 d)] es8 es
+		b b a a g\f g'4 f8~
+		f es([ d cis)] d4 r\fermata
+		\tuplet 3/2 8 { b16[ d c] b a g } g8 g g'8.([\trill f32 es)] d8 es
+		g,8. a16 a4\trill g8 g'4( f8) %365
+		r16. es32 d16. c32 b8 a\trill g g'4( f8)
+		r16. es32 d16. c32 b8 a\trill g[ d] g, r\fermata \bar "||" %367 finis
 	}
 }
 
