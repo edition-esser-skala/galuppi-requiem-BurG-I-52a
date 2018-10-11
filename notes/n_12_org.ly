@@ -1216,8 +1216,8 @@ JudexErgoOrgano = {
 		b b b, b
 		es es, r es'
 		d d, r des'
-		c c, r c'
-		b b' r8. as16[ g8. f16] %305
+		c c, r ces'?
+		b b' r8. as!16[ g8. f16] %305
 		es4 es, r es'
 		d d, r d'
 		f f, r f'
@@ -1238,10 +1238,10 @@ JudexErgoOrgano = {
 }
 
 JudexErgoBassFigures = \figuremode {
-	r1 %287
-	r
-	r
-	r %290
+	r2. <[6] [4+] [3]>4 %287
+	<[6]>2. <[4!] [_-]>4
+	<[6]>2. <[6+]>4
+	<[_!]>1 %290
 	r2. <6 4+ 3>4
 	<6>2. <4! _->4
 	<[6]>2. <6+>4
@@ -1253,8 +1253,8 @@ JudexErgoBassFigures = \figuremode {
 	<6 4 2>
 	<[6]> %300
 	<6 4>2 <5 3>
-	r2. <6>4
-	q2. q4
+	r2. <6 [4!] [3]>4
+	<6>2. <6 [4] [3]>4
 	<[6]>2. <6!>4
 	r1 %305
 	r
