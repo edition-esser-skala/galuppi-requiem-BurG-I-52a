@@ -1280,12 +1280,102 @@ QuidSumOrgano = {
 		\clef bass
 		\key g \minor \time 4/4 \tempoQuidSum
 			\set Score.currentBarNumber = #322
-		\mvTr g'4\fE-\soloE fis g es
+		\mvTr g'4\fE-\soloE ^\tweak TextScript.X-offset #0 ^\critnote fis g es
+		c'8 a d d, g4 es
+		c'8 a d d, g a b h
+		c c, c cis d d' d,4 %325
+		r r8 g d'[ d,] d r
+		r4 r8 g d' d, e fis
+		g es' d c b a b c
+		d c d d, es4 h'
+		c8 c d d, es4 h' %330
+		c8 c d d, g2
+		g4\p fis g es
+		c8 c d d, g4 b
+		es2 d4 r\fermata
+		b' a b g %335
+		es8 es f f, b4 d
+		g2 f4 r\fermata
+		r8 f, f'4~ f8 es16 d es8 h
+		c4 es~ es8 d16 c d8 b
+		c4 d es8 es es es %340
+		es es es es f f f f
+		f f f f f f f f
+		b4 g8 d es es es e
+		f[ f,] f r b4\f d
+		es\p f b,\f d %345
+		es\pE f r8 d d d
+		r es\pocoF es es f\f f f, f
+		b4 d es a,
+		b8 es f f, b4 r
+		b\p a b d %350
+		es8 es f f, b4 d
+		g2 f4 r\fermata
+		r8 f, f'4~ f8 es16 d es8 h
+		c d es es es d16 c d8 b
+		c c f f b, b es es %355
+		a, a d d g g f f
+		es2 d8[ d'] d, r
+		r4 r8 g d'[ d,] d r
+		r4 r8 g d' d, r4
+		b4 h c8 c d d %360
+		es es c c b b c c
+		d d d, d es4\f h'
+		c8-! c([ d es)] d2\fermata
+		g8 es' d c b a b c
+		d c d d, es4 h' %365
+		c8 c d d, es4 h'
+		c8 c d d, g2\fermata \bar "||" %367 finis
 	}
 }
 
 QuidSumBassFigures = \figuremode {
-	
+	r1 %322
+	r
+	r
+	r %325
+	r
+	r
+	r
+	r
+	r %330
+	r
+	r
+	r
+	r
+	r %335
+	r
+	r
+	r
+	r
+	r %340
+	r2 <5 3>
+	<6 4> <5 3>
+	r1
+	r
+	r %345
+	r
+	r
+	r
+	r
+	r %350
+	r2. <6>4
+	<6> <6!> r2
+	r1
+	r
+	r2 <7>4 <7> %355
+	r1
+	<6>4 <5+> <_+>2
+	r1
+	r
+	r %360
+	r
+	r
+	r
+	r
+	r %365
+	r
+	r %367 finis
 }
 
 % Organo = {
