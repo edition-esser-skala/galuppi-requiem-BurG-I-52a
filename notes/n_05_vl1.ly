@@ -697,6 +697,15 @@ QuidSumViolinoI = {
 	}
 }
 
+RexTremendaeViolinoI = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 3/4 \tempoRexTremendae
+			\set Score.currentBarNumber = #368
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

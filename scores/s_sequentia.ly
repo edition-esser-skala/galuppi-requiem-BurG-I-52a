@@ -324,9 +324,53 @@
 % 			\midi { \tempo 4 = 120 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "3.6 QUID SUM MISER"
+% 		}
+% 		\paper { systems-per-page = #2 }
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\QuidSumViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\QuidSumViolinoII
+% 						}
+% 					>>
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Viola"
+% 						\QuidSumViola
+% 					>>
+% 				>>
+% 				\new ChoirStaff \with { \smallerGroupDistance } <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \QuidSumSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \QuidSumSopranoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\QuidSumOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\QuidSumBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 80 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "3.6 QUID SUM MISER"
+			movement = "3.7 REX TREMENDAE"
 		}
 		\paper { systems-per-page = #2 }
 		\score {
@@ -335,33 +379,33 @@
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\QuidSumViolinoI
+							\RexTremendaeViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\QuidSumViolinoII
+							\RexTremendaeViolinoII
 						}
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = "Viola"
-						\QuidSumViola
+						\RexTremendaeViola
 					>>
 				>>
 				\new ChoirStaff \with { \smallerGroupDistance } <<
 					\new Staff {
-						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \QuidSumSopranoNotes }
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \RexTremendaeAltoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \QuidSumSopranoLyrics
+					\new Lyrics \lyricsto Alto \RexTremendaeAltoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\QuidSumOrgano
+						\RexTremendaeOrgano
 					}
 				>>
 				\new FiguredBass {
-					\QuidSumBassFigures
+					\RexTremendaeBassFigures
 				}
 			>>
 			\layout { }

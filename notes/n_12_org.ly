@@ -1378,6 +1378,19 @@ QuidSumBassFigures = \figuremode {
 	r4 <6 4>8 <5 _+> r2 %367 finis
 }
 
+RexTremendaeOrgano = {
+	\relative c {
+		\clef bass
+		\key es \major \time 3/4 \tempoRexTremendae
+			\set Score.currentBarNumber = #368
+		\mvTr es8\fE-\tuttiE f g as b c
+	}
+}
+
+RexTremendaeBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

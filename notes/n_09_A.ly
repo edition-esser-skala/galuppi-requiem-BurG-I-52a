@@ -901,6 +901,19 @@ JudexErgoAltoLyrics = \lyricmode {
 	bit.] %321 finis
 }
 
+RexTremendaeAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 3/4 \autoBeamOff \tempoRexTremendae
+			\set Score.currentBarNumber = #368
+		
+	}
+}
+
+RexTremendaeAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

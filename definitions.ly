@@ -215,6 +215,7 @@ tempoTubaMirum = \tempoMarkup "Maestoso"
 tempoLiberScriptus = \tempoMarkup "Andantino"
 tempoJudexErgo = \tempoMarkup "Andante"
 tempoQuidSum = \tempoMarkup "Allegretto"
+tempoRexTremendae = \tempoMarkup "Maestoso"
 
 
 

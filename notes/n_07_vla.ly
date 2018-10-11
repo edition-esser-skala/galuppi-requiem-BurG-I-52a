@@ -699,3 +699,12 @@ QuidSumViola = {
 		es8 es d d g,2\fermata \bar "||" %367 finis
 	}
 }
+
+RexTremendaeViola = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 3/4 \tempoRexTremendae
+			\set Score.currentBarNumber = #368
+		
+	}
+}

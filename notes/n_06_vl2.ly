@@ -706,3 +706,12 @@ QuidSumViolinoII = {
 		g,16. c32 b16. a32 g8 fis g[ d] g, r\fermata \bar "||" %367 finis
 	}
 }
+
+RexTremendaeViolinoII = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 3/4 \tempoRexTremendae
+			\set Score.currentBarNumber = #368
+		
+	}
+}
