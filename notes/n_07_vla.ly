@@ -608,6 +608,40 @@ JudexErgoViola = {
 		\clef treble
 		\key c \minor \time 4/4 \tempoJudexErgo
 			\set Score.currentBarNumber = #287
-		
+		es2\fE r4 es
+		d2 r4 des
+		c2 r4 c
+		h2 r8. f'16[ es8. d16] %290
+		es4 es r es
+		d d r des
+		c c r c
+		h g' r8. as16[ g8. f16]
+		g4 g, r b %295
+		c c r c
+		c c, r c'
+		b b' r b
+		as! as,! r as'
+		g g as as %300
+		b b b, b
+		g' g, r g'
+		f f, r f'
+		es es, r es'
+		d2 r8. as'!16[ g8. f16] %305
+		g4 g, r g'
+		f2 r4 d
+		f f, r f'
+		es es, r es'
+		as as, r as' %310
+		g g, r d'
+		e2 r4 c
+		f f, r f'
+		d d, r d'
+		es! es,! r es' %315
+		h h' r h,
+		c d es e
+		f f, f' f
+		d es!8. d16 es4 d8. c16
+		g'4 g g, g %320
+		g8. g16 g8. g16 g4 r\fermata \bar "||" %321 finis
 	}
 }
