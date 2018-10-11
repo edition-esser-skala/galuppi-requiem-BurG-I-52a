@@ -548,12 +548,69 @@ JudexErgoBassoNotes = {
 		\clef bass
 		\key c \minor \time 4/4 \autoBeamOff \tempoJudexErgo
 			\set Score.currentBarNumber = #287
-		
+		R1*4 %290
+		\mvTr c2\fE^\tuttiE c
+		h4 h r2
+		a2 as
+		g4 g r2
+		es'2. es4 %295
+		c c r2
+		c2. c4
+		b b r2
+		as'!2. as4
+		g g as as %300
+		b2( b,)
+		es r
+		R1*3 %305
+		es2. es4
+		d d r2
+		f2. f4
+		es es r2
+		as2. as4 %310
+		g g, r2
+		e'2. e4
+		f f r2
+		d2. d4
+		es! es r2 %315
+		h2. h4
+		c d es e
+		f1~
+		f4 es!8.[ d16] es4 d8.[ c16]
+		g'2 g, %320
+		c r\fermata \bar "||" %321 finis
 	}
 }
 
 JudexErgoBassoLyrics = \lyricmode {
+	Ju -- dex %291
+	er -- go
+	cum se --
+	de -- bit,
+	quid -- quid %295
+	la -- tet
+	ap -- pa --
+	re -- bit:
+	Nil in --
+	ul -- tum re -- ma -- %300
+	ne --
+	bit.
 	
+	Ju -- dex %306
+	er -- go
+	cum se --
+	de -- bit,
+	cum se -- %310
+	de -- bit,
+	quid -- quid
+	la -- tet
+	ap -- pa --
+	re -- bit: %315
+	Nil in --
+	ul -- tum re -- ma --
+	ne --
+	_ _ _
+	_ _ %320
+	bit. %321 finis
 }
 
 % BassoNotes = {
