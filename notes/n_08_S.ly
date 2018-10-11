@@ -976,14 +976,81 @@ JudexErgoSopranoLyrics = \lyricmode {
 QuidSumSopranoNotes = {
 	\relative c' {
 		\clef treble
-		\key g \minor \time 4/4 \tempoQuidSum
+		\key g \minor \time 4/4 \autoBeamOff \tempoQuidSum
 			\set Score.currentBarNumber = #322
-		
+		R1*10 %331
+		\mvTr g'4\pE^\soloE a b8 d r4
+		a8.([ b32 c] b8) a b d r4
+		c8([ b)] a([ g)] d'8.([ cis16)] d8 r\fermata
+		b4 c d8 f r4 %335
+		c8.([ d32 es] d8) c d f r4
+		es8([ d)] c([ b)] f'8.([ e16)] f8 r\fermata
+		f4. as8 h, c r4
+		g'16([ es] c4) b8 \tuplet 3/2 8 { a16([ b c)] } b8 r4
+		as4. c16([ as)] g[ b as g] g8\trill r %340
+		c16[ d es d] \appoggiatura f es8[ d16 c] \appoggiatura b8 a4 r16 es'[ c a]
+		\appoggiatura a8 b4 r16 f'[ d h] \appoggiatura h8 c4 r16 g'[ es c]
+		d8 es4 f8 g16.([ f32 es16. d32] c8) b
+		a8.([\trill g16)] f8 r r2
+		g8.([ es'16)] d8([ c)] d f r4 %345
+		g,8.([ es'16)] d8([ c)] f4. fis8
+		g4( f16.[ es32)] d16.[( c32)] f,4( c')\trill
+		b r r2
+		R1
+		b4 c d8 f r4 %350
+		c8.([ d32 es] d8) c d f r4
+		es8([ d)] c([ b)] f'8.([ e16)] f8 r\fermata
+		f4. as8 h,16[ d] c4 d8
+		\tuplet 3/2 8 { es16[ d c] f[ es d] } g8[ b,] \tuplet 3/2 8 { a16[ b c] } b4 f'8
+		es16[ d es8]~ es16[ c b a] d[ cis d8]~ d16[ b a g] %355
+		c[ h c8]~ c16[ a g fis] b?8.[ d16] \appoggiatura c8 h4\trill
+		c16([ g')] f([ es)] es([ d)] d([ cis)] d8.([\trill cis16)] d8 r
+		d4. g16([ b,)] b4 a8 r
+		d4. g16([ b,)] b8 a r4
+		g4 g g16.([ es'32)] d16.([ c32)] b8 a %360
+		g'4. f16([ es)] d8.([\trill c32 d] es8) g,
+		d4( a'\trill) g r
+		r g'8 g, g4\fermata a\trill
+		g4 r r2
+		R1*2 %366
+		R1\fermataMarkup \bar "||" %367 finis
 	}
 }
 
 QuidSumSopranoLyrics = \lyricmode {
+	Quid sum mi -- ser %332
+	tunc __ di -- ctu -- rus,
+	tunc di -- ctu -- rus?
+	Quem pa -- tro -- num %335
+	ro -- ga -- tu -- rus,
+	ro -- ga -- tu -- rus,
+	cum vix ju -- stus
+	sit __ se -- cu -- rus?
+	Quem pa -- tro -- _ %340
+	_ _ _ _
+	_ _ _ _
+	_ _ num ro -- ga --
+	tu -- rus,
+	cum vix ju -- stus %345
+	sit se -- cu -- rus,
+	sit __ se -- cu --
+	rus?
 	
+	Quid sum mi -- ser %350
+	tunc __ di -- ctu -- rus,
+	tunc di -- ctu -- rus?
+	Quem pa -- tro -- _ _
+	_ _ _ _ _ _
+	_ _ %355
+	_ _ _
+	_ num ro -- ga -- tu -- rus,
+	quem pa -- tro -- num
+	ro -- ga -- tu -- rus,
+	cum vix ju -- stus sit se -- %360
+	cu -- rus, sit __ se --
+	cu -- rus,
+	sit se -- cu -- _
+	rus? %364 finis
 }
 
 % SopranoNotes = {
