@@ -658,6 +658,51 @@ QuidSumViolinoII = {
 		\clef treble
 		\key g \minor \time 4/4 \tempoQuidSum
 			\set Score.currentBarNumber = #322
-		
+		g'8\fE d'4 c8 b g'4( b8)
+		r16. a,32 b16. c32 b8 a b g'4(\p b8)
+		r16. a,32 b16. c32 b8 a b16\f g' fis a g f es d
+		es16. d32 c16. b32 a8 g d'[ d,] d r %325
+		r4 r8 d'16(\p g,) g4( fis16) a g b
+		b4( a8) \once \slurDashed d16([ g,)] g8 fis c''4\f
+		\tuplet 3/2 8 { b16 d c b[ a g] } g8 g g8.([\trill f!32 es)] d8 es
+		g,8. a16 a4\trill g8 g'4 f!8
+		g,16. c32 b16. a32 g8 fis g g'4( f8) %330
+		g,16. c32 b16. a32 g8 fis g[ d] g, r
+		b'4\p a d, r8 g
+		g g4 fis8 g4 d
+		g2 fis4 r\fermata
+		d' c f, r8 b %335
+		b b4 a8 b4 f
+		b2 a4 r\fermata
+		r8 as as as g g4 g8
+		g g g g f f~ f16 b d f
+		es4 f b,8 g g g %340
+		g g g g r a a a
+		r b b b r c c c
+		b b4 b8 b g r g'
+		c,4 r8 f b, b'4(\pocoF as8)
+		b,16 es\p d c b8 a b b'4(\pocoF as8) %345
+		b,16 es\p d c b8 a r b\rfz b b
+		r b\pocoF b b b\f b a a
+		b b'4( as8) g, g'4 f16 es
+		d16. f32 g,16. c32 b8 a b b, r4
+		d'4\p c f, r8 b %350
+		b b4 a8 b4 f
+		b2 a4 r\fermata
+		r8 as as as d, g4 g8
+		g4 r8 g f f' b, b
+		b b a a a a g g %355
+		g g fis fis g g g g
+		g4 r8 g fis4 r
+		r r8 d'16(\p g,) g4( fis16) a g b
+		b4( a8) \once \slurDashed d16([ g,)] g8 fis r4
+		g8 g'4( f8) g,16. c32 b16. a32 g8 fis %360
+		g g g g g g g g
+		g g fis fis g4\f g
+		g8 g4 g8 g4 r\fermata
+		\tuplet 3/2 8 { b16[ d c] b a g } g8 g g'8.([\trill f32 es)] d8 es
+		g,8. a16 a4\trill g8 g'4( f8) %365
+		g,16. c32 b16. a32 g8 fis g g'4( f8)
+		g,16. c32 b16. a32 g8 fis g[ d] g, r\fermata \bar "||" %367 finis
 	}
 }

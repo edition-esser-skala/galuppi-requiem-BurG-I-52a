@@ -655,8 +655,8 @@ QuidSumViolinoI = {
 		g4( fis16) a g b b4( a8) d16([ g,)]
 		g4( fis16) a g b b8 a c4\f
 		\tuplet 3/2 8 { b16 d c b[ a g] } g8 g g8.([\trill f32 es)] d8 es
-		g,8. a16 a4\trill g8 g'4 f8
-		r16. es32 d16. c32 b8 a\trill g g'4( f8) %330
+		g,8. a16 a4\trill g8 g'4 f!8
+		r16. es32 d16. c32 b8 a\trill g g'4( f!8) %330
 		r16. es32 d16. c32 b8 a\trill g[ d] g, r
 		g'8\p d'4 c8 b g'4( b8)
 		r16. a,32 b16. c32 b8 a b \once \slurDashed g'4( b8)
@@ -671,8 +671,8 @@ QuidSumViolinoI = {
 		r d d d r es es es
 		d es4 f8 g16. f32 es16. d32 c8 b
 		a4 r8 f' b, b'4(\pocoF as8)
-		r8 \tuplet 3/2 8 { g16\p f es } d8 c b b'4(\pocoF as8) %345
-		r8 \tuplet 3/2 8 { g16\p f es } d8 c f f4(\rfz fis8)
+		r16 g\p f es d8 c b b'4(\pocoF as8) %345
+		r16 g\p f es d8 c f f4(\rfz fis8)
 		g4\pocoF f16. es32 d16. c32 d8\f d c c
 		b b'4( as8) g, g'4 f16 es
 		d16. f32 g,16. c32 b8 a b b, r4
