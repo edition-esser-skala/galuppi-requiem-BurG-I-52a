@@ -702,7 +702,7 @@ QuidSumViola = {
 
 RexTremendaeViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key es \major \time 3/4 \tempoRexTremendae
 			\set Score.currentBarNumber = #368
 		es8\fE f g as b c

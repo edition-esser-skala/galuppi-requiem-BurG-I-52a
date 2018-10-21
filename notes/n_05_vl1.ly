@@ -775,7 +775,7 @@ RexTremendaeViolinoI = {
 		g8. as16 \appoggiatura g4 f2
 		es4 r ges'
 		f r8 b, d f %440
-		b4 as8 g f es
+		b4 as8 ges f es
 		d8. c16 b4 r
 		as2.\pocoF^\tenutoE
 		g8([ es)] d( es) d([ es)]

@@ -372,7 +372,7 @@
 		\header {
 			movement = "3.7 REX TREMENDAE"
 		}
-% 		\paper { systems-per-page = #2 }
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<
@@ -409,7 +409,7 @@
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 80 }
+			\midi { \tempo 4 = 120 }
 		}
 	}
 }
