@@ -618,12 +618,100 @@ RecordareBassoNotes = {
 		\clef bass
 		\key g \minor \time 4/4 \autoBeamOff \tempoRecordare
 			\set Score.currentBarNumber = #456
-		
+		\mvTr g'4.\fE^\tuttiE g8 d4 d
+		d( c2) b4
+		a2 g4 r
+		g' e cis d
+		b' b a a %460
+		R1
+		r2 r4 d,8 d
+		b'4 fis g4. g8
+		a4 b r2
+		b4 a8([ gis)] a4( a,) %465
+		d r r2
+		R1*9 %475
+		d4 c b a
+		d c b a
+		r2 g'4 f
+		es d g f
+		es d c b %480
+		f'2 b,4 r
+		R1
+		R\fermataMarkup
+		\tempoJuste R1*6 %489
+		g'4. g8 b a g4~ %490
+		g f e2
+		d4 d'~ d8 c c4~
+		c8 b b a16([ g)] a2
+		g4 g8 f es4 c
+		f8 f b4 f r %495
+		g4. g8 as g f4~
+		f es! d g~
+		g f g4. g8
+		a! a d4. c8 c4~
+		c b c8([ b)] a([ g)] %500
+		fis4 g c, es
+		d g r2
+		R1
+		r2 a4. a8
+		b a g2 f4 %505
+		e2 d4 d'~
+		d8 c c4~ c8 b b4~
+		b a8([ g)] fis4 g
+		es4. c8 d d g g
+		d2 g,4 r %510
+		r2 r4 g'8 g
+		c4 a fis g
+		d1
+		g,\fermata \bar "||" %514 finis
 	}
 }
 
 RecordareBassoLyrics = \lyricmode {
+	Re -- cor -- da -- re, %456
+	Je -- su
+	pi -- e,
+	quod sum cau -- sa
+	tu -- ae vi -- ae: %460
 	
+	Ne me
+	per -- das il -- la
+	di -- e,
+	il -- la __ di -- %465
+	e.
+	
+	Tan -- tus la -- bor, %476
+	non sit cas -- sus,
+	tan -- tus
+	la -- bor non sit
+	cas -- sus, non sit %480
+	cas -- sus.
+	
+	Ju -- ste Ju -- dex ul -- %490
+	ti -- o --
+	nis, do -- num fac __
+	re -- mis -- si -- o --
+	nis, an -- te di -- em
+	ra -- ti -- o -- nis. %495
+	Ju -- ste Ju -- dex ul --
+	ti -- o -- _
+	nis, do -- num
+	fac re -- mis -- si -- o --
+	nis, an -- te __ %500
+	di -- em ra -- ti --
+	o -- nis.
+	
+	Ju -- ste
+	Ju -- dex ul -- ti -- %505
+	o -- nis, do --
+	num fac __ re -- mis --
+	si -- o -- nis,
+	an -- te di -- em ra -- ti --
+	o -- nis, %510
+	an -- te
+	di -- em ra -- ti --
+	o --
+	nis. %514 finis
 }
 
 % BassoNotes = {
