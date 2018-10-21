@@ -710,7 +710,7 @@ RexTremendaeViolinoI = {
 		g as b c d es
 		f16 g as g f8 f4 es8
 		d[ b f d] b r %375
-		\mvTr as'2.-\tenuto\p
+		as'2.^\tenuto\p
 		g8([ es)] d( es) d([ es)]
 		c'2.^\tenutoE
 		b8([ es)] d( es) d([ es)]
@@ -761,8 +761,8 @@ RexTremendaeViolinoI = {
 		es d8 b'( f d)
 		es es( es es es e) %425
 		r f( f f f as)
-		r g g g g b
-		r as as as g g
+		r \slurDashed g( g g g b)
+		r as( as as g g) \slurSolid
 		f4 r8 f f f
 		f4 f,8. g16 f4 %430
 		r f' f

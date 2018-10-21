@@ -712,6 +712,93 @@ RexTremendaeViolinoII = {
 		\clef treble
 		\key es \major \time 3/4 \tempoRexTremendae
 			\set Score.currentBarNumber = #368
-		
+		es8\fE f g as b c
+		d,([ f b a)] b-! r
+		c, d es f g as %370
+		b,([ d g fis)] g-! r
+		as, b c d es f
+		g as b c d es
+		f16 g as g f8 f4 es8
+		d[ b f d] b r %375
+		as'2.^\tenuto\p
+		g8([ es)] d( es) d([ es)]
+		as2.^\tenutoE
+		g4 f8([ g)] f( g)
+		as'2.\f^\tenutoE %380
+		g16-! es( d es) es-! c( h c) c-! as( g as)
+		\appoggiatura as32 g16[ f32 es] \appoggiatura as g16[ f32 es] b8.( es32 f) f4\trill
+		g'16-!\p es( d es) es-! c( h c) c-! as( g as)
+		\appoggiatura as32\f g16[ f32 es] \appoggiatura as g16[ f32 es] b8.( es32 f) f4\trill
+		es2 r4 %385
+		es8\p f g as b c
+		d,([ f b a)] b-\parenthesize-! r
+		c, d es f g as
+		b,([ d g fis)] g-\parenthesize-! r
+		as, b c d es f %390
+		g as b c d es
+		c4 c c
+		f,2 r4
+		r8 d( es d es f)
+		g([ es)] d( es) d([ es)] %395
+		r e( f e f g)
+		a([ f)] e( f) e([ f)]
+		b2.^\tenutoE
+		a4 r r\fermata
+		a b c %400
+		f,8([ d')] c( d) c([ d)]
+		es4 es es
+		r d d
+		r c c
+		b r d %405
+		es r8 b b b
+		b8. c16 \appoggiatura b4 a2
+		\appoggiatura a?4 b2 r4
+		d'16-!\pocoF b( a b) b-! g( fis g) g-! es( d c)
+		b8\f b b b a a %410
+		b c d es f g
+		a,([ c f e]) f-\parenthesize-! r
+		as, b c d es f
+		g,([ b es d)] es-! r
+		c b as g f es %415
+		b'4 b, r
+		es8\p f g as b c
+		d,([ f b a)] b-! r
+		c, d es f g as
+		b,([ d g fis)] g-! r %420
+		as, b c d es f
+		g as b c d es
+		c4 c c
+		f, r8 b'( f d)
+		es b( b b b b) %425
+		r c( c c c c)
+		r es( es es es g)
+		r es( es es es es)
+		es4 r8 es es es
+		d4 d,8. es16 d4 %430
+		r d' d
+		es es,8. f16 es4
+		r es' e
+		f f,8. g16 f4
+		r d' f %435
+		b,2.
+		es,4 r8 es es es
+		es8. f16 \appoggiatura es4 d2
+		es4 r es'
+		d r8 b d f %440
+		b4 as8 g f es
+		d8. c16 b4 r
+		as2.\pocoF^\tenutoE
+		g8([ es)] d( es) d([ es)]
+		as2.\p^\tenutoE %445
+		g4 f8( g) f([ g)]
+		as'2.^\tenuto
+		g16-! es( d es) es-! c( h c) c'-!\f as( g f)
+		es8 es es es d d,
+		es\p ges4 es\rfz es8~ %450
+		es\f ges4 es' es8
+		es4 r r\fermata
+		g16-!\f es( d es) es-! c( h c) c-! as( g as)
+		\appoggiatura as32 g16[ f32 es] \appoggiatura as32 g16[ f32 es] b8.( es32 f) f4\trill
+		es2 r4\fermata \bar "||" %455 finis
 	}
 }
