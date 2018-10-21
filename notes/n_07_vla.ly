@@ -705,6 +705,93 @@ RexTremendaeViola = {
 		\clef treble
 		\key es \major \time 3/4 \tempoRexTremendae
 			\set Score.currentBarNumber = #368
-		
+		es8\fE f g as b c
+		d,([ f b a)] b-! r
+		c, d es f g as %370
+		b,([ d g fis)] g-! r
+		as, b c d es f
+		g4 g es
+		c c c'
+		f,8[ b f d] b r %375
+		r d(\pE es d es f)
+		b,2 r4
+		r8 c( es c es f)
+		b,2 r4
+		r8 d(\f es d es f) %380
+		b,4 c f
+		es es d
+		es\p c f
+		es\fE es d
+		es2 r4 %385
+		es8\pE f g as b c
+		d,([ f b a)] b-\parenthesize-! r
+		c, d es f g as
+		b,([ d g fis)] g-\parenthesize-! r
+		as, b c d es f %390
+		g4 es g
+		as, as a
+		b b r
+		r8 b( c b c d)
+		b2 r4 %395
+		r8 c( d c d e)
+		c2 r4
+		b2.
+		c4 r r\fermata
+		c b a %400
+		b b r
+		b b b
+		r b b
+		f' f, f
+		f' f d %405
+		b r8 es es g
+		f4 f f
+		f r8 b a g
+		f4 b, es
+		f\fE f f, %410
+		b r b
+		a8([ c f e]) f-\parenthesize-! r
+		as,4 r as
+		g8([ b es d)] es-\parenthesize-! r
+		c' b as g f es %415
+		b'4 b, r
+		es8\pE f g as b c
+		d,([ f b a)] b-\parenthesize-! r
+		c, d es f g as
+		b,([ d g fis)] g-\parenthesize-! r %420
+		as, b c d es f
+		g4 es g
+		as, as a
+		b f' d8( f)
+		b,4 r g %425
+		as as as
+		b b b
+		c, c' b
+		c r8 c c c
+		b4 b b %430
+		b b b
+		b b b
+		b b b
+		b b b
+		b r b %435
+		es f g
+		as as as
+		b b b,
+		es r a,
+		b d f %440
+		es r c
+		b2 r4
+		r8 d( es d es f)
+		b,2 r4
+		r8 c( es c es f) %445
+		b,2 r4
+		r8 d( es d es f)
+		b,4 c as\fE
+		b b b
+		b\p b b %450
+		ces\f b a
+		b r r\fermata
+		b es f
+		es es d
+		es2 r4\fermata \bar "||" %455 finis
 	}
 }
