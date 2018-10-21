@@ -1046,12 +1046,124 @@ RecordareAltoNotes = {
 		\clef treble
 		\key g \minor \time 4/4 \autoBeamOff \tempoRecordare
 			\set Score.currentBarNumber = #456
-		
+		\mvTr g'4.\fE^\tuttiE g8 g4 fis
+		g( a8[ g] fis4) g
+		g( fis) g r
+		g g g f
+		g gis a a %460
+		r e8 e f4 cis
+		d d d2
+		d4 r r g8 g
+		g4 f r2
+		f4. f8 f4( e) %465
+		d r r2
+		\mvTr f4.\pE^\solo f8 g4 g
+		f8([ as)] g([ f)] f4 es!8[ d]
+		es2. f8[ es]
+		d4 es8[ d] es2~ %470
+		es4 d f4. f8
+		f4 es g4. g8
+		g4 f \appoggiatura d'8 c4 b8([ a)]
+		b1~
+		b4 a \mvTr f\fE^\tutti f %475
+		f1~
+		f2. f4
+		r2 es4 d
+		g f es d
+		g f a b %480
+		b( a) b r
+		R1
+		R\fermataMarkup
+		\tempoJuste R1*2 %485
+		g4. g8 b a g4~
+		g f e2
+		d4 fis8 fis g4. a8
+		fis d g2( fis4)
+		g r r b8 b %490
+		a4. a8 g e g4~
+		g fis g4. a8
+		fis d g g g4( fis)
+		g r g4. g8
+		a a b2 as4 %495
+		g g r2
+		R1
+		a!4. a8 b a g4~
+		g f es!2
+		d4 g4. g8 a4~ %500
+		a g g4. a8
+		fis4 g r2
+		r a4. a8
+		b a g2 f!4
+		g4. f8 e4 f %505
+		g8[ e] g2 fis4
+		r a4. d,8 g4~
+		g8 g a a a4 g
+		g4. a8 fis fis g g
+		g4( fis) g g~ %510
+		g8 g g4. g8 g4~
+		g a a g
+		fis g2 fis4
+		g1\fermata \bar "||" %514 finis
 	}
 }
 
 RecordareAltoLyrics = \lyricmode {
+	[Re -- cor -- da -- re, %456
+	Je -- su
+	pi -- e,
+	quod sum cau -- sa
+	tu -- ae vi -- ae:] %460
+	Ne me per -- das
+	il -- la di --
+	e, ne me
+	per -- das
+	[il -- la di -- %465
+	e.]
+	Quae -- rens me, se --
+	di -- sti __ las -- _
+	_ _
+	_ _ _ %470
+	sus: Re -- de --
+	mi -- sti, re -- de --
+	mi -- sti Cru -- cem
+	pas --
+	sus: Tan -- tus %475
+	la --
+	bor,
+	tan -- tus
+	la -- bor non sit
+	cas -- sus, non sit %480
+	cas -- sus.
 	
+	Ju -- ste Ju -- dex ul -- %486
+	ti -- o --
+	nis, do -- num fac re --
+	mis -- si -- o --
+	nis, an -- te %490
+	di -- em ra -- ti -- o --
+	nis, do -- num
+	fac re -- mis -- si -- o --
+	nis, an -- te
+	di -- em ra -- ti -- %495
+	o -- nis.
+	
+	Ju -- ste Ju -- dex ul --
+	ti -- o --
+	nis, do -- num fac __ %500
+	re -- mis -- si --
+	o -- nis.
+	Ju -- ste
+	Ju -- dex ul -- ti --
+	o -- _ _ _ %505
+	_ _ nis,
+	do -- num fac __
+	re -- mis -- si -- o -- nis,
+	an -- te di -- em ra -- ti --
+	o -- nis, an -- %510
+	te di -- em ra --
+	ti -- o -- _
+	_ _ _
+	nis. %514 finis
 }
 
 % AltoNotes = {

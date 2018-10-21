@@ -1107,7 +1107,7 @@ RecordareSopranoNotes = {
 		g b8 b a a d4~
 		d8 c b[ a16 g] cis4 d~ %505
 		d cis d r
-		es4. es8 d4. d8
+		es!4. es8 d4. d8
 		c4. c8 c4 b
 		r es8 es a, a b b
 		a2 g4 h8 h %510
