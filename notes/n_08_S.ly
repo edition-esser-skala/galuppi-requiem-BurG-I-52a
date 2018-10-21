@@ -1058,12 +1058,123 @@ RecordareSopranoNotes = {
 		\clef treble
 		\key g \minor \time 4/4 \autoBeamOff \tempoRecordare
 			\set Score.currentBarNumber = #456
-		
+		\mvTr b'4.\fE^\tuttiE b8 b4 a
+		es'2 d
+		c b4 r
+		b b a d
+		d d cis cis %460
+		R1
+		r4 a8 a b4 fis
+		g a b8 b es d
+		cis4 d r2
+		d4. d8 d4( cis) %465
+		d r r2
+		\mvTr a4.\pE^\solo a8 b4 b
+		h h c2~
+		c4 as8[ g] as2~^\markup { \remark "a mezzo voce" }
+		as4 g8[ f] ges2~ %470
+		ges4 f as4. as8
+		as?4 g b4. b8
+		b4 a \appoggiatura f'8 es4 d8[( c])
+		d2 des~
+		des4 c r2 %475
+		\mvTr b4\fE^\tutti a d c
+		b a d c
+		b b b2~
+		b1~
+		b4 b es d %480
+		c2 d4 r
+		R1
+		R\fermataMarkup
+		\tempoJuste d4. d8 es d c4~
+		c b a2 %485
+		g4 b8 c d4. e8
+		cis a d2( cis4)
+		d r r es8 es
+		d4. d8 c a c4~
+		c b r2 %490
+		R1*3
+		r4 b8 b g' f es4~
+		es d c2 %495
+		h4 c4. c8 d c
+		h g c2( b4)
+		a d2 e8([ d)]
+		cis4 d g,4. a8
+		fis4 g r2 %500
+		d'4. d8 es d c4~
+		c8 b b2 a8[ g]
+		fis4 g2 fis4
+		g b8 b a a d4~
+		d8 c b[ a16 g] cis4 d~ %505
+		d cis d r
+		es4. es8 d4. d8
+		c4. c8 c4 b
+		r es8 es a, a b b
+		a2 g4 h8 h %510
+		c4 d es8 d d4~
+		d c2 b4
+		a b a2
+		g1\fermata \bar "||" %514 finis
 	}
 }
 
 RecordareSopranoLyrics = \lyricmode {
+	[Re -- cor -- da -- re, %456
+	Je -- su
+	pi -- e,
+	quod sum cau -- sa
+	tu -- ae vi -- ae:] %460
 	
+	Ne me per -- das
+	il -- la di -- e, ne me
+	per -- das
+	[il -- la di -- %465
+	e.]
+	Quae -- rens me, se --
+	di -- sti las --
+	_ _
+	_ _ %470
+	sus: Re -- de --
+	mi -- sti, re -- de --
+	mi -- sti Cru -- cem
+	pas -- _
+	sus: %475
+	Tan -- tus la -- bor
+	non sit cas -- sus,
+	tan -- tus la --
+	
+	bor non sit %480
+	cas -- sus.
+	
+	Ju -- ste Ju -- dex ul -- %484
+	ti -- o -- %485
+	nis, do -- num fac re --
+	mis -- si -- o --
+	nis, an -- te
+	di -- em ra -- ti -- o --
+	nis. %490
+	
+	Ju -- ste Ju -- dex ul -- %494
+	ti -- o -- %495
+	nis, do -- num fac re --
+	mis -- si -- o --
+	nis, an -- te __
+	di -- em ra -- ti --
+	o -- nis. %500
+	Ju -- ste Ju -- dex ul --
+	ti -- o -- _
+	_ _ _
+	nis, do -- num fac re -- mis --
+	si -- o -- _ _ %505
+	_ nis,
+	do -- num fac re --
+	mis -- si -- o -- nis,
+	an -- te di -- em ra -- ti --
+	o -- nis, an -- te %510
+	di -- em ra -- ti -- o --
+	_ _
+	_ _ _
+	nis. %514 finis
 }
 
 % SopranoNotes = {
