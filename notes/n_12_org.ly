@@ -1571,11 +1571,132 @@ RecordareOrgano = {
 		\key g \minor \time 4/4 \tempoRecordare
 			\set Score.currentBarNumber = #456
 		\mvTr g4.\fE-\tuttiE g8 d' d, d'4~
+		d c2 b4
+		a2 g8 g' d b
+		g4 e' cis d
+		b b a8 a' e cis %460
+		a4 r r\clef "treble_8" a'8-\vlc a
+		b4 fis g \clef bass d8-\tutti d
+		b4 fis g g'
+		a b r8 b(\p a gis)
+		r b\f a gis a4 a, %465
+		d r8 a'-! b-! g([ a)] a,
+		\mvTr d4\p-\solo d d d
+		d d c r
+		c r c r
+		b r b a %470
+		b2 r4 b
+		es es, r c'
+		f f, r f'
+		f f e e
+		f f, r2 %475
+		\mvTr d'4\f-\tutti c b a
+		d c b a
+		r2 g'4 f
+		es d g f
+		es d c b %480
+		f' f, b r8 es
+		d4 r8 c' b4 r8 g
+		c,4 cis d r\fermata
+		\clef treble \tempoJuste d''4. d8 es d c4~
+		c b a2 %485
+		<< {
+			g4 b8 c d4. e8
+			cis a d2 cis4
+		} \\ {
+			g4. g8 b a g4~
+			g f e2
+		} >>
+		\clef "treble_8" d4. d8 es d c4~
+		c b a2
+		\clef bass g4. g8 b a g4~ %490
+		g f e2
+		d4 d'~ d8 c c4~
+		c8 b b a16 g a2
+		g4 g8 f es4 c
+		f b, f' f~ %495
+		f e f f~
+		f es d g~
+		g f g4. g8
+		a4 d2 c4~
+		c b c8 b a g %500
+		fis4 g c, es
+		d g c, c'~
+		c b a2
+		g4. g8 cis,4 d
+		g g2 f4 %505
+		e2 d4. d8
+		g4 a fis g
+		es! c d g,
+		es'4. c8 d4 g,
+		d'2 g,4 g' %510
+		es h c g'
+		c a fis g
+		d1
+		g,\fermata \bar "||" %514 finis
 	}
 }
 
 RecordareBassFigures = \figuremode {
-	
+	r2 <6 4>4 <5 _+> %456
+	<6 4 2> <6>8 <5> <6 4+>4 <6>
+	<7> <6+> r2
+	r4 <5-> <6 5 [_!]> <5 3>
+	<6> <6+> <_+>2 %460
+	r1
+	r2. <[_+]>4
+	<6> q r <6>8 <5>
+	<7 5 _+>4 <5 3> r2
+	r8 <5 3>4. <6 4>4 <[5!] _+> %465
+	r4. <7 [5!] _+>8 <5> r <6 4> <[5!] _+>
+	r2 <6 4>
+	<6! 5->4 <6 4>8 <\l 3> <4>2
+	<_-> <6->
+	<7- 3> <6- 4>4 <7- 5> %470
+	<6- 4> <5 3> r <7- 5>
+	<9 4> <8 3> r <7 5 _!>
+	r1
+	<6 4>2 <7- 5>
+	<6- 4>4 <5 3> r2 %475
+	<6 3>4 <6 4> <5> <6>
+	<6 3> <6 4 3> <5> <6>
+	r2 <6>4 <6 4>
+	<5> <6> q <6 4>
+	<5 3> <6> <6!> <5> %480
+	<5 4> <\l 3> <4>4. <4 2>8
+	<6>4. <4+ 2>8 <6>2
+	<7>4 <6 _!>8 <5> <_+>2
+	r1
+	r %485
+	r
+	r
+	<_+>
+	<4+ 2>4 <6> <7> <6+>
+	<4> <3> <6> r %490
+	<4+ 2> <6> <7> <6+>
+	<[4]> <_+> <4 2-> <5>
+	<4+ 2> <6> <7> <6+>
+	<4> <3> <5>2
+	<7> <4>4 <_-> %495
+	<4! 2>2 <5 _->
+	<4! 2>4 <6> <7 _+> <_->
+	<6 4+ 2> <6> <5> <6!>8 <5>
+	<7 [5!] _+>4 r <4 2-> <5>8 <6>
+	<4+ 2>4 <6> r2 %600
+	<6 5>2. <6>4
+	<7 5 _+> <5> <7> <6>8 <5>
+	<4+ 2>4 <6> <7> <6+>
+	r2 <6 5>4 <5 _!>
+	<5 3> <4+ 2>2 <6>4 %505
+	<7> <6+> <4> <_+>
+	<6- 5> <5- 3> <6 5> <5 3>
+	<6 5> <6>8 <5> <7 5 _+>4 r
+	<7> <6>8 q <7 5 _+>4 <5 3>
+	<5 4> <\l _+> r <_!> %510
+	<6> q r <_!>
+	<9> <3> <6 5> r
+	<5 _+> <6 4> <5 4> <\l _+>
+	r1 %514 finis
 }
 
 % Organo = {

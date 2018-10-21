@@ -219,6 +219,7 @@ tempoJudexErgo = \tempoMarkup "Andante"
 tempoQuidSum = \tempoMarkup "Allegretto"
 tempoRexTremendae = \tempoMarkup "Maestoso"
 tempoRecordare = \tempoMarkup "Un poco lento"
+	tempoJuste = \tempoMarkup "Allegro"
 
 
 
