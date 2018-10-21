@@ -1402,9 +1402,9 @@ RexTremendaeOrgano = {
 		b\fE b b,
 		es2 r4 %385
 		\mvTr es8\pE-\unisonoE f g as b c
-		d,([ f b a)] b r
+		d,([ f b a)] b-\parenthesize-! r
 		c, d es f g as
-		b,([ d g fis)] g r
+		b,([ d g fis)] g-\parenthesize-! r
 		as, b c d es f %390
 		g4 g es
 		as as a
@@ -1425,17 +1425,17 @@ RexTremendaeOrgano = {
 		f f f,
 		b8 b' a g f es
 		d4 es c
-		f f f, %410
+		f\fE f f, %410
 		b r \clef "treble_8" b'-\vlc
-		a8([ c f e]) f r
+		a8([ c f e]) f-\parenthesize-! r
 		as,4 r as
-		g8([ b es d)] es8 r
-		\clef bass \mvTr c\fE-\tutti b as g f es %415
+		g8([ b es d)] es-\parenthesize-! r
+		\clef bass c-\tutti b as g f es %415
 		b'4 b, r
 		\mvTr es8\pE-\unisonoE f g as b c
-		d,([ f b a)] b r
+		d,([ f b a)] b-\parenthesize-! r
 		c, d es f g as
-		b,([ d g fis)] g r %420
+		b,([ d g fis)] g-\parenthesize-! r %420
 		as, b c d es f
 		g4 g es
 		as as a
@@ -1481,18 +1481,18 @@ RexTremendaeBassFigures = \figuremode {
 	r
 	r
 	r4 <5 3> <6>
+	<6>2 <6 5>4
+	r2. %375
+	r8 <7> r2
 	r2.
-	r %375
 	r
 	r
-	r
-	r
-	r %380
-	r
-	r
-	r
-	r
-	r %385
+	r8 <7> r2 %380
+	r2.
+	<6 4>2 <5 3>4
+	r2.
+	<6 4>2 <5 3>4
+	r2. %385
 	r
 	r
 	r
@@ -1501,12 +1501,12 @@ RexTremendaeBassFigures = \figuremode {
 	r4 <6> r
 	<7> <6> <7 5>
 	<6 4> <5 3> r
-	r8 <7-> r2
+	r8 <7> r2
 	r2. %395
 	r8 <7 _!> r2
 	<_!>2.
-	<8 5->4 \bassFigureExtendersOn <7 5-> <6! 5-> \bassFigureExtendersOff
-	<_!>2.
+	<6! 5->
+	<_!>
 	<7- _!>4 <6> <\t> %400
 	r2.
 	r4 <6> r
