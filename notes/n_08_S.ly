@@ -1053,6 +1053,19 @@ QuidSumSopranoLyrics = \lyricmode {
 	rus? %364 finis
 }
 
+RecordareSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 4/4 \autoBeamOff \tempoRecordare
+			\set Score.currentBarNumber = #456
+		
+	}
+}
+
+RecordareSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

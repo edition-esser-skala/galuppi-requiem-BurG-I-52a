@@ -1041,6 +1041,19 @@ RexTremendaeAltoLyrics = \lyricmode {
 	tis. %453 finis
 }
 
+RecordareAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 4/4 \autoBeamOff \tempoRecordare
+			\set Score.currentBarNumber = #456
+		
+	}
+}
+
+RecordareAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

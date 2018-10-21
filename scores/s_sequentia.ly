@@ -265,7 +265,7 @@
 % 	}
 % 	\bookpart {
 % 		\header {
-% 			movement = "3.5 JUDEX EGO"
+% 			movement = "3.5 JUDEX ERGO"
 % 		}
 % 		\score {
 % 			<<
@@ -368,48 +368,109 @@
 % 			\midi { \tempo 4 = 80 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "3.7 REX TREMENDAE"
+% 		}
+% 		\paper { systems-per-page = #2 }
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\RexTremendaeViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\RexTremendaeViolinoII
+% 						}
+% 					>>
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Viola"
+% 						\RexTremendaeViola
+% 					>>
+% 				>>
+% 				\new ChoirStaff \with { \smallerGroupDistance } <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \RexTremendaeAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \RexTremendaeAltoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\RexTremendaeOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\RexTremendaeBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 120 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "3.7 REX TREMENDAE"
+			movement = "3.8 RECORDARE"
 		}
-		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\RexTremendaeViolinoI
+							\RecordareViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\RexTremendaeViolinoII
+							\RecordareViolinoII
 						}
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = "Viola"
-						\RexTremendaeViola
+						\RecordareViola
 					>>
 				>>
-				\new ChoirStaff \with { \smallerGroupDistance } <<
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \RecordareSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \RecordareSopranoLyrics
+					
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \RexTremendaeAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \RecordareAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \RexTremendaeAltoLyrics
+					\new Lyrics \lyricsto Alto \RecordareAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \RecordareTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \RecordareTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \RecordareBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \RecordareBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\RexTremendaeOrgano
+						\RecordareOrgano
 					}
 				>>
 				\new FiguredBass {
-					\RexTremendaeBassFigures
+					\RecordareBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 120 }
+			\midi { \tempo 4 = 100 }
 		}
 	}
 }

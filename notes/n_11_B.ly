@@ -613,6 +613,19 @@ JudexErgoBassoLyrics = \lyricmode {
 	bit. %321 finis
 }
 
+RecordareBassoNotes = {
+	\relative c {
+		\clef bass
+		\key g \minor \time 4/4 \autoBeamOff \tempoRecordare
+			\set Score.currentBarNumber = #456
+		
+	}
+}
+
+RecordareBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

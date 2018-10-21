@@ -793,6 +793,15 @@ RexTremendaeViolinoI = {
 	}
 }
 
+RecordareViolinoI = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 4/4 \tempoRecordare
+			\set Score.currentBarNumber = #456
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

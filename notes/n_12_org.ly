@@ -1565,6 +1565,19 @@ RexTremendaeBassFigures = \figuremode {
 	r2. %455 finis
 }
 
+RecordareOrgano = {
+	\relative c {
+		\clef bass
+		\key g \minor \time 4/4 \tempoRecordare
+			\set Score.currentBarNumber = #456
+		\mvTr g4.\fE-\tuttiE g8 d' d, d'4~
+	}
+}
+
+RecordareBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

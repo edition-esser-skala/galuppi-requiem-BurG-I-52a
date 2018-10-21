@@ -618,6 +618,19 @@ JudexErgoTenoreLyrics = \lyricmode {
 	bit.] %321 finis
 }
 
+RecordareTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key g \minor \time 4/4 \autoBeamOff \tempoRecordare
+			\set Score.currentBarNumber = #456
+		
+	}
+}
+
+RecordareTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"
