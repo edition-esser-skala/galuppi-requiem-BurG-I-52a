@@ -623,12 +623,104 @@ RecordareTenoreNotes = {
 		\clef "treble_8"
 		\key g \minor \time 4/4 \autoBeamOff \tempoRecordare
 			\set Score.currentBarNumber = #456
-		
+		\mvTr d4.\fE^\tuttiE d8 d4 d
+		b( c8[ b] a4) b
+		c2 d4 r
+		d e e d
+		d d e e %460
+		r2 r4 a,8 a
+		b4 fis g a
+		g d r b'8 b
+		e4 d r2
+		r4 d8 h a2 %465
+		a4 r r2
+		R1*9 %475
+		b4 es d a
+		b es d a
+		r2 b4 d
+		es f b, d
+		es f es f %480
+		f2 f4 r
+		R1
+		R\fermataMarkup
+		\tempoJuste R1*4 %487
+		d4. d8 es! d c4~
+		c b a2
+		g4 b8 c d4. e8 %490
+		cis a d2( cis4)
+		d r es!4. es8
+		d4. d8 c a c4~
+		c b r c~
+		c8 c d es f4 f, %495
+		f e f8[ g] as4
+		g2 fis4 g8[ d']
+		cis4 d r2
+		R1
+		d4. d8 es! d c4~ %500
+		c8 b b4 c r
+		d4. d8 es d c4~
+		c b a2
+		g4 g8 g cis,4 d
+		g4. g8 a2 %505
+		g r4 d8 d
+		g4 a fis g
+		es!2 d4 d'~
+		d8 c c4~ c8 c b b
+		d2 d4 r %510
+		r h8 h c4 d
+		es4. es8 d2~
+		d1
+		d\fermata \bar "||" %514 finis
 	}
 }
 
 RecordareTenoreLyrics = \lyricmode {
+	[Re -- cor -- da -- re, %456
+	Je -- su
+	pi -- e,
+	quod sum cau -- sa
+	tu -- ae vi -- ae:] %460
+	Ne me
+	per -- das il -- la
+	di -- e, ne me
+	per -- das
+	il -- la di -- %465
+	[e.]
 	
+	[Tan -- tus la -- bor, %476
+	non sit cas -- sus,]
+	[tan -- tus
+	la -- bor non sit
+	cas -- sus, non sit %480
+	cas -- sus.]
+	
+	Ju -- ste Ju -- dex ul -- %488
+	ti -- o --
+	nis, do -- num fac re -- %490
+	mis -- si -- o --
+	nis, do -- num
+	fac re -- mis -- si -- o --
+	nis, an --
+	te di -- em ra -- ti -- %495
+	o -- _ _ _
+	_ _ _
+	_ nis.
+	
+	Ju -- ste Ju -- dex ul -- %500
+	ti -- o -- nis,
+	ju -- ste Ju -- dex ul --
+	ti -- o --
+	nis, do -- num fac re --
+	mis -- si -- o -- %505
+	nis, do -- num
+	fac re -- mis -- si --
+	o -- nis, an --
+	te di -- em ra -- ti --
+	o -- nis, %510
+	an -- te di -- em
+	ra -- ti -- o --
+	
+	nis. %514 finis
 }
 
 % TenoreNotes = {
