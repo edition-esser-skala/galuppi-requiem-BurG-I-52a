@@ -1182,12 +1182,75 @@ IngemiscoSopranoNotes = {
 		\clef treble
 		\key c \minor \time 2/2 \autoBeamOff \tempoIngemisco
 			\set Score.currentBarNumber = #515
-		
+		R1*5 %519
+		r2 r8 \mvTr c'4\pE^\soloE g8 %520
+		as8.([ g16)] as4 r8 f'4 as,8
+		g4 g g'( f16[ es)] d([ c)]
+		c2\fermata h4 r\fermata
+		b4. c8 as8.([ g16)] as4
+		f'4. as,8 as g des'4~ %525
+		des16([ c es d] es[ c)] as([ g)] \appoggiatura as8 g4 f
+		b~ b16([ c)] c([ d)] d4 g,
+		c~ c16([ d)] d([ es)] es8 a, es'4~
+		es16([ d g fis] g[ es)] d([ c)] b4( c)\trill
+		b r r \appoggiatura f'16 es8 d16([ c)] %530
+		b16.([ a?32)] b8 r4 r \appoggiatura f'16 es8 d16([ c)]
+		b'[ e,( f e)] f[ fis( g fis)] g8[ b] \appoggiatura a16 g8 \appoggiatura f16 es8
+		es4.( d32[ c b c] c2)\fermata
+		b r
+		r r8 es4 g,8 %535
+		f8.([\trill es16)] f4 f'( es16[ d)] c([ b)]
+		b2\fermata a4 r\fermata
+		f'4. es16([ d)] c8([ h)] h([ d)]
+		d4~ d16.([ es32 f16)] es32([ d)] d8 c es4~
+		es16([ c g' fis] g[ es)] d([ c)] h8.([\trill a16)] g4 %540
+		c~ c16([ d)] d([ es]) es4 as,
+		d~ d16([ es)] es([ f)] f8 h, f'4~
+		f16([ es as g] as[ f)] es([ d)] c4( d)\trill
+		c r r \appoggiatura g'16 f8 es16([ d)]
+		c16.([ h32)] c8 r4 r \appoggiatura g'16 f8 es16([ d)] %545
+		g4~ g16[ es d c] as'[ g as g] as[ f] e([ f)]
+		f4.( es32[ d c d] d2\trill)
+		c4 r c c
+		c2\fermata d
+		c r %550
+		R1*2
+		R1\fermataMarkup \bar "||" %553 finis
 	}
 }
 
 IngemiscoSopranoLyrics = \lyricmode {
-	
+	In -- ge -- %520
+	mi -- sco, tam -- quam
+	re -- us, tam -- quam
+	re -- us:
+	Cul -- pa ru -- bet
+	vul -- tus me -- us, vul -- %525
+	tus me -- us:
+	Sup -- pli -- can -- ti,
+	sup -- pli -- can -- ti par --
+	ce, De --
+	us, sup -- pli -- %530
+	can -- ti par -- ce,
+	par -- _ _ _ ce,
+	De --
+	us.
+	In -- ge -- %535
+	mi -- sco, tam -- quam
+	re -- us:
+	Cul -- pa ru -- bet
+	vul -- tus me -- us, vul --
+	tus me -- us: %540
+	Sup -- pli -- can -- ti,
+	sup -- pli -- can -- ti par --
+	ce, De --
+	us, sup -- pli --
+	can -- ti par -- ce, %545
+	par -- _ _ ce,
+	De --
+	us, par -- ce
+	De -- _
+	us. %550 finis
 }
 
 % SopranoNotes = {

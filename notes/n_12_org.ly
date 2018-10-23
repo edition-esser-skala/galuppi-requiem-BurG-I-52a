@@ -1729,7 +1729,7 @@ IngemiscoOrgano = {
 		g' r\fermata f r\fermata
 		as!4-\markup { \remark "coll’arco" } as g g
 		g g g g
-		as as g4. f8 %540
+		as! as g4. f8 %540
 		es4 es f f
 		f f g g
 		as f g g,
