@@ -798,7 +798,7 @@ RexTremendaeViola = {
 
 RecordareViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key g \minor \time 4/4 \tempoRecordare
 			\set Score.currentBarNumber = #456
 		d4.\fE d8 d4 d
