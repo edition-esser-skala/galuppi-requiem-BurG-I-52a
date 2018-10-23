@@ -859,3 +859,12 @@ RecordareViola = {
 		d\fermata \bar "||" %514 finis
 	}
 }
+
+IngemiscoViola = {
+	\relative c' {
+		\clef treble
+		\key c \minor \time 2/2 \tempoIngemisco
+			\set Score.currentBarNumber = #515
+		
+	}
+}

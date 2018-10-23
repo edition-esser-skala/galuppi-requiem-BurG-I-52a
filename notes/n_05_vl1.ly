@@ -859,6 +859,15 @@ RecordareViolinoI = {
 	}
 }
 
+IngemiscoViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \minor \time 2/2 \tempoIngemisco
+			\set Score.currentBarNumber = #515
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

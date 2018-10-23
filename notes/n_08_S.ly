@@ -1177,6 +1177,19 @@ RecordareSopranoLyrics = \lyricmode {
 	nis. %514 finis
 }
 
+IngemiscoSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \minor \time 2/2 \autoBeamOff \tempoIngemisco
+			\set Score.currentBarNumber = #515
+		
+	}
+}
+
+IngemiscoSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

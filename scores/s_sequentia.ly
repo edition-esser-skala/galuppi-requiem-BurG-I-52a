@@ -412,65 +412,109 @@
 % 			\midi { \tempo 4 = 120 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "3.8 RECORDARE – QUAERENS ME – JUSTE JUDEX"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\RecordareViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\RecordareViolinoII
+% 						}
+% 					>>
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Viola"
+% 						\RecordareViola
+% 					>>
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \RecordareSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \RecordareSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \RecordareAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \RecordareAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \RecordareTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \RecordareTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \RecordareBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \RecordareBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\RecordareOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\RecordareBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 100 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "3.8 RECORDARE – QUAERENS ME – JUSTE JUDEX"
+			movement = "3.9 INGEMISCO"
 		}
+% 		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\RecordareViolinoI
+							\IngemiscoViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\RecordareViolinoII
+							\IngemiscoViolinoII
 						}
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = "Viola"
-						\RecordareViola
+						\IngemiscoViola
 					>>
 				>>
-				\new ChoirStaff <<
+				\new ChoirStaff \with { \smallerGroupDistance } <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \RecordareSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \IngemiscoSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \RecordareSopranoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \RecordareAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \RecordareAltoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \RecordareTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \RecordareTenoreLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \RecordareBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \RecordareBassoLyrics
+					\new Lyrics \lyricsto Soprano \IngemiscoSopranoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\RecordareOrgano
+						\IngemiscoOrgano
 					}
 				>>
 				\new FiguredBass {
-					\RecordareBassFigures
+					\IngemiscoBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 100 }
+			\midi { \tempo 4 = 72 }
 		}
 	}
 }

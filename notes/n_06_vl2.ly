@@ -869,3 +869,12 @@ RecordareViolinoII = {
 		g1\fermata \bar "||" %514 finis
 	}
 }
+
+IngemiscoViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \minor \time 2/2 \tempoIngemisco
+			\set Score.currentBarNumber = #515
+		
+	}
+}
