@@ -801,6 +801,61 @@ RecordareViola = {
 		\clef treble
 		\key g \minor \time 4/4 \tempoRecordare
 			\set Score.currentBarNumber = #456
-		
+		d4.\fE d8 d4 d
+		b c8 b a4 b
+		c2 d8 g d b
+		g4 e' e d
+		d2 e8 a e cis %460
+		a4 r r a8 a
+		b4 fis g a
+		b fis g g
+		a b r8 b(\p a gis)
+		r b(\f a gis) a4 a %465
+		a r8 a b d4 e8
+		d4\p d d d
+		d d g, r
+		g r c r
+		b r b c %470
+		b b r d
+		b b r e
+		c c r f
+		f( f g g)
+		f f, r2 %475
+		d'4\f c b a
+		d c b a
+		r2 g'4 f
+		es d g f
+		es d c d %480
+		f4. es8 d4 r8 c-!
+		d4 r8 a b4 r8 g'
+		g es e4 d r\fermata
+		\tempoJuste R1*4 %487
+		d4. d8 es! d c4~
+		c b a2
+		g4. g'8 b a g4~ %490
+		g f e2
+		d4 d'~ d8 c c4~
+		c8 b b a16 g a2
+		g4 g8 f es4 c
+		f b, f' f~ %495
+		f e f f~
+		f es d d
+		e f g4. g8
+		a!4 d2 c4~
+		c b c8 b a g %500
+		fis4 g c, es
+		d g c, c'~
+		c b a2
+		g4. g8 a,4. a8
+		b4 g' e f %505
+		g e a, d~
+		d c2 b4~
+		b8 b' a g fis4 g
+		r8 g, c2 b4
+		d2 d4 d %510
+		es d c h
+		r c d d
+		d1
+		d\fermata \bar "||" %514 finis
 	}
 }
