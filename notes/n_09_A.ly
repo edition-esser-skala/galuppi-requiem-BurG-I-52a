@@ -1059,7 +1059,7 @@ RecordareAltoNotes = {
 		d r r2
 		\mvTr f4.\pE^\solo f8 g4 g
 		f8([ as)] g([ f)] f4 es!8[ d]
-		es2. f8[ es]
+		es2. f8[^\markup { \remark "mezzo voce" } es]
 		d4 es8[ d] es2~ %470
 		es4 d f4. f8
 		f4 es g4. g8
