@@ -1704,7 +1704,45 @@ IngemiscoOrgano = {
 		\clef bass
 		\key c \minor \time 2/2 \tempoIngemisco
 			\set Score.currentBarNumber = #515
-		\mvTr c4\fE-\soloE ^\tweak TextScript.X-offset #0 ^\markup { \remark "pizz." } c c c
+		\mvTr c4\fE-\soloE ^\tweak TextScript.X-offset #0 ^\markup { \remark "pizz." } c c c %515
+		c c c c
+		c c c c
+		c h c fis
+		g g g r
+		c,\p c c c %520
+		c c c c
+		c c c r
+		as' r\fermata g r\fermata
+		es4-\markup { \remark "coll’arco" } es es es
+		d d es es %525
+		as as b b,
+		d d es es
+		es es f f
+		g es f f,
+		b es d a %530
+		b es d a
+		b d es es
+		f1\fermata
+		b,4-\markup { \remark "pizz." } b b b
+		b b b b %535
+		b b b r
+		g' r\fermata f r\fermata
+		as!4-\markup { \remark "coll’arco" } as g g
+		g g g g
+		as as g4. f8 %540
+		es4 es f f
+		f f g g
+		as f g g,
+		c f es h
+		c f es h %545
+		es8( es es es) f( f f f)
+		g4 g g, g
+		c\f d es f
+		g1\fermata
+		c,4\p c c c %550
+		c c c c
+		c\f f g g,
+		c c c r\fermata \bar "||" %553 finis
 	}
 }
 
