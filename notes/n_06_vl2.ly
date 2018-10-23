@@ -808,6 +808,64 @@ RecordareViolinoII = {
 		\clef treble
 		\key g \minor \time 4/4 \tempoRecordare
 			\set Score.currentBarNumber = #456
-		
+		g''4.\fE g8 g4 fis
+		es2 d
+		c8 c, c'4 b8 g d b
+		g4 b' a d
+		d8 d, d'4 cis8 a e[ cis] %460
+		a4 r r2
+		r4 a''8 a b4 fis
+		g a b8 d, es d
+		cis4 d d8\p f,4 f8
+		d'\f f,4 f8 f4 e %465
+		f8 g'([ f)] g,-! f-! g([ f)] cis
+		d4\p f g g
+		as8-! as( g f) f4( es!8 d)
+		es4 es2 f8 es
+		d4 es8 d es4 es %470
+		es d r f'
+		f es r g
+		g f r a,
+		b( b b b)
+		b a r2 %475
+		f4\f f f f
+		f f f f
+		r2 b4 b
+		b b b b
+		b b es16 c' b a b8 d, %480
+		c[ b'] f, a' b-! es,([ d)] f,-!
+		f-! c'([ b)] d,-! d4 r8 d
+		es c'16 b a8 g d' d, r4\fermata
+		\tempoJuste d'4. d8 es d c4~
+		c b a2 %485
+		g4 b8 c d4. e8
+		cis a d2 cis4
+		d r r es!8 es
+		d4. d8 c a c4~
+		c b8 c d4. e8 %490
+		cis a d2 cis4
+		d r es!4. es8
+		d4. d8 c a c4~
+		c b8 b g' f es4~
+		es d c2 %495
+		h4 c4. c8 d c
+		h4 c2 b4
+		a8 cis d2 e8 d
+		cis4 d g,4. a8
+		fis4 r8 d' es! d c4~ %500
+		c b8 g g'4. a8
+		fis4 g r es
+		d2 r4 a'8 a
+		b a g2 f4
+		b4. b8 cis,4 d~ %505
+		d cis d r
+		es!4. es8 d4. d8
+		c4. c8 c4 b
+		r es8 es a, a b b
+		a2 g4 h8 h %510
+		c4 d es8 d d4~
+		d8 g, c2 b4
+		a b a2
+		g1\fermata \bar "||" %514 finis
 	}
 }
