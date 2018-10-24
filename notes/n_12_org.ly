@@ -1857,6 +1857,92 @@ PrecesMeaeOrgano = {
 		\key es \major \time 3/4 \tempoPrecesMeae
 			\set Score.currentBarNumber = #580
 		\mvTr es4\pE-\vlc es es
+		es es es
+		es es es
+		b es r
+		\mvTr es\fE-\tutti es es
+		es es es %585
+		es as a
+		b4. c8 b as
+		g4\p g g
+		r as( g)
+		f\f b b, %590
+		es2 r4
+		r \mvTr g\p-\vlc g
+		r as g
+		f b b,
+		\mvTr es\fE-\tutti c' g %595
+		as8 as b4 b,
+		es2 r4
+		\mvTr es\p-\vlc es es
+		es es es
+		es es es %600
+		b es r
+		es es es
+		es es es
+		es es es
+		b es r %605
+		r d( es)
+		r d( es)
+		as, as as
+		b b c
+		d b d %610
+		es es es
+		e e e
+		f f, r
+		f' f f
+		f f f %615
+		f f f
+		b g d
+		es es es
+		d r d
+		es f f, %620
+		b8 g' f es d c
+		\mvTr b4\f-\tutti g' d
+		es8 es f4 f,
+		b d b
+		r es d %625
+		c f f,
+		b2 r4
+		\mvTr b\pE-\vlc b b
+		b b b
+		b b b %630
+		b b r
+		es\f es es
+		es es es
+		es\pE es es
+		b es r %635
+		g g g
+		as as as
+		b b b
+		c c c
+		g g g %640
+		as as as
+		as as a
+		b b b
+		b b b
+		b c as %645
+		g g g
+		as b b,
+		es2 r4
+		as b b,
+		es2 r4 %650
+		as b b,
+		es b r
+		r g' g
+		r as g
+		f b b, %655
+		es8 c' b as g f
+		g4 g g
+		r as g
+		f b b,
+		es8 c' b as g f %660
+		es4-\tutti c' g\f
+		as8 c b4 a
+		b2.\fermata
+		es,4 c' g
+		as8 as b4 b, %665
+		es2 r4\fermata \bar "||" %666 finis
 	}
 }
 
