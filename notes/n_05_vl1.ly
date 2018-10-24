@@ -911,7 +911,32 @@ QuiMariamViolinoI = {
 		\clef treble
 		\key g \minor \time 4/4 \tempoQuiMariam
 			\set Score.currentBarNumber = #554
-		
+		r8 d'\f g b a4 fis
+		g8 g, g'2 fis4 %555
+		r8 f b d c4 a
+		b8 b, b'2 a4
+		d,8.( es32 f) b,8 b b16 f d' b c f, es' c
+		d8.( es32 f) b,8 b b16 f d' b c f, es' c
+		d4 c r16 d'(\pocoF c b a b g f) %560
+		e4 es d16\f f b a b g f es
+		d4 c r16 d'(\p c b) a( b g f)
+		e4 es d16\f f b a b g f es
+		d4 c d8.( es32 f) b,8 b
+		b16 f d' b c f, es' c d8.(\p es32 f) b,8 b %565
+		b16 f d' b c f, es' c d\f f b a b g f es
+		d f d b f8 a b f b,4
+		r8 f'' b d c4 a
+		b8 b, b'2 a4
+		r8 as as as g g, \appoggiatura g'16 f8 es16 d %570
+		es4 d2 cis4
+		d r b'8.( c32 d) g,8 g
+		g16 d b' g a d, c' a b8.( c32 d) g,8 g
+		g16 d b' g a d, c' a b4 a
+		r16 b(\pocoF a g fis g es d) cis4 c %575
+		b16\f d g fis g es d c b4 a
+		r16 b'(\p a g) fis( g es d) cis4 c
+		b16\f d g fis g es d c b d b g d8 fis
+		g d g,4 r2\fermata \bar "||" %579 finis
 	}
 }
 
