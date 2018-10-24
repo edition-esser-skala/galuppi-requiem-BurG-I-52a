@@ -719,12 +719,58 @@ QuiMariamBassoNotes = {
 		\clef bass
 		\key g \minor \time 4/4 \autoBeamOff \tempoQuiMariam
 			\set Score.currentBarNumber = #554
-		
+		\mvTr g'4.\fE^\tuttiE g8 c,4 d
+		es es d d %555
+		b4. b8 es4 f
+		g4. g8 f4 f
+		r2 d4 a
+		b es d a
+		b f' r2 %560
+		r b4 es,
+		f2 b,4 r
+		r2 b'4 es,
+		f2 b,4 r
+		R1*3 %567
+		b4. b8 es4 f
+		g4. g8 f4 f
+		f4. f8 es4 h %570
+		c d es2
+		d4 r r2
+		b'4 fis g c
+		b fis g d
+		R1 %575
+		g4 c, d2
+		g,4 r r2
+		g'4 c, d2
+		g, r\fermata \bar "||" %579 finis
 	}
 }
 
 QuiMariamBassoLyrics = \lyricmode {
+	Qui Ma -- ri -- am %554
+	ab -- sol -- vi -- sti, %555
+	et la -- tro -- nem
+	ex -- au -- di -- sti,
+	mi -- hi
+	quo -- que spem de --
+	di -- sti, %560
+	spem de --
+	di -- sti,
+	spem de --
+	di -- sti.
 	
+	Qui Ma -- ri -- am %568
+	ab -- sol -- vi -- sti,
+	et la -- tro -- nem %570
+	ex -- au -- di --
+	sti,
+	mi -- hi quo -- que
+	spem de -- di -- sti,
+	%575
+	spem de -- di --
+	sti,
+	spem de -- di --
+	sti. %579 finis
 }
 
 % BassoNotes = {
