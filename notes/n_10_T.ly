@@ -743,7 +743,7 @@ QuiMariamTenoreNotes = {
 		d4. d8 es4 c
 		b4. b8 c4 c
 		d4. d8 es4 d %570
-		c a g2
+		c a! g2
 		a4 r r2
 		b4 a g g
 		b a g fis

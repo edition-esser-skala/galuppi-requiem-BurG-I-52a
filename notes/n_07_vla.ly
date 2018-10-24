@@ -909,9 +909,34 @@ IngemiscoViola = {
 
 QuiMariamViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key g \minor \time 4/4 \tempoQuiMariam
 			\set Score.currentBarNumber = #554
-		
+		g'4\fE g, c a
+		g g a a %555
+		b4. b8 es4 c
+		b b c c
+		r g' f f
+		f g f f
+		f f r2 %560
+		r8 g16\p a b8 c f,4\f g
+		f f f r
+		r8 g16\p a b8 c f,4\f g
+		f f f g
+		f f f\p g %565
+		f f f\f g
+		f4. es8 d2
+		b4. b8 es4 c
+		b b c c
+		r8 d d d es4 d %570
+		c a! g2
+		a8 es' d fis g4 es
+		d d d es
+		d d d d
+		r2 r8 e16\p fis g8 a %575
+		d,4\f es d d
+		d r r8 e16\p fis g8 a
+		d,4\f es d4. c8
+		b2 r\fermata \bar "||" %579 finis
 	}
 }
