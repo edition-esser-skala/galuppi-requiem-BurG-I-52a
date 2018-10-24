@@ -862,7 +862,7 @@ RecordareViola = {
 
 IngemiscoViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key c \minor \time 2/2 \tempoIngemisco
 			\set Score.currentBarNumber = #515
 		\mvTr c4\pE-\markup { \remark "pizz." } c c c %515

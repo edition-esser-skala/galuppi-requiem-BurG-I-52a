@@ -477,7 +477,7 @@
 		\header {
 			movement = "3.9 INGEMISCO"
 		}
-% 		\paper { systems-per-page = #2 }
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<
@@ -514,7 +514,7 @@
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 72 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }
