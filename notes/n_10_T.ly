@@ -728,12 +728,58 @@ QuiMariamTenoreNotes = {
 		\clef "treble_8"
 		\key g \minor \time 4/4 \autoBeamOff \tempoQuiMariam
 			\set Score.currentBarNumber = #554
-		
+		\mvTr d4.\fE^\tuttiE b8 c4 a
+		g g a a %555
+		d4. d8 es4 c
+		b4. b8 c4 c
+		r2 d4 c
+		b8.([ a16)] b4 d c
+		b a r2 %560
+		r f'8([ d)] b([ g')]
+		f2 f4 r
+		r2 f8([ d)] b([ g')]
+		f2 f4 r
+		R1*3 %567
+		d4. d8 es4 c
+		b4. b8 c4 c
+		d4. d8 es4 d %570
+		c a g2
+		a4 r r2
+		b4 a g g
+		b a g fis
+		R1 %575
+		d'8([ b)] g([ es')] d2
+		d4 r r2
+		d8([ b)] g([ es')] d2
+		d r\fermata \bar "||" %579 finis
 	}
 }
 
 QuiMariamTenoreLyrics = \lyricmode {
+	[Qui Ma -- ri -- am %554
+	ab -- sol -- vi -- sti, %555
+	et la -- tro -- nem
+	ex -- au -- di -- sti,
+	mi -- hi
+	quo -- que spem de --
+	di -- sti, %560
+	spem de --
+	di -- sti,
+	spem de --
+	di -- sti.]
 	
+	[Qui Ma -- ri -- am %568
+	ab -- sol -- vi -- sti,
+	et la -- tro -- nem %570
+	ex -- au -- di --
+	sti,
+	mi -- hi quo -- que
+	spem de -- di -- sti,
+	%575
+	spem de -- di --
+	sti,
+	spem de -- di --
+	sti.] %579 finis
 }
 
 % TenoreNotes = {
