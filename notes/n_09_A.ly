@@ -1171,12 +1171,58 @@ QuiMariamAltoNotes = {
 		\clef treble
 		\key g \minor \time 4/4 \autoBeamOff \tempoQuiMariam
 			\set Score.currentBarNumber = #554
-		
+		\mvTr g'4.\fE^\tuttiE d8 es4 d
+		d cis d d %555
+		f!4. f8 g4 f
+		f e f f
+		r2 f4 f
+		f g f f
+		f f r2 %560
+		r b8([ f)] g([ es)]
+		d4( c) d r
+		r2 b'8([ f)] g([ es)]
+		d4( c) d r
+		R1*3 %567
+		f4. f8 g4 f
+		f e f f
+		as4. as8 g4 g %570
+		g fis g2
+		fis4 r r2
+		d4 d d es
+		d d d d
+		R1 %575
+		g4 g g( fis)
+		g r r2
+		g4 g g( fis)
+		g2 r\fermata \bar "||" %579 finis
 	}
 }
 
 QuiMariamAltoLyrics = \lyricmode {
+	[Qui Ma -- ri -- am %554
+	ab -- sol -- vi -- sti, %555
+	et la -- tro -- nem
+	ex -- au -- di -- sti,
+	mi -- hi
+	quo -- que spem de --
+	di -- sti, %560
+	spem de --
+	di -- sti,
+	spem de --
+	di -- sti.]
 	
+	[Qui Ma -- ri -- am %568
+	ab -- sol -- vi -- sti,
+	et la -- tro -- nem %570
+	ex -- au -- di --
+	sti,
+	mi -- hi quo -- que
+	spem de -- di -- sti,
+	%575
+	spem de -- di --
+	sti,
+	spem de -- di --
+	sti.] %579 finis
 }
 
 % AltoNotes = {
