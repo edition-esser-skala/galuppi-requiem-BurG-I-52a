@@ -940,3 +940,12 @@ QuiMariamViola = {
 		b2 r\fermata \bar "||" %579 finis
 	}
 }
+
+PrecesMeaeViola = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 3/4 \tempoPrecesMeae
+			\set Score.currentBarNumber = #580
+		
+	}
+}

@@ -1851,6 +1851,19 @@ QuiMariamBassFigures = \figuremode {
 	r1 %579 finis
 }
 
+PrecesMeaeOrgano = {
+	\relative c {
+		\clef bass
+		\key es \major \time 3/4 \tempoPrecesMeae
+			\set Score.currentBarNumber = #580
+		\mvTr es4\pE-\vlc es es
+	}
+}
+
+PrecesMeaeBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

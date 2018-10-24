@@ -950,3 +950,12 @@ QuiMariamViolinoII = {
 		g d g,4 r2\fermata \bar "||" %579 finis
 	}
 }
+
+PrecesMeaeViolinoII = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 3/4 \tempoPrecesMeae
+			\set Score.currentBarNumber = #580
+		
+	}
+}

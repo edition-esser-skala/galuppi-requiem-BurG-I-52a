@@ -940,6 +940,15 @@ QuiMariamViolinoI = {
 	}
 }
 
+PrecesMeaeViolinoI = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 3/4 \tempoPrecesMeae
+			\set Score.currentBarNumber = #580
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

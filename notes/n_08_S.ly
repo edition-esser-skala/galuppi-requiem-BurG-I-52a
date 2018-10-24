@@ -1312,6 +1312,19 @@ QuiMariamSopranoLyrics = \lyricmode {
 	sti.] %579 finis
 }
 
+PrecesMeaeSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 3/4 \autoBeamOff \tempoPrecesMeae
+			\set Score.currentBarNumber = #580
+		
+	}
+}
+
+PrecesMeaeSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble
