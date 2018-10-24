@@ -1794,11 +1794,61 @@ QuiMariamOrgano = {
 		\key g \minor \time 4/4 \tempoQuiMariam
 			\set Score.currentBarNumber = #554
 		\mvTr g'4\fE-\tuttiE g, c d
+		es es d d, %555
+		b'4. b8 es4 f
+		g4. g8 f4 f,
+		b es d a
+		b es d a
+		b f' r2 %560
+		r8 c'\p g a b4\f es,
+		f f, b r
+		r8 c'\p g a b4\f es,
+		f f, b es
+		d a b\p es %565
+		d a b\f es
+		f f, b2
+		b4. b8 es4 f
+		g4. g8 f4 f,
+		f'4. f8 es4 h %570
+		c d es2
+		d8 c' b a g4 c
+		b fis g c
+		b fis g d
+		r2 r8 a'\p e fis %575
+		g4\f c, d d,
+		g r r8 a'\p e fis
+		g4\fE c, d d,
+		g2 r\fermata \bar "||" %579 finis
 	}
 }
 
 QuiMariamBassFigures = \figuremode {
-	
+	<5 3>2 <6>4 <5 _+> %554
+	<7> <6+> <4> <_+> %555
+	<5 3>2 <6>4 <5>
+	<7> <6!> <4> <3>
+	r <5> <6> r
+	r <5> <6> r
+	r1 %560
+	r8 <5 _!> <6->4 r2
+	<6 4>4 <5 3> r2
+	r8 <5 _!> <6->4 r2
+	<6 4>4 <5 3> r2
+	<[6]>4 q r2 %565
+	<[6]>4 q r2
+	<6 4>4 <5 3> r2
+	r <6>4 <5 3>
+	<7> <6!> <5 4> <\l 3>
+	<4! _->2 <6>4 q %570
+	<5> <_+> <7> <6+>
+	<_+> <[6]> r <5>
+	<6> q r <5>
+	<6> q r <_+>
+	r2 r8 <[5!] _+> <6!> <5>
+	r2 <6 4>4 <5 _+>
+	r2 r8 <[5!] _+> <6!> <5>
+	r2 <6 4>4 <5 _+>
+	r1
 }
 
 % Organo = {
