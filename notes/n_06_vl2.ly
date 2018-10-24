@@ -875,6 +875,44 @@ IngemiscoViolinoII = {
 		\clef treble
 		\key c \minor \time 2/2 \tempoIngemisco
 			\set Score.currentBarNumber = #515
-		
+		\mvTr es16-!\p-\markup { \remark "con sordino" } es( f es) r es( f es) es8 es4 e8
+		f16-! f( g f) r f( g f) f8 as4 f8
+		es!16-! es( f es) r es( f es) es8 es4 es8
+		d16-! d( es d) r d( f d) c-! c( d c) r c( es c)
+		h([ d)] d([ es)] es([ d)] d([ c)] \appoggiatura c4 h2
+		es16-! es( f es) r es( f es) es8 es4 e8
+		f16-! f( g f) r f( g f) f8 as4 f8
+		es!16-! es( f es) r es( f es) es4 r
+		fis r\fermata g r\fermata
+		g4-\markup { \remark "senza sordino" } g f f
+		f f b, b' %525
+		r es, es d
+		f f g g
+		g g a a
+		b r16 es( d c) b4 a
+		b4 b2\pocoF c4\p %530
+		b b2\pocoF c4\p
+		b'16-! e,( f e) f-!\rfz[ fis( g fis)] g8([ b)] \appoggiatura a16 g8 \appoggiatura f16 es8
+		f,4 r r2\fermata
+		\mvTr d16-!\p-\markup { \remark "con sordino" } d( es d) r d( es d) d8 d4 d8
+		es16-! es( f es) r es( f es) es8 g4 es8 %535
+		d16-! d( es d) r d( es d) d4 r
+		b' r\fermata a r\fermata
+		r c,-\markup { \remark "senza sordino" } d d
+		r f f8( es) es4
+		es r8 c h4 r %540
+		g' g as as
+		as as h h
+		c r16 f( es d) c4 h\trill
+		c c2\pocoF d4\p
+		c c2\pocoF d4\p %545
+		c8( c c c) c( c c c)
+		h4\p c c h
+		es16-!\f es( f es) f-![ f( g f)] g4 as
+		g,2 r\fermata
+		\mvTr es16-!\p-\markup { \remark "assai" } es( f es) r es( f es) r8 es4 e8 %550
+		f16-! f( g f) r f( g f) f8 as4 f8
+		es16\f g' f es as[ f es d] c4 h
+		c8 g4 es8 c4 r\fermata \bar "||" %553 finis
 	}
 }
