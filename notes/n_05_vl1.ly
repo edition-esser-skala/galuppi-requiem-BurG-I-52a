@@ -864,7 +864,45 @@ IngemiscoViolinoI = {
 		\clef treble
 		\key c \minor \time 2/2 \tempoIngemisco
 			\set Score.currentBarNumber = #515
-		
+		\mvTr g'16-!\p-\markup { \remark "con sordino" } g( as g) r g( as g) g8 c4 g8
+		as16-! as( b as) r as( b as) as8 f'4 as,8
+		g16-! g( as g) r g( as g) g8 c4 g8
+		f16-! f( g f) r f( d' f,) es-! es( f es) r es( c' es,)
+		d([ h')] h([ c)] c([ f,)] f([ es)] \appoggiatura es4 d2
+		g16-! g( as g) r g( as g) g8 c4 g8 %520
+		as16-! as( b as) r as( b as) as8 f'4 as,8
+		g16-! g( as g) r g( as g) g4 r
+		c r\fermata h r\fermata
+		b4-\markup { \remark "senza sordino" } b as as
+		as as as g %525
+		r c g f
+		b b b4.( h8)
+		c4 c c c
+		b r16 g'( f es) d4 c
+		b g'8.(\pocoF b16) f8.( b16) es,4\p %530
+		d g8.(\pocoF b16) f8.( b16) es,4\p
+		b'16-! e,( f e) f-!\rfz[ fis( g fis)] g8([ b)] \appoggiatura a16 g8 \appoggiatura f16 es8
+		f,4 r r2\fermata
+		\mvTr f16-!\p-\markup { \remark "con sordino" } f( g f) r f( g f) f8 b4 f8
+		g16-! g( a g) r g( a g) g8 es'4 g,8 %535
+		f16-! f( g f) r f( g f) f4 r
+		e' r\fermata f r\fermata
+		r c-\markup { \remark "senza sordino" } c8( h) h4
+		r d d8( c) c4
+		c r8 fis, g4 r %540
+		c c c c
+		d d d d
+		c r16 as'( g f) es4 d\trill
+		c as'8.(\pocoF c16) \once \slurDashed g8.( c16) f,4\p
+		es as8.(\pocoF c16) g8.( c16) \appoggiatura g16 f8[\p es16 d] %545
+		g8( g g g) as16([\pocoF g as g)] as( f) e( f)
+		f4\p es d d
+		es16-!\f es( f es) f-![ f( g f)] g4 as
+		g,2 r\fermata
+		\mvTr g16-!\p-\markup { \remark "assai" } g( as g) r g( as g) r8 c4 g8 %550
+		as16-! as( b as) r as( b as) as8 f'4 as,8
+		g16\f g' f es as[ f es d] es4 d\trill
+		c8 g4 es8 c4 r\fermata \bar "||" %53 finis
 	}
 }
 

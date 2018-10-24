@@ -1704,7 +1704,7 @@ IngemiscoOrgano = {
 		\clef bass
 		\key c \minor \time 2/2 \tempoIngemisco
 			\set Score.currentBarNumber = #515
-		\mvTr c4\fE-\soloE ^\tweak TextScript.X-offset #0 ^\markup { \remark "pizz." } c c c %515
+		\mvTr c4\pE-\soloE ^\tweak TextScript.X-offset #0 ^\markup { \remark "pizz." } c c c %515
 		c c c c
 		c c c c
 		c h c fis
