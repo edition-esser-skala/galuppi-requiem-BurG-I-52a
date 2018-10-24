@@ -1258,12 +1258,58 @@ QuiMariamSopranoNotes = {
 		\clef treble
 		\key g \minor \time 4/4 \autoBeamOff \tempoQuiMariam
 			\set Score.currentBarNumber = #554
-		
+		\mvTr b'4.\fE^\tuttiE b8 a4 fis
+		g4. g8 g4 fis %555
+		d'4. d8 c4 a
+		b4. b8 b4 a
+		r2 b4 c
+		d8.([ c16)] b4 b c
+		d c r2 %560
+		r d4 es8([ c)]
+		b4( a) b r
+		r2 d4 es8([ c)]
+		b4( a) b r
+		R1*3 %567
+		d4. d8 c4 a
+		b4. b8 b4 a
+		h4. h8 c4 d %570
+		es d d( cis)
+		d r r2
+		g,4 a b8.([ a16)] g4
+		g a b a
+		R1 %575
+		b8([ d)] es([ c)] b4( a)
+		b r r2
+		b8([ d)] es([ c)] b4( a)
+		g2 r\fermata \bar "||" %579 finis
 	}
 }
 
 QuiMariamSopranoLyrics = \lyricmode {
+	[Qui Ma -- ri -- am %554
+	ab -- sol -- vi -- sti, %555
+	et la -- tro -- nem
+	ex -- au -- di -- sti,
+	mi -- hi
+	quo -- que spem de --
+	di -- sti, %560
+	spem de --
+	di -- sti,
+	spem de --
+	di -- sti.]
 	
+	[Qui Ma -- ri -- am %568
+	ab -- sol -- vi -- sti,
+	et la -- tro -- nem %570
+	ex -- au -- di --
+	sti,
+	mi -- hi quo -- que
+	spem de -- di -- sti,
+	%575
+	spem de -- di --
+	sti,
+	spem de -- di --
+	sti.] %579 finis
 }
 
 % SopranoNotes = {
