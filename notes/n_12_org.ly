@@ -1788,6 +1788,19 @@ IngemiscoBassFigures = \figuremode {
 	r1 %553 finis
 }
 
+QuiMariamOrgano = {
+	\relative c {
+		\clef bass
+		\key g \minor \time 4/4 \tempoQuiMariam
+			\set Score.currentBarNumber = #554
+		\mvTr g'4\fE-\tuttiE g, c d
+	}
+}
+
+QuiMariamBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

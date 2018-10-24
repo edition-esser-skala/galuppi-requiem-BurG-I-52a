@@ -723,6 +723,19 @@ RecordareTenoreLyrics = \lyricmode {
 	nis. %514 finis
 }
 
+QuiMariamTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key g \minor \time 4/4 \autoBeamOff \tempoQuiMariam
+			\set Score.currentBarNumber = #554
+		
+	}
+}
+
+QuiMariamTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

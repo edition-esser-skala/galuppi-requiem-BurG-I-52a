@@ -473,48 +473,109 @@
 % 			\midi { \tempo 4 = 100 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "3.9 INGEMISCO"
+% 		}
+% 		\paper { systems-per-page = #2 }
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\IngemiscoViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\IngemiscoViolinoII
+% 						}
+% 					>>
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Viola"
+% 						\IngemiscoViola
+% 					>>
+% 				>>
+% 				\new ChoirStaff \with { \smallerGroupDistance } <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \IngemiscoSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \IngemiscoSopranoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\IngemiscoOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\IngemiscoBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 60 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "3.9 INGEMISCO"
+			movement = "3.10 QUI MARIAM"
 		}
-		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\IngemiscoViolinoI
+							\QuiMariamViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\IngemiscoViolinoII
+							\QuiMariamViolinoII
 						}
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = "Viola"
-						\IngemiscoViola
+						\QuiMariamViola
 					>>
 				>>
-				\new ChoirStaff \with { \smallerGroupDistance } <<
+				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \IngemiscoSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \QuiMariamSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \IngemiscoSopranoLyrics
+					\new Lyrics \lyricsto Soprano \QuiMariamSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \QuiMariamAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \QuiMariamAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \QuiMariamTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \QuiMariamTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \QuiMariamBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \QuiMariamBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\IngemiscoOrgano
+						\QuiMariamOrgano
 					}
 				>>
 				\new FiguredBass {
-					\IngemiscoBassFigures
+					\QuiMariamBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4 = 100 }
 		}
 	}
 }

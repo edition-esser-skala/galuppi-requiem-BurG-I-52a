@@ -916,3 +916,12 @@ IngemiscoViolinoII = {
 		c8 g4 es8 c4 r\fermata \bar "||" %553 finis
 	}
 }
+
+QuiMariamViolinoII = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 4/4 \tempoQuiMariam
+			\set Score.currentBarNumber = #554
+		
+	}
+}

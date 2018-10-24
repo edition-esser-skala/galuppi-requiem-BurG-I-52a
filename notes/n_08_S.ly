@@ -1253,6 +1253,19 @@ IngemiscoSopranoLyrics = \lyricmode {
 	us. %550 finis
 }
 
+QuiMariamSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 4/4 \autoBeamOff \tempoQuiMariam
+			\set Score.currentBarNumber = #554
+		
+	}
+}
+
+QuiMariamSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

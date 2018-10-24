@@ -221,6 +221,7 @@ tempoRexTremendae = \tempoMarkup "Maestoso"
 tempoRecordare = \tempoMarkup "Un poco lento"
 	tempoJuste = \tempoMarkup "Allegro"
 tempoIngemisco = \tempoMarkup "Adagio"
+tempoQuiMariam = \tempoMarkup "Andante"
 
 
 

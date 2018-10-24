@@ -906,3 +906,12 @@ IngemiscoViola = {
 		c c c r\fermata \bar "||" %553 finis
 	}
 }
+
+QuiMariamViola = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 4/4 \tempoQuiMariam
+			\set Score.currentBarNumber = #554
+		
+	}
+}

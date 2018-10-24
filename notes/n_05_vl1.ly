@@ -906,6 +906,15 @@ IngemiscoViolinoI = {
 	}
 }
 
+QuiMariamViolinoI = {
+	\relative c' {
+		\clef treble
+		\key g \minor \time 4/4 \tempoQuiMariam
+			\set Score.currentBarNumber = #554
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble
