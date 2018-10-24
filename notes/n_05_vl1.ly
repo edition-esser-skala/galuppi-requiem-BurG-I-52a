@@ -911,7 +911,7 @@ QuiMariamViolinoI = {
 		\clef treble
 		\key g \minor \time 4/4 \tempoQuiMariam
 			\set Score.currentBarNumber = #554
-		r8 d'\f g b a4 fis
+		r8 d'\fE g b a4 fis
 		g8 g, g'2 fis4 %555
 		r8 f b d c4 a
 		b8 b, b'2 a4
