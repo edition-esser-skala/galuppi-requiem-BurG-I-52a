@@ -865,6 +865,44 @@ IngemiscoViola = {
 		\clef treble
 		\key c \minor \time 2/2 \tempoIngemisco
 			\set Score.currentBarNumber = #515
-		
+		\mvTr c4\pE-\markup { \remark "pizz." } c c c %515
+		c c c c
+		c c c c
+		as g g fis
+		g g g r
+		c\p c c c %520
+		c c c c
+		c c c r
+		c r\fermata d r\fermata
+		es4-\markup { \remarkE "coll’arco" } es c c
+		b b es es %525
+		as, as b b
+		d d es es
+		es es f f
+		g es f f,
+		d' es f f %530
+		f es f f
+		d b2 b'8 g
+		f4 r r2\fermata
+		b,4-\markup { \remarkE "pizz." } b b b
+		b b b b %535
+		b b b r
+		b r\fermata c r\fermata
+		r4 f4-\markup { \remarkE "coll’arco" } g g,
+		g g g g
+		as! as g4. f8 %540
+		es4 es f f
+		f f g g
+		as f g g
+		es' f g g
+		g f g g %545
+		g8( es es es) r c( f as)
+		d,4 es g g
+		g\f h, c f
+		g1\fermata
+		c,4\p c c c %550
+		c c c c
+		c4.\f as'8 g4 g,
+		c c c r\fermata \bar "||" %553 finis
 	}
 }
