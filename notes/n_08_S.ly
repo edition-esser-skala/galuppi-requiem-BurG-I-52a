@@ -1457,12 +1457,93 @@ InterOvesSopranoNotes = {
 		\clef treble
 		\key b \major \time 4/4 \autoBeamOff \tempoInterOves
 			\set Score.currentBarNumber = #667
-		
+		R1*16 %682
+		\mvTr f'4\pE^\soloE f f4. es16([ d)]
+		c8 d es4\trill d r
+		d4. e8 f( c4) f8 %685
+		f8.([ e32 f] g8) b, b a r4
+		R1*3
+		r2 f'8. f,16 f4 %690
+		r8 f' f f f4 e
+		r8 e? e e f[ c] f4~
+		f16[ e d c] b8[ a] a4\trill g
+		r r8 a g a b4\trill
+		a r8 a g[ a] b4\trill %695
+		a8 f'4 e16[ d] c8 d4 c16[ b]
+		f'8.[ g16] f8.[ g16] f2~
+		f16[ a g f] e[ d c b] a4 g\trill
+		a f' d b
+		a2( g)\trill %700
+		f4 r r2
+		R1*5 %706
+		f'4 f f4. es!16([ d)]
+		c8 d es4\trill d r
+		d4. e8 f( c4) f8
+		f8.([ e32 f] g8) b, b a r4 %710
+		R1
+		r2 f'8. f,16 f4
+		r8 f' f f f4 e
+		r2 es8. es,16 es4
+		r8 es' es es es4 d %715
+		r8 d d d es2~
+		es4 d8[ c] d4 c\trill
+		b r c8 d es4\trill
+		d r r2
+		r as4. as8 %720
+		g4 r r8 es'! es es
+		f es4 d16[ c] d8[ f]~ f16[ d es c]
+		d8[ f]~ f16[ d es c] \appoggiatura es d8[ c16 d] \appoggiatura f es8[ d16 es]
+		f4 es16[ d c b] g'8[ es d c]
+		d2 c\trill %725
+		b4 r r2
+		r8 d d d d4\fermata c\trill
+		b4 r r2
+		R1*4 %732
+		R1\fermataMarkup \bar "||" %733 finis
 	}
 }
 
 InterOvesSopranoLyrics = \lyricmode {
+	In -- ter o -- ves %683
+	lo -- cum prae -- sta,
+	et ab hae -- dis %685
+	me __ se -- que -- stra,
 	
+	sta -- tu -- ens %690
+	in par -- te dex -- tra,
+	in par -- te dex -- _
+	_ _ tra,
+	in par -- te dex --
+	tra, in par -- _ %695
+	_ _ _ _ _ _
+	_ te __ dex --
+	_ _ _
+	tra, in par -- te
+	dex -- %700
+	tra.
+	
+	In -- ter o -- ves %707
+	lo -- cum prae -- sta,
+	et ab hae -- dis
+	me __ se -- que -- stra, %710
+	
+	sta -- tu -- ens
+	in par -- te dex -- tra,
+	sta -- tu -- ens
+	in par -- te dex -- tra, %715
+	in par -- te dex --
+	_ _ _
+	tra. In -- ter o --
+	ves
+	sta -- tu -- %720
+	ens in par -- te
+	dex -- _ _ _
+	_ _ _
+	_ _ _
+	_ _ %725
+	tra,
+	in par -- te dex -- _
+	tra. %728 finis
 }
 
 % SopranoNotes = {
