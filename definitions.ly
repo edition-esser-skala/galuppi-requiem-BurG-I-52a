@@ -224,6 +224,7 @@ tempoRecordare = \tempoMarkup "Un poco lento"
 tempoIngemisco = \tempoMarkup "Adagio"
 tempoQuiMariam = \tempoMarkup "Andante"
 tempoPrecesMeae = \tempoMarkup "Andantino"
+tempoInterOves = \tempoMarkup "Allegro"
 
 
 

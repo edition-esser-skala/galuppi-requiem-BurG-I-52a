@@ -1225,6 +1225,19 @@ QuiMariamAltoLyrics = \lyricmode {
 	sti.] %579 finis
 }
 
+InterOvesAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \autoBeamOff \tempoInterOves
+			\set Score.currentBarNumber = #667
+		
+	}
+}
+
+InterOvesAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

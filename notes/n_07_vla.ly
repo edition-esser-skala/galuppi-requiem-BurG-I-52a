@@ -1035,3 +1035,12 @@ PrecesMeaeViola = {
 		es,2 r4\fermata \bar "||" %666 finis
 	}
 }
+
+InterOvesViola = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \tempoInterOves
+			\set Score.currentBarNumber = #667
+		
+	}
+}

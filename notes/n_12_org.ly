@@ -2036,6 +2036,19 @@ PrecesMeaeBassFigures = \figuremode {
 	r2. %666 finis
 }
 
+InterOvesOrgano = {
+	\relative c {
+		\clef bass
+		\key b \major \time 4/4 \tempoInterOves
+			\set Score.currentBarNumber = #667
+		r8 \mvTr b'\fE-\soloE a f b b, r d
+	}
+}
+
+InterOvesBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

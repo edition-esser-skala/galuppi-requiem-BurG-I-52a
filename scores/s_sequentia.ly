@@ -578,44 +578,93 @@
 % 			\midi { \tempo 4 = 90 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "3.11 PRECES MEAE"
+% 		}
+% 		\paper { systems-per-page = #2 page-count = #5 }
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\PrecesMeaeViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\PrecesMeaeViolinoII
+% 						}
+% 					>>
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Viola"
+% 						\PrecesMeaeViola
+% 					>>
+% 				>>
+% 				\new ChoirStaff \with { \smallerGroupDistance } <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \PrecesMeaeSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \PrecesMeaeSopranoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\PrecesMeaeOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\PrecesMeaeBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 90 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "3.11 PRECES MEAE"
+			movement = "3.12 INTER OVES"
 		}
-		\paper { systems-per-page = #2 page-count = #5 }
 		\score {
 			<<
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\PrecesMeaeViolinoI
+							\InterOvesViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\PrecesMeaeViolinoII
+							\InterOvesViolinoII
 						}
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = "Viola"
-						\PrecesMeaeViola
+						\InterOvesViola
 					>>
 				>>
 				\new ChoirStaff \with { \smallerGroupDistance } <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \PrecesMeaeSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \InterOvesSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \PrecesMeaeSopranoLyrics
+					\new Lyrics \lyricsto Soprano \InterOvesSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \InterOvesAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \InterOvesAltoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\PrecesMeaeOrgano
+						\InterOvesOrgano
 					}
 				>>
 				\new FiguredBass {
-					\PrecesMeaeBassFigures
+					\InterOvesBassFigures
 				}
 			>>
 			\layout { }

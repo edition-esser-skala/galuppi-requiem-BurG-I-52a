@@ -1452,6 +1452,19 @@ PrecesMeaeSopranoLyrics = \lyricmode {
 	gne. %664 finis
 }
 
+InterOvesSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 4/4 \autoBeamOff \tempoInterOves
+			\set Score.currentBarNumber = #667
+		
+	}
+}
+
+InterOvesSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble
