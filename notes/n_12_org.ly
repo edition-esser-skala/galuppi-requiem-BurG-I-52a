@@ -1878,9 +1878,9 @@ PrecesMeaeOrgano = {
 		es es es
 		es es es %600
 		b es r
+		es\fE es es
 		es es es
-		es es es
-		es es es
+		es\pE es es
 		b es r %605
 		r d( es)
 		r d( es)
@@ -1900,9 +1900,9 @@ PrecesMeaeOrgano = {
 		b8 g' f es d c
 		\mvTr b4\f-\tutti g' d
 		es8 es f4 f,
-		b d b
+		b\pE d b
 		r es d %625
-		c f f,
+		c\fE f f,
 		b2 r4
 		\mvTr b\pE-\vlc b b
 		b b b

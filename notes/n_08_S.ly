@@ -1333,7 +1333,7 @@ PrecesMeaeSopranoNotes = {
 		as8([ fis)] g4 r
 		c,( c'4.) b8
 		\appoggiatura b16 a8([ g16 f)] f4 r
-		es! es2\trill
+		es es2\trill
 		d8[ f] r f \appoggiatura g16 f8[ e16 f] %615
 		c'[ b a b] a[ g f g] f[ es d es]
 		d([ f8.)] es16([ g8.)] f16([ as!8.)]

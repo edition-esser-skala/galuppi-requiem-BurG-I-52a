@@ -133,6 +133,7 @@ rip = \markup { \remark "rip." }
 ripE = \markup { \remarkE "rip." }
 unisono = \markup { \remark "unisono" }
 unisonoE = \markup { \remarkE "unisono" }
+dvsolo = \markup { \remark "due violini soli" }
 
 t = \markup { \combine \fontsize #-2 \transparent \number 5 \raise #.6 \draw-line #'(1 . 0) }
 l = \markup { \fontsize #-2 \transparent \number 5 }
