@@ -946,6 +946,92 @@ PrecesMeaeViola = {
 		\clef treble
 		\key es \major \time 3/4 \tempoPrecesMeae
 			\set Score.currentBarNumber = #580
-		
+		r4 c\p c
+		b es es
+		es b b
+		b b r
+		r c\f c
+		b es es %585
+		es c c'
+		f,2 r4
+		r es\p es
+		r c( b)
+		c\f b b %590
+		b2 r4
+		r es\p es
+		r c b
+		c b b
+		b8\f g' g4 b %595
+		as8 as, b4 b
+		es,2 r4
+		r4 c'\p c
+		b es es
+		es es es %600
+		b es r
+		r c\fE c
+		b es es
+		es\pE es es
+		b es r %605
+		r b b
+		r b b
+		as as as
+		b b es
+		f d b %610
+		es es es
+		e e e
+		f f, r
+		f' f f
+		f f f %615
+		f f f
+		f g d
+		es es es
+		d r d
+		es f f, %620
+		f' r8 g f es
+		f d d4 f\f
+		es8 es f4 f,
+		d'\pE b d
+		r g f %625
+		es\fE f f
+		b,2 r4
+		b\pE b b
+		b b b
+		b b b %630
+		b b r
+		r c\fE c
+		b r es
+		es\pE es es
+		b b r %635
+		r b b
+		r c c
+		b b b
+		r c c
+		g g g %640
+		as as as
+		as r f'
+		f b, b
+		b b b
+		b es as, %645
+		g r es'
+		es8 c b4 b
+		b2 r4
+		c b b
+		b2 r4 %650
+		c b b
+		b b r
+		r g g
+		r as g
+		f b b %655
+		b r8 c b as
+		g4 g g
+		r as g
+		f b b
+		b r8 c b as %660
+		b( g') g4 b,\f
+		as8 c b4 a
+		b r r\fermata
+		b'8 g g4 b,
+		as8 as b4 b %665
+		es,2 r4\fermata \bar "||" %666 finis
 	}
 }

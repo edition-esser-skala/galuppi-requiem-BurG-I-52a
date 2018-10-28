@@ -1898,7 +1898,7 @@ PrecesMeaeOrgano = {
 		d r d
 		es f f, %620
 		b8 g' f es d c
-		\mvTr b4\f-\tutti g' d
+		b4-\tutti g' d\f
 		es8 es f4 f,
 		b\pE d b
 		r es d %625
@@ -1977,8 +1977,8 @@ PrecesMeaeBassFigures = \figuremode {
 	r <6 4> <6 5>
 	<6 4> <5 3>2
 	r2 <6>4
-	r <6 4> <5 3>
-	r2.
+	r <6 4> <5 3> %665
+	r2. %666 finis
 }
 
 % Organo = {
