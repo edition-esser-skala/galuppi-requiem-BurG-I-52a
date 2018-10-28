@@ -2187,11 +2187,147 @@ ConfutatisOrgano = {
 		\key es \major \time 4/4 \tempoConfutatis
 			\set Score.currentBarNumber = #734
 		\mvTr es4\fE-\tuttiE d es8 b r b
+		es b r b es es, es4 %735
+		f' e f8 c r c
+		f c r c f f, f4
+		as'8 as g g f f es! es
+		as as g g f f es es
+		as as g g f f es es %740
+		b'4 b, \mvTr d8\pE-\soloE d d d
+		c c c c a a a a
+		b b b b \mvTr d\fE-\tutti d d d
+		es es es es e e e e
+		f4 f, r2 %745
+		\mvTr d'8\p-\solo d d d d d d d
+		es es es es es es d d
+		c c c c c c c c
+		d d d d d d c c
+		\mvTr h\f-\tuttiE h h h h h h h %750
+		c c c c a a a a
+		b! b b b d d d d
+		es es es es f f f f
+		g g g g d d d d
+		es es es es f f f f %755
+		g g g g d d d d
+		es es es es e e e e
+		f f f f f, f f f
+		b4 d es f
+		b, d es f %760
+		b,2 r
+		f'4 e f8 c r c
+		f c r c f f, f4
+		es'! d es8 b r b
+		es b r b es es, es4 %765
+		as'8 as g g f f es es
+		as as g g f f es es
+		as as g g f f es es
+		b'4 b, \mvTr g'8\p-\soloE g g g
+		f f f f d d d d %770
+		es es es es \mvTr g\fE-\tutti g g g
+		as as as as e e e e
+		f f d d es es a a
+		b4 b, r2
+		\mvTr g'8\p-\soloE g g g g g g g %775
+		as as as as as as g g
+		f f f f f f f f
+		g g g g g g f f
+		\mvTr e\fE-\tuttiE e e e e e e e
+		f f f f d d d d %780
+		es! es es es g g g g
+		as as as as b b b b
+		c c c c g g g g
+		as as as as b b b b
+		c c c c g g g g %785
+		as as as as a a a a
+		b b b b b, b b b
+		es( f g as b as g f)
+		\mvTr e\p-\soloE e e e e e e e
+		f f f f f f es es %790
+		d d d d d d d d
+		es es es es es es f f
+		\mvTr g\f-\tutti g g g g g g g
+		as as as as d, d d d
+		es4 es, r g' %795
+		as8 as as as b b b b
+		c c c c g g g g
+		as as as as b b b b
+		c c c c g g g g
+		as as as as a a a a %800
+		b b b b b, b b b
+		es2 r\fermata \bar "||" %802 finis
 	}
 }
 
 ConfutatisBassFigures = \figuremode {
-	
+	r1 %734
+	r %735
+	r
+	r
+	r
+	<5>4 <6> q2
+	<5>4 <6> q2 %740
+	<6 4>4 <5 3> <6>2
+	<7>4 <6!> <5->2
+	<4>4 <3> <6>2
+	<6 5> q4 <7- 5>
+	<6- 4> <5 3> r2 %745
+	<6>2. <5->4
+	<9> <8> r <4 2>
+	<6!>2. <5>4
+	<9> <8> r <4 2>
+	<6>2. <5!>4 %750
+	<9> <8> <6> <5->
+	<9> <8> <6>2
+	r1
+	r
+	r %755
+	r
+	r
+	r
+	r
+	r %760
+	r
+	r
+	r
+	r
+	r %765
+	<5>4 <6> q2
+	<5>4 <6> q2
+	<5>4 <6> q2
+	<6 4>4 <5 3> <6>2
+	<7>4 <6> <5->2 %770
+	r1
+	r
+	r
+	r
+	<[6]>2. <5->4 %775
+	<9> <8> r <4 2>
+	<6>2. <5>4
+	<9> <8> r <4 2>
+	<6>2. <5->4
+	<9> <8> <6> <5-> %780
+	<9> <8> <[6]>2
+	<5> <6 4>
+	r1
+	<5>2 <6 4>
+	<5 3> <6> %785
+	<6 5> <6 5- 3>
+	<6 4> <5 3>
+	r1
+	<6>2. <5->4
+	<9> <8> r <4 2> %790
+	<6>2. <5->4
+	<9> <8> r <6>
+	<6>2. <5->4
+	<9> <8> <6 5->2
+	<4>4 <3> r <6> %795
+	r1
+	r
+	r
+	r
+	r %800
+	<[6] [4]>2 <[5] [3]>
+	r1 %802 finis
 }
 
 % Organo = {
