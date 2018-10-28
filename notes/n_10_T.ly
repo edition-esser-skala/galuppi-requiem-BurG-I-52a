@@ -782,6 +782,19 @@ QuiMariamTenoreLyrics = \lyricmode {
 	sti.] %579 finis
 }
 
+ConfutatisTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key es \major \time 4/4 \autoBeamOff \tempoConfutatis
+			\set Score.currentBarNumber = #734
+		
+	}
+}
+
+ConfutatisTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

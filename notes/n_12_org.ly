@@ -2181,6 +2181,19 @@ InterOvesBassFigures = \figuremode {
 	r1 %733 finis
 }
 
+ConfutatisOrgano = {
+	\relative c {
+		\clef bass
+		\key es \major \time 4/4 \tempoConfutatis
+			\set Score.currentBarNumber = #734
+		\mvTr es4\fE-\tuttiE d es8 b r b
+	}
+}
+
+ConfutatisBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

@@ -1110,3 +1110,11 @@ InterOvesViola = {
 		b4 r r2\fermata \bar "||" %733 finis
 	}
 }
+
+ConfutatisViola = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 4/4 \tempoConfutatis
+			\set Score.currentBarNumber = #734
+	}
+}

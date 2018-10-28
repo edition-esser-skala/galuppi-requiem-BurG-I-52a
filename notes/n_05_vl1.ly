@@ -1110,6 +1110,14 @@ InterOvesViolinoI = {
 	}
 }
 
+ConfutatisViolinoI = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 4/4 \tempoConfutatis
+			\set Score.currentBarNumber = #734
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

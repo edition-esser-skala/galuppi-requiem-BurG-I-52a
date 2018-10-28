@@ -773,6 +773,19 @@ QuiMariamBassoLyrics = \lyricmode {
 	sti. %579 finis
 }
 
+ConfutatisBassoNotes = {
+	\relative c {
+		\clef bass
+		\key es \major \time 4/4 \autoBeamOff \tempoConfutatis
+			\set Score.currentBarNumber = #734
+		
+	}
+}
+
+ConfutatisBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

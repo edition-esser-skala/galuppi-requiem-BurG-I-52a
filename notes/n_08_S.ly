@@ -1546,6 +1546,19 @@ InterOvesSopranoLyrics = \lyricmode {
 	tra. %728 finis
 }
 
+ConfutatisSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 4/4 \autoBeamOff \tempoConfutatis
+			\set Score.currentBarNumber = #734
+		
+	}
+}
+
+ConfutatisSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

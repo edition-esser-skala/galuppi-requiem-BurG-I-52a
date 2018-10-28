@@ -87,3 +87,11 @@ QuantusTremorCornoII = {
 		R\fermataMarkup \bar "||" %118 finis
 	}
 }
+
+ConfutatisCornoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoConfutatis
+			\set Score.currentBarNumber = #734
+	}
+}

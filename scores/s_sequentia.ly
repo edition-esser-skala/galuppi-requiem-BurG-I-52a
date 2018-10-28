@@ -622,49 +622,116 @@
 % 			\midi { \tempo 4 = 90 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "3.12 INTER OVES"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\InterOvesViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\InterOvesViolinoII
+% 						}
+% 					>>
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Viola"
+% 						\InterOvesViola
+% 					>>
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \InterOvesSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \InterOvesSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \InterOvesAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \InterOvesAltoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\InterOvesOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\InterOvesBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 90 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "3.12 INTER OVES"
+			movement = "3.13 CONFUTATIS"
 		}
 		\score {
 			<<
 				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "[ex Es]" } }
+						\partcombine \ConfutatisCornoI \ConfutatisCornoII
+					}
+				>>
+				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\InterOvesViolinoI
+							\ConfutatisViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\InterOvesViolinoII
+							\ConfutatisViolinoII
 						}
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = "Viola"
-						\InterOvesViola
+						\ConfutatisViola
 					>>
 				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \InterOvesSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \ConfutatisSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \InterOvesSopranoLyrics
+					\new Lyrics \lyricsto Soprano \ConfutatisSopranoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \InterOvesAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \ConfutatisAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \InterOvesAltoLyrics
+					\new Lyrics \lyricsto Alto \ConfutatisAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \ConfutatisTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \ConfutatisTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \ConfutatisBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \ConfutatisBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\InterOvesOrgano
+						\ConfutatisOrgano
 					}
 				>>
 				\new FiguredBass {
-					\InterOvesBassFigures
+					\ConfutatisBassFigures
 				}
 			>>
 			\layout { }

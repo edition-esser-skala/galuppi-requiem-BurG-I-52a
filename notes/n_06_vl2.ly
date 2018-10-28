@@ -1120,3 +1120,11 @@ InterOvesViolinoII = {
 		b8 b, r4 r2\fermata \bar "||" %733 finis
 	}
 }
+
+ConfutatisViolinoII = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 4/4 \tempoConfutatis
+			\set Score.currentBarNumber = #734
+	}
+}
