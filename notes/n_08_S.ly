@@ -1490,7 +1490,7 @@ InterOvesSopranoNotes = {
 		b r c8 d es4\trill
 		d r r2
 		r as4. as8 %720
-		g4 r r8 es'! es es
+		g4 r r8 e'? e e
 		f es4 d16[ c] d8[ f]~ f16[ d es c]
 		d8[ f]~ f16[ d es c] \appoggiatura es d8[ c16 d] \appoggiatura f es8[ d16 es]
 		f4 es16[ d c b] g'8[ es d c]

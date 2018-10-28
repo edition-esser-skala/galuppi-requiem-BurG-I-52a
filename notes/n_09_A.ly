@@ -1230,12 +1230,87 @@ InterOvesAltoNotes = {
 		\clef treble
 		\key b \major \time 4/4 \autoBeamOff \tempoInterOves
 			\set Score.currentBarNumber = #667
-		
+		R1*20 %686
+		\mvTr c4\pE^\soloE c c'4. b16([ a)]
+		g8 a b4\trill a r
+		g4. a8 b( f4) b8
+		b8.([ a32 b] c8) es, es d r4 %690
+		r2 b'8. b,16 b4
+		r8 b' b b b4 a
+		d16[ c b a] g8[ f] f4\trill e
+		c'8. c,16 c8 f e f g4\trill
+		f r8 f e[ f] g4\trill %695
+		f8 d'4 c16[ b] a8 b4 a16[ g]
+		a8.[ b16] a8.[ b16] a2~
+		a16[ f e d] c[ b' a g] f4 e\trill
+		f f f f
+		f2( e)\trill %700
+		f4 r r2
+		R1*3
+		c'4 c c4. b16([ a)] %705
+		g8 a b4\trill a r
+		R1*4 %710
+		g4. a8 b( f4) b8
+		b8.([ a32 b] c8) es, es d r4
+		r2 b'8. b,16 b4
+		r8 b' b b b4 a
+		r2 as8. as,16 as4 %715
+		r8 as' as as g[ b a c]
+		b2. a4
+		b r r2
+		r c,8 d es4\trill
+		d r f4. f8 %720
+		es4 r r8 b' b b
+		a! c4 b16[ a] b8[ d]~ d16[ b c a]
+		b8[ d]~ d16[ b c a] b2~
+		b1~
+		b2 a %725
+		b4 r r2
+		r8 b b b b4\fermata a
+		b4 r r2
+		R1*4 %732
+		R1\fermataMarkup \bar "||" %733 finis
 	}
 }
 
 InterOvesAltoLyrics = \lyricmode {
+	In -- ter o -- ves %687
+	lo -- cum prae -- sta,
+	et ab hae -- dis
+	me __ se -- que -- stra, %690
+	sta -- tu -- ens
+	in par -- te dex -- _
+	_ _ _ tra,
+	sta -- tu -- ens in par -- te dex --
+	tra, in par -- _ %695
+	_ _ _ _ _ _
+	_ te __ dex --
+	_ _ _
+	tra, in par -- te
+	dex -- %700
+	tra.
 	
+	In -- ter o -- ves %705
+	lo -- cum prae -- sta,
+	
+	et ab hae -- dis %711
+	me __ se -- que -- stra,
+	sta -- tu -- ens
+	in par -- te dex -- tra,
+	sta -- tu -- ens %715
+	in par -- te dex --
+	_ _
+	tra.
+	
+	lo -- cum prae -- sta, sta -- tu -- %720
+	ens in par -- te
+	dex -- _ _ _
+	_ _
+	
+	_ %725
+	tra,
+	in par -- te dex -- _
+	tra. %728 finis
 }
 
 % AltoNotes = {
