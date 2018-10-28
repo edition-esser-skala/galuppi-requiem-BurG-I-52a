@@ -1038,7 +1038,7 @@ PrecesMeaeViola = {
 
 InterOvesViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key b \major \time 4/4 \tempoInterOves
 			\set Score.currentBarNumber = #667
 		r8 d'\fE c a d d, r f
