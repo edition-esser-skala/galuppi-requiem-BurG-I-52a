@@ -1040,7 +1040,73 @@ InterOvesViolinoI = {
 		\clef treble
 		\key b \major \time 4/4 \tempoInterOves
 			\set Score.currentBarNumber = #667
-		
+		f'8.\fE g16 f8. g16 f8 b16 a b f es d
+		c8 d es4\trill d16\p f b a b f es d
+		c8 d es4\trill d16\f b a b d8.( es32 f)
+		es16 b a b f'8.( g32 as) g8 g4( f8)\trill %670
+		\appoggiatura f e4. f16 g f( c) f4( es8)\trill
+		\appoggiatura es d4. es16 f g f es d g f es d
+		g f es d c b a b a8 f r d'-!
+		c-! d-! es4\trill d8 \appoggiatura f32 es16 d32 es f8-! r
+		c-! d-! es4\trill d8 \appoggiatura f32 es16 d32 es f8-! r %675
+		g8.( a32 b) a16 g f es d8.( es32 f) es16 d c b
+		g8 b'4 a32 g f es d4 c\trill
+		b r8 d\p c d es4\trill
+		d8 \appoggiatura f32 es16 d32 es f8-! r c d es4\trill
+		d8 \appoggiatura f32 es16 d32 es f8-! r g8.(\f a32 b) a16 g f es %680
+		d8.( es32 f) es16 d c b g8 b'4 a32 g f es
+		d8. es16 \appoggiatura d8 c4\trill b8 b, r4
+		f''8.\p g16 f8. g16 f8 b16 a b f es d
+		c8 d es4\trill d8 g([\f f a)]
+		b4 r r8 f,\p f'4~ %685
+		f e f8-! \appoggiatura b,32 a16[\f g] a8 b
+		c8.\p d16 c8. d16 c8 f16 e f c b a
+		g8 a b4\trill a8 c f16\fE c b a
+		b4.\pE c8 f,4 r8 f'
+		es! es es es es d d d %690
+		c f, f' f f f e e
+		e g g e f c f4~
+		f8 d b' a a4 g
+		r r8 a g a \appoggiatura c16 b8 a16 g
+		a8 c,16. d32 c8 a' g a \appoggiatura c16 b8 a16 g %695
+		a8 r d, r c r b r
+		a4 r r16 a\pocoF b c d e f g
+		a8 g16 f e d c b a8\p a g g
+		a16 a a a f' f f f d d d d b b b b
+		a\pocoF a a a a' a a a g\f g g g g g g g %700
+		a8 \appoggiatura c32 b16 a32 b c8 r g a b4\trill
+		a8\p \appoggiatura c32 b16 a32 b c8 r g a b4\trill
+		a8\f f4 g8 a f4 e32 d c b
+		a4 g\trill f8 f' r4
+		c8.\p d16 c8. d16 c8 f16 e f c b a %705
+		g8 a b4\trill a8 c\f d es
+		f8.\p g16 f8. g16 f8 b16 a b f es d
+		c8 d es4\trill d8 g([\f f a)]
+		b4 r r8 f,\p f'4~
+		f e f8 c16\f d c8 f %710
+		g-!\p g,4( a8) b4 r8 f'
+		es! es es es es d d d
+		c c c c b b' b b
+		b b b b b a a a
+		a a a a as as as as %715
+		as? as as as g([ b)] a( c)
+		b es, es16([\pocoF d)] d([ c)] d4 c\trill
+		b r8 d\p c d es4\trill
+		d r8 d c d es4\trill
+		d8\f \appoggiatura f32 es16 d32 es f8 g as4 r8 f\p %720
+		g g4( f8) \appoggiatura f e4. f16 g
+		f8 es4 d16 c d8 d4 c8
+		r d4 c8 d d es es
+		f4 r8 f g es d c
+		d16\f d d d d d d d c c c c c c c c %725
+		b8 d16 b es c f d g8.( a32 b) a16 g f es
+		d8-! g,[ f e] f4 r\fermata
+		d'16 b a b d8.( es32 f) es16 b a b f'8.( g32 as)
+		g8 g4( f8\trill) \appoggiatura f e4. f16 g
+		f16( c) f4( es8) \appoggiatura es d4. es16 f %730
+		g f es d g f es d g f es d c b a b
+		\appoggiatura b a8 g16 f f' b, g' es d8. es16 \appoggiatura d8 c4\trill
+		b8 b, r4 r2\fermata \bar "||" %733 finis
 	}
 }
 
