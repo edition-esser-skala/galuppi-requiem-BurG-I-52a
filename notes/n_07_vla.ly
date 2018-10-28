@@ -943,7 +943,7 @@ QuiMariamViola = {
 
 PrecesMeaeViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key es \major \time 3/4 \tempoPrecesMeae
 			\set Score.currentBarNumber = #580
 		r4 c\p c

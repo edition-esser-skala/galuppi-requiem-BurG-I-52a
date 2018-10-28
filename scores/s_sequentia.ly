@@ -582,7 +582,7 @@
 		\header {
 			movement = "3.11 PRECES MEAE"
 		}
-% 		\paper { systems-per-page = #2 }
+		\paper { systems-per-page = #2 page-count = #5 }
 		\score {
 			<<
 				\new StaffGroup <<
@@ -619,7 +619,7 @@
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 60 }
+			\midi { \tempo 4 = 90 }
 		}
 	}
 }

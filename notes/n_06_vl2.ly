@@ -1037,10 +1037,10 @@ PrecesMeaeViolinoII = {
 		r c b
 		c8 as'16 f es4 d
 		es r r %660
-		\mvTr g'16\p-\tutti es d e \appoggiatura f es8 d16 es \appoggiatura f es8\f d16 es
+		\mvTr g'16\p-\tutti es d es \appoggiatura f es8 d16 es \appoggiatura f es8\f d16 es
 		es,4 es es
 		es4 r r\fermata
-		g'16 es d e \appoggiatura f es8 d16 es \appoggiatura f es8 d16 es
+		g'16 es d es \appoggiatura f es8 d16 es \appoggiatura f es8 d16 es
 		es, c' as f es4 d %665
 		es2 r4\fermata \bar "||" %666 finis
 	}

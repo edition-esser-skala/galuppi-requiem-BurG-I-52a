@@ -1026,10 +1026,10 @@ PrecesMeaeViolinoI = {
 		c( f,) f4.( g8)
 		as16 f c' as g4 f
 		g r r %660
-		\mvTr g'16\p-\tutti es d e \appoggiatura f es8 d16 es \appoggiatura f es8\f d16 es
+		\mvTr g'16\p-\tutti es d es \appoggiatura f es8 d16 es \appoggiatura f es8\f d16 es
 		c8( as) as([ g)] g( f)
 		g4 r r\fermata
-		g'16 es d e \appoggiatura f es8 d16 es \appoggiatura f es8 d16 es
+		g'16 es d es \appoggiatura f es8 d16 es \appoggiatura f es8 d16 es
 		c es c as g4 f\trill %665
 		es2 r4\fermata \bar "||" %666 finis
 	}
