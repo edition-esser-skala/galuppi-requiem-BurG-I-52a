@@ -1041,6 +1041,72 @@ InterOvesViola = {
 		\clef treble
 		\key b \major \time 4/4 \tempoInterOves
 			\set Score.currentBarNumber = #667
-		
+		r8 d'\fE c a d d, r f
+		f f es c b\p d r f
+		f f es c b\f d f d
+		b es b b' b b b b %670
+		b b b b as as as as
+		as? as as as g r b r
+		b g g g c,4 r8 b
+		a-! b-! c-! f,-! b-! c-! d-! b-!
+		a-! b-! c-! f,-! b-! c-! d-! b-! %675
+		b4 r8 c' f,4 r8 f
+		b, es es es f es f f,
+		d'4 r8 b\p a-! b-! c-! f,-!
+		b-! c-! d-! b-! a-! b-! c-! f,-!
+		b-! c-\! d-\! b-\! b4\f r8 c' %680
+		f,4 r8 f b, es es es
+		f es f f, b4 r
+		r8 b'\p a f b b, r d
+		es d c f b es,\f d c
+		b4 b'\p a8 a a a %685
+		d, d c c c4 r
+		r8 f e c f f, r a'
+		b a g c f, f, f'\f f
+		f\p es! es es d d d d
+		c c f, f b b b' b %690
+		a a a a g g g g
+		c, c c c f f f f
+		b b b h c4 c,
+		r2 r4 r8 c
+		f4 f, r r8 c' %695
+		f r f r f r f r
+		f f c a f4 r
+		f'8 g a b c4 c,
+		f8\pocoF f a a b b d d
+		c\f c c c c, c c c %700
+		f g a f e f g c,
+		f\p g a f e f g c,
+		f\fE b a g f4 b
+		c8 c c, c f4 r
+		r8 f\p e c f f, r c' %705
+		c c d c c\f es d c
+		b\p b' a f b b, r d
+		es d c f b es,[\f d c]
+		b\p b' b b a a a a
+		g g c, c f f, f'\f f %710
+		f\p es! es es d d d d
+		c c f, f b b' b b
+		a a a a g g g g
+		c, c c c f f f f
+		c c c c b b b b %715
+		f' f f f es!4 f
+		g,8\f g' f es f4 f,
+		b r8 b' a-! b-! c-! f,-!
+		b b, r b' a-! b-! c-! f,-!
+		b4 b, r8 b d b %720
+		es4( des) c8 c c c
+		f f f f b4 f
+		b f b8 b g g
+		d d d d es g f e
+		f f f f f, f f f %725
+		b b[\fE c d] es4 r8 a
+		b-! g([ f e)] f2\fermata
+		b,8 b f' d b es b b'
+		b b b b b b b b
+		as as as as as as as as  %730
+		g r b r b g g g
+		c, a d es f es f f,
+		b4 r r2\fermata \bar "||" %733 finis
 	}
 }
