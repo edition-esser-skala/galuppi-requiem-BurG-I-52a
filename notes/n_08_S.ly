@@ -1317,12 +1317,139 @@ PrecesMeaeSopranoNotes = {
 		\clef treble
 		\key es \major \time 3/4 \autoBeamOff \tempoPrecesMeae
 			\set Score.currentBarNumber = #580
-		
+		R2.*18 %597
+		\mvTr es8([\pE^\soloE as)] as2
+		g8([ c)] c2
+		b4~ b8([ g)] c([ b)] %600
+		\appoggiatura b16 as8([ g16 as)] g4 r
+		R2.*2
+		b4~ b8([ g)] c([ b)]
+		\appoggiatura b16 as8([ g16 as)] g4 r %605
+		\tuplet 3/2 4 { f8([ g as)] } as4.( g8)
+		\tuplet 3/2 4 { f8([ g as)] } as4.( g8)
+		c4~ c16([ h c h] c[ as)] f([ es)]
+		es4\trill d r
+		b'~ b8([ c16 b)] \appoggiatura b as8([ g16 as)] %610
+		as8([ fis)] g4 r
+		c,( c'4.) b8
+		\appoggiatura b16 a8([ g16 f)] f4 r
+		es! es2\trill
+		d8[ f] r f \appoggiatura g16 f8[ e16 f] %615
+		c'[ b a b] a[ g f g] f[ es d es]
+		d([ f8.)] es16([ g8.)] f16([ as!8.)]
+		g4~ g16.[ es32 es8]\trill a16.[ f32 f8]\trill
+		b16([ a d c)] b8[ a] g[( fis])
+		\appoggiatura a?16 g8 f16([ es)] d4( c\trill) %620
+		d b' b
+		d8([ b)] b2
+		\appoggiatura a?16 g8 f16([ es)] d4( c\trill)
+		b2 r4
+		R2.*3 %627
+		d8([ f)] f2
+		es8([ g)] g2
+		f8([ b16 as?] as4) g %630
+		g f r
+		R2.*2
+		b4~ b8([ g)] c([ b)]
+		\appoggiatura b16 as8([ g16 as)] g4 r %635
+		es es4.( b'16[ g)]
+		g([ f e f)] f4 r
+		g~ g8([ b)] g([ b)]
+		\appoggiatura b16 as8([ g16 as)] as4 r
+		b des,2 %640
+		c4 c'~ c16[ b as g]
+		\appoggiatura g32 f16[ e f g] \appoggiatura b32 as16[ g as b] c8[ es,]
+		d([ f)] r16 as([ g b)] as([ f es d)]
+		es8[ g] r16 b[ as c] b[ g f e]
+		f8.[\trill g16] as8.[\trill b16] c8[ d] %645
+		es([ b)] b4 r
+		\appoggiatura d16 c8 b16([ as)] g4( f\trill)
+		es r r
+		as \appoggiatura g f2\trill
+		es8([ g)] b4 r %650
+		as \appoggiatura g f2\trill
+		es8([ f16 g)] f4 r
+		es'8([ b)] b4.( h8)
+		c([ f,)] f4.( g8)
+		as16([ f)] c'([ as)] g4( f\trill) %655
+		g2 r4
+		es'8([ b)] b4.( h8)
+		c([ f,)] f4.( g8)
+		as16([ f)] c'([ as)] g4( f\trill)
+		g es es %660
+		\appoggiatura as16 g8([ f16 es)] es4 r
+		r es' es,
+		es\fermata f2\trill
+		es r4
+		R2. %665
+		R\fermataMarkup \bar "||" %666 finis
 	}
 }
 
 PrecesMeaeSopranoLyrics = \lyricmode {
+	Pre -- ces %598
+	me -- ae
+	non __ sunt %600
+	di -- gnae,
 	
+	non __ sunt %604
+	di -- gnae: %605
+	Sed __ tu __
+	bo -- nus __
+	fac __ be --
+	ni -- gne,
+	ne __ per -- %610
+	en -- ni
+	cre -- mer
+	i -- gne,
+	ne per --
+	en -- _ _ %615
+	_ _ _
+	_ _ _
+	_ _
+	_ _ ni __
+	cre -- mer i -- %620
+	gne, ne per --
+	en -- ni
+	cre -- mer i --
+	gne.
+	
+	Pre -- ces %628
+	me -- ae
+	non __ sunt %630
+	di -- gnae,
+	
+	non __ sunt %634
+	di -- gnae: %635
+	Sed tu __
+	bo -- nus
+	fac __ be --
+	ni -- gne,
+	ne per -- %640
+	en -- _
+	_ _ _
+	_ _ _
+	_ _ _
+	_ _ _ %645
+	_ ni
+	cre -- mer i --
+	gne,
+	sed tu
+	bo -- nus %650
+	fac be --
+	ni -- gne,
+	ne __ per --
+	en -- ni __
+	cre -- mer i -- %655
+	gne,
+	ne __ per --
+	en -- ni __
+	cre -- mer i --
+	gne, ne per -- %660
+	en -- ni
+	cre -- mer
+	i -- _
+	gne. %664 finis
 }
 
 % SopranoNotes = {
