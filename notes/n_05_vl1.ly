@@ -975,7 +975,7 @@ PrecesMeaeViolinoI = {
 		\tuplet 3/2 4 { f8([ g as)] } as4.\f g8\p
 		g4 f4. es8
 		es4 d8 f \appoggiatura f16 es8 d16 c
-		b4 r as' %610
+		b4 r as'! %610
 		as8( fis) g[ f] es d
 		c4 c4. b8
 		a4 r8 a\pocoF c d
@@ -999,7 +999,7 @@ PrecesMeaeViolinoI = {
 		g f r
 		es,8(\f as) as2
 		g8( c) c2
-		g4.\p g8 c b
+		b4.\p g8 c b
 		\appoggiatura b16 as8 g16 as g4 r %635
 		r g g
 		r f8([ as)] f( as)
@@ -1016,7 +1016,7 @@ PrecesMeaeViolinoI = {
 		es r8 b'(\pocoF g b)
 		as4\p \appoggiatura g f2\trill
 		g4 r8 b(\pocoF g b) %650
-		as4\pE \appoggiatura g f2\trill
+		as4\pE \appoggiatura g f2
 		g4 f r
 		es'8( b) b4.( h8)
 		c( f,) f4.( g8)

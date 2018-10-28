@@ -956,6 +956,92 @@ PrecesMeaeViolinoII = {
 		\clef treble
 		\key es \major \time 3/4 \tempoPrecesMeae
 			\set Score.currentBarNumber = #580
-		
+		R2.
+		\mvTr es8(\pE-\dvsolo as) as2
+		g4 g~ g16 b as g
+		\appoggiatura g f8 es16 f es4 r
+		R2.
+		\mvTr es'8(\fE-\tutti as) as2 %585
+		g8( es) es([ as)] \once \slurDashed f( es)
+		\appoggiatura es32 d16 c b c b4 r
+		es8(\p b) b4.(\rfz h8)
+		c(\p f,) f4.\rfz g8
+		as16\f f as f es4 d %590
+		\appoggiatura d es2 r4
+		\mvTr es'8(\pE-\dvsolo b) b4.( h8)
+		c( f,) f4. g8
+		as16 f as f es4 d\trill
+		\mvTr g'16\fE-\tutti es d es \appoggiatura f es8 d16 es \appoggiatura f es8 d16 es %595
+		es, c' as f es4 d\trill
+		es2 r4
+		R2.
+		\mvTr es8(\pE-\dvsolo as) as2
+		g4. es8 as g %600
+		\appoggiatura g16 f8 es16 f es4 r
+		R2.
+		\once \slurDashed es'8(\fE as) as2
+		g4.\p es8 as g
+		\appoggiatura g16 f8 es16 f es4 r %605
+		\once \slurDashed b8( f') f4.\f es8\p
+		b( f') f4.\f es8\p
+		c4 c c
+		f,4. d'8 \appoggiatura d16 c8 b16 a
+		b4 r f' %610
+		b, b g
+		g g g
+		c,4 r8 f\pocoF a b
+		c4 c c
+		b b, r %615
+		r a' c
+		b b b
+		b g a
+		b r b
+		b16 es d c b4 a %620
+		b r r
+		\mvTr d'16\p-\tutti b a b \appoggiatura c b8 a16 b \appoggiatura c b8\f a16 b
+		b, es d c b4 a
+		b'8(\pE f) f4.(\rfz fis8)
+		g(\p c,) c4.\rfz d8 %625
+		g,8\f es'16 c b4 a
+		b b, r
+		r \mvTr d'\p-\dvsolo d
+		r es es
+		r f es %630
+		es d r
+		R2.
+		es,8(\fE as) as2
+		g4.\p es8 as g
+		\appoggiatura g16 f8 es16 f es4 r %635
+		r es es
+		r es es
+		es es es
+		r es es
+		es r b' %640
+		es, c' c
+		c c c
+		b8( d) d4 r
+		g,8( es') es4 r
+		d c4. d8 %645
+		es4 r8 \once \slurDashed g( es b)
+		\appoggiatura b16 as8 g16 f es4 d
+		es r8 g(\pocoF es g)
+		f4\p \appoggiatura es d2
+		es4 r8 g(\pocoF es g) %650
+		f4\pE \appoggiatura es d2
+		es4 d r
+		r es es
+		r c b
+		c8 as'16 f es4 d %655
+		\appoggiatura d es2 r4
+		r es es
+		r c b
+		c8 as'16 f es4 d
+		es r r %660
+		\mvTr g'16\p-\tutti es d e \appoggiatura f es8 d16 es \appoggiatura f es8\f d16 es
+		es,4 es es
+		es4 r r\fermata
+		g'16 es d e \appoggiatura f es8 d16 es \appoggiatura f es8 d16 es
+		es, c' as f es4 d %665
+		es2 r4\fermata \bar "||" %666 finis
 	}
 }
