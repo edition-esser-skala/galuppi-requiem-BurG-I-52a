@@ -1331,7 +1331,7 @@ ConfutatisAltoNotes = {
 		b4 b b b
 		b a r2 %745
 		r \mvTr b4\pE^\solo as
-		\appoggiatura as? g2 r
+		\appoggiatura as g2 r
 		r a4 g
 		\appoggiatura g f2 r
 		r \mvTr g4\fE^\tutti f %750

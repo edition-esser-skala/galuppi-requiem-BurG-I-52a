@@ -787,12 +787,128 @@ ConfutatisTenoreNotes = {
 		\clef "treble_8"
 		\key es \major \time 4/4 \autoBeamOff \tempoConfutatis
 			\set Score.currentBarNumber = #734
-		
+		\mvTr b4\fE^\tuttiE b b8 b b b
+		b b b b b b r4 %735
+		c c c8 c c c
+		c c c c c c r4
+		c es f8. f16 es4
+		r2 f4 b,
+		c es f b, %740
+		b b r2
+		R1
+		r2 f'4. f8
+		g4 g g g
+		f f r2 %745
+		R1*4
+		r2 h,4 h %750
+		g2 a4 a
+		f2 r4 d'
+		b2 d4.( c8)
+		b4 b r d
+		b2 d4.( c8) %755
+		b4 b r f'
+		g2 g
+		f1
+		f4 r r2
+		R1*2 %761
+		c4 c c8 c c c
+		c c c c c c r4
+		b b b8 b b b
+		b b b b b b r4 %765
+		c es f8. f16 b,4
+		r2 f'4 b,
+		c es f b,
+		b b r2
+		R1 %770
+		r2 es4. es8
+		es4 r c4. c8
+		c4 b b c
+		b b r2
+		R1*4 %778
+		r2 c4 c
+		c2 b4 b %780
+		b2 r4 es
+		es2 g4.( f8)
+		es4 es r g
+		es2 g4.( f8)
+		es4 es r b %785
+		c2 c
+		b1
+		b2 r
+		R1*4 %792
+		r2 es4 es
+		es2 b4 b
+		es2 r4 b %795
+		es2 g4.( f8)
+		es4 es r g
+		es2 g4.( f8)
+		es4 es r b
+		c2 c %800
+		b1
+		b2 r\fermata \bar "||" %802 finis
 	}
 }
 
 ConfutatisTenoreLyrics = \lyricmode {
+	[Con -- fu -- ta -- tis ma -- le -- %734
+	di -- ctis, ma -- le -- di -- ctis, %735
+	con -- fu -- ta -- tis ma -- le --
+	di -- ctis, ma -- le -- di -- ctis,
+	flam -- mis a -- cri -- bus,
+	flam -- mis
+	a -- cri -- bus ad -- %740
+	di -- ctis,]
 	
+	[vo -- ca
+	me cum be -- ne --
+	di -- ctis,] %745
+	
+	[vo -- ca %750
+	me, vo -- ca
+	me cum
+	be -- ne --
+	di -- ctis, cum
+	be -- ne -- %755
+	di -- ctis, cum
+	be -- ne --
+	di --
+	ctis.]
+	
+	[Con -- fu -- ta -- tis ma -- le -- %762
+	di -- ctis, ma -- le -- di -- ctis,
+	con -- fu -- ta -- tis ma -- le --
+	di -- ctis, ma -- le -- di -- ctis, %765
+	flam -- mis a -- cri -- bus,
+	flam -- mis
+	a -- cri -- bus ad --
+	di -- ctis,]
+	%770
+	[vo -- ca
+	me, vo -- ca
+	me cum be -- ne --
+	di -- ctis,]
+	
+	[vo -- ca %779
+	me, vo -- ca %780
+	me cum
+	be -- ne --
+	di -- ctis, cum
+	be -- ne --
+	di -- ctis, cum %785
+	be -- ne --
+	di --
+	ctis,]
+	
+	[vo -- ca %793
+	me, vo -- ca
+	me cum %795
+	be -- ne --
+	di -- ctis, cum
+	be -- ne --
+	di -- ctis, cum
+	be -- ne -- %800
+	di --
+	ctis.] %802 finis
 }
 
 % TenoreNotes = {
