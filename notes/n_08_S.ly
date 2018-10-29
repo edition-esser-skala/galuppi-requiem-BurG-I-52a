@@ -1564,9 +1564,9 @@ ConfutatisSopranoNotes = {
 		c4 c c des
 		des? c r2 %745
 		r \mvTr f4\pE^\solo f
-		\appoggiatura f es2 r
+		f( es) r2
 		r es4 es
-		\appoggiatura es d2 r
+		es( d) r2
 		r \mvTr d4\fE^\tutti d %750
 		d( c) c c
 		c( b) r b
@@ -1592,12 +1592,12 @@ ConfutatisSopranoNotes = {
 		as4 as g g
 		g f r2
 		r \mvTr es'4\pE^\solo des %775
-		\appoggiatura des? c2 r
+		des?( c) r2
 		r d4 c
-		\appoggiatura c b2 r
+		c( b) r2
 		r \mvTr c4\fE^\tutti b
-		\appoggiatura b as2 b4 as %780
-		\appoggiatura as g2 r4 es'
+		b( as) b as %780
+		as( g) r es'
 		es2 es
 		es8.([ d16)] es4 r es
 		es2 es
@@ -1606,9 +1606,9 @@ ConfutatisSopranoNotes = {
 		es( d)
 		es r
 		r \mvTr c4\pE^\solo b
-		\appoggiatura b as2 r2 %790
+		b( as) r2 %790
 		r b4 as
-		\appoggiatura as g2 r
+		as( g) r2
 		r \mvTr es'4\fE^\tutti des
 		c2 f4 f
 		b,2 r4 es %795
@@ -1636,9 +1636,9 @@ ConfutatisSopranoLyrics = \lyricmode {
 	me cum be -- ne --
 	di -- ctis,] %745
 	vo -- ca
-	me,
+	me, __
 	vo -- ca
-	me,
+	me, __
 	[vo -- ca %750
 	me, __ vo -- ca
 	me __  cum
@@ -1664,12 +1664,12 @@ ConfutatisSopranoLyrics = \lyricmode {
 	me cum be -- ne --
 	di -- ctis,]
 	vo -- ca %775
-	me,
+	me, __
 	vo -- ca
-	me,
+	me, __
 	[vo -- ca
-	me, vo -- ca %780
-	me cum
+	me, __ vo -- ca %780
+	me __ cum
 	be -- ne --
 	di -- ctis, cum
 	be -- ne --
@@ -1678,9 +1678,9 @@ ConfutatisSopranoLyrics = \lyricmode {
 	di --
 	ctis,]
 	vo -- ca
-	me, %790
+	me, __ %790
 	vo -- ca
-	me,
+	me, __
 	[vo -- ca
 	me, vo -- ca
 	me cum %795

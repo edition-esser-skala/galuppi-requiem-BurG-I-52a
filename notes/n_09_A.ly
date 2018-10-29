@@ -1331,12 +1331,12 @@ ConfutatisAltoNotes = {
 		b4 b b b
 		b a r2 %745
 		r \mvTr b4\pE^\solo as
-		\appoggiatura as g2 r
+		as( g) r2
 		r a4 g
-		\appoggiatura g f2 r
+		g( f) r2
 		r \mvTr g4\fE^\tutti f %750
-		\appoggiatura f es2 f4 es
-		\appoggiatura es d2 r4 f
+		f( es) f es
+		es( d) r f
 		g2 f4.( es8)
 		d4 d r f
 		g2 f4.( es8) %755
@@ -1359,9 +1359,9 @@ ConfutatisAltoNotes = {
 		f4 f es es
 		es d r2
 		r \mvTr b'4\pE^\solo b %775
-		\appoggiatura b as2 r
+		b( as) r2
 		r as4 as
-		\appoggiatura as g2 r
+		as( g) r2
 		r \mvTr g4\fE^\tutti g
 		g( f) f f %780
 		f( es) r b'
@@ -1373,9 +1373,9 @@ ConfutatisAltoNotes = {
 		g( f)
 		g r
 		r \mvTr g4\pE^\solo g
-		\appoggiatura g f2 r %790
+		g( f) r2 %790
 		r f4 f
-		\appoggiatura g es2 r
+		f( es) r2
 		r \mvTr b'4\fE^\tutti b
 		b( as) as as
 		as( g) r b %795
@@ -1403,12 +1403,12 @@ ConfutatisAltoLyrics = \lyricmode {
 	me cum be -- ne --
 	di -- ctis,] %745
 	vo -- ca
-	me,
+	me, __
 	vo -- ca
-	me,
+	me, __
 	[vo -- ca %750
-	me, vo -- ca
-	me cum
+	me, __ vo -- ca
+	me __ cum
 	be -- ne --
 	di -- ctis, cum
 	be -- ne -- %755
@@ -1431,9 +1431,9 @@ ConfutatisAltoLyrics = \lyricmode {
 	me cum be -- ne --
 	di -- ctis,]
 	vo -- ca %775
-	me,
+	me, __
 	vo -- ca
-	me,
+	me, __
 	[vo -- ca
 	me, __ vo -- ca %780
 	me __ cum
@@ -1445,9 +1445,9 @@ ConfutatisAltoLyrics = \lyricmode {
 	di --
 	ctis,]
 	vo -- ca
-	me, %790
+	me, __ %790
 	vo -- ca
-	me,
+	me, __
 	[vo -- ca
 	me, __ vo -- ca
 	me __ cum %795
