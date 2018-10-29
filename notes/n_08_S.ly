@@ -1551,12 +1551,146 @@ ConfutatisSopranoNotes = {
 		\clef treble
 		\key es \major \time 4/4 \autoBeamOff \tempoConfutatis
 			\set Score.currentBarNumber = #734
-		
+		\mvTr g'4\fE^\tuttiE as g8 f g as
+		g f g as g g r4 %735
+		as b as8 g as b
+		as g as b as as r4
+		c4 b d8. d16 es4
+		r2 d4 es
+		c b d es %740
+		es d r2
+		r \mvTr es4.\pE^\solo es8
+		es4( d) \mvTr d4.\fE^\tutti d8
+		c4 c c des
+		des? c r2 %745
+		r \mvTr f4\pE^\solo f
+		\appoggiatura f es2 r
+		r es4 es
+		\appoggiatura es d2 r
+		r \mvTr d4\fE^\tutti d %750
+		d( c) c c
+		c( b) r b
+		b2 b
+		b8.([ a16)] b4 r b
+		b2 b %755
+		b8.([ a16)] b4 r d
+		c2 c
+		d( c)
+		d4 r r2
+		R1*2 %761
+		as4 b as8 g as b
+		as g as b as as r4
+		g as g8 f g as
+		g f g as g g r4 %765
+		c4 b d8. d16 es4
+		r2 d4 es
+		c b d es
+		es d \mvTr es4.\pE^\solo es8
+		es4( d) r2 %770
+		r \mvTr des4.\fE^\tutti des8
+		c4 r b4. b8
+		as4 as g g
+		g f r2
+		r \mvTr es'4\pE^\solo des %775
+		\appoggiatura des? c2 r
+		r d4 c
+		\appoggiatura c b2 r
+		r \mvTr c4\fE^\tutti b
+		\appoggiatura b as2 b4 as %780
+		\appoggiatura as g2 r4 es'
+		es2 es
+		es8.([ d16)] es4 r es
+		es2 es
+		es8.([ d16)] es4 r es %785
+		es2 es
+		es( d)
+		es r
+		r \mvTr c4\pE^\solo b
+		\appoggiatura b as2 r2 %790
+		r b4 as
+		\appoggiatura as g2 r
+		r \mvTr es'4\fE^\tutti des
+		c2 f4 f
+		b,2 r4 es %795
+		es2 es
+		es8.([ d16)] es4 r es
+		es2 es
+		es8.([ d16)] es4 r es
+		es2 es %800
+		es( d)
+		es r\fermata \bar "||" %802 finis
 	}
 }
 
 ConfutatisSopranoLyrics = \lyricmode {
+	[Con -- fu -- ta -- tis ma -- le -- %734
+	di -- ctis, ma -- le -- di -- ctis, %735
+	con -- fu -- ta -- tis ma -- le --
+	di -- ctis, ma -- le -- di -- ctis,
+	flam -- mis a -- cri -- bus,
+	flam -- mis
+	a -- cri -- bus ad -- %740
+	di -- ctis,]
+	vo -- ca
+	me, __ [vo -- ca
+	me cum be -- ne --
+	di -- ctis,] %745
+	vo -- ca
+	me,
+	vo -- ca
+	me,
+	[vo -- ca %750
+	me, __ vo -- ca
+	me __  cum
+	be -- ne --
+	di -- ctis, cum
+	be -- ne -- %755
+	di -- ctis, cum
+	be -- ne --
+	di --
+	ctis.]
 	
+	[Con -- fu -- ta -- tis ma -- le -- %762
+	di -- ctis, ma -- le -- di -- ctis,
+	con -- fu -- ta -- tis ma -- le --
+	di -- ctis, ma -- le -- di -- ctis, %765
+	flam -- mis a -- cri -- bus,
+	flam -- mis
+	a -- cri -- bus ad --
+	di -- ctis,] vo -- ca
+	me, __ %770
+	[vo -- ca
+	me, vo -- ca
+	me cum be -- ne --
+	di -- ctis,]
+	vo -- ca %775
+	me,
+	vo -- ca
+	me,
+	[vo -- ca
+	me, vo -- ca %780
+	me cum
+	be -- ne --
+	di -- ctis, cum
+	be -- ne --
+	di -- ctis, cum %785
+	be -- ne --
+	di --
+	ctis,]
+	vo -- ca
+	me, %790
+	vo -- ca
+	me,
+	[vo -- ca
+	me, vo -- ca
+	me cum %795
+	be -- ne --
+	di -- ctis, cum
+	be -- ne --
+	di -- ctis, cum
+	be -- ne -- %800
+	di --
+	ctis.] %802 finis
 }
 
 % SopranoNotes = {
