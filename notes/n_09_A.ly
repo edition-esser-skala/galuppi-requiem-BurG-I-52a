@@ -1318,12 +1318,146 @@ ConfutatisAltoNotes = {
 		\clef treble
 		\key es \major \time 4/4 \autoBeamOff \tempoConfutatis
 			\set Score.currentBarNumber = #734
-		
+		\mvTr es4\fE^\tuttiE f es8 d es f
+		es d es f es es r4 %735
+		f g f8 e f g
+		f e f g f f r4
+		es es as8. as16 g4
+		r2 as4 g
+		es es as g %740
+		g f \mvTr b4.\pE^\solo b8
+		b4( a) r2
+		r \mvTr b4.\fE^\tutti b8
+		b4 b b b
+		b a r2 %745
+		r \mvTr b4\pE^\solo as
+		\appoggiatura as? g2 r
+		r a4 g
+		\appoggiatura g f2 r
+		r \mvTr g4\fE^\tutti f %750
+		\appoggiatura f es2 f4 es
+		\appoggiatura es d2 r4 f
+		g2 f4.( es8)
+		d4 d r f
+		g2 f4.( es8) %755
+		d4 d r b'
+		b2 b
+		b( a)
+		b4 r r2
+		R1*2 %761
+		f4 g f8 e f g
+		f e f g f f r4
+		es f es8 d es f
+		es d es f es es r4 %765
+		es es as8. as16 g4
+		r2 as4 g
+		es es as g
+		g f r2
+		r \mvTr as4.\pE^\solo as8 %770
+		as4( g) \mvTr b4.\fE^\tutti b8
+		as4 r g4. g8
+		f4 f es es
+		es d r2
+		r \mvTr b'4\pE^\solo b %775
+		\appoggiatura b as2 r
+		r as4 as
+		\appoggiatura as g2 r
+		r \mvTr g4\fE^\tutti g
+		g( f) f f %780
+		f( es) r b'
+		c2 b4.( as8)
+		g4 g r b
+		c2 b4.( as8)
+		g4 g r b %785
+		f2 f
+		g( f)
+		g r
+		r \mvTr g4\pE^\solo g
+		\appoggiatura g f2 r %790
+		r f4 f
+		\appoggiatura g es2 r
+		r \mvTr b'4\fE^\tutti b
+		b( as) as as
+		as( g) r b %795
+		c2 b4.( as8)
+		g4 g r b
+		c2 b4.( as8)
+		g4 g r b
+		f2 f %800
+		g( f)
+		g r\fermata \bar "||" %802 finis
 	}
 }
 
 ConfutatisAltoLyrics = \lyricmode {
+	[Con -- fu -- ta -- tis ma -- le -- %734
+	di -- ctis, ma -- le -- di -- ctis, %735
+	con -- fu -- ta -- tis ma -- le --
+	di -- ctis, ma -- le -- di -- ctis,
+	flam -- mis a -- cri -- bus,
+	flam -- mis
+	a -- cri -- bus ad -- %740
+	di -- ctis,] vo -- ca
+	me, __
+	[vo -- ca
+	me cum be -- ne --
+	di -- ctis,] %745
+	vo -- ca
+	me,
+	vo -- ca
+	me,
+	[vo -- ca %750
+	me, vo -- ca
+	me cum
+	be -- ne --
+	di -- ctis, cum
+	be -- ne -- %755
+	di -- ctis, cum
+	be -- ne --
+	di --
+	ctis.]
 	
+	[Con -- fu -- ta -- tis ma -- le -- %762
+	di -- ctis, ma -- le -- di -- ctis,
+	con -- fu -- ta -- tis ma -- le --
+	di -- ctis, ma -- le -- di -- ctis, %765
+	flam -- mis a -- cri -- bus,
+	flam -- mis
+	a -- cri -- bus ad --
+	di -- ctis,]
+	vo -- ca %770
+	me, __ [vo -- ca
+	me, vo -- ca
+	me cum be -- ne --
+	di -- ctis,]
+	vo -- ca %775
+	me,
+	vo -- ca
+	me,
+	[vo -- ca
+	me, __ vo -- ca %780
+	me __ cum
+	be -- ne --
+	di -- ctis, cum
+	be -- ne --
+	di -- ctis, cum %785
+	be -- ne --
+	di --
+	ctis,]
+	vo -- ca
+	me, %790
+	vo -- ca
+	me,
+	[vo -- ca
+	me, __ vo -- ca
+	me __ cum %795
+	be -- ne --
+	di -- ctis, cum
+	be -- ne --
+	di -- ctis, cum
+	be -- ne -- %800
+	di --
+	ctis.] %802 finis
 }
 
 % AltoNotes = {

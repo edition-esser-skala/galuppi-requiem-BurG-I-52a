@@ -1578,7 +1578,7 @@ ConfutatisSopranoNotes = {
 		d( c)
 		d4 r r2
 		R1*2 %761
-		as4 b as8 g as b
+		as!4 b as8 g as b
 		as g as b as as r4
 		g as g8 f g as
 		g f g as g g r4 %765
