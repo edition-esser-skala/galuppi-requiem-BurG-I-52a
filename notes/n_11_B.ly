@@ -778,12 +778,128 @@ ConfutatisBassoNotes = {
 		\clef bass
 		\key es \major \time 4/4 \autoBeamOff \tempoConfutatis
 			\set Score.currentBarNumber = #734
-		
+		\mvTr es4\fE^\tuttiE d es8 b es d
+		es b es d es es r4 %735
+		f e f8 c f e
+		f c f e f f r4
+		as4 g f8. f16 es4
+		r2 f4 es
+		as g f es %740
+		b' b, r2
+		R1
+		r2 d4. d8
+		es4 es e e
+		f f r2 %745
+		R1*4
+		r2 h,4 h %750
+		c2 a4 a
+		b!2 r4 d
+		es2 f
+		g4 g r d
+		es2 f %755
+		g4 g r d
+		es2 e
+		f1
+		b,4 r r2
+		R1*2 %761
+		f'4 e f8 c f e
+		f c f e f f r4
+		es d es8 b es d
+		es b es d es es r4 %765
+		as g f8. f16 es4
+		r2 f4 es
+		as g f es
+		b' b, r2
+		R1 %770
+		r2 g'4. g8
+		as4 r e4. e8
+		f4 d es a,
+		b b r2
+		R1*4 %778
+		r2 e4 e
+		f2 d4 d %780
+		es!2 r4 g
+		as2 b
+		c4 c r g
+		as2 b
+		c4 c r g %785
+		as2 a
+		b( b,)
+		es r
+		R1*4 %792
+		r2 g4 g
+		as2 d,4 d
+		es2 r4 g %795
+		as2 b
+		c4 c r g
+		as2 b
+		c4 c r g
+		as2 a %800
+		b( b,)
+		es r\fermata \bar "||" %802 finis
 	}
 }
 
 ConfutatisBassoLyrics = \lyricmode {
+	Con -- fu -- ta -- tis ma -- le -- %734
+	di -- ctis, ma -- le -- di -- ctis, %735
+	con -- fu -- ta -- tis ma -- le --
+	di -- ctis, ma -- le -- di -- ctis,
+	flam -- mis a -- cri -- bus,
+	flam -- mis
+	a -- cri -- bus ad -- %740
+	di -- ctis,
 	
+	vo -- ca
+	me cum be -- ne --
+	di -- ctis, %745
+	
+	vo -- ca %750
+	me, vo -- ca
+	me cum
+	be -- ne --
+	di -- ctis, cum
+	be -- ne -- %755
+	di -- ctis, cum
+	be -- ne --
+	di --
+	ctis.
+	
+	Con -- fu -- ta -- tis ma -- le -- %762
+	di -- ctis, ma -- le -- di -- ctis,
+	con -- fu -- ta -- tis ma -- le --
+	di -- ctis, ma -- le -- di -- ctis, %765
+	flam -- mis a -- cri -- bus,
+	flam -- mis
+	a -- cri -- bus ad --
+	di -- ctis,
+	%770
+	vo -- ca
+	me, vo -- ca
+	me cum be -- ne --
+	di -- ctis,
+	
+	vo -- ca %779
+	me, vo -- ca %780
+	me cum
+	be -- ne --
+	di -- ctis, cum
+	be -- ne --
+	di -- ctis, cum %785
+	be -- ne --
+	di --
+	ctis,
+	
+	vo -- ca %793
+	me, vo -- ca
+	me cum %795
+	be -- ne --
+	di -- ctis, cum
+	be -- ne --
+	di -- ctis, cum
+	be -- ne -- %800
+	di --
+	ctis. %802 finis
 }
 
 % BassoNotes = {
