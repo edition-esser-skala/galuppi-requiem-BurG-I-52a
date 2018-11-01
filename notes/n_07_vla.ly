@@ -1193,6 +1193,109 @@ OroSupplexViola = {
 		\clef treble
 		\key b \major \time 2/2 \tempoOroSupplex
 			\set Score.currentBarNumber = #803
-		
+		d4\fE d f f
+		c c c' c
+		b b b b %805
+		a a g g
+		f f b, b'
+		g g g g
+		c, a a a
+		c\p c c c %810
+		d\f b b b
+		d\p f d d
+		c\f c c c
+		f\p f f f
+		f\f b,2 b'4 %815
+		a b2 a8 es
+		d4 r r2
+		g4\p r es r
+		d r r2
+		g4 r es r %820
+		d\f es f b,
+		a b2 a4
+		b b b r
+		f'\p f b, b
+		a a a a %825
+		g g g g
+		e' f d es
+		c d r es
+		d b c c
+		b2 r %830
+		r4 f' f f
+		f f f r
+		r a a a
+		f f f r
+		r es es es %835
+		e e e e
+		f a\f g g
+		r d\p d d
+		h c\f e e
+		d d\p b b %840
+		c c\fE a a
+		d d\p des des
+		r g g g
+		c, c c c
+		c c c c %845
+		c c c c
+		c c d b
+		a a' g g
+		c, b c f
+		r c c c %850
+		a r r f'\pocoF
+		e? e d d
+		c\fE c b h
+		c2\fermata r
+		c'4 b c c, %855
+		c b c f
+		e f2 e4
+		f8 b, a g f4 r
+		f'\p f f f
+		e e e e %860
+		d d d d
+		h c a b
+		g a r b
+		a f g c
+		c c\fE c r %865
+		r es!\p es es
+		r a, a a
+		fis' r r d
+		g d\fE d r 
+		g g\pE g g %870
+		e f\f f f
+		r es\p es es
+		c d\f d d
+		r d\p d d
+		es es es es %875
+		es es es e
+		f f f f
+		f f f f
+		f f f f
+		f f g f %880
+		es es es es
+		d d d d
+		es r r g
+		f f f f
+		d r r2 %885
+		g4 r es r
+		d r r2
+		g4 r es r
+		d r r2
+		es4 es es es %890
+		d2 r\fermata
+		r4 b'\pocoF a a
+		g g f\f f
+		g8([ b)] f([ b)] es,4 e
+		f1\fermata %895
+		f4 f f f
+		g g g g
+		c, a a a
+		c\p c c c
+		d\f b b b %900
+		d\p f d d
+		c\f c c c
+		f\p f f f
+		f\f b,2 b'4
+		a b2 a4 %905
+		b b, b r\fermata \bar "||" %906 finis
 	}
 }

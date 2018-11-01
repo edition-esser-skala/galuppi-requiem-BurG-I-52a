@@ -2385,7 +2385,7 @@ OroSupplexOrgano = {
 		c c c, c %850
 		d r r d'~\pocoF
 		d c2 b4~
-		b a\f b h
+		b\f a b h
 		c1\fermata
 		f,4 g a e %855
 		f g a b
@@ -2462,7 +2462,7 @@ OroSupplexBassFigures = \figuremode {
 	r1
 	r2 <7> %820
 	r4 <6> q2
-	<7>4 <6 4> <5 3>2
+	<7>4 <6 4> <5 \t> <\t 3>
 	r1
 	r
 	<6> %825
@@ -2497,7 +2497,7 @@ OroSupplexBassFigures = \figuremode {
 	<6 4>2 <5 3>
 	r4 <6!> <6> q %855
 	r <6!> <6>2
-	<7>4 <6 4> <5 _!>2
+	<7>4 <6 4> <5 \t> <\t _!>
 	r1
 	<6>
 	q %860
@@ -2545,7 +2545,7 @@ OroSupplexBassFigures = \figuremode {
 	<6 5>
 	<7>
 	r4 <6> q2
-	<7>4 <6 4> <5 3>2 %905
+	<7>4 <6 4> <5 \t> <\t 3> %905
 	r1 %906 finis
 }
 
