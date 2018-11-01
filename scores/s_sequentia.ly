@@ -734,7 +734,7 @@
 					\ConfutatisBassFigures
 				}
 			>>
-% 			\layout { }
+			\layout { }
 			\midi { \tempo 4 = 105 }
 		}
 	}

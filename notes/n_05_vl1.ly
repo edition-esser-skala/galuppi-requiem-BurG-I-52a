@@ -1115,6 +1115,75 @@ ConfutatisViolinoI = {
 		\clef treble
 		\key es \major \time 4/4 \tempoConfutatis
 			\set Score.currentBarNumber = #734
+		g''4\fE-! as-! g8-! f-! g-! as-!
+		g-! f-! g-! as-! g16 es b g es4 %735
+		as'-! b-! as8-! g-! as-! b-!
+		as-! g-! as-! b-! as16 f c as f4
+		c'8. c16 b8. b16 d8. d16 es8. es16
+		c8. c16 b8. b16 d8. d16 es8. es16
+		c8. c16 b8. b16 d8. d16 es8. es16 %740
+		es8 d b,4 r8 f'\p b b
+		b b a? a es' es es es
+		es es d d b'8.\f f16 b f es d
+		c8 \appoggiatura f32 es16 d c8 c c c des des
+		des?4 c r2 %745
+		b4.-\markup { \remark "piano assai" } d16 es f4 f
+		g8([ f)] es-! d-! es4 r
+		a,4. c16 d es4 es
+		f8([ es)] d-! c-! d4 r
+		g,4.\f h16 c d4 d %750
+		es8([ d)] c-\parenthesize-! h-\parenthesize-! c4 c
+		d8([ c)] b-! a-! b4 f'8 d
+		b4~ b16 c d c b4~ b16 c d c
+		b8 b' b4. d,16 es f8 d
+		b4~ b16 c d c b4~ b16 c d c %755
+		b8 b' b4. d,16 es f8 d
+		g-! c,16 d c8 c g'-! c,16 d c8 c
+		d b' d, b' c, a' c, a'
+		b d,16 es f8 d g es c a
+		b d,16 es f8 d g es c a %760
+		\appoggiatura a?4 b2 r
+		as''!4-! b-! as8-! g-! as-! b-!
+		as-! g-! as-! b-! as16 f c as f4
+		g'-! as-! g8-! f-! g-! as-!
+		g-! f-! g-! as-! g16 es b g es4 %765
+		c'8. c16 b8. b16 d8. d16 es8. es16
+		c8. c16 b8. b16 d8. d16 es8. es16
+		c8. c16 b8. b16 d8. d16 es8. es16
+		es4 d r8 es\p es es
+		es4 d8. f16 as8 as as as %770
+		as4 g b16\f des, c des es des c des
+		c b' as g \appoggiatura g8 as4 g16 b, a b c b a b
+		as g' f e f8 as, g16 f' es d es8 g,
+		g4 f r2
+		es4.\pE g16 as b4 b %775
+		c8([ b)] as-! g-! as4 r
+		d,4. f16 g as4-! as-!
+		b8([ as)] g-! f-! g4 r
+		c4.\f e16 f g4 g
+		as8([ g)] f-! e-! f4 f %780
+		g8([ f)] es-! d-! es4 b'8-! g-!
+		es4~ es16 f g f es4~ es16 f g f
+		es8.\trill d16 es4. g16 as b8 g
+		es4~ es16 f g f es4~ es16 f g f
+		es8.\trill d16 es4. g16 as b8 g %785
+		c-! f,16 g f8 f c'-! f,16 g f8 f
+		g8([ b)] g([ b)] d,([ f)] d([ f)]
+		es4 es, r2
+		c'4.\p e16 f g4 g
+		as8([ g)] f-! e-! f4 r %790
+		b,4. d16 es f4 f
+		g8([ f)] es-! d-! es4 r
+		es4.\f g16 as b4 b
+		c8([ b)] as-! g-! as4 as
+		\appoggiatura b8 as4 g8 f g4 b8 g %795
+		es4~ es16 f g f es4~ es16 f g f
+		es8.\trill d16 es4. g16 as b8 g
+		es4~ es16 f g f es4~ es16 f g f
+		es8.\trill d16 es4. g16 as b8 g
+		c-! f,16 g f8 f c'-! f,16 g f8 f %800
+		g8([ b)] g([ b)] d,([ f)] d([ f)]
+		es2 r\fermata \bar "||" %802 finis
 	}
 }
 
