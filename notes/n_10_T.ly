@@ -970,8 +970,8 @@ LacrimosaTenoreLyrics = \lyricmode {
 	
 	[Hu -- ic %918
 	er -- go par -- ce,
-	De -- us. Pi -- e] %920
-	Je -- su Do --
+	De -- us. Pi -- e %920
+	Je -- su Do] --
 	_ _
 	mi -- ne:
 	

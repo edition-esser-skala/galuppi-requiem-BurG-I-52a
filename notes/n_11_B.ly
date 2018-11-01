@@ -907,10 +907,84 @@ LacrimosaBassoNotes = {
 		\clef bass
 		\key c \dorian \time 4/4 \autoBeamOff \tempoLacrimosa
 			\set Score.currentBarNumber = #907
-		
+		\mvTr c4.\fE^\tuttiE c8 f4 f
+		d4. d8 c4 c
+		as'4. as8 g4 g
+		es4. es8 es4 d %910
+		f4. f8 f4 es!
+		d d d( cis)
+		d r c4. a8
+		d d es c d2
+		g,4 r r2 %915
+		R1*2
+		r2 b4. b8
+		f'4 f g4. g8
+		d4 d es4. es8 %920
+		es4 d c2
+		d g4 d
+		g4. g8 d4 r\fermata
+		R1*5 %928
+		r2 g4. f8
+		es4 c f4. es8 %930
+		d b b'2 a4
+		b r r8 b,[ b' a]
+		g[ e a g] f[ d g f]
+		es4 f b, r
+		R1 %935
+		r8 g'[ c b] as[ f b b,]
+		es4 r r f
+		b, r r c
+		f r r g
+		c, r f4. es!8 %940
+		d4 b es4. d8
+		c4 a d e8[( fis])
+		g4 r8 g cis,4 d8[ f]
+		g4 a b4. g8
+		c[ a d d,] g4 g %945
+		es h c g'
+		es h c g'
+		c,1
+		g'\fermata \bar "|." %949 FINIS
 	}
 }
 
 LacrimosaBassoLyrics = \lyricmode {
+	La -- cri -- mo -- sa %907
+	di -- es il -- la,
+	di -- es il -- la,
+	qua re -- sur -- get, %910
+	qua re -- sur -- get
+	ex fa -- vil --
+	la, ju -- di --
+	can -- dus ho -- mo re --
+	us. %915
 	
+	Hu -- ic %918
+	er -- go par -- ce,
+	De -- us. Pi -- e %920
+	Je -- su Do --
+	_ _ _
+	_ mi -- ne:
+	
+	Do -- na %929
+	e -- is, do -- na %930
+	e -- is re -- qui --
+	em, a --
+	_ _
+	_ _ men,
+	%935
+	a -- _
+	men, a --
+	men, a --
+	men, a --
+	men, do -- na %940
+	e -- is, do -- na
+	e -- is re -- qui --
+	em, a -- _ _
+	_ _ _ _
+	_ men, a -- %945
+	_ _ _ _
+	_ _ _ men,
+	a --
+	men. %949 FINIS
 }

@@ -2558,7 +2558,7 @@ LacrimosaOrgano = {
 		d(-. d-. d-. d-.) c(-. c-. c-. c-.)
 		as'(-. as-. as-. as-.) g4 g,
 		es'8 es es es es es d d %910
-		f f f f f f e e
+		f f f f f f es! es
 		d d d d d d cis cis
 		d d b b c c c a
 		d d es c d4 d,
