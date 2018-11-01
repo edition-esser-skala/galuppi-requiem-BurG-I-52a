@@ -911,14 +911,15 @@ ConfutatisTenoreLyrics = \lyricmode {
 	ctis.] %802 finis
 }
 
-% TenoreNotes = {
-% 	\relative c' {
-% 		\clef "treble_8"
-% 		
-% 		
-% 	}
-% }
-% 
-% TenoreLyrics = \lyricmode {
-% 	
-% }
+LacrimosaTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \minor \time 4/4 \autoBeamOff \tempoLacrimosa
+			\set Score.currentBarNumber = #907
+		
+	}
+}
+
+LacrimosaTenoreLyrics = \lyricmode {
+	
+}

@@ -902,14 +902,15 @@ ConfutatisBassoLyrics = \lyricmode {
 	ctis. %802 finis
 }
 
-% BassoNotes = {
-% 	\relative c {
-% 		\clef bass
-% 		
-% 		
-% 	}
-% }
-% 
-% BassoLyrics = \lyricmode {
-% 	
-% }
+LacrimosaBassoNotes = {
+	\relative c {
+		\clef bass
+		\key c \minor \time 4/4 \autoBeamOff \tempoLacrimosa
+			\set Score.currentBarNumber = #907
+		
+	}
+}
+
+LacrimosaBassoLyrics = \lyricmode {
+	
+}

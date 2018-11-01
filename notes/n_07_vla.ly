@@ -1299,3 +1299,12 @@ OroSupplexViola = {
 		b b, b r\fermata \bar "||" %906 finis
 	}
 }
+
+LacrimosaViola = {
+	\relative c' {
+		\clef treble
+		\key c \minor \time 4/4 \tempoLacrimosa
+			\set Score.currentBarNumber = #907
+		
+	}
+}

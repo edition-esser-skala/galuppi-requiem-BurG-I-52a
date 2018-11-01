@@ -1460,14 +1460,15 @@ ConfutatisAltoLyrics = \lyricmode {
 	ctis.] %802 finis
 }
 
-% AltoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 		
-% 	}
-% }
-% 
-% AltoLyrics = \lyricmode {
-% 	
-% }
+LacrimosaAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \minor \time 4/4 \autoBeamOff \tempoLacrimosa
+			\set Score.currentBarNumber = #907
+		
+	}
+}
+
+LacrimosaAltoLyrics = \lyricmode {
+	
+}

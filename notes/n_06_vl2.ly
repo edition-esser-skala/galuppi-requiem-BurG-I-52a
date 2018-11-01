@@ -1309,3 +1309,12 @@ OroSupplexViolinoII = {
 		b8-! es,( d c) b4 r\fermata \bar "||" %906 finis
 	}
 }
+
+LacrimosaViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \minor \time 4/4 \tempoLacrimosa
+			\set Score.currentBarNumber = #907
+		
+	}
+}

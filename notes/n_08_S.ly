@@ -1847,14 +1847,15 @@ OroSupplexSopranoLyrics = \lyricmode {
 	nis. %896 finis
 }
 
-% SopranoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 		
-% 	}
-% }
-% 
-% SopranoLyrics = \lyricmode {
-% 	
-% }
+LacrimosaSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key c \minor \time 4/4 \autoBeamOff \tempoLacrimosa
+			\set Score.currentBarNumber = #907
+		
+	}
+}
+
+LacrimosaSopranoLyrics = \lyricmode {
+	
+}
