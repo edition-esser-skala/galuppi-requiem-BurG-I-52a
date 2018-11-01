@@ -93,5 +93,49 @@ ConfutatisCornoI = {
 		\clef treble
 		\key c \major \time 4/4 \tempoConfutatis
 			\set Score.currentBarNumber = #734
+		e'4\fE f e8 d e f
+		e d e f e c c4 %735
+		f g f8 e f g
+		f e f g f d d4
+		r2 f4 e
+		r2 f4 e
+		r2 f4 e %740
+		e8 d d4 r2
+		R1*11 %752
+		g,1~\p
+		g4 r r2
+		g1~ %755
+		g4 r r2
+		R1*2
+		d'4\fE r e4 d
+		d r e d %760
+		d2 r
+		f4 g f r8 e
+		f4 r8 e f f f4
+		e f e8 d e f
+		e d e f e e e4 %765
+		r2 f4 e
+		r2 f4 e
+		r2 f4 e
+		e8 d d4 r2
+		R1*3 %772
+		r2 r4 e
+		e d r2
+		R1*7 %781
+		c1~\pocoF
+		c4 r r2
+		c1~
+		c4 r r2 %785
+		R1
+		e2\pocoF d
+		c-\critnote r
+		R1*7
+		c1~\pocoFE
+		c4 r r2
+		c1~
+		c4 r r2
+		R1
+		e2\pocoF d
+		c r\fermata \bar "||"
 	}
 }
