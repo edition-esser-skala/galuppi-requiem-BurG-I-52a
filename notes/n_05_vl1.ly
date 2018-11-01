@@ -1226,7 +1226,7 @@ OroSupplexViolinoI = {
 		es8( cis) d4. b8(\rfz d f)
 		g4 g,\p r g' %835
 		c, c c c
-		c c2\rfz \appoggiatura e?16 d8 c
+		c-! c2\rfz \appoggiatura e?16 d8 c
 		f4 b,\p b b
 		gis a2\rfz \appoggiatura c16 b8 a
 		d4 d\p d d %840
@@ -1254,7 +1254,7 @@ OroSupplexViolinoI = {
 		gis8([\pocoF a)] c([ a)] fis([ g)] b([ g)]
 		e([ f)] f4 r d'\p
 		c a b b
-		a f4.\rfz g8 a b %865
+		a f4. g8\rfz a b %865
 		c4 c\p c c
 		r c c c
 		c r r c
