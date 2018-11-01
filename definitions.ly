@@ -226,6 +226,7 @@ tempoQuiMariam = \tempoMarkup "Andante"
 tempoPrecesMeae = \tempoMarkup "Andantino"
 tempoInterOves = \tempoMarkup "Allegro"
 tempoConfutatis = \tempoMarkup "Allegro mà non presto"
+tempoOroSupplex = \tempoMarkup "Andante"
 
 
 

@@ -1187,6 +1187,15 @@ ConfutatisViolinoI = {
 	}
 }
 
+OroSupplexViolinoI = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 2/2 \tempoOroSupplex
+			\set Score.currentBarNumber = #803
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

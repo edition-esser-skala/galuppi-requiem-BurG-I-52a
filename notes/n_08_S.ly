@@ -1693,6 +1693,19 @@ ConfutatisSopranoLyrics = \lyricmode {
 	ctis.] %802 finis
 }
 
+OroSupplexSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 2/2 \autoBeamOff \tempoOroSupplex
+			\set Score.currentBarNumber = #803
+		
+	}
+}
+
+OroSupplexSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

@@ -2330,6 +2330,19 @@ ConfutatisBassFigures = \figuremode {
 	r1 %802 finis
 }
 
+OroSupplexOrgano = {
+	\relative c {
+		\clef bass
+		\key b \major \time 2/2 \tempoOroSupplex
+			\set Score.currentBarNumber = #803
+		\mvTr b'4\fE-\soloE b b b
+	}
+}
+
+OroSupplexBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

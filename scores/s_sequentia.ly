@@ -671,71 +671,115 @@
 % 			\midi { \tempo 4 = 90 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "3.13 CONFUTATIS"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "[ex Es]" } }
+% 						\partcombine \ConfutatisCornoI \ConfutatisCornoII
+% 					}
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\ConfutatisViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\ConfutatisViolinoII
+% 						}
+% 					>>
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Viola"
+% 						\ConfutatisViola
+% 					>>
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \ConfutatisSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \ConfutatisSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \ConfutatisAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \ConfutatisAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \ConfutatisTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \ConfutatisTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \ConfutatisBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \ConfutatisBassoLyrics
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\ConfutatisOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\ConfutatisBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 105 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "3.13 CONFUTATIS"
+			movement = "3.14 ORO SUPPLEX"
 		}
+% 		\paper { systems-per-page = #2 }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "[ex Es]" } }
-						\partcombine \ConfutatisCornoI \ConfutatisCornoII
-					}
-				>>
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\ConfutatisViolinoI
+							\OroSupplexViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\ConfutatisViolinoII
+							\OroSupplexViolinoII
 						}
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = "Viola"
-						\ConfutatisViola
+						\OroSupplexViola
 					>>
 				>>
-				\new ChoirStaff <<
+				\new ChoirStaff \with { \smallerGroupDistance } <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \ConfutatisSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \OroSupplexSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \ConfutatisSopranoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \ConfutatisAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \ConfutatisAltoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \ConfutatisTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \ConfutatisTenoreLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \ConfutatisBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \ConfutatisBassoLyrics
+					\new Lyrics \lyricsto Soprano \OroSupplexSopranoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\ConfutatisOrgano
+						\OroSupplexOrgano
 					}
 				>>
 				\new FiguredBass {
-					\ConfutatisBassFigures
+					\OroSupplexBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 105 }
+			\midi { \tempo 4 = 90 }
 		}
 	}
 }

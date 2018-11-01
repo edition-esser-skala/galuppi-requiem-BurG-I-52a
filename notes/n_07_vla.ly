@@ -1187,3 +1187,12 @@ ConfutatisViola = {
 		b2 r\fermata \bar "||" %802 finis
 	}
 }
+
+OroSupplexViola = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 2/2 \tempoOroSupplex
+			\set Score.currentBarNumber = #803
+		
+	}
+}
