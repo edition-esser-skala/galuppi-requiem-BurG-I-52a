@@ -1116,5 +1116,74 @@ ConfutatisViola = {
 		\clef treble
 		\key es \major \time 4/4 \tempoConfutatis
 			\set Score.currentBarNumber = #734
+		es4\fE d es8 b r b
+		es b r b es es, es4 %735
+		f' e f8 c r c
+		f c r c f f, f4
+		as'8 as g g f f es! es
+		as as g g f f es es
+		as as g g f f es es %740
+		b'4 b, d8\p d d d
+		c c c c a a a a
+		b b b b r f'\f f f
+		g g g g g g g g
+		f4 f, r2 %745
+		f'8\p f f f b, b b b
+		b4 g'8 f g4 r
+		es8 es es es a, a a a
+		a4 f' f r
+		d8\f d d d g g g g %750
+		g f es4 r8 c f f
+		f es d4 f8 f f f
+		g g g g d d d d
+		d d d d f f f f
+		g g g g d d d d %755
+		d d d d f f f f
+		g g g g g g g g
+		f f f f f f f f
+		f4 b,~ b8 g' es c
+		d4 b~ b8 g f es %760
+		d2 r
+		c'4 c c r8 c
+		c4 r8 c c f f,4
+		b b b r8 b
+		b4 r8 b b es es,4 %765
+		as'8 as g g f f es es
+		as as g g f f es es
+		as as g g f f es es
+		b'4 b, g'8\p g g g
+		f f f f r b, b b %770
+		es es es es es\fE es es b'
+		es, es c' c c c, c g'
+		c, c b b b b c c
+		b4-! b-! r2
+		b8\pE b b b es es es es %775
+		es4 c c r
+		as8 as as as d d d d
+		d4 b b r
+		g'8\f g g g c, c c c
+		c c c c b b b b %780
+		b b g' g b b es, es
+		c' c c c g g g g
+		g g g g b b b b
+		c c c c g g g g
+		g g g g b b b b %785
+		c c c c c, c c c
+		b b b b b b b b
+		es( f g as b as g f)
+		g\p g g g c, c c c
+		c4 as' as r %790
+		f8 f f f b, b b b
+		b4 g' g r
+		b8\f b b b es, es es es
+		es es es es f f f f
+		b,4 b r es %795
+		c'8 c c c g g g g
+		g g g g b b b b
+		c c c c g g g g
+		g g g g b b b b
+		c c c c c, c c c %800
+		b b b b b b b b
+		b2 r\fermata \bar "||" %802 finis
 	}
 }
