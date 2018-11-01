@@ -1698,12 +1698,153 @@ OroSupplexSopranoNotes = {
 		\clef treble
 		\key b \major \time 2/2 \autoBeamOff \tempoOroSupplex
 			\set Score.currentBarNumber = #803
-		
+		R1*21 %823
+		b'2\pE^\soloE d4.( e8)
+		\appoggiatura g8 f4.( e8) f4 r %825
+		\appoggiatura f es2. g8([ es)]
+		cis4 d r2
+		f2( es8[ d)] c([ b)]
+		\appoggiatura b4 f2( es)\trill
+		d r %830
+		d'8.([ b16] d4~ d8.[ es16] f8) es16([ d)]
+		d8([ h)] c2 r4
+		es8.([ c16] es4~ es8.[ f16] g8) es16([ d)]
+		es8([ cis)] d2 r4
+		g2( f8[ es]) d([ c)] %835
+		c2( b)\trill
+		a r
+		f'~ f8[( d]) c([ b)]
+		gis4 a r2
+		d2~ d8([ b)] a([ g)] %840
+		e4 f r2
+		f'4 h,2.
+		\appoggiatura c16 b8.[ a16] b4 r8 b[ a b]
+		g'8.([ e16)] g4. e8[ c b]
+		a[ b16 g] a4 r8 a([ g a)] %845
+		f'8.[ c16] f4. c8[ \appoggiatura c16 b8 a]
+		g4. a8\( b[ c d e]\)
+		f4. c8\( d[ e] f[ g\)]
+		a16([ f8.)] e16([ g8.)] f16([ c8.)] d16([ b8.)]
+		b4.( a32[ g f g] g2)\trill %850
+		f r
+		R1
+		r4 f'2 f,4
+		f2\fermata g\trill
+		f r %855
+		R1*3
+		f2 a4.( h8)
+		c4.( h8) c4 r %860
+		b2. d8([ b])
+		gis4 a r2
+		c( a'8[ f)] e([ d)]
+		c2( b)\trill
+		a r %865
+		c~ c8([ d)] d([ es)]
+		\appoggiatura g,8 fis4 fis4 c'2~
+		c4( es8[ d] \appoggiatura f es4) d8([ c)]
+		c4 b r2
+		es2~ es8.([ f16] g8) f16([ es)] %870
+		cis4 d r2
+		c2~ c8.([ d16] es8) d16([ c)]
+		a4 b r2
+		as2~ as8[ c as fis]
+		g[ b16 a] g4~ g8[ a b h] %875
+		c4 g'~ g8[ g( c, b)]
+		a[ c16 b] a4 r8 f'([ c a)]
+		b[ d16 c] b4 r8 f'([ d h)]
+		c[ es16 d] c4 r8 g'8[( es cis)]
+		d2 es4 f %880
+		g2~ g8([ a)] a([ b)]
+		b([ f)] f2( \appoggiatura f16 es8[ d)]
+		c16([ d c d] es[ f es f] g8[ es)] d([ c)]
+		b2( c)\trill
+		b r %885
+		r4 c~ c8([ es)] c([ a)]
+		b4 f r2
+		r4 c'~ c8([ es)] c([ a)]
+		b4 f r2
+		g' a, %890
+		b4.(\trill a8) b4 r\fermata
+		R1*2
+		r4 b2 b4
+		b2\fermata c %895
+		b r
+		R1*9 %905
+		R1\fermataMarkup \bar "||" %906 finis
 	}
 }
 
 OroSupplexSopranoLyrics = \lyricmode {
+	O -- ro __ %824
+	sup -- plex %825
+	et ac --
+	cli -- nis,
+	et __ ac --
+	cli --
+	nis, %830
+	cor __ con --
+	tri -- tum,
+	cor __ con --
+	tri -- tum
+	qua -- si %835
+	ci --
+	nis,
+	ge -- re
+	cu -- ram
+	me -- i __ %840
+	fi -- nis,
+	ge -- re,
+	ge -- _ _
+	_ _ _
+	_ _ _ %845
+	_ _ _
+	_ _ _
+	_ _ _ re
+	cu -- ram me -- i
+	fi -- %850
+	nis,
 	
+	me -- i
+	fi -- _
+	nis. %855
+	
+	O -- ro __ %859
+	sup -- plex %860
+	et ac --
+	cli -- nis,
+	et __ ac --
+	cli --
+	nis, %865
+	cor __ con --
+	tri -- tum qua --
+	si
+	ci -- nis,
+	ge -- re %870
+	cu -- ram
+	me -- i __
+	fi -- nis,
+	ge --
+	_ _ %875
+	_ _
+	_ _ _
+	_ _ _
+	_ _ _
+	_ _ _ %880
+	_ re
+	cu -- ram __
+	me -- i __
+	fi --
+	nis, %885
+	cor __ con --
+	tri -- tum
+	qua -- si
+	ci -- nis,
+	ge -- re %890
+	cu -- ram
+	
+	me -- i %894
+	fi -- _
+	nis. %896 finis
 }
 
 % SopranoNotes = {
