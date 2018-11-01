@@ -2552,12 +2552,69 @@ OroSupplexBassFigures = \figuremode {
 LacrimosaOrgano = {
 	\relative c {
 		\clef bass
-		\key c \minor \time 4/4 \tempoLacrimosa
+		\key c \dorian \time 4/4 \tempoLacrimosa
 			\set Score.currentBarNumber = #907
 		\mvTr c8(-.\fE-\tuttiE c-. c-. c-.) f(-. f-. f-. f-.)
+		d(-. d-. d-. d-.) c(-. c-. c-. c-.)
+		as'(-. as-. as-. as-.) g4 g,
+		es'8 es es es es es d d %910
+		f f f f f f e e
+		d d d d d d cis cis
+		d d b b c c c a
+		d d es c d4 d,
+		g8\p g g g g g g g %915
+		r g g' g es es es es
+		d d, r d' d d, r d'
+		d d16 es d8 c b\f b b b
+		f' f f f g g g g
+		d d d d es es es es %920
+		es es d d c c c c
+		d d d d g g d d
+		g4 g, d' r\fermata
+		\tempoDonaEis r2 r8 g, g' f
+		es c f es d b es d %925
+		c a d d, g4 r
+		r8 d' d' c b g c b
+		a f b a g e a a,
+		d d e fis g g, a b
+		c c d es f f, g a %930
+		b c d b es c f f,
+		b4 r r8 b b' a
+		g e a g f d g f
+		es c f f, b4 r
+		r8 es-\vlc es' d c a d c %935
+		b g[-\tutti c b] as f b b,
+		es f g d es c f f,
+		b b' as g b g c c,
+		f f es c f d g g,
+		c c d e f f, g a %940
+		b b c d es es, f g
+		a a b c d d, e fis
+		g g' r g cis, cis d f
+		g g a f b a b g
+		c a d d, g g, g' f %945
+		es c h g c g g' f
+		es c h g c4 g'
+		c,1
+		g'\fermata \bar "|." %949 FINIS
 	}
 }
 
 LacrimosaBassFigures = \figuremode {
-	
+	r1 %907
+	r
+	r
+	r %910
+	r
+	r
+	r
+	r
+	r %915
+	r
+	<6 4>8 <5 _+>4. <6 4>8 <5 _+>4.
+	<6 4>8 <5 _+>4 <6 _->8 r2
+	<6 4>4 <5 3> <5 3>2
+	<6 4>4 <5 _+> <5 3>2
+	<4 2>4 <6> <7> <6->8 <5>
+	<9 _+>4 <8>8 <7> r4 <5 _+>
 }

@@ -914,7 +914,7 @@ ConfutatisTenoreLyrics = \lyricmode {
 LacrimosaTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
-		\key c \minor \time 4/4 \autoBeamOff \tempoLacrimosa
+		\key c \dorian \time 4/4 \autoBeamOff \tempoLacrimosa
 			\set Score.currentBarNumber = #907
 		
 	}

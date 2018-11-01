@@ -905,7 +905,7 @@ ConfutatisBassoLyrics = \lyricmode {
 LacrimosaBassoNotes = {
 	\relative c {
 		\clef bass
-		\key c \minor \time 4/4 \autoBeamOff \tempoLacrimosa
+		\key c \dorian \time 4/4 \autoBeamOff \tempoLacrimosa
 			\set Score.currentBarNumber = #907
 		
 	}
