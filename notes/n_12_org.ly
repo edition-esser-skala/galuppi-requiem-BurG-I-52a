@@ -2335,12 +2335,218 @@ OroSupplexOrgano = {
 		\clef bass
 		\key b \major \time 2/2 \tempoOroSupplex
 			\set Score.currentBarNumber = #803
-		\mvTr b'4\fE-\soloE b b b
+		\mvTr b'4\fE-\soloE ^\tweak TextScript.X-offset #0 ^\critnote b b b
+		a a a a
+		g g g g %805
+		g f2 es4~
+		es d d d
+		es es e e
+		f f f f
+		es!\p es es es %810
+		d\f d d d
+		d\p d d d
+		a'\f a a a
+		f\p f f f
+		b\f g d es %815
+		f g es f
+		b, r r2
+		es4\p r f r
+		b, r r2
+		es4 r f r %820
+		b,\f c d es
+		f f f, f
+		b b b r
+		b'\p b b b
+		a a a a %825
+		g g g g
+		g f2 es4~
+		es d r es
+		d b c f,
+		b2 r %830
+		r4 b b b
+		f' f, f r
+		r f' f f
+		b b, b r
+		r es es es %835
+		e e e e
+		f f\f e e
+		d\p d d d
+		d c\fE c c
+		b\p b' b b %840
+		b a\f a a
+		d,\p d des des
+		c c c c
+		c c c c
+		c c c c %845
+		c c c c
+		c c d b
+		a a' g g
+		f g a b
+		c c c, c %850
+		d r r d'~\pocoF
+		d c2 b4~
+		b a\f b h
+		c1\fermata
+		f,4 g a e %855
+		f g a b
+		c c c, c
+		f f f r
+		f\p f f f
+		e e e e %860
+		d d d d
+		d c2 b4~
+		b a r b
+		a f g c
+		f\f f, f r %865
+		r es'!\p es es
+		d d d d
+		fis fis fis fis
+		g\f g, g r
+		g'\pE g g g %870
+		g f\f f f
+		r es!\p es es
+		es d\f d d
+		r d\p d d
+		es es es es %875
+		es es es e
+		f f f f
+		d d d d
+		a a a a
+		b b' g d %880
+		es es es es
+		d d d d
+		es es es es
+		f f f, f
+		b r r2 %885
+		es4 r f r
+		b, r r2
+		es4 r f r
+		b, r r2
+		es4 es es es %890
+		d2 r\fermata
+		r4 g2\pocoF f4~
+		f es2 d4\f
+		g8([ b)] f([ b)] es,4 e
+		f1\fermata %895
+		b,4 b d d
+		es es e e
+		f f f f
+		es!\p es es es
+		d\f d d d %900
+		d\p d d d
+		a'\f a a a
+		f\p f f f
+		b\f g d es
+		f f f f, %905
+		b b b r\fermata \bar "||" %906 finis
 	}
 }
 
 OroSupplexBassFigures = \figuremode {
-	
+	r1 %803
+	r
+	r %805
+	<4+ 2>4 <6> <4! 2> <6>
+	<4! 2> <6>2.
+	r1
+	r
+	r %810
+	r
+	r
+	r
+	r
+	r %815
+	r
+	r
+	r
+	r
+	r %820
+	r
+	r
+	r
+	r
+	r %825
+	r
+	<4+ 2>4 <6> <4! 2> <6>
+	r <6>2.
+	r1
+	r %830
+	r
+	r
+	r
+	r
+	r %835
+	r
+	r
+	r
+	r
+	r %840
+	r
+	r
+	r
+	r
+	r %845
+	r
+	r
+	r
+	r
+	r %850
+	r
+	r
+	r
+	r
+	r %855
+	r
+	r
+	r
+	r
+	r %860
+	r
+	<4+ 2>4 <6> <4+ 2> <6>
+	<4! 2> <6> r <5>
+	r1
+	r %865
+	r
+	r
+	r
+	r
+	<6> %870
+	r
+	r
+	r
+	r
+	r %875
+	r
+	r
+	r
+	r
+	r %880
+	r
+	r
+	r
+	r
+	r %885
+	r
+	r
+	r
+	r
+	r %890
+	r
+	r
+	r
+	r
+	r %895
+	r
+	r
+	r
+	r
+	r %900
+	r
+	r
+	r
+	r
+	r %905
+	r %906 finis
 }
 
 % Organo = {
