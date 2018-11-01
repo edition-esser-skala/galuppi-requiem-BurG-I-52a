@@ -2582,7 +2582,7 @@ LacrimosaOrgano = {
 		b4 r r8 b b' a
 		g e a g f d g f
 		es c f f, b4 r
-		r8 es-\vlc es' d c a d c %935
+		r8 es-\vlc es' d c a! d c %935
 		b g[-\tutti c b] as f b b,
 		es f g d es c f f,
 		b b' as g b g c c,
@@ -2630,14 +2630,14 @@ LacrimosaBassFigures = \figuremode {
 	<6! 5>4 <5! _+> <6> <_->
 	<6 5>1
 	r2 <6 5>4 <_+> %935
-	<6>2 <6>8 <_->4.
+	<6>2 <6 5>8 <7 _->4.
 	r8 <7 _!> <5> <6> <6 5>4 <_!>
 	r <6> <6 5> <_!>
 	<_-> <6> <6 5 _-> <_!>
 	r4 <7>8 <6> <_!>2 %940
 	r1
-	r2 <_+>
-	r <6 5 _!>4 <_!>8 <6>
+	r2 <_+>4 <7>8 <6>
+	r2 <6 5 _!>4 <_!>8 <6>
 	<6 5>4 <6 5> <9> <6>
 	<6 5> <_+> r <_!> %945
 	<6> <6 5>8 <_!> r4 <_!>
