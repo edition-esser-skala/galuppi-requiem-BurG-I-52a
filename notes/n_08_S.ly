@@ -1699,7 +1699,7 @@ OroSupplexSopranoNotes = {
 		\key b \major \time 2/2 \autoBeamOff \tempoOroSupplex
 			\set Score.currentBarNumber = #803
 		R1*21 %823
-		b'2\pE^\soloE d4.( e8)
+		\mvTr b'2\pE^\soloE d4.( e8)
 		\appoggiatura g8 f4.( e8) f4 r %825
 		\appoggiatura f es2. g8([ es)]
 		cis4 d r2

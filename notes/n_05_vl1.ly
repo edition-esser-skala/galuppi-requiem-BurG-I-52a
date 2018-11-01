@@ -1192,7 +1192,110 @@ OroSupplexViolinoI = {
 		\clef treble
 		\key b \major \time 2/2 \tempoOroSupplex
 			\set Score.currentBarNumber = #803
-		
+		b'2\fE d4.( e8)
+		f8.\trill e16 f2 \appoggiatura a16 g8 f
+		b( es,) es2 g8-! es-! %805
+		cis([ d)] f-! d-! h([ c)] es-! c-!
+		a([ b)] f'2 \appoggiatura f16 es8 d
+		d( c) c4. b16[ a] b8 b
+		a8. c16 f,8[ f] f4 r
+		a8\p c4 f c \appoggiatura c32 b16 a %810
+		b8.\f d16 f,8[ f] f4 r
+		b8\p d4 f d \appoggiatura d32 c16 h
+		c8.\f es16 f,8[ f] f4 r
+		es'8\p a4 c es, \appoggiatura es32 d16 c
+		d8([\f f)] es([ g)] f([ b)] g([ es)] %815
+		es4~ es16 d c b c2\trill
+		b4 r8 r16 \mvTr d32\p-\markup { \remark "assai" } es f4-! f-!
+		g8( b) c,4~ c8 es c a
+		b4 r8 r16 d32 es f4-! f-!
+		g8( b) c,4~ c8 es c a %820
+		d16(\fE b'8.) a16([ c8.)] b16( f8.) g16([ es8.)]
+		es4~ es16 d c b c2\trill
+		b8-! g( f es) d4 r
+		b'\p b d d
+		c c c c %825
+		r es es es
+		cis8([\pocoF d)] f([ d)] h([ c)] es([ c)]
+		a([ b)] b4-! r b\p
+		b b2 a4
+		b8-! b(\pocoF a g) f( d) es( c) %830
+		d4 d'\p d d
+		d8( h) c4. a8(\rfz c d)
+		es4 es\p es es
+		es8( cis) d4. b8(\rfz d f)
+		g4 g,\p r g' %835
+		c, c c c
+		c c2\rfz \appoggiatura e?16 d8 c
+		f4 b,\p b b
+		gis a2\rfz \appoggiatura c16 b8 a
+		d4 d\p d d %840
+		e f2\rfz \appoggiatura a16 g8 f
+		f4 h,\p h h
+		b b b b
+		r b g b
+		a a a a %845
+		r a a a
+		g4. a8( b\rfz c d e)
+		f4. c8(\p d\rfz e f g)
+		a16([ f8.)] e16([\p g8.)] f16([ c8.)] d16([ b8.)]
+		b4 a g g %850
+		f r f'8\pocoF b, b b
+		gis([ a)] c-! a-! fis([ g)] b-! g-!
+		e([\f f)] a-! f-! b,4 h
+		c2 r\fermata
+		a''16( f8.) e16([ g8.)] f16( a8.) g16([ b8.)] %855
+		a16( f8.) e16([ g8.)] f16( c8.) d16([ b8.)]
+		b4~ b16 a g f g2\trill
+		f8-! d( c b) a4 r
+		r c'\p c c
+		c c c c %860
+		r b b b
+		gis8([\pocoF a)] c([ a)] fis([ g)] b([ g)]
+		e([ f)] f4 r d'\p
+		c a b b
+		a f4.\rfz g8 a b %865
+		c4 c\p c c
+		r c c c
+		c r r c
+		c b2\rfz \appoggiatura d16 c8 b
+		es!4 es\p es es %870
+		cis d2\rfz \appoggiatura f16 es8 d
+		c4 c\p c c
+		a b2\rfz \appoggiatura d16 c8 b
+		f'4 as,\p as as
+		g b b r %875
+		r c c c
+		c c c c
+		d d d d
+		es es es es
+		d d es f %880
+		g2~ g8([\rfz a)] a([ b)]
+		b([\f f)] f2 \appoggiatura f16 es8 d
+		c4\p r r es
+		d d c c
+		b r8 r16 d32\pocoF es f4-! f-! %885
+		g8([\f b)] c,4~\p c8([ es)] c a
+		b4 r8 r16 d32\pocoF es f4-! f-!
+		g8([\f b)] c,4~\p c8([ es)] c a
+		b4 r8 r16 d32\pocoF es f4-! f-!
+		g\p b, c c %890
+		f,2 r\fermata
+		b'8\pocoF es, es es cis([ d)] f-! d-!
+		h([ c)] es-! c-! a([\f b)] d-! b-!
+		g[( b)] f([ b)] es,4 e
+		f2 r\fermata %895
+		d'8([ b')] b4. f8 \appoggiatura f16 es8 d
+		d([ c)] c4. b16[ a] b8 b
+		a8. c16 f,8[ f] f4 r
+		a8\p c4 f c \appoggiatura c32 b16 a
+		b8.\f d16 f,8[ f] f4 r %900
+		b8\p d4 f d \appoggiatura d32 c16 h
+		c8.\f es16 f,8[ f] f4 r
+		es'8\p a4 c es, \appoggiatura es32 d16 c
+		d8([\f f)] es([ g)] f([ b)] g([ es)]
+		es4~ es16 d c b c2\trill %905
+		b8-! g( f es) d4 r\fermata \bar "||" %906 finis
 	}
 }
 

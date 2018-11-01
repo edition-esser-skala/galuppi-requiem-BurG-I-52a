@@ -2370,11 +2370,11 @@ OroSupplexOrgano = {
 		r es es es %835
 		e e e e
 		f f\f e e
-		d\p d d d
+		d d\p d d
 		d c\fE c c
-		b\p b' b b %840
+		b b'\p b b %840
 		b a\f a a
-		d,\p d des des
+		d, d\p des des
 		c c c c
 		c c c c
 		c c c c %845
@@ -2397,12 +2397,12 @@ OroSupplexOrgano = {
 		d c2 b4~
 		b a r b
 		a f g c
-		f\f f, f r %865
+		f f,\f f r %865
 		r es'!\p es es
 		d d d d
 		fis fis fis fis
-		g\f g, g r
-		g'\pE g g g %870
+		g g,\f g r
+		g' g\pE g g %870
 		g f\f f f
 		r es!\p es es
 		es d\f d d
