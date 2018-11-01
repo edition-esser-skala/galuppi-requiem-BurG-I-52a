@@ -1190,7 +1190,7 @@ ConfutatisViola = {
 
 OroSupplexViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key b \major \time 2/2 \tempoOroSupplex
 			\set Score.currentBarNumber = #803
 		d4\fE d f f

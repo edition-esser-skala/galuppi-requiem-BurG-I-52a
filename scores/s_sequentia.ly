@@ -742,7 +742,7 @@
 		\header {
 			movement = "3.14 ORO SUPPLEX"
 		}
-% 		\paper { systems-per-page = #2 }
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup <<
@@ -779,7 +779,7 @@
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 90 }
+			\midi { \tempo 2 = 80 }
 		}
 	}
 }
