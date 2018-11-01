@@ -1113,7 +1113,7 @@ InterOvesViola = {
 
 ConfutatisViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key es \major \time 4/4 \tempoConfutatis
 			\set Score.currentBarNumber = #734
 		es4\fE d es8 b r b
