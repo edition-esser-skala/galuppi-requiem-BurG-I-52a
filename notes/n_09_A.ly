@@ -1465,10 +1465,89 @@ LacrimosaAltoNotes = {
 		\clef treble
 		\key c \dorian \time 4/4 \autoBeamOff \tempoLacrimosa
 			\set Score.currentBarNumber = #907
-		
+		\mvTr g'4.\fE^\tuttiE g8 g4 f
+		f4. f8 f4 es
+		fis4. fis8 g4 g
+		g4. g8 f4 f %910
+		as4. as8 g4 g
+		fis g8([ fis]) g2
+		fis4 r es4. e8
+		fis fis g g g4( fis)
+		g r r2 %915
+		R1*2
+		r2 b4. b8
+		b4 a g4. g8
+		g4 fis b4. b8 %920
+		a a b2 as8[ g]
+		fis2 g4 fis
+		g4. g8 fis4 r\fermata
+		R1*2 %925
+		r2 g4. g8
+		f d f2 e4
+		f d2( cis4)
+		d r r g~
+		g8 f es!4 c f~ %930
+		f8 es d f g4 f
+		f r r f
+		g e f d
+		r2 b'4. as8
+		g es g2 fis4 %935
+		g es2( d4)
+		es d( c2)
+		d4 f2( e4)
+		f r r d
+		es r r f~ %940
+		f8 es d4 b es~
+		es8 d c4 a r
+		r g'4. g8 f! d
+		es!4. es8 d4 g~
+		g fis g r %945
+		g1~
+		g~
+		g
+		g\fermata \bar "|." %949 FINIS
 	}
 }
 
 LacrimosaAltoLyrics = \lyricmode {
+	[La -- cri -- mo -- sa %907
+	di -- es il -- la,
+	di -- es il -- la,
+	qua re -- sur -- get, %910
+	qua re -- sur -- get
+	ex fa -- vil --
+	la, ju -- di --
+	can -- dus ho -- mo re --
+	us.] %915
 	
+	[Hu -- ic %918
+	er -- go par -- ce,
+	De -- us. Pi -- e] %920
+	Je -- su Do -- _
+	_ _ _
+	_ mi -- ne:
+	
+	Do -- na %926
+	e -- is re -- qui --
+	em, a --
+	men, do --
+	na e -- is, do -- %930
+	na e -- is re -- qui --
+	em, a --
+	_ _ _ men,
+	do -- na
+	e -- is re -- qui -- %935
+	em, a --
+	men, a --
+	men, a --
+	men, a --
+	men, do -- %940
+	na e -- is, do --
+	na e -- is,
+	do -- na e -- is
+	re -- qui -- em, a --
+	_ men, %945
+	a --
+	
+	men. %949 FINIS
 }
