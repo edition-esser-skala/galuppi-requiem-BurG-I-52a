@@ -95,8 +95,8 @@ ConfutatisCornoI = {
 			\set Score.currentBarNumber = #734
 		e'4\fE f e8 d e f
 		e d e f e c c4 %735
-		f g f8 e f g
-		f e f g f d d4
+		f g \pa f8 e f g
+		f e f g f d d4 \pd
 		r2 f4 e
 		r2 f4 e
 		r2 f4 e %740
@@ -107,11 +107,11 @@ ConfutatisCornoI = {
 		g1~ %755
 		g4 r r2
 		R1*2
-		d'4\fE r e4 d
-		d r e d %760
+		d'4\fE r e4 \pao d
+		d r e \pao d %760
 		d2 r
-		f4 g f r8 e
-		f4 r8 e f f f4
+		f4 g f r8 \pao e
+		f4 r8 \pao e f f f4
 		e f e8 d e f
 		e d e f e e e4 %765
 		r2 f4 e
@@ -129,13 +129,13 @@ ConfutatisCornoI = {
 		R1
 		e2\pocoF d
 		c-\critnote r
-		R1*7
+		R1*7 %795
 		c1~\pocoFE
 		c4 r r2
 		c1~
 		c4 r r2
-		R1
+		R1 %800
 		e2\pocoF d
-		c r\fermata \bar "||"
+		c r\fermata \bar "||" %802 finis
 	}
 }
