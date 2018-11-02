@@ -1304,6 +1304,48 @@ LacrimosaViolinoI = {
 		\clef treble
 		\key c \dorian \time 4/4 \tempoLacrimosa
 			\set Score.currentBarNumber = #907
-		
+		r2 r8 as'\fE as' as
+		h h h h c g c4~
+		c8 c, c' c c4 h
+		r8 b g b a! a c c %910
+		r c as c h h c c
+		c4 b8 a b b, b b'
+		a4 r8 d, es4. e8
+		fis \appoggiatura a32 g16 fis g8 g g4 fis
+		g8 g,\p d' d d c16 h c8 c %915
+		c b16 a b8 b r g g' g
+		g fis a c, b a a' c,
+		b a r4 r8 b'\fE b b
+		b b a a g g g g
+		g g fis fis b, es g b %920
+		a f b2 as8 g
+		fis4. fis8 g4 fis
+		g2 fis4 r\fermata
+		\tempoDonaEis r2 r4 d
+		es c d b %925
+		a r g'4. g8
+		f! d f2 e4
+		f d2 cis4
+		d r r g~
+		g8 f es!4 c f~ %930
+		f8 es d f g g f es
+		d4 r r f
+		g e f d
+		c r b'4. as8
+		g es! g2 fis4 %935
+		g es2 d4
+		es d c2
+		d8 e f2 e4
+		f8 as g es d2
+		es4 r r f~ %940
+		f8 es d4 b es~
+		es8 d c4 a! r
+		r g'4. g8 f! d
+		es!2 d4 g~
+		g fis g g~ %945
+		g g2 g4~
+		g g2 g8 f!
+		es1
+		d\fermata \bar "|." %949 FINIS
 	}
 }

@@ -1483,7 +1483,7 @@ LacrimosaAltoNotes = {
 		g4. g8 fis4 r\fermata
 		R1*2 %925
 		r2 g4. g8
-		f d f2 e4
+		f! d f2 e4
 		f d2( cis4)
 		d r r g~
 		g8 f es!4 c f~ %930
@@ -1491,14 +1491,14 @@ LacrimosaAltoNotes = {
 		f r r f
 		g e f d
 		r2 b'4. as8
-		g es g2 fis4 %935
+		g es! g2 fis4 %935
 		g es2( d4)
 		es d( c2)
 		d4 f2( e4)
 		f r r d
 		es r r f~ %940
 		f8 es d4 b es~
-		es8 d c4 a r
+		es8 d c4 a! r
 		r g'4. g8 f! d
 		es!4. es8 d4 g~
 		g fis g r %945
