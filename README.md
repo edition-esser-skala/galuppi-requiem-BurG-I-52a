@@ -2,7 +2,7 @@
 
 Engraving files for LilyPond 2.18.0
 
-First version, October 2018
+First version, November 2018
 
 
 ## Build instructions
@@ -28,18 +28,18 @@ The file *master.ly* allows you to work with an editor like Kile: Change the inc
 * *definitions.ly* – contains general definitions.
 * *master.ly* – allows building movements/parts from within Kile.
 * Individual voices in folder *notes*:
-    * n_04_cor1.ly
-    * n_05_cor2.ly
-    * n_06_tr1.ly
-    * n_07_tr2.ly
-    * n_08_vl1.ly
-    * n_09_vl2.ly
-    * n_10_vla.ly
-    * n_11_S.ly
-    * n_12_A.ly
-    * n_13_T.ly
-    * n_14_B.ly
-    * n_15_org.ly
+    * n_01_cor1.ly
+    * n_02_cor2.ly
+    * n_03_tr1.ly
+    * n_04_tr2.ly
+    * n_05_vl1.ly
+    * n_06_vl2.ly
+    * n_07_vla.ly
+    * n_08_S.ly
+    * n_09_A.ly
+    * n_10_T.ly
+    * n_11_B.ly
+    * n_12_org.ly
 * Movement definitions in folder *scores*:
     * s_introitus.ly
     * s_kyrie.ly

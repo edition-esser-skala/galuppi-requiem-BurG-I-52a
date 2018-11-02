@@ -1,4 +1,4 @@
-(c) 2018 by Wolfgang Esser-Skala.
+% (c) 2018 by Wolfgang Esser-Skala.
 % This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 % To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
 
@@ -7,13 +7,282 @@
 \include "../definitions.ly"
 
 \paper {
-	first-page-number = #33
-	systems-per-page = #1
+	#(set-paper-size "a4" 'portrait)
+	indent = 2\cm
+	top-margin = 1.5\cm
+	system-separator-markup = ##f
+	system-system-spacing =
+    #'((basic-distance . 30)
+       (minimum-distance . 30)
+       (padding . -100)
+       (stretchability . 0))
+	
+	top-system-spacing =
+    #'((basic-distance . 20)
+       (minimum-distance . 20)
+       (padding . -100)
+       (stretchability . 0))
+	
+	top-markup-spacing =
+    #'((basic-distance . 0)
+       (minimum-distance . 0)
+       (padding . -100)
+       (stretchability . 0))
+		
+	markup-system-spacing =
+    #'((basic-distance . 20)
+       (minimum-distance . 20)
+       (padding . -100)
+       (stretchability . 0))
+	
+	last-bottom-spacing =
+    #'((basic-distance . 0)
+       (minimum-distance . 0)
+       (padding . 0)
+       (stretchability . 1.0e7))
+	systems-per-page = #2
+}
+
+\layout {
+	\context {
+		\Lyrics
+		\override LyricText.font-size = #-.5
+	}
 }
 
 #(set-global-staff-size 15.87)
 
 \book {
+	\bookpart {
+		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
+		\partTitle "1" "I N T R O I T U S"
+	}
+	\bookpart {
+		\header {
+			movement = "1.1 REQUIEM"
+		}
+		\paper { indent = 5\cm }
+		\score {
+			<<
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = \markup { \with-dimensions #'(-10 . 10) #'(-1 . 2) { \center-align { "Soprano" } } }
+						\new Voice = "Soprano" { \dynamicUp \IntroitusSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \IntroitusSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = \AltoIncipitPCoro
+						\override Staff.InstrumentName.self-alignment-Y = ##f
+						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+						\new Voice = "Alto" { \dynamicUp \IntroitusAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \IntroitusAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = \markup { \with-dimensions #'(-10 . 10) #'(-1 . 2) { \center-align { "Tenore" } } }
+						\new Voice = "Tenore" { \dynamicUp \IntroitusTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \IntroitusTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = \markup { \with-dimensions #'(-10 . 10) #'(-1 . 2) { \center-align { "Basso" } } }
+						\new Voice = "Basso" { \dynamicUp \IntroitusBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \IntroitusBassoLyrics
+				>>
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = \markup { \with-dimensions #'(-10 . 10) #'(-1 . 2) { \center-align { "Organo" } } }
+						\IntroitusOrgano
+					}
+				>>
+				\new FiguredBass {
+					\IntroitusBassFigures
+				}
+			>>
+			\layout {
+				\context {
+					\Staff
+					\override InstrumentName.self-alignment-X = #RIGHT
+				}
+			}
+		}
+	}
+	\bookpart {
+		\header {
+			movement = "1.2 TE DECET HYMNUS"
+		}
+		\paper { indent = 9.5\cm }
+		\score {
+			<<
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = \markup { \with-dimensions #'(-10 . 10) #'(-1 . 2) { \center-align { "Soprano" } } }
+						\new Voice = "Soprano" { \dynamicUp \TeDecetSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \TeDecetSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = \TeDecetAltoIncipitPCoro
+						\override Staff.InstrumentName.self-alignment-Y = ##f
+						\override Staff.InstrumentName.self-alignment-X = #RIGHT
+						\new Voice = "Alto" { \dynamicUp \TeDecetAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \TeDecetAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = \markup { \with-dimensions #'(-10 . 10) #'(-1 . 2) { \center-align { "Tenore" } } }
+						\new Voice = "Tenore" { \dynamicUp \TeDecetTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \TeDecetTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = \markup { \with-dimensions #'(-10 . 10) #'(-1 . 2) { \center-align { "Basso" } } }
+						\new Voice = "Basso" { \dynamicUp \TeDecetBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \TeDecetBassoLyrics
+				>>
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = \markup { \with-dimensions #'(-10 . 10) #'(-1 . 2) { \center-align { "Organo" } } }
+						\TeDecetOrgano
+					}
+				>>
+				\new FiguredBass {
+					\TeDecetBassFigures
+				}
+			>>
+			\layout {
+				\context {
+					\Staff
+					\override InstrumentName.self-alignment-X = #RIGHT
+				}
+			}
+		}
+	}
+	\bookpart {
+		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
+		\partTitle "2" "K Y R I E"
+	}
+	\bookpart {
+		\header {
+			movement = "2.1 KYRIE"
+		}
+		\score {
+			<<
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \KyrieSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \KyrieSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \KyrieAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \KyrieAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \KyrieTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \KyrieTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \KyrieBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \KyrieBassoLyrics
+				>>
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Organo"
+						\KyrieOrgano
+					}
+				>>
+				\new FiguredBass {
+					\KyrieBassFigures
+				}
+			>>
+		}
+	}
+	\bookpart {
+		\header {
+			movement = "2.2 CHRISTE"
+		}
+		\paper { systems-per-page = #3 }
+		\score {
+			<<
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \ChristeSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \ChristeSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \ChristeAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \ChristeAltoLyrics
+				>>
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Organo"
+						\ChristeOrgano
+					}
+				>>
+				\new FiguredBass {
+					\ChristeBassFigures
+				}
+			>>
+		}
+	}
+	\bookpart {
+		\header {
+			movement = "2.3 KYRIE II"
+		}
+		\score {
+			<<
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \KyrieIISopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \KyrieIISopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \KyrieIIAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \KyrieIIAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \KyrieIITenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \KyrieIITenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \KyrieIIBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \KyrieIIBassoLyrics
+				>>
+				\new StaffGroup <<
+					\new Staff {
+						\set Staff.instrumentName = "Organo"
+						\KyrieIIOrgano
+					}
+				>>
+				\new FiguredBass {
+					\KyrieIIBassFigures
+				}
+			>>
+		}
+	}
 	\bookpart {
 		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
 		\partTitle "3" "S E Q U E N T I A"
@@ -24,28 +293,6 @@
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "da caccia" "[ex G]" } }
-						\partcombine \DiesIraeCornoI \DiesIraeCornoII
-					}
-				>>
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\DiesIraeViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\DiesIraeViolinoII
-						}
-					>>
-					\new Staff <<
-						\set Staff.instrumentName = "Viola"
-						\DiesIraeViola
-					>>
-				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
@@ -81,8 +328,6 @@
 					\DiesIraeBassFigures
 				}
 			>>
-			\layout { }
-			\midi { \tempo 4 = 90 }
 		}
 	}
 	\bookpart {
@@ -91,28 +336,6 @@
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "da caccia" "[ex Es]" } }
-						\partcombine \QuantusTremorCornoI \QuantusTremorCornoII
-					}
-				>>
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\QuantusTremorViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\QuantusTremorViolinoII
-						}
-					>>
-					\new Staff <<
-						\set Staff.instrumentName = "Viola"
-						\QuantusTremorViola
-					>>
-				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
@@ -148,8 +371,6 @@
 					\QuantusTremorBassFigures
 				}
 			>>
-			\layout { }
-			\midi { \tempo 2. = 50 }
 		}
 	}
 	\bookpart {
@@ -158,28 +379,6 @@
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Tromba I, II" "con sordino" "[ex Bes]" } }
-						\transpose c' b { \partcombine \TubaMirumTrombaI \TubaMirumTrombaII }
-					}
-				>>
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\TubaMirumViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\TubaMirumViolinoII
-						}
-					>>
-					\new Staff <<
-						\set Staff.instrumentName = "Viola"
-						\TubaMirumViola
-					>>
-				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
@@ -215,34 +414,16 @@
 					\TubaMirumBassFigures
 				}
 			>>
-			\layout { }
-			\midi { } % maestoso: 4 = 80; presto: 4 = 120
 		}
 	}
 	\bookpart {
 		\header {
 			movement = "3.4 LIBER SCRIPTUS"
 		}
-		\paper { systems-per-page = #2 }
+		\paper { systems-per-page = #4 }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\LiberScriptusViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\LiberScriptusViolinoII
-						}
-					>>
-					\new Staff <<
-						\set Staff.instrumentName = "Viola"
-						\LiberScriptusViola
-					>>
-				>>
-				\new ChoirStaff \with { \smallerGroupDistance } <<
+				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
 						\new Voice = "Soprano" { \dynamicUp \LiberScriptusSopranoNotes }
@@ -259,32 +440,15 @@
 					\LiberScriptusBassFigures
 				}
 			>>
-			\layout { }
-			\midi { \tempo 4 = 105 }
 		}
 	}
 	\bookpart {
 		\header {
 			movement = "3.5 JUDEX ERGO"
 		}
+		\paper { page-count = #3 }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\JudexErgoViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\JudexErgoViolinoII
-						}
-					>>
-					\new Staff <<
-						\set Staff.instrumentName = "Viola"
-						\JudexErgoViola
-					>>
-				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
@@ -320,34 +484,16 @@
 					\JudexErgoBassFigures
 				}
 			>>
-			\layout { }
-			\midi { \tempo 4 = 120 }
 		}
 	}
 	\bookpart {
 		\header {
 			movement = "3.6 QUID SUM MISER"
 		}
-		\paper { systems-per-page = #2 }
+		\paper { systems-per-page = #4 }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\QuidSumViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\QuidSumViolinoII
-						}
-					>>
-					\new Staff <<
-						\set Staff.instrumentName = "Viola"
-						\QuidSumViola
-					>>
-				>>
-				\new ChoirStaff \with { \smallerGroupDistance } <<
+				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
 						\new Voice = "Soprano" { \dynamicUp \QuidSumSopranoNotes }
@@ -364,34 +510,16 @@
 					\QuidSumBassFigures
 				}
 			>>
-			\layout { }
-			\midi { \tempo 4 = 80 }
 		}
 	}
 	\bookpart {
 		\header {
 			movement = "3.7 REX TREMENDAE"
 		}
-		\paper { systems-per-page = #2 }
+		\paper { systems-per-page = #4 }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\RexTremendaeViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\RexTremendaeViolinoII
-						}
-					>>
-					\new Staff <<
-						\set Staff.instrumentName = "Viola"
-						\RexTremendaeViola
-					>>
-				>>
-				\new ChoirStaff \with { \smallerGroupDistance } <<
+				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
 						\new Voice = "Alto" { \dynamicUp \RexTremendaeAltoNotes }
@@ -408,8 +536,6 @@
 					\RexTremendaeBassFigures
 				}
 			>>
-			\layout { }
-			\midi { \tempo 4 = 120 }
 		}
 	}
 	\bookpart {
@@ -418,22 +544,6 @@
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\RecordareViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\RecordareViolinoII
-						}
-					>>
-					\new Staff <<
-						\set Staff.instrumentName = "Viola"
-						\RecordareViola
-					>>
-				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
@@ -469,34 +579,16 @@
 					\RecordareBassFigures
 				}
 			>>
-			\layout { }
-			\midi { \tempo 4 = 100 }
 		}
 	}
 	\bookpart {
 		\header {
 			movement = "3.9 INGEMISCO"
 		}
-		\paper { systems-per-page = #2 }
+		\paper { systems-per-page = #4 page-count = #2 }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\IngemiscoViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\IngemiscoViolinoII
-						}
-					>>
-					\new Staff <<
-						\set Staff.instrumentName = "Viola"
-						\IngemiscoViola
-					>>
-				>>
-				\new ChoirStaff \with { \smallerGroupDistance } <<
+				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
 						\new Voice = "Soprano" { \dynamicUp \IngemiscoSopranoNotes }
@@ -513,8 +605,6 @@
 					\IngemiscoBassFigures
 				}
 			>>
-			\layout { }
-			\midi { \tempo 4 = 60 }
 		}
 	}
 	\bookpart {
@@ -523,22 +613,6 @@
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\QuiMariamViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\QuiMariamViolinoII
-						}
-					>>
-					\new Staff <<
-						\set Staff.instrumentName = "Viola"
-						\QuiMariamViola
-					>>
-				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
@@ -574,34 +648,16 @@
 					\QuiMariamBassFigures
 				}
 			>>
-			\layout { }
-			\midi { \tempo 4 = 90 }
 		}
 	}
 	\bookpart {
 		\header {
 			movement = "3.11 PRECES MEAE"
 		}
-		\paper { systems-per-page = #2 page-count = #5 }
+		\paper { systems-per-page = #4 }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\PrecesMeaeViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\PrecesMeaeViolinoII
-						}
-					>>
-					\new Staff <<
-						\set Staff.instrumentName = "Viola"
-						\PrecesMeaeViola
-					>>
-				>>
-				\new ChoirStaff \with { \smallerGroupDistance } <<
+				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
 						\new Voice = "Soprano" { \dynamicUp \PrecesMeaeSopranoNotes }
@@ -618,32 +674,15 @@
 					\PrecesMeaeBassFigures
 				}
 			>>
-			\layout { }
-			\midi { \tempo 4 = 90 }
 		}
 	}
 	\bookpart {
 		\header {
 			movement = "3.12 INTER OVES"
 		}
+		\paper { systems-per-page = #3 }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\InterOvesViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\InterOvesViolinoII
-						}
-					>>
-					\new Staff <<
-						\set Staff.instrumentName = "Viola"
-						\InterOvesViola
-					>>
-				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
@@ -667,8 +706,6 @@
 					\InterOvesBassFigures
 				}
 			>>
-			\layout { }
-			\midi { \tempo 4 = 90 }
 		}
 	}
 	\bookpart {
@@ -677,28 +714,6 @@
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "[ex Es]" } }
-						\partcombine \ConfutatisCornoI \ConfutatisCornoII
-					}
-				>>
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\ConfutatisViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\ConfutatisViolinoII
-						}
-					>>
-					\new Staff <<
-						\set Staff.instrumentName = "Viola"
-						\ConfutatisViola
-					>>
-				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
@@ -734,34 +749,16 @@
 					\ConfutatisBassFigures
 				}
 			>>
-			\layout { }
-			\midi { \tempo 4 = 105 }
 		}
 	}
 	\bookpart {
 		\header {
 			movement = "3.14 ORO SUPPLEX"
 		}
-		\paper { systems-per-page = #2 }
+		\paper { systems-per-page = #4 }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\OroSupplexViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\OroSupplexViolinoII
-						}
-					>>
-					\new Staff <<
-						\set Staff.instrumentName = "Viola"
-						\OroSupplexViola
-					>>
-				>>
-				\new ChoirStaff \with { \smallerGroupDistance } <<
+				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
 						\new Voice = "Soprano" { \dynamicUp \OroSupplexSopranoNotes }
@@ -778,8 +775,6 @@
 					\OroSupplexBassFigures
 				}
 			>>
-			\layout { }
-			\midi { \tempo 2 = 80 }
 		}
 	}
 	\bookpart {
@@ -788,22 +783,6 @@
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\LacrimosaViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\LacrimosaViolinoII
-						}
-					>>
-					\new Staff <<
-						\set Staff.instrumentName = "Viola"
-						\LacrimosaViola
-					>>
-				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
@@ -839,8 +818,6 @@
 					\LacrimosaBassFigures
 				}
 			>>
-			\layout { }
-			\midi { \tempo 4 = 120 }
 		}
 	}
 }

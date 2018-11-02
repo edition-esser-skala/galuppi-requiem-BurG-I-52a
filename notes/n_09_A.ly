@@ -35,6 +35,37 @@ AltoIncipit = \markup {
 	} \hspace #-1.8
 }
 
+AltoIncipitPCoro = \markup {
+	"Alto" \hspace #-34 \score {
+		<<
+			\new Voice = "Alto" {
+				\relative c' {
+					\clef alto \key f \major
+					\[ f\maxima g \]
+					f1 f\breve
+				}
+			}
+			\new Lyrics \with { \override LyricText.font-size = #-.5 } \lyricsto Alto \lyricmode { Re -- _ qui -- em. }
+		>>
+		\layout {
+			\context {
+				\Score
+				timing = ##f
+			}
+			\context {
+				\Staff
+				\remove Time_signature_engraver
+				\override NoteHead.style = #'neomensural
+			}
+			\context {
+				\Voice
+				\remove "Ligature_bracket_engraver"
+				\consists "Mensural_ligature_engraver"
+			}
+		}
+	} \hspace #-0.5
+}
+
 IntroitusAltoNotes = {
 	\relative c' {
 		\clef treble
@@ -101,6 +132,37 @@ TeDecetAltoIncipit = \markup {
 			}
 		}
 	} \hspace #-1.8
+}
+
+TeDecetAltoIncipitPCoro = \markup {
+	"Alto" \hspace #-65 \score {
+		<<
+			\new Voice = "Alto" {
+				\relative c' {
+					\clef alto \key f \major
+					\[ f\maxima g \] \[ g f \] \[ g a \]
+					a\breve a a a a g a
+				}
+			}
+			\new Lyrics \with { \override LyricText.font-size = #-.5 } \lyricsto Alto \lyricmode { Te _ de -- _ cet _ hy -- mnus, De -- us in Si -- on. }
+		>>
+		\layout {
+			\context {
+				\Score
+				timing = ##f
+			}
+			\context {
+				\Staff
+				\remove Time_signature_engraver
+				\override NoteHead.style = #'neomensural
+			}
+			\context {
+				\Voice
+				\remove "Ligature_bracket_engraver"
+				\consists "Mensural_ligature_engraver"
+			}
+		}
+	} \hspace #-0.5
 }
 
 TeDecetAltoNotes = {
