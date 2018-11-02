@@ -1307,7 +1307,7 @@ LacrimosaViolinoI = {
 		r2 r8 as'\fE as' as
 		h h h h c g c4~
 		c8 c, c' c c4 h
-		r8 b g b a! a c c %910
+		r8 b g b a! a b^\critnote b %910
 		r c as c h h c c
 		c4 b8 a b b, b b'
 		a4 r8 d, es4. e8

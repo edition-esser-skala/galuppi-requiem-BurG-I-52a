@@ -1302,7 +1302,7 @@ OroSupplexViola = {
 
 LacrimosaViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key c \dorian \time 4/4 \tempoLacrimosa
 			\set Score.currentBarNumber = #907
 		es8(-.\fE es-. es-. es-.) c(-. c-. c-. c-.)
