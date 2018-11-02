@@ -1305,6 +1305,48 @@ LacrimosaViola = {
 		\clef treble
 		\key c \dorian \time 4/4 \tempoLacrimosa
 			\set Score.currentBarNumber = #907
-		
+		es8(-.\fE es-. es-. es-.) c(-. c-. c-. c-.)
+		r f(-. f-. f-.) g(-. g-. g-. g-.)
+		c, d es es es4 d
+		es8 es es es c c d d %910
+		f f f f d d es es
+		a, d d d d d e e
+		a, fis' g g, r4 r8 a
+		a a' g es! d4 d
+		d8 d\pE b b es es c c %915
+		r g g' g es es es es
+		d d, r d' d d, r d'
+		d d16 es d8 c b\f f' f f
+		f f f f d d d d
+		d d d d es es es es %920
+		c c d d c c c c
+		a4 d2 d4
+		g4 g, d' r\fermata
+		\tempoDonaEis r2 r8 g, g' f
+		es c f es d b es d %925
+		c a d d, g4 r
+		r8 d' d c b g c b
+		a f b a g e a a
+		d4. c8 b4 g
+		c4. b8 a4 f %930
+		d'8 c b2 a4
+		b4 r r8 b b' a
+		g e a g f d r d
+		g g f es d c b4
+		r8 es es d c a! d c %935
+		b4 c2 b4
+		b r8 b g' g f es
+		d4 r8 c des des c b
+		as4 r8 g' as as g f
+		es c4 b8 a4 f %940
+		b4. as?8 g4 es
+		a4. g8 fis fis' g a
+		b4 r8 b e, e f a
+		b4 a f r8 d'
+		es,!4 d d d %945
+		es d c d
+		es d c d8 g
+		g1
+		g\fermata \bar "|." %949 FINIS
 	}
 }
