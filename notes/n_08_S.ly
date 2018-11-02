@@ -1876,7 +1876,7 @@ LacrimosaSopranoNotes = {
 		f d'4. c8 b4
 		g c4. b8 a4 %930
 		f r r2
-		f'4. es8 d b d4~
+		f'4. es!8 d b d4~
 		d cis d b~
 		b a b r
 		r b c a %935
