@@ -1,0 +1,17 @@
+composer: Galuppi, Baldassare
+title: Requiem in F
+id: BurG I/52a
+genre: requiem
+scoring: S, A (solo), S, A, T, B (coro), 2 cor (Es/G), 2 clno (B), 2 vl, vla, b, org
+sources:
+  1:
+    siglum: D-Dl
+    shelfmark: Mus.2973-D-23,1
+    type: manuscript copy
+    date: 1750–1763
+    rism: 212006204
+    url: http://digital.slub-dresden.de/id42604214X
+github: galuppi-requiem-BurG-I-52a
+imslp: Requiem_in_F_major,_BurG_I/52a_(Galuppi,_Baldassare)
+notes:
+
